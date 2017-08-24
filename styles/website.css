@@ -1,0 +1,15 @@
+iframe {
+	margin: 0;
+	padding: 0;
+	border: none;
+}
+section {
+	margin: 5%;
+}
+.information {
+	margin: 2%;
+	padding: 12px;
+    color: #9F6000;
+    background-color: #FEEFB3;
+    vertical-align: middle;
+}

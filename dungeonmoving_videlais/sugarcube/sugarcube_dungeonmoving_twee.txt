@@ -1,0 +1,88 @@
+:: StoryTitle
+SugarCube: Moving through a Dungeon
+
+:: UserStylesheet[stylesheet]
+#map {
+	font-family: monospace; 
+}
+
+:: StoryInit
+<<set $mapArray to 
+[[0,0,0,0,0,0,0,0,0,0,0],
+[0,1,1,1,0,1,1,1,1,1,0],
+[0,0,0,1,0,0,0,0,0,1,0],
+[0,1,0,1,1,1,1,1,0,1,0],
+[0,1,0,0,0,0,0,1,0,1,0],
+[0,1,1,1,1,1,1,1,0,1,0],
+[0,0,0,0,0,0,0,1,0,1,0],
+[0,1,0,1,1,1,1,1,1,1,0],
+[0,1,0,1,0,0,0,1,0,0,0],
+[0,1,1,1,0,1,1,1,1,2,0],
+[0,0,0,0,0,0,0,0,0,0,0]]>>
+
+<<set $positionX to 1>>
+<<set $positionY to 1>>
+
+:: Location
+<span id="map">
+<<nobr>>
+<<for $i to 0; $i lt $mapArray.length; $i++>>
+	<<for $k to 0; $k lt $mapArray[$i].length; $k++>>
+    	<<if $k eq $positionX and $i eq $positionY>>
+        	<<print "P">>
+        <<elseif $mapArray[$i][$k] eq 1>>
+        	<<print ".">>
+        <<elseif $mapArray[$i][$k] eq 0>>
+        	<<print "#">>
+        <<elseif $mapArray[$i][$k] eq 2>>
+        	<<print "E">>
+        <</if>>
+    <</for>>
+    <<print "<br>">>
+<</for>>
+<</nobr>>
+</span>
+
+:: East
+<<set $positionX += 1>>
+<<display "Map System">>
+
+:: West
+<<set $positionX -= 1>>
+<<display "Map System">>
+
+:: South
+<<set $positionY += 1>>
+<<display "Map System">>
+
+:: North
+<<set $positionY -= 1>>
+<<display "Map System">>
+
+:: Map System
+<<display "Location">>
+<<nobr>>
+<<if $mapArray[$positionY-1][$positionX] eq 1>>
+[[North]] | 
+<<elseif $mapArray[$positionY-1][$positionX] eq 2>>
+[[Exit]] | 
+<<endif>>
+<<if $mapArray[$positionY][$positionX+1] eq 1>>
+[[East]] | 
+<<elseif $mapArray[$positionY][$positionX+1] eq 2>>
+[[Exit]] | 
+<<endif>>
+<<if $mapArray[$positionY+1][$positionX] eq 1>>
+[[South]] | 
+<<elseif $mapArray[$positionY+1][$positionX] eq 2>>
+[[Exit]] | 
+<<endif>>
+<<if $mapArray[$positionY][$positionX-1] eq 1>>
+[[West]] | 
+<<elseif $mapArray[$positionY][$positionX-1] eq 2>>
+[[Exit]] | 
+<<endif>>
+<</nobr>>
+
+:: Exit
+
