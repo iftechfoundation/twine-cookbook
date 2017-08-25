@@ -1,11 +1,16 @@
 :: StoryTitle
 Harlowe: Timed Passages
 
-:: Start
-{
-	(set: $timer to 10)
+:: UserStylesheet[stylesheet]
+tw-include[type="startup"]{
+	display: none;
+}
+tw-sidebar {
+  	display:none;
 }
 
+
+:: Start
 [[Start Timer|First Passage]]
 
 :: World End
@@ -34,3 +39,8 @@ The world ended.
 (display: "Timer")
 
 [[First Passage]]
+
+:: Startup[startup]
+{
+	(set: $timer to 10)
+}

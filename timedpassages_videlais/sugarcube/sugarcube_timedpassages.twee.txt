@@ -2,10 +2,6 @@
 SugarCube: Timed Passages
 
 :: Start
-<<silently>>
-	<<set $seconds to 10>>
-<<endsilently>>
-
 [[Start Timer|First Passage]]
 
 :: Timer
@@ -16,9 +12,9 @@ SugarCube: Timed Passages
         <<if $seconds gt 0>>
             <<replace "#countdown">>The world will end in $seconds seconds.<</replace>>
         <<else>>
-			<<replace "#countdown">><</replace>>
-			<<goto "World End">>
-			<<stop>>
+            <<replace "#countdown">><</replace>>
+            <<goto "World End">>
+            <<stop>>
         <</if>>
     <</repeat>>
 <</silently>>
@@ -35,3 +31,9 @@ SugarCube: Timed Passages
 
 :: World End
 The world has ended.
+
+:: StoryInit
+<<set $seconds to 10>>
+<<script>>
+    UIBar.destroy();
+<</script>>
