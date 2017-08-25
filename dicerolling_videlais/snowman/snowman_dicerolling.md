@@ -6,7 +6,7 @@
 
 "Dice Rolling" demostrates how to create the same effects of rolling various physical dice through using Underscore.js's *_.random()* function and its interpolating functionality.
 
-##Live Example
+## Live Example
 
 <section>
 <iframe src="snowman_dicerolling_example.html" height=400 width=90%></iframe>
