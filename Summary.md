@@ -1,6 +1,8 @@
 # Summary
 
-* [Recipe Formatting](/formatting.md)
+* [Organization](organization.md)
+
+* [Recipe Formatting](formatting.md)
 
 * "Dice Rolling" (@videlais)
 	* [Harlowe (v2.0)](dicerolling_videlais/harlowe/harlowe_dicerolling.md)
@@ -17,4 +19,4 @@
 	* [Sugarcane (v1.4.2)](dungeonmoving_videlais/sugarcane/sugarcane_dungeonmoving.md)
 
 
-* [Glossary](/glossary.md)
+* [Glossary](glossary.md)
