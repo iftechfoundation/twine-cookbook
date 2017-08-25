@@ -2,7 +2,7 @@
 *Contributed by <a href="https://github.com/videlais">@videlais</a>*
 
 #Summary
-Made famous in <a href="http://auntiepixelante.com/endoftheworld/">Queers in Love at the End of the World</a>, "Timed Passages" uses the the *&lt;&lt;repeat&lt;&lt;* macro to repeat while checking if the timer has reached zero. If so, the *&lt;&lt;goto&lt;&lt;* macro will immediately go to another passage.
+Made famous in <a href="http://auntiepixelante.com/endoftheworld/">Queers in Love at the End of the World</a>, "Timed Passages" uses the the *&lt;&lt;repeat&gt;&gt;* macro to repeat while checking if the timer has reached zero. If so, the *&lt;&lt;goto&gt;&gt;* macro will immediately transition to another passage.
 
 #Live Example
 <section>
