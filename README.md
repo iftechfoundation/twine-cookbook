@@ -16,7 +16,7 @@ Clone the repository. Review the [organization](organization.md) and [formatting
 
 # Suggesting Recipes:
 
-Recipes can be suggested by [adding issues](https://github.com/iftechfoundation/twine-cookbook/issues) to the repository. Other people will then volunteer to generate the code and add them to the cookbook.
+Recipes can be suggested by [adding issues](https://github.com/iftechfoundation/twine-cookbook/issues) to the repository. Other people can then volunteer to generate the code and add it to the cookbook.
 
 # Special Thanks:
 
