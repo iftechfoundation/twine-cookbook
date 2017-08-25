@@ -1,4 +1,5 @@
-#Recipe Formatting
+# Recipe Formatting
+
 *Contributed by Editors*
 
 <div class="information"><strong>Note:</strong> Recipes for Twine 1.4.2 are marked using this visual styling.</div>
@@ -8,7 +9,7 @@ Each recipe is divided into sections. They start with a summary of the recipe an
 
 For terms that may not be familiar to a general audience, they can be added to the Glossary file and their definitions will be available as a tooltip over the term or phrase after being processed.
 
-#Live Example
+# Live Example
 
 The next section demostrates the code running.
 ```
@@ -19,7 +20,7 @@ Download: <a href="storyformat_recipe_example.html" target="_blank">Live Example
 </section>
 ```
 
-#Twee Code
+# Twee Code
 
 Finally, in the last section, all code is shown in its Twee notation for reference and download.
 ```
