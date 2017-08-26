@@ -41,6 +41,4 @@ The world ended.
 [[First Passage]]
 
 :: Startup[startup]
-{
-	(set: $timer to 10)
-}
+(set: $timer to 10)
