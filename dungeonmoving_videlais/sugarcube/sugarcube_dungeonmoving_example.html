@@ -104,7 +104,19 @@ var saveAs=saveAs||navigator.msSaveBlob&&navigator.msSaveBlob.bind(navigator)||f
 	</div>
 	<div id="store-area" hidden><tw-storydata name="SugarCube: Moving through a Dungeon" startnode="7" creator="Twine" creator-version="2.1.3" ifid="9B2386CF-006C-4B6B-B912-A9C8644FF2E7" format="SugarCube" format-version="2.18.0" options="" hidden><style role="stylesheet" id="twine-user-stylesheet" type="text/twine-css">#map {
 	font-family: monospace; 
-}</style><script role="script" id="twine-user-script" type="text/twine-javascript"></script><tw-passagedata pid="1" name="StoryInit" tags="" position="99,100">&lt;&lt;set $mapArray to 
+}
+
+
+
+
+
+</style><script role="script" id="twine-user-script" type="text/twine-javascript">
+
+
+
+
+
+</script><tw-passagedata pid="1" name="StoryInit" tags="" position="99,100">&lt;&lt;set $mapArray to 
 [[0,0,0,0,0,0,0,0,0,0,0],
 [0,1,1,1,0,1,1,1,1,1,0],
 [0,0,0,1,0,0,0,0,0,1,0],
@@ -123,13 +135,13 @@ var saveAs=saveAs||navigator.msSaveBlob&&navigator.msSaveBlob.bind(navigator)||f
 &lt;&lt;for $i to 0; $i lt $mapArray.length; $i++&gt;&gt;
 	&lt;&lt;for $k to 0; $k lt $mapArray[$i].length; $k++&gt;&gt;
     	&lt;&lt;if $k eq $positionX and $i eq $positionY&gt;&gt;
-        	&lt;&lt;print &quot;P&quot;&gt;&gt;
+        	&lt;&lt;print &quot;P&quot;&gt;&gt; 
         &lt;&lt;elseif $mapArray[$i][$k] eq 1&gt;&gt;
-        	&lt;&lt;print &quot;&amp;#46;&quot;&gt;&gt;
+        	&lt;&lt;print &quot;&amp;#46;&quot;&gt;&gt; 
         &lt;&lt;elseif $mapArray[$i][$k] eq 0&gt;&gt;
-        	&lt;&lt;print &quot;&amp;#35;&quot;&gt;&gt;
+        	&lt;&lt;print &quot;&amp;#35;&quot;&gt;&gt; 
         &lt;&lt;elseif $mapArray[$i][$k] eq 2&gt;&gt;
-        	&lt;&lt;print &quot;E&quot;&gt;&gt;
+        	&lt;&lt;print &quot;E&quot;&gt;&gt; 
         &lt;&lt;/if&gt;&gt;
     &lt;&lt;/for&gt;&gt;
     &lt;&lt;print &quot;&lt;br&gt;&quot;&gt;&gt;
@@ -145,22 +157,22 @@ var saveAs=saveAs||navigator.msSaveBlob&&navigator.msSaveBlob.bind(navigator)||f
 [[North]] | 
 &lt;&lt;elseif $mapArray[$positionY-1][$positionX] eq 2&gt;&gt;
 [[Exit]] | 
-&lt;&lt;endif&gt;&gt;
+&lt;&lt;/if&gt;&gt;
 &lt;&lt;if $mapArray[$positionY][$positionX+1] eq 1&gt;&gt;
 [[East]] | 
 &lt;&lt;elseif $mapArray[$positionY][$positionX+1] eq 2&gt;&gt;
 [[Exit]] | 
-&lt;&lt;endif&gt;&gt;
+&lt;&lt;/if&gt;&gt;
 &lt;&lt;if $mapArray[$positionY+1][$positionX] eq 1&gt;&gt;
 [[South]] | 
 &lt;&lt;elseif $mapArray[$positionY+1][$positionX] eq 2&gt;&gt;
 [[Exit]] | 
-&lt;&lt;endif&gt;&gt;
+&lt;&lt;/if&gt;&gt;
 &lt;&lt;if $mapArray[$positionY][$positionX-1] eq 1&gt;&gt;
 [[West]] | 
 &lt;&lt;elseif $mapArray[$positionY][$positionX-1] eq 2&gt;&gt;
 [[Exit]] | 
-&lt;&lt;endif&gt;&gt;
+&lt;&lt;/if&gt;&gt;
 &lt;&lt;/nobr&gt;&gt;</tw-passagedata><tw-passagedata pid="8" name="Exit" tags="" position="267,263">Double-click this passage to edit it.</tw-passagedata></tw-storydata></div>
 	<script id="script-sugarcube" type="text/javascript">
 	/*! SugarCube JS */

@@ -3,7 +3,7 @@ SugarCube: Moving through a Dungeon
 
 :: UserStylesheet[stylesheet]
 #map {
-	font-family: monospace; 
+    font-family: monospace; 
 }
 
 :: StoryInit
@@ -27,15 +27,15 @@ SugarCube: Moving through a Dungeon
 <span id="map">
 <<nobr>>
 <<for $i to 0; $i lt $mapArray.length; $i++>>
-	<<for $k to 0; $k lt $mapArray[$i].length; $k++>>
-    	<<if $k eq $positionX and $i eq $positionY>>
-        	<<print "P">>
+    <<for $k to 0; $k lt $mapArray[$i].length; $k++>>
+        <<if $k eq $positionX and $i eq $positionY>>
+            <<print "P">> 
         <<elseif $mapArray[$i][$k] eq 1>>
-        	<<print ".">>
+            <<print ".">> 
         <<elseif $mapArray[$i][$k] eq 0>>
-        	<<print "#">>
+            <<print "#">> 
         <<elseif $mapArray[$i][$k] eq 2>>
-        	<<print "E">>
+            <<print "E">> 
         <</if>>
     <</for>>
     <<print "<br>">>
@@ -66,23 +66,23 @@ SugarCube: Moving through a Dungeon
 [[North]] | 
 <<elseif $mapArray[$positionY-1][$positionX] eq 2>>
 [[Exit]] | 
-<<endif>>
+<</if>>
 <<if $mapArray[$positionY][$positionX+1] eq 1>>
 [[East]] | 
 <<elseif $mapArray[$positionY][$positionX+1] eq 2>>
 [[Exit]] | 
-<<endif>>
+<</if>>
 <<if $mapArray[$positionY+1][$positionX] eq 1>>
 [[South]] | 
 <<elseif $mapArray[$positionY+1][$positionX] eq 2>>
 [[Exit]] | 
-<<endif>>
+<</if>>
 <<if $mapArray[$positionY][$positionX-1] eq 1>>
 [[West]] | 
 <<elseif $mapArray[$positionY][$positionX-1] eq 2>>
 [[Exit]] | 
-<<endif>>
+<</if>>
 <</nobr>>
 
 :: Exit
-
+Double-click this passage to edit it.
