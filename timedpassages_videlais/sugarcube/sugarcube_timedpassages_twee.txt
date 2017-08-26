@@ -1,6 +1,9 @@
 :: StoryTitle
 SugarCube: Timed Passages
 
+:: UserScript[script]
+UIBar.destroy();
+
 :: Start
 [[Start Timer|First Passage]]
 
@@ -20,12 +23,12 @@ SugarCube: Timed Passages
 <</silently>>
 
 :: First Passage
-<<display "Timer">>
+<<include "Timer">>
 
 [[Second Passage]]
 
 :: Second Passage
-<<display "Timer">>
+<<include "Timer">>
 
 [[First Passage]]
 
@@ -34,6 +37,3 @@ The world has ended.
 
 :: StoryInit
 <<set $seconds to 10>>
-<<script>>
-    UIBar.destroy();
-<</script>>
