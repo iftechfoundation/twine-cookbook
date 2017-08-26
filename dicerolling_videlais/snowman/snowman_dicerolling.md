@@ -1,4 +1,4 @@
-# "Dice Rolling": SugarCube (v2.18)
+# "Dice Rolling": Snowman (v1.3)
 
 *Contributed by <a href="https://github.com/videlais">@videlais</a>*
 

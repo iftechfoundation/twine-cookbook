@@ -1,4 +1,4 @@
-# "Dice Rolling": Harlowe (v2.0)
+# "Dice Rolling": SugarCube (v2.18)
 
 *Contributed by <a href="https://github.com/videlais">@videlais</a>*
 
