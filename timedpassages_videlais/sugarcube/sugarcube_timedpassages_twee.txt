@@ -1,7 +1,7 @@
 :: StoryTitle
 SugarCube: Timed Passages
 
-:: UserScript[script]
+:: StoryJavaScript[script]
 UIBar.destroy();
 
 :: Start

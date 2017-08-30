@@ -1,7 +1,7 @@
 :: StoryTitle
 Harlowe: Timed Passages
 
-:: UserStylesheet[stylesheet]
+:: StoryStylesheet[stylesheet]
 tw-include[type="startup"]{
 	display: none;
 }

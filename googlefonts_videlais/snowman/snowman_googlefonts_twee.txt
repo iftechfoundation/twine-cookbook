@@ -1,7 +1,7 @@
 :: StoryTitle
 Snowman: Google Fonts
 
-:: UserStylesheet[stylesheet]
+:: StoryStylesheet[stylesheet]
 @import url('https://fonts.googleapis.com/css?family=Roboto');
 
 .googleFont {

@@ -1,7 +1,7 @@
 :: StoryTitle
 SugarCube: Moving through a Dungeon
 
-:: UserStylesheet[stylesheet]
+:: StoryStylesheet[stylesheet]
 #map {
     font-family: monospace; 
 }
