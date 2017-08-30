@@ -17,8 +17,9 @@
 	* [SugarCube (v2.18)](dicerolling_videlais/sugarcube/sugarcube_dicerolling.md)
 	* [Snowman (v1.3)](dicerolling_videlais/snowman/snowman_dicerolling.md)
 
-* "Timed Passages" (@videlais)
+* "Timed Passages" (@videlais, @klembot)
 	* [Harlowe (v2.0)](timedpassages_videlais/harlowe/harlowe_timedpassages.md)
+	* [Snowman (v1.3.0)](timedpassages_videlais/snowman/snowman_timedpassages.md)
 	* [SugarCube (v2.18)](timedpassages_videlais/sugarcube/sugarcube_timedpassages.md)
 
 * "Moving through a 'dungeon'" (@videlais)
