@@ -19,9 +19,19 @@ Download: <a href="harlowe_googlefonts_example.html" target="_blank">Live Exampl
 
 ## Twee Code
 
-<section>
-<iframe src="harlowe_googlefonts_twee.txt" height=400 width=90%></iframe>
+```
+:: StoryTitle
+Harlowe: Google Fonts
 
+:: StoryStylesheet[stylesheet]
+@import url('https://fonts.googleapis.com/css?family=Roboto');
 
+.googleFont {
+	font-family: 'Roboto', sans-serif; 
+}
+
+:: Start
+<div class="googleFont">This text is styled by a Google Font</div>
+
+```
 Download: <a href="harlowe_googlefonts_twee.txt" target="_blank">Twee Code</a>
-</section>

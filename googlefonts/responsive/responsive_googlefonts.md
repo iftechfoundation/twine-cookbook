@@ -21,9 +21,22 @@ Download: <a href="responsive_googlefonts_example.html" target="_blank">Live Exa
 
 ## Twee Code
 
-<section>
-<iframe src="responsive_googlefonts_twee.txt" height=400 width=90%></iframe>
+```
+:: Start
+<div class="googleFont">This text is styled using a Google Font</div>
 
+:: UserStylesheet [stylesheet]
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+.googleFont {
+	font-family: 'Roboto', sans-serif; 
+}
+
+:: StoryTitle
+Responsive: Google Fonts
+
+:: StoryAuthor
+@videlais
+```
 
 Download: <a href="responsive_googlefonts_twee.txt" target="_blank">Twee Code</a>
-</section>

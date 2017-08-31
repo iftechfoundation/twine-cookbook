@@ -17,9 +17,21 @@ Download: <a href="sugarcube_dicerolling_example.html" target="_blank">Live Exam
 
 ## Twee Code
 
-<section>
-<iframe src="sugarcube_dicerolling_twee.txt" height=400 width=90%></iframe>
+```
+:: StoryTitle
+SugarCube: Dice Rolling
 
+:: Start
+Rolling a 1d4: <<print random(1,4) >>
+Rolling a 1d6: <<print random(1,6) >>
+Rolling a 1d8: <<print random(1,8) >>
+Rolling a 1d10: <<print random(1, 10) >>
+Rolling a 1d12: <<print random(1, 12) >>
+Rolling a 1d20: <<print random(1, 20) >>
+Rolling a 1d100: <<print random(1, 100) >> 
+Rolling a 1d4 + 4: <<print random(1, 4) + 4 >>
+Rolling a 1d6 - 2: <<print random(1, 6) - 2 >>
+Rolling a 2d6 + 10: <<print random(1, 6) + random(1, 6) + 10 >>
+```
 
 Download: <a href="sugarcube_dicerolling_twee.txt" target="_blank">Twee Code</a>
-</section>

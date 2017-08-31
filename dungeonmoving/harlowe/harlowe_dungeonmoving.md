@@ -19,9 +19,97 @@ Download: <a href="harlowe_dungeonmoving_example.html" target="_blank">Live Exam
 
 ## Twee Code
 
-<section>
-<iframe src="harlowe_dungeonmoving_twee.txt" height=400 width=90%></iframe>
+```
+:: StoryTitle
+Harlowe: Moving through Dungeons
 
+:: Start
+|map>[(display: "Map")]
+|=
+(link-repeat: "Up")[{
+	(set: _row to $dungeon's ($positionX) )
+	(if: _row's ($positionY - 1) is not 1)[
+		(set: $positionY to it - 1)
+	]
+	(replace: ?map)[(display: "Map")]
+}]
+=|=
+(link-repeat: "Left")[{
+	(set: _row to $dungeon's ($positionX) )
+	(if: _row's ($positionX - 1) is not 1)[
+		(set: $positionX to it - 1)
+	]
+	(replace: ?map)[(display: "Map")]
+}]
+=|=
+(link-repeat: "Right")[{
+	(set: _row to $dungeon's ($positionX) )
+	(if: _row's ($positionX + 1) is not 1)[
+		(set: $positionX to it + 1)
+	]
+	(replace: ?map)[(display: "Map")]
+}]
+=|=
+(link-repeat: "Down")[{
+	(set: _row to $dungeon's ($positionX) )
+	(if: _row's ($positionY + 1) is not 1)[
+		(set: $positionY to it + 1)
+	]
+	(replace: ?map)[(display: "Map")]
+}]
+
+|==|
+
+:: Map
+{
+	(set: $dungeonTable to "<table>")
+
+	(set: $i to 0)
+	
+	(for: each _row, ...$dungeon) [
+		
+		(set: $i to it + 1)
+		
+		(set: $dungeonTable to it + "<tr>")
+		
+		(set: $j to 0)
+		
+		(for: each _col, ..._row) [
+			
+			(set: $j to it + 1)
+			
+			(if: $i is $positionY and $j is $positionX)[
+				(set: $dungeonTable to it + "<td>P</td>")
+			]
+			(else:) [
+				(if: _col is 0) [
+					(set: $dungeonTable to it + "<td>.</td>")
+				]
+			]
+			
+			(if: _col is 1)[
+				(set: $dungeonTable to it + "<td>#</td>")
+			]
+		]
+		
+		(set: $dungeonTable to it + "</tr>")
+	]
+	
+	(set: $dungeonTable to it + "</table>")
+
+	$dungeonTable
+}
+
+:: Startup[startup]
+{	
+	(set: $dungeon to (array: (a: 1,1,1,1,1),
+							  (a: 1,0,0,0,1),
+							  (a: 1,0,0,0,1),
+							  (a: 1,0,0,0,1),
+							  (a: 1,1,1,1,1) ) )
+	(set: $positionX to 2)
+	(set: $positionY to 2)
+}
+```
 
 Download: <a href="harlowe_dungeonmoving_twee.txt" target="_blank">Twee Code</a>
-</section>

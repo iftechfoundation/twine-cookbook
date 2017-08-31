@@ -14,9 +14,48 @@ Download: <a href="sugarcube_timedpassages_example.html" target="_blank">Live Ex
 </section>
 
 ## Twee Code
-<section>
-<iframe src="sugarcube_timedpassages_twee.txt" height=400 width=90%></iframe>
 
+```
+:: StoryTitle
+SugarCube: Timed Passages
+
+:: StoryJavaScript[script]
+UIBar.destroy();
+
+:: Start
+[[Start Timer|First Passage]]
+
+:: Timer
+<span id="countdown">The world will end in $seconds seconds.</span>
+<<silently>>
+    <<repeat 1s>>
+        <<set $seconds to $seconds - 1>>
+        <<if $seconds gt 0>>
+            <<replace "#countdown">>The world will end in $seconds seconds.<</replace>>
+        <<else>>
+            <<replace "#countdown">><</replace>>
+            <<goto "World End">>
+            <<stop>>
+        <</if>>
+    <</repeat>>
+<</silently>>
+
+:: First Passage
+<<include "Timer">>
+
+[[Second Passage]]
+
+:: Second Passage
+<<include "Timer">>
+
+[[First Passage]]
+
+:: World End
+The world has ended.
+
+:: StoryInit
+<<set $seconds to 10>>
+
+```
 
 Download: <a href="sugarcube_timedpassages_twee.txt" target="_blank">Twee Code</a>
-</section>

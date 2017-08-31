@@ -16,9 +16,53 @@ Download: <a href="harlowe_timedpassages_example.html" target="_blank">Live Exam
 </section>
 
 ## Twee Code
-<section>
-<iframe src="harlowe_timedpassages_twee.txt" height=400 width=90%></iframe>
 
+```
+:: StoryTitle
+Harlowe: Timed Passages
+
+:: StoryStylesheet[stylesheet]
+tw-include[type="startup"]{
+	display: none;
+}
+tw-sidebar {
+  	display:none;
+}
+
+
+:: Start
+[[Start Timer|First Passage]]
+
+:: World End
+The world ended.
+
+:: First Passage
+(display: "Timer")
+
+[[Second Passage]]
+
+:: Timer
+{
+	(live: 1s)[
+    	(if: $timer is 0)[
+			(stop:)
+			(goto: "World End")
+		]
+    	(else: )[
+			(set: $timer to it - 1)
+			The world will end in $timer seconds
+		]
+	]
+}
+
+:: Second Passage
+(display: "Timer")
+
+[[First Passage]]
+
+:: Startup[startup]
+(set: $timer to 10)
+
+```
 
 Download: <a href="harlowe_timedpassages_twee.txt" target="_blank">Twee Code</a>
-</section>

@@ -24,10 +24,6 @@ Download: <a href="storyformat_recipe_example.html" target="_blank">Live Example
 
 Finally, in the last section, all code is shown in its Twee notation for reference and download.
 ```
-<section>
-<iframe src="storyformat_recipe_twee.txt" height=400 width=90%></iframe>
-
+Twee notation
 Download: <a href="storyformat_recipe_twee.txt" target="_blank">Twee Code</a>
-</section>
 ```
-

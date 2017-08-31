@@ -21,9 +21,23 @@ Download: <a href="sugarcane_googlefonts_example.html" target="_blank">Live Exam
 
 ## Twee Code
 
-<section>
-<iframe src="sugarcane_googlefonts_twee.txt" height=400 width=90%></iframe>
+```
+:: Start
+<div class="googleFont">This text is styled using a Google Font</div>
 
+:: StoryStylesheet [stylesheet]
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+.googleFont {
+	font-family: 'Roboto', sans-serif; 
+}
+
+:: StoryTitle
+Responsive: Google Fonts
+
+:: StoryAuthor
+@videlais
+
+```
 
 Download: <a href="sugarcane_googlefonts_twee.txt" target="_blank">Twee Code</a>
-</section>

@@ -21,9 +21,22 @@ Download: <a href="jonah_googlefonts_example.html" target="_blank">Live Example<
 
 ## Twee Code
 
-<section>
-<iframe src="jonah_googlefonts_twee.txt" height=400 width=90%></iframe>
+```
+:: Start
+<div class="googleFont">This text is styled using a Google Font</div>
 
+:: UserStylesheet [stylesheet]
+@import url('https://fonts.googleapis.com/css?family=Roboto');
 
+.googleFont {
+	font-family: 'Roboto', sans-serif; 
+}
+
+:: StoryTitle
+Jonah: Google Fonts
+
+:: StoryAuthor
+@videlais
+
+```
 Download: <a href="jonah_googlefonts_twee.txt" target="_blank">Twee Code</a>
-</section>
