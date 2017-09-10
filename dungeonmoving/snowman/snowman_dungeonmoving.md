@@ -1,4 +1,4 @@
-# "Moving through a 'dungeon": Klembot (1.3.0)
+# "Moving through a 'dungeon": Snowman (1.3.0)
 
 *Contributed by <a href="https://github.com/klembot">@klembot</a>*
 

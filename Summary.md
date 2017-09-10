@@ -26,5 +26,6 @@
 	* [Harlowe (v2.0)](dungeonmoving/harlowe/harlowe_dungeonmoving.md)
 	* [SugarCube (v2.18)](dungeonmoving/sugarcube/sugarcube_dungeonmoving.md)
 	* [Sugarcane (v1.4.2)](dungeonmoving/sugarcane/sugarcane_dungeonmoving.md)
+	* [Snowman (v1.3)](dungeonmoving/snowman/snowman_dungeonmoving.md)
 
 * [Glossary](glossary.md)
