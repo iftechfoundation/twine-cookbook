@@ -1,0 +1,18 @@
+:: StoryTitle
+Cycling Choices in Harlowe
+
+:: Start
+Click options to cycle: (display: "Cycling")
+[[Submit|Results]]
+
+:: Cycling
+{
+	(set: $choices to (array: "First", "Second", "Third") )
+	(if: $choicesCount >= $choices's length)[(set: $choicesCount to 1)]
+	(else:)[(set: $choicesCount to it + 1)]
+	(set: $cyclingResult to $choices's $choicesCount)
+	(link: (text: $choices's $choicesCount) )[(display: "Cycling")]
+}
+
+:: Results
+$cyclingResult

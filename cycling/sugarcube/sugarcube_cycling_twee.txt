@@ -1,0 +1,25 @@
+:: StoryTitle
+Cycling Choices in SugarCube
+
+:: Start
+Click options to cycle: <<include "Cycling">>
+[[Submit|Results]]
+
+:: Cycling
+\<<if !State.variables["choices"]>>
+\	<<set $choicesCount to -1>>
+\	<<set $choices to ["First", "Second", "Third"]>>
+\<</if>>
+\
+\<<set $choicesCount to $choicesCount + 1>>
+\
+\<<if $choicesCount >= $choices.length>>
+\ 	<<set $choicesCount to 0>>
+\<</if>>
+\
+\<<set $cyclingResult to $choices[$choicesCount]>>
+\
+\<<linkreplace $choices[$choicesCount]>><<include "Cycling">><</linkreplace>>
+
+:: Results
+$cyclingResult

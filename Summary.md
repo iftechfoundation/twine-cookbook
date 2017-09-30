@@ -4,6 +4,10 @@
 
 * [Recipe Formatting](formatting.md)
 
+* "Cycling Choices"
+	* [Harlowe (v2.0)](cycling/harlowe/harlowe_cycling.md)
+	* [SugarCube (v2.18)](cycling/sugarcube/sugarcube_cycling.md)
+
 * "Google Fonts"
 	* [Harlowe (v2.0)](googlefonts/harlowe/harlowe_googlefonts.md)
 	* [SugarCube (v2.18)](googlefonts/sugarcube/sugarcube_googlefonts.md)
