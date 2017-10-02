@@ -7,6 +7,7 @@
 * "Cycling Choices"
 	* [Harlowe (v2.0)](cycling/harlowe/harlowe_cycling.md)
 	* [SugarCube (v2.18)](cycling/sugarcube/sugarcube_cycling.md)
+	* [Snowman (1.3.0)](cycling/snowman/snowman_cycling.md)
 
 * "Google Fonts"
 	* [Harlowe (v2.0)](googlefonts/harlowe/harlowe_googlefonts.md)
