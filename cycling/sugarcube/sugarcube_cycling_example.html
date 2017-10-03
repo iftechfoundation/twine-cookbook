@@ -103,21 +103,32 @@ var saveAs=saveAs||navigator.msSaveBlob&&navigator.msSaveBlob.bind(navigator)||f
 		<div id="init-loading"><div>Loading&hellip;</div></div>
 	</div>
 	<div id="store-area" hidden><tw-storydata name="Cycling Choices in SugarCube" startnode="1" creator="Twine" creator-version="2.1.3" ifid="21BB8068-131D-4B9A-91A2-D8E709BE1992" format="SugarCube" format-version="2.18.0" options="" hidden><style role="stylesheet" id="twine-user-stylesheet" type="text/twine-css">
+
+
+
+
+
 </style><script role="script" id="twine-user-script" type="text/twine-javascript">
+
+
+
+
+
 </script><tw-passagedata pid="1" name="Start" tags="" position="102,98">Click options to cycle: &lt;&lt;include &quot;Cycling&quot;&gt;&gt;
-[[Submit|Results]]</tw-passagedata><tw-passagedata pid="2" name="Cycling" tags="" position="298,102">\&lt;&lt;if !State.variables[&quot;choices&quot;]&gt;&gt;
-\	&lt;&lt;set $choicesCount to -1&gt;&gt;
-\	&lt;&lt;set $choices to [&quot;First&quot;, &quot;Second&quot;, &quot;Third&quot;]&gt;&gt;
-\&lt;&lt;/if&gt;&gt;
-\
-\&lt;&lt;set $choicesCount to $choicesCount + 1&gt;&gt;
-\
-\&lt;&lt;if $choicesCount &gt;= $choices.length&gt;&gt;
-\ 	&lt;&lt;set $choicesCount to 0&gt;&gt;
-\&lt;&lt;/if&gt;&gt;
-\
-\&lt;&lt;set $cyclingResult to $choices[$choicesCount]&gt;&gt;
-\
+[[Submit|Results]]</tw-passagedata><tw-passagedata pid="2" name="Cycling" tags="" position="298,102">&lt;&lt;silently&gt;&gt;
+&lt;&lt;if not $choices&gt;&gt;
+	&lt;&lt;set $choicesCount to -1&gt;&gt;
+	&lt;&lt;set $choices to [&quot;First&quot;, &quot;Second&quot;, &quot;Third&quot;]&gt;&gt;
+&lt;&lt;/if&gt;&gt;
+
+&lt;&lt;set $choicesCount to $choicesCount + 1&gt;&gt;
+
+&lt;&lt;if $choicesCount &gt;= $choices.length&gt;&gt;
+ 	&lt;&lt;set $choicesCount to 0&gt;&gt;
+&lt;&lt;/if&gt;&gt;
+
+&lt;&lt;set $cyclingResult to $choices[$choicesCount]&gt;&gt;
+&lt;&lt;/silently&gt;&gt;
 \&lt;&lt;linkreplace $choices[$choicesCount]&gt;&gt;&lt;&lt;include &quot;Cycling&quot;&gt;&gt;&lt;&lt;/linkreplace&gt;&gt;</tw-passagedata><tw-passagedata pid="3" name="Results" tags="" position="99,247">$cyclingResult</tw-passagedata></tw-storydata></div>
 	<script id="script-sugarcube" type="text/javascript">
 	/*! SugarCube JS */

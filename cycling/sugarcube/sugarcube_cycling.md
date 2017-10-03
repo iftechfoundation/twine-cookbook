@@ -6,7 +6,7 @@
 
 "Cycling Choices" demostrates how to create a 'cycling' effect of different choices through clicking on them. 
 
-The 'cycles' starts with the use of the *&lt;&lt;include&gt;&gt;* macro and assumption of *$choicesCount* beginning at the number -1. Within the passage "Cycling", the first 'cycle' begins with testing if the variable *$choices* exists in the story through using the *State.variables* object. If it does not, *$choices* and *$choicesCount* are set (created) to their initial values.
+The 'cycles' starts with the use of the *&lt;&lt;include&gt;&gt;* macro and assumption of *$choicesCount* beginning at the number -1. Within the passage "Cycling", the first 'cycle' begins with testing if the variable *$choices* exists. If it does not, *$choices* and *$choicesCount* are set (created) to their initial values.
 
 Next, *$choicesCount* is then increased by one to the start value of 0 (the first location of an array in SugarCube) and the position of *$choices* is shown based on this. 
 
@@ -34,19 +34,20 @@ Click options to cycle: <<include "Cycling">>
 [[Submit|Results]]
 
 :: Cycling
-\<<if !State.variables["choices"]>>
-\	<<set $choicesCount to -1>>
-\	<<set $choices to ["First", "Second", "Third"]>>
-\<</if>>
-\
-\<<set $choicesCount to $choicesCount + 1>>
-\
-\<<if $choicesCount >= $choices.length>>
-\ 	<<set $choicesCount to 0>>
-\<</if>>
-\
-\<<set $cyclingResult to $choices[$choicesCount]>>
-\
+<<silently>>
+<<if not $choices>>
+	<<set $choicesCount to -1>>
+	<<set $choices to ["First", "Second", "Third"]>>
+<</if>>
+
+<<set $choicesCount to $choicesCount + 1>>
+
+<<if $choicesCount >= $choices.length>>
+ 	<<set $choicesCount to 0>>
+<</if>>
+
+<<set $cyclingResult to $choices[$choicesCount]>>
+<</silently>>
 \<<linkreplace $choices[$choicesCount]>><<include "Cycling">><</linkreplace>>
 
 :: Results
