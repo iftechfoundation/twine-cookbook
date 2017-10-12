@@ -6,12 +6,11 @@
 
 "Cycling Choices" demostrates how to create a 'cycling' effect of different choices through clicking on them.
 
-Starting with iterating over all elements with the class 'cycle,' each elements's 'choices' and 'selection' attribute values are saved as global variables. Next, through using jQuery, a *.click()* trigger is set for all elements with the class 'cycle'.
+Starting with iterating over all elements with the class 'cycle', each element's 'choices' and 'selection' attribute values are saved as global variables not expected to change during the story. Next, through using jQuery, a *.click()* trigger is set for all elements with the class 'cycle'.
 
-When triggered, the 'data-cycling-choices' attribute is converted to an array. The 'data-cycling-selection' attribute is retrieved, increased, and updated. The 'text' of the element is set to the selection index of the 'choices' array.
+When triggered, the global values of 'choices' and 'selection' for the element are retrieved and the 'selection' updated. The 'text' of the element is set to the selection index of the 'choices' array.
 
-Finally, the global variables are updated according to the element's 'id' for later access.
-
+Finally, the global variables are updated according to the element's 'id' for later access and to prevent changes to the history of the story potentially affecting saved values.
 
 ## Live Example
 
@@ -28,11 +27,9 @@ Download: <a href="snowman_cycling_example.html" target="_blank">Live Example</a
 :: StoryTitle
 Cycling Choices in Snowman
 
-:: Start
-<a href='javascript:void(0)' id='cycleOne' class='cycle' data-cycling-choices='["One", "Two", "Three"]' data-cycling-selection=0>One</a>
-
-<%
+:: UserScript[script]
 $(function() {
+	
 	// Create a global object
 	window.twine = {};
 	
@@ -51,21 +48,22 @@ $(function() {
 		
 		// Save the current 'selection' for each
 		var selection = $(this).attr("data-cycling-selection");
-		window.twine[id].selection = choices[selection];
+		window.twine[id].selection = selection;
   		
 	});
 	
 	$('.cycle').click(function(){
-		// Convert 'choices' attribute into array
-		var choices = JSON.parse($(this).attr("data-cycling-choices"));
-	
-		// Check if 'choices' has values
-		if (typeof(choices) === typeof(undefined)) {
-  			return;
-		}
-	
-		// Retrieve and update 'selection'
-		var selection = $(this).attr("data-cycling-selection");
+		
+		// Save the 'id'
+		var id = $(this).attr('id');
+		
+		// Retrieve the global 'choices'
+		var choices = window.twine[id].choices;
+		
+		// Retrieve the global 'selection'
+		var selection = window.twine[id].selection;
+		
+		// Update the 'selection' number
 		selection++;
 		
 		// Check if 'selection' is greater than length of choices
@@ -73,26 +71,27 @@ $(function() {
 			selection = 0;
 		}
 		
-		// Update the attribute and text of the element
+		// Update the 'selection' on the element
 		$(this).attr("data-cycling-selection", selection);
+		
+		// Update the text of the element with the choice
 		$(this).text(choices[selection]);
 	
-		// Save the 'id'
-		var id = $(this).attr('id');
-	
-		// Reset the global values of 'choices' and 'selection'
+		// Update the global values of 'choices' and 'selection'
 		window.twine[id].choices = choices; 
-		window.twine[id].selection = choices[selection];
+		window.twine[id].selection = selection;
 	
 	});
+	
 });
 
-%>
+:: Start
+<a href='javascript:void(0)' id='cycleOne' class='cycle' data-cycling-choices='["One", "Two", "Three"]' data-cycling-selection=0>One</a>
 
 [[Submit|Results]]
 
 :: Results
-<%= window.twine["cycleOne"].selection %>
+<%= window.twine["cycleOne"].choices[window.twine["cycleOne"].selection] %>
 
 ```
 
