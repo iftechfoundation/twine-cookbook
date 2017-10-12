@@ -6,10 +6,16 @@ iframe {
 section {
 	margin: 5%;
 }
-.information {
-	margin: 2%;
+.alert {
+	margin: 1%;
 	padding: 12px;
-    color: #9F6000;
+	vertical-align: middle;
+}
+.warning {
+    color: #082213;
     background-color: #FEEFB3;
-    vertical-align: middle;
+}
+.information {
+    color: #082213;
+    background-color: #BDE5F8;
 }

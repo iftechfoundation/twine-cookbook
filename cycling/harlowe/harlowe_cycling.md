@@ -2,9 +2,11 @@
 
 *Contributed by <a href="https://github.com/videlais">@videlais</a>*
 
+<div class="alert information"><strong>This recipe is affected by history changes in the story.</strong> Undoing, re-doing, or transitioning back to a passage containing this recipe has the poential to change its saved values.</div>
+
 ## Summary
 
-"Cycling Choices" demostrates how to create a 'cycling' effect of different choices through clicking on them. 
+"Cycling Choices" demostrates how to create a 'cycling' effect of different choices through clicking on them.
 
 The 'cycle' starts with the use of the *(display:)* macro and assumption of *$choicesCount* beginning at the number 0. It is then increased by one to the value 1 (the first location of an array in Harlowe) and the position of *$choices* is shown based on this. 
 

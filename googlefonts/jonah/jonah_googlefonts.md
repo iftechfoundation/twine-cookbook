@@ -2,7 +2,7 @@
 
 *Contributed by <a href="https://github.com/videlais">@videlais</a>*
 
-<div class="information"><strong>Note:</strong> The following recipe is designed for Twine 1.4.2.</div>
+<div class="alert warning"><strong>Note:</strong> The following recipe is designed for Twine 1.4.2.</div>
 
 ## Summary
 
