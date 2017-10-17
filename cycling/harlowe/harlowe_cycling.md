@@ -2,7 +2,7 @@
 
 *Contributed by <a href="https://github.com/videlais">@videlais</a>*
 
-<div class="alert information"><strong>This recipe is affected by history changes in the story.</strong> Undoing, re-doing, or transitioning back to a passage containing this recipe has the poential to change its saved values.</div>
+<div class="alert information"><strong>This recipe is affected by history changes in the story.</strong> Undoing or re-doing back to a passage containing this recipe has the potential to change its saved values.</div>
 
 ## Summary
 
