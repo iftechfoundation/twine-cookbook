@@ -4,6 +4,9 @@
 
 * [Recipe Formatting](formatting.md)
 
+* "Turn Counter"
+	* [Harlowe (v2.0)](turncounter/harlowe/harlowe_turncounter.md)
+
 * "Lock and Key"
 	* Variable
 		* [Harlowe (v2.0)](lockandkey_variable/harlowe/harlowe_lockandkey_variable.md)
