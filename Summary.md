@@ -11,6 +11,7 @@
 	* Variable
 		* [Harlowe (v2.0)](lockandkey_variable/harlowe/harlowe_lockandkey_variable.md)
 		* [SugarCube (v2.18)](lockandkey_variable/sugarcube/sugarcube_lockandkey_variable.md)
+		* [Snowman (v1.3)](lockandkey_variable/snowman/snowman_lockandkey_variable.md)
 
 * "Cycling Choices"
 	* [Harlowe (v2.0)](cycling/harlowe/harlowe_cycling.md)
