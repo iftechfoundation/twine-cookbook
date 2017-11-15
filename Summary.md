@@ -4,6 +4,10 @@
 
 * [Recipe Formatting](formatting.md)
 
+* "Hidden Link"
+	* [SugarCube (v2.18)](hiddenlink/sugarcube/sugarcube_hiddenlink.md)
+	* [Snowman (1.3.0)](hiddenlink/snowman/snowman_hiddenlink.md)
+
 * "Turn Counter"
 	* [Harlowe (v2.0)](turncounter/harlowe/harlowe_turncounter.md)
 
