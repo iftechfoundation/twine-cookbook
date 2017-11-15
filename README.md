@@ -24,4 +24,5 @@ Recipes can be suggested by [adding issues](https://github.com/iftechfoundation/
 The editors of this volume would like to thank the following contributors:
 * [@videlais](https://github.com/videlais)
 * [@klembot](https://github.com/klembot)
+* [@tmedwards](https://github.com/tmedwards)
 
