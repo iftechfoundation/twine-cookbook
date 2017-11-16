@@ -5,6 +5,7 @@
 * [Recipe Formatting](formatting.md)
 
 * "Hidden Link"
+	* [Harlowe (v2.0)](hiddenlink/harlowe/harlowe_hiddenlink.md)
 	* [SugarCube (v2.18)](hiddenlink/sugarcube/sugarcube_hiddenlink.md)
 	* [Snowman (1.3.0)](hiddenlink/snowman/snowman_hiddenlink.md)
 
