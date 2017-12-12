@@ -4,6 +4,11 @@
 
 * [Recipe Formatting](formatting.md)
 
+* "Modal (Pop-up Window)"
+	* [Harlowe (v2.0)](modal/harlowe/harlowe_modal.md)
+	* [SugarCube (v2.18)](modal/sugarcube/sugarcube_modal.md)
+	* [Snowman (1.3.0)](modal/snowman/snowman_modal.md)
+
 * "Hidden Link"
 	* [Harlowe (v2.0)](hiddenlink/harlowe/harlowe_hiddenlink.md)
 	* [SugarCube (v2.18)](hiddenlink/sugarcube/sugarcube_hiddenlink.md)
