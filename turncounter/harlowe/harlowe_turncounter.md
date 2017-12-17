@@ -6,7 +6,7 @@
 
 "Turn Counter" demostrates the use of the *(history:)* macro in keeping track of "turns" (number of passages visited).
 
-In this example, the *length* of the array returned by using the *(history:)* macro is compared to its modulo 24 value. Also sometimes known as "wrap around," the modulus operator (%) is used to get the reminder of the number of "turns" (passages) divided by 24. This creates a clock where its value shows a series of strings representing "morning", "mid-morning", "afternoon", or "night."
+In this example, the *length* of the array returned by using the *(history:)* macro is compared to its modulo 24 value. Sometimes known as "wrap around," the modulus operator (%) is used to get the remainder of the number of "turns" (passages) divided by 24. This creates a clock where its value shows one of a series of strings representing "morning", "mid-morning", "afternoon", or "night."
 
 By visiting other passages, the turn count is increased and the hour reaches 23 before being reset back to 0 before increasing again.
 

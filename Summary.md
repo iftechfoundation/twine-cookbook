@@ -16,6 +16,7 @@
 
 * "Turn Counter"
 	* [Harlowe (v2.0)](turncounter/harlowe/harlowe_turncounter.md)
+	* [SugarCube (v2.18)](turncounter/sugarcube/sugarcube_turncounter.md)
 
 * "Lock and Key"
 	* Variable
