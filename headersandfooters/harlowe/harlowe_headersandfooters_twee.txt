@@ -1,0 +1,14 @@
+:: StoryTitle
+Harlowe: Headers and Footers
+
+:: Start
+This is content between the header and the footer.
+
+
+:: Header[header]
+This is the header!
+
+
+:: Footer[footer]
+This is the footer!
+

@@ -4,6 +4,11 @@
 
 * [Recipe Formatting](formatting.md)
 
+* "Headers and Footers"
+	* [Harlowe (v2.0)](headersandfooters/harlowe/harlowe_headersandfooters.md)
+	* [SugarCube (v2.18)](headersandfooters/sugarcube/sugarcube_headersandfooters.md)
+	* [Snowman (1.3.0)](headersandfooters/snowman/snowman_headersandfooters.md)
+
 * "Modal (Pop-up Window)"
 	* [Harlowe (v2.0)](modal/harlowe/harlowe_modal.md)
 	* [SugarCube (v2.18)](modal/sugarcube/sugarcube_modal.md)

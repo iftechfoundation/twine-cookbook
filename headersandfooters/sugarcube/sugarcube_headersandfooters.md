@@ -1,0 +1,40 @@
+# "Headers and Footers": Sugarcube (v2.18)
+
+*Contributed by <a href="https://github.com/videlais">@videlais</a>*
+
+## Summary
+
+"Headers and Footers" demonstrates the use of "[PassageHeader](http://www.motoslave.net/sugarcube/2/docs/special-names.html#special-passages-passageheader)" and "[PassageFooter](http://www.motoslave.net/sugarcube/2/docs/special-names.html#special-passages-passagefooter)" special names for passages. When these special names are used, the 'Header' is prepended and the 'Footer' name is appended to all passages.
+
+## Live Example
+
+<section>
+<iframe src="sugarcube_headersandfooters_example.html" height=400 width=90%></iframe>
+
+
+Download: <a href="sugarcube_headersandfooters_example.html" target="_blank">Live Example</a>
+</section>
+
+## Twee Code
+
+```
+:: StoryTitle
+SugarCube: Headers and Footers
+
+:: Start
+This is content between the header and the footer.
+
+
+:: PassageHeader
+This is the header!
+
+
+:: PassageFooter
+This is the footer!
+
+
+
+```
+
+Download: <a href="sugarcube_headersandfooters_twee.txt" target="_blank">Twee Code</a>
+
