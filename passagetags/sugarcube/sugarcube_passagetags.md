@@ -6,6 +6,8 @@
 
 This example shows how to use CSS selectors to style different passages based on how they are tagged. [In SugarCube](http://www.motoslave.net/sugarcube/2/docs/css.html), the tag name is applied to both the *body* and the passage shown. To style different parts, use either the *body* selector or a combination of 'passage' and the tag name.
 
+SugarCube 2.x and later also applies a "data-tags" attribute to the html, body, and .passage elements. These can also be used to style the page at different levels.
+
 ## Live Example
 
 <section>

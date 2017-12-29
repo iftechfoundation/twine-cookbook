@@ -2,6 +2,8 @@
 
 *Contributed by <a href="https://github.com/videlais">@videlais</a>*
 
+<div class="alert warning"><strong>Note:</strong> The following recipe is designed for use in Harlowe 2.x and later</div>
+
 ## Summary
 
 This example shows how to use CSS selectors to selectively style different passages based on how they are tagged. In Harlowe, the "tags" attribute can be used to create different sets of styles and apply them when shown.
