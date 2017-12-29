@@ -1,0 +1,26 @@
+:: StoryTitle
+CSS and Passage Tags in SugarCube
+
+:: UserStylesheet[stylesheet]
+/* Style the entire body when showing passage tagged with grey */
+body.grey {
+  color: green;
+}
+
+/* Style only the inner part of the passage tagged with "grey" */
+.passage.grey { 
+  background: grey;
+}
+
+/* Style only the inner part of the passage tagged with "yellow" */
+.passage.yellow { 
+  background: yellow;
+  color: black;
+}
+
+:: Start[grey]
+This passage has a grey background and green text.
+[[Second]]
+
+:: Second[yellow]
+This passage has a yellow background and black text.

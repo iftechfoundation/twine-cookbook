@@ -1,0 +1,19 @@
+:: StoryTitle
+CSS and Passage Tags in Harlowe
+
+:: UserStylesheet[stylesheet]
+[tags="grey"] {
+    background: grey;
+}
+
+[tags="yellow"] {
+    background: yellow;
+  	color: black;
+}
+
+:: Start[grey]
+This passage has a grey background and (default) white text.
+[[Second]]
+
+:: Second[yellow]
+This passage has a yellow background and black text.

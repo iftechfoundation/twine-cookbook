@@ -22,6 +22,12 @@
 	* [SugarCube](headersandfooters/sugarcube/sugarcube_headersandfooters.md)
 	* [Snowman](headersandfooters/snowman/snowman_headersandfooters.md)
 
+* CSS and Passage Tags
+	* [Harlowe](passagetags/harlowe/harlowe_passagetags.md)
+	* [SugarCube](passagetags/sugarcube/sugarcube_passagetags.md)
+	* [Snowman](passagetags/snowman/snowman_passagetags.md)
+	* [Sugarcane (1.4.2)](passagetags/sugarcane/sugarcane_passagetags.md)
+
 * Hidden Link
 	* [Harlowe](hiddenlink/harlowe/harlowe_hiddenlink.md)
 	* [SugarCube](hiddenlink/sugarcube/sugarcube_hiddenlink.md)
@@ -59,7 +65,7 @@
 * Moving through a 'dungeon'
 	* [Harlowe](dungeonmoving/harlowe/harlowe_dungeonmoving.md)
 	* [SugarCube](dungeonmoving/sugarcube/sugarcube_dungeonmoving.md)
-	* [Sugarcane (1.4.2)](dungeonmoving/sugarcane/sugarcane_dungeonmoving.md)
 	* [Snowman](dungeonmoving/snowman/snowman_dungeonmoving.md)
+	* [Sugarcane (1.4.2)](dungeonmoving/sugarcane/sugarcane_dungeonmoving.md)
 
 * [Glossary](glossary.md)
