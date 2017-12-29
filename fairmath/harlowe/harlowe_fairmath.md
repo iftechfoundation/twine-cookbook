@@ -4,9 +4,9 @@
 
 ## Summary
 
-"Fairmath System" demonstrates how to re-create the Fairmath system found [in ChoiceScript](http://choicescriptdev.wikia.com/wiki/Arithmetic_operators#Fairmath). Based on a percentage operation, addition and subtraction changes the value by a percentage as the difference between the original and adjusted value.
+"Fairmath System" demonstrates how to re-create the Fairmath system found [in ChoiceScript](http://choicescriptdev.wikia.com/wiki/Arithmetic_operators#Fairmath). Based on a percentage operation, increasing and decreasing changes the value by a percentage as the difference between the original and adjusted value.
 
-This example uses the *(display:)* macro in Harlowe to separate operations for addition and subtraction. Through setting values to adjust, either passage can be included and the *$resultValue* used to track and store changes.
+This example uses the *(display:)* macro in Harlowe to separate operations for increasing and decreasing. Through setting values to adjust, either passage can be included and the *$resultValue* used to track and store changes.
 
 
 ## Live Example
@@ -35,8 +35,8 @@ The initial value is $valueToAdjust.
 (set: $originalValue to $valueToAdjust)
 <!-- Set the changeValue (percentage) to adjust -->
 (set: $changeValue to 50)
-<!-- Display (call) the Fairmath Subtraction passage -->
-(display: "Subtraction")
+<!-- Display (call) the Fairmath Decrease passage -->
+(display: "Decrease")
 <!-- The new value will be resultValue -->
 The adjusted value is $resultValue.
 
@@ -46,15 +46,16 @@ The adjusted value is $resultValue.
 (set: $originalValue to $valueToAdjust)
 <!-- Set the changeValue (percentage) to adjust -->
 (set: $changeValue to 100)
-<!-- Display (call) the Fairmath Addition passage -->
-(display: "Addition")
+<!-- Display (call) the Fairmath Increase passage -->
+(display: "Increase")
 The adjusted value is $resultValue.
 
-:: Addition
+:: Increase
 (set: $resultValue to (round: $originalValue+((100-$originalValue)*($changeValue/100))) )
 
-:: Subtraction
+:: Decrease
 (set: $resultValue to (round: $originalValue-($originalValue*($changeValue/100)) ) )
+
 
 ```
 

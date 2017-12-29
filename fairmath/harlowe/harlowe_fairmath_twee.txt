@@ -12,8 +12,8 @@ The initial value is $valueToAdjust.
 (set: $originalValue to $valueToAdjust)
 <!-- Set the changeValue (percentage) to adjust -->
 (set: $changeValue to 50)
-<!-- Display (call) the Fairmath Subtraction passage -->
-(display: "Subtraction")
+<!-- Display (call) the Fairmath Decrease passage -->
+(display: "Decrease")
 <!-- The new value will be resultValue -->
 The adjusted value is $resultValue.
 
@@ -23,12 +23,12 @@ The adjusted value is $resultValue.
 (set: $originalValue to $valueToAdjust)
 <!-- Set the changeValue (percentage) to adjust -->
 (set: $changeValue to 100)
-<!-- Display (call) the Fairmath Addition passage -->
-(display: "Addition")
+<!-- Display (call) the Fairmath Increase passage -->
+(display: "Increase")
 The adjusted value is $resultValue.
 
-:: Addition
+:: Increase
 (set: $resultValue to (round: $originalValue+((100-$originalValue)*($changeValue/100))) )
 
-:: Subtraction
+:: Decrease
 (set: $resultValue to (round: $originalValue-($originalValue*($changeValue/100)) ) )
