@@ -4,9 +4,9 @@
 
 ## Summary
 
-"Fairmath System" demonstrates how to re-create the Fairmath system found [in ChoiceScript](http://choicescriptdev.wikia.com/wiki/Arithmetic_operators#Fairmath). Based on a percentage operation, addition and subtraction changes the value by a percentage as the difference between the original and adjusted value.
+"Fairmath System" demonstrates how to re-create the Fairmath system found [in ChoiceScript](http://choicescriptdev.wikia.com/wiki/Arithmetic_operators#Fairmath). Based on a percentage operation, increase and decrease changes the value by a percentage as the difference between the original and adjusted value.
 
-This example uses functions *addition()* and *subtraction()* and the [Underscore template functionality](http://underscorejs.org/#template) to define, use, and show the values of the functions.
+This example uses functions *increase()* and *decrease()* and the [Underscore template functionality](http://underscorejs.org/#template) to define, use, and show the values of the functions.
 
 ## Live Example
 
@@ -26,21 +26,21 @@ Fairmath in Snowman
 :: Start
 <%
 
-function addition(x,y) {
+function increase(x,y) {
 	return Math.round(x+((100-x)*(y/100)));
 }
 	
-function subtraction(x,y) {
+function decrease(x,y) {
 	return Math.round(x-(x*(y/100)));
 }
 
 %>
 
-Subtract 50 using fairmath from an initial value of 100:
-<%= subtraction(100, 50) %>
+Decrease 100 by 50% using Fairmath:
+<%= decrease(100, 50) %>
 
-Add 100 using fairmath from an initial value of 50:
-<%= addition(50, 100) %>
+Increase 50 by 50% using Fairmath:
+<%= increase(50, 50) %>
 
 
 ```
