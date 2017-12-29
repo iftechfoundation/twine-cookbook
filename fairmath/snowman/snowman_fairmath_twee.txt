@@ -1,0 +1,21 @@
+:: StoryTitle
+Fairmath in Snowman
+
+:: Start
+<%
+
+function addition(x,y) {
+	return Math.round(x+((100-x)*(y/100)));
+}
+	
+function subtraction(x,y) {
+	return Math.round(x-(x*(y/100)));
+}
+
+%>
+
+Subtract 50 using fairmath from an initial value of 100:
+<%= subtraction(100, 50) %>
+
+Add 100 using fairmath from an initial value of 50:
+<%= addition(50, 100) %>

@@ -31,6 +31,11 @@
 	* [Harlowe](turncounter/harlowe/harlowe_turncounter.md)
 	* [SugarCube](turncounter/sugarcube/sugarcube_turncounter.md)
 
+* Fairmath System
+	* [Harlowe](fairmath/harlowe/harlowe_fairmath.md)
+	* [SugarCube](fairmath/sugarcube/sugarcube_fairmath.md)
+	* [Snowman](fairmath/snowman/snowman_fairmath.md)
+
 * Lock and Key: Variable
 	* [Harlowe](lockandkey_variable/harlowe/harlowe_lockandkey_variable.md)
 	* [SugarCube](lockandkey_variable/sugarcube/sugarcube_lockandkey_variable.md)
