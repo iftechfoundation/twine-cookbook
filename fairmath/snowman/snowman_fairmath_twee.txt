@@ -2,19 +2,19 @@
 Fairmath in Snowman
 
 :: UserScript[script]
-window.twine = {};
+window.fairmath = {};
 	
-window.twine.increase = function(x,y) {
+window.fairmath.increase = function(x,y) {
 	return Math.round(x+((100-x)*(y/100)));
 };
 	
-window.twine.decrease = function(x,y) {
+window.fairmath.decrease = function(x,y) {
 	return Math.round(x-(x*(y/100)));
 };
 
 :: Start
 Decrease 100 by 50% using Fairmath:
-<%= window.twine.decrease(100, 50) %>
+<%= window.fairmath.decrease(100, 50) %>
 
 Increase 50 by 50% using Fairmath:
-<%= window.twine.increase(50, 50) %>
+<%= window.fairmath.increase(50, 50) %>
