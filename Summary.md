@@ -4,10 +4,11 @@
 
 * [Recipe Formatting](formatting.md)
 
-* Dice Rolling
-	* [Harlowe](dicerolling/harlowe/harlowe_dicerolling.md)
-	* [SugarCube](dicerolling/sugarcube/sugarcube_dicerolling.md)
-	* [Snowman](dicerolling/snowman/snowman_dicerolling.md)
+* Style Markup
+	* [Harlowe](markup/harlowe/harlowe_markup.md)
+	* [SugarCube](markup/sugarcube/sugarcube_markup.md)
+	* [Snowman](markup/snowman/snowman_markup.md)
+	* [Sugarcane (1.4.2)](markup/sugarcane/sugarcane_markup.md)
 
 * Google Fonts
 	* [Harlowe](googlefonts/harlowe/harlowe_googlefonts.md)
@@ -16,6 +17,11 @@
 	* [Sugarcane (1.4.2)](googlefonts/sugarcane/sugarcane_googlefonts.md)
 	* [Jonah (1.4.2)](googlefonts/jonah/jonah_googlefonts.md)
 	* [Responsive (1.4.2)](googlefonts/responsive/responsive_googlefonts.md)
+
+* Dice Rolling
+	* [Harlowe](dicerolling/harlowe/harlowe_dicerolling.md)
+	* [SugarCube](dicerolling/sugarcube/sugarcube_dicerolling.md)
+	* [Snowman](dicerolling/snowman/snowman_dicerolling.md)
 
 * Headers and Footers
 	* [Harlowe](headersandfooters/harlowe/harlowe_headersandfooters.md)
