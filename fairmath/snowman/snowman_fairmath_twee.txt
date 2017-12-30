@@ -1,21 +1,20 @@
 :: StoryTitle
 Fairmath in Snowman
 
-:: Start
-<%
-
-function increase(x,y) {
-	return Math.round(x+((100-x)*(y/100)));
-}
+:: UserScript[script]
+window.twine = {};
 	
-function decrease(x,y) {
+window.twine.increase = function(x,y) {
+	return Math.round(x+((100-x)*(y/100)));
+};
+	
+window.twine.decrease = function(x,y) {
 	return Math.round(x-(x*(y/100)));
-}
+};
 
-%>
-
+:: Start
 Decrease 100 by 50% using Fairmath:
-<%= decrease(100, 50) %>
+<%= window.twine.decrease(100, 50) %>
 
 Increase 50 by 50% using Fairmath:
-<%= increase(50, 50) %>
+<%= window.twine.increase(50, 50) %>
