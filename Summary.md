@@ -28,6 +28,11 @@
 	* [SugarCube](headersandfooters/sugarcube/sugarcube_headersandfooters.md)
 	* [Snowman](headersandfooters/snowman/snowman_headersandfooters.md)
 
+* Delayed Text
+	* [Harlowe](delayedtext/harlowe/harlowe_delayedtext.md)
+	* [SugarCube](delayedtext/sugarcube/sugarcube_delayedtext.md)
+	* [Snowman](delayedtext/snowman/snowman_delayedtext.md)
+
 * CSS and Passage Tags
 	* [Harlowe](passagetags/harlowe/harlowe_passagetags.md)
 	* [SugarCube](passagetags/sugarcube/sugarcube_passagetags.md)
