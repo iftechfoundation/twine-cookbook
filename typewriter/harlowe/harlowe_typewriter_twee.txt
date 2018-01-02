@@ -1,0 +1,41 @@
+:: StoryTitle
+Typewriter Effect in Harlowe
+
+:: Start
+<!-- Set the text to show -->
+(set: $textToShow to "Hello, world!")
+<!-- Display (call) the Typewriter passage -->
+(display: "Typewriter")
+
+:: Typewriter
+{
+	<!-- Create an empty array -->
+	(set: $textArray to (a:) )
+	
+	<!-- Convert the string into an array -->
+	(for: each _item, ...$textToShow)[
+		(set: $textArray to it + (a: _item) )
+	]
+	
+	<!-- Harlowe arrays start at index 1 -->
+	(set: $textArrayLength to 1)
+	
+	<!-- Set a delay of 1 second per loop -->
+	(live: 1s)[
+		
+		<!-- Test if textArrayLength is length of textArray yet -->
+		(if: $textArrayLength >= $textArray's length)[
+			<!-- Stop the looping and show textToShow -->
+			(stop:)
+			$textToShow
+		]
+		(else:)[
+			<!-- Show substring of textToShow -->
+			(substring: $textToShow, 1, $textArrayLength)
+			
+			<!-- Update the index to next value -->
+			(set: $textArrayLength to it + 1)
+		]
+	]
+}
+

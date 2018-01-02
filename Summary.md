@@ -33,6 +33,11 @@
 	* [SugarCube](delayedtext/sugarcube/sugarcube_delayedtext.md)
 	* [Snowman](delayedtext/snowman/snowman_delayedtext.md)
 
+* Typewriter Effect
+	* [Harlowe](typewriter/harlowe/harlowe_typewriter.md)
+	* [SugarCube](typewriter/sugarcube/sugarcube_typewriter.md)
+	* [Snowman](typewriter/snowman/snowman_typewriter.md)
+
 * CSS and Passage Tags
 	* [Harlowe](passagetags/harlowe/harlowe_passagetags.md)
 	* [SugarCube](passagetags/sugarcube/sugarcube_passagetags.md)
