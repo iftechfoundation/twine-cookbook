@@ -52,6 +52,7 @@
 * Turn Counter
 	* [Harlowe](turncounter/harlowe/harlowe_turncounter.md)
 	* [SugarCube](turncounter/sugarcube/sugarcube_turncounter.md)
+	* [Snowman](turncounter/snowman/snowman_turncounter.md)
 
 * Fairmath System
 	* [Harlowe](fairmath/harlowe/harlowe_fairmath.md)
