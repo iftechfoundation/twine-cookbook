@@ -1,0 +1,29 @@
+:: StoryTitle
+Variable Story Styling in Snowman
+
+:: UserScript[script]
+window.styling = "green";
+
+
+:: UserStylesheet[stylesheet]
+.green {
+	background: white;
+  	color: green;
+}
+.white {
+	background: black;
+  	color: white;
+}
+
+
+:: Start
+This text is green on a white background.
+<% $("body").toggleClass(window.styling) %>
+[[Next Passage]]
+
+:: Next Passage
+This text is white on a black background.
+<% 
+	window.styling = "white";
+	$("body").toggleClass(window.styling);
+%>

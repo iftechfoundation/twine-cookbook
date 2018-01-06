@@ -44,6 +44,11 @@
 	* [Snowman](passagetags/snowman/snowman_passagetags.md)
 	* [Sugarcane (1.4.2)](passagetags/sugarcane/sugarcane_passagetags.md)
 
+* Variable Style Styling
+	* [Harlowe](storystyling/harlowe/harlowe_storystyling.md)
+	* [SugarCube](storystyling/sugarcube/sugarcube_storystyling.md)
+	* [Snowman](storystyling/snowman/snowman_storystyling.md)
+
 * Hidden Link
 	* [Harlowe](hiddenlink/harlowe/harlowe_hiddenlink.md)
 	* [SugarCube](hiddenlink/sugarcube/sugarcube_hiddenlink.md)
