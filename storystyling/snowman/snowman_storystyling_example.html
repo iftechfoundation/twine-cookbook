@@ -18,13 +18,16 @@ Variable Story Styling in Snowman
 	background: black;
   	color: white;
 }
-</style><script role="script" id="twine-user-script" type="text/twine-javascript">window.styling = "green";
+</style><script role="script" id="twine-user-script" type="text/twine-javascript">
 </script><tw-passagedata pid="1" name="Start" tags="" position="102,101">This text is green on a white background.
-&lt;% $(&quot;body&quot;).toggleClass(window.styling) %&gt;
+&lt;% 
+	s.styling = &quot;green&quot;;
+	$(&quot;body&quot;).toggleClass(s.styling) 
+%&gt;
 [[Next Passage]]</tw-passagedata><tw-passagedata pid="2" name="Next Passage" tags="" position="102,251">This text is white on a black background.
 &lt;% 
-	window.styling = &quot;white&quot;;
-	$(&quot;body&quot;).toggleClass(window.styling);
+	s.styling = &quot;white&quot;;
+	$(&quot;body&quot;).toggleClass(s.styling);
 %&gt;</tw-passagedata></tw-storydata>
 
 <script>(function e(t,n,r){function s(o,u){if(!n[o]){if(!t[o]){var a=typeof require=="function"&&require;if(!u&&a)return a(o,!0);if(i)return i(o,!0);var f=new Error("Cannot find module '"+o+"'");throw f.code="MODULE_NOT_FOUND",f}var l=n[o]={exports:{}};t[o][0].call(l.exports,function(e){var n=t[o][1][e];return s(n?n:e)},l,l.exports,e,t,n,r)}return n[o].exports}var i=typeof require=="function"&&require;for(var o=0;o<r.length;o++)s(r[o]);return s})({1:[function(require,module,exports){

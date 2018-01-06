@@ -21,10 +21,6 @@ Download: <a href="snowman_storystyling_example.html" target="_blank">Live Examp
 :: StoryTitle
 Variable Story Styling in Snowman
 
-:: UserScript[script]
-window.styling = "green";
-
-
 :: UserStylesheet[stylesheet]
 .green {
 	background: white;
@@ -35,17 +31,19 @@ window.styling = "green";
   	color: white;
 }
 
-
 :: Start
 This text is green on a white background.
-<% $("body").toggleClass(window.styling) %>
+<% 
+	s.styling = "green";
+	$("body").toggleClass(s.styling) 
+%>
 [[Next Passage]]
 
 :: Next Passage
 This text is white on a black background.
 <% 
-	window.styling = "white";
-	$("body").toggleClass(window.styling);
+	s.styling = "white";
+	$("body").toggleClass(s.styling);
 %>
 
 ```
