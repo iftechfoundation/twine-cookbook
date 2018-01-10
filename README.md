@@ -6,8 +6,8 @@ The Twine Cookbook is a collection of examples written in the [GitBook format](h
 
 ### Suggesting Recipes, Updates, or Changes
 Include as much as possible of the following in an [issue](https://github.com/iftechfoundation/twine-cookbook/issues):
-* A short summary of the recipe(s) or suggestions(s)
-* An example of or reference to an existing work that uses it
+* A short summary of the example(s) or suggestions(s)
+* A reference to an existing work that uses it
 * How (or if) you would like to be recognized for your contribution
 
 ### Submitting Recipes, Documentation, or Code Updates
