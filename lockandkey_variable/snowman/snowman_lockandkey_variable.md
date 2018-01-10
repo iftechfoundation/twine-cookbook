@@ -1,7 +1,5 @@
 # "Lock and Key: Variable": Snowman (v1.3)
 
-*Contributed by <a href="https://github.com/klembot">@klembot</a>*
-
 ## Summary
 
 "Lock and Key: Variable" demostrates how to create the effect of picking up a key and unlocking a door. In this example, the key is a variable (*s.key*) and does not initially exist in the Start passage.

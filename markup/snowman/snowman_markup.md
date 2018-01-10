@@ -1,7 +1,5 @@
 # "Style Markup": Snowman (v1.3.0)
 
-*Contributed by <a href="https://github.com/videlais">@videlais</a>*
-
 ## Summary
 
 Snowman uses a sub-set of [markdown](https://guides.github.com/features/mastering-markdown/) to support style formatting. However, code highlighting and many other advanced functionalities are not available.

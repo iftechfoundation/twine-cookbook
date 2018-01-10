@@ -1,7 +1,5 @@
 # "Turn Counter": SugarCube (v2.18)
 
-*Contributed by <a href="https://github.com/videlais">@videlais</a>*
-
 ## Summary
 
 "Turn Counter" demostrates the use of the *[State.turns](http://www.motoslave.net/sugarcube/2/docs/api-state.html)* attribute of the *State* object to keep track of the "turns" (moments within the story).

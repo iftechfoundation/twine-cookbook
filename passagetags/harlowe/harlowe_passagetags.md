@@ -1,8 +1,6 @@
 # "CSS and Passage Tags": Harlowe (v2.0)
 
-*Contributed by <a href="https://github.com/videlais">@videlais</a>*
-
-<div class="alert warning"><strong>Note:</strong> The following recipe is designed for use in Harlowe 2.x and later</div>
+<div class="alertbox warning"><strong>Note:</strong> The following example is designed for use in Harlowe 2.x and later</div>
 
 ## Summary
 

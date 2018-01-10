@@ -1,7 +1,5 @@
 # "Turn Counter": Snowman (v1.3.0)
 
-*Contributed by <a href="https://github.com/videlais">@videlais</a>*
-
 ## Summary
 
 "Turn Counter" demostrates the use of the *window.story.history* array in keeping track of "turns" (number of passages visited). The *window.story.render()* function is used to "display" or otherwise include another passage at the start of each.

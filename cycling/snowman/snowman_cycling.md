@@ -1,7 +1,5 @@
 # "Cycling Choices": Snowman (v1.3.0)
 
-*Contributed by <a href="https://github.com/videlais">@videlais</a>*
-
 ## Summary
 
 "Cycling Choices" demostrates how to create a 'cycling' effect of different choices through clicking on them.

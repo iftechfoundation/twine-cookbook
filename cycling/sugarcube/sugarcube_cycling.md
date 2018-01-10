@@ -1,7 +1,5 @@
 # "Cycling Choices": SugarCube (v2.18)
 
-*Contributed by <a href="https://github.com/videlais">@videlais</a>*
-
 ## Summary
 
 "Cycling Choices" demostrates how to create a 'cycling' effect of different choices through clicking on them. 

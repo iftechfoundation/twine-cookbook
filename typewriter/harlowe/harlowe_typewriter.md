@@ -1,7 +1,5 @@
 # "Typewriter Effect": Harlowe (v2.0)
 
-*Contributed by <a href="https://github.com/videlais">@videlais</a>*
-
 ## Summary
 
 "Typewriter Effect" demonstrates how to create a delayed character-by-character effect. In Harlowe, this is achieved using the *[(live:)](https://twine2.neocities.org/#macro_live)* macro for delayed showing and the *[(substring:)](https://twine2.neocities.org/#macro_substring)* macro for selecting a single chracter position.

@@ -1,7 +1,5 @@
 # "Style Markup": Harlowe (v2.0)
 
-*Contributed by <a href="https://github.com/videlais">@videlais</a>*
-
 ## Summary
 
 [In Harlowe](https://twine2.neocities.org/#markup_style), style markup can take many forms. Covering italics and boldface as basic examples, Harlowe also provides markup for creating alignment and columns as well.

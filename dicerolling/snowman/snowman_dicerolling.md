@@ -1,10 +1,8 @@
 # "Dice Rolling": Snowman (v1.3)
 
-*Contributed by <a href="https://github.com/videlais">@videlais</a>*
-
 ## Summary
 
-"Dice Rolling" demostrates how to create the same effects of rolling various physical dice through using Underscore.js's *_.random()* function and its interpolating functionality.
+"Dice Rolling" demostrates how to create the same effects of rolling various physical dice through using Underscore.js's *[_.random()](http://underscorejs.org/#random)* function and its interpolating functionality.
 
 ## Live Example
 

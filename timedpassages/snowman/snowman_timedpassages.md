@@ -1,7 +1,5 @@
 # "Timed Passages": Snowman (1.3.0)
 
-*Contributed by <a href="https://github.com/klembot">@klembot</a>*
-
 ## Summary
 
 Made famous in <a href="http://auntiepixelante.com/endoftheworld/">Queers in Love at the End of the World</a>, "Timed Passages" uses the the *_.delay()* function to count seconds while checking if the timer has reached zero. If so, the *story.show()* function will immediately transition to another passage.

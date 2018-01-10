@@ -1,7 +1,5 @@
 # "Modal (Pop-up Window)": SugarCube (v2.18)
 
-*Contributed by <a href="https://github.com/videlais">@videlais</a>*
-
 ## Summary
 This example uses the built-in *Dialog* object to *setup()*, add content ( *wiki()* ), and finally *open()* the dialog window. SugarCube also comes with [additional functionality](http://www.motoslave.net/sugarcube/2/docs/api-dialog.html) to adjust other settings.
 

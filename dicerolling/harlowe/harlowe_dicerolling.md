@@ -1,10 +1,8 @@
 # "Dice Rolling": Harlowe (v2.0)
 
-*Contributed by <a href="https://github.com/videlais">@videlais</a>*
-
 ## Summary
 
-"Dice Rolling" demostrates how to create the same effects of rolling various physical dice through using the *(random:)* macro and adding or subtracting numbers.
+"Dice Rolling" demostrates how to create the same effects of rolling various physical dice through using the *[(random:)](https://twine2.neocities.org/#macro_random)* macro and adding or subtracting numbers.
 
 ## Live Example
 

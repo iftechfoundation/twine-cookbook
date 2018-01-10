@@ -1,7 +1,5 @@
 # "Timed Passages": Harlowe (v2.0)
 
-*Contributed by <a href="https://github.com/videlais">@videlais</a>*
-
 ## Summary
 
 Made famous in <a href="http://auntiepixelante.com/endoftheworld/">Queers in Love at the End of the World</a>, "Timed Passages" uses the the *(live:)* macro to count seconds while checking if the timer has reached zero. If so, the *(goto:)* macro will immediately go to another passage.

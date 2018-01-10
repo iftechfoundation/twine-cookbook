@@ -1,7 +1,5 @@
 # "Delayed Text": Snowman (v1.3.0)
 
-*Contributed by <a href="https://github.com/videlais">@videlais</a>*
-
 ## Summary
 
 "Delayed Text" uses the *[delay()](http://underscorejs.org/#delay)* function in Undercore combined with a [jQuery selector](https://api.jquery.com/category/selectors/) to target an element with the ID of "results" to change its internal text after five seconds.

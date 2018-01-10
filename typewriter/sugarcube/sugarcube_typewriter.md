@@ -1,7 +1,5 @@
 # "Typewriter Effect": SugarCube (v2.18)
 
-*Contributed by <a href="https://github.com/videlais">@videlais</a>*
-
 ## Summary
 
 "Typewriter Effect" demonstrates how to create a delayed character-by-character effect. In SugarCube, a [&lt;&lt;widget&gt;&gt;](http://www.motoslave.net/sugarcube/2/docs/macros.html#macros-widget) macro named "typewriter" is created that uses the [&lt;&lt;repeat&gt;&gt;]((http://www.motoslave.net/sugarcube/2/docs/macros.html#macros-repeat) and &lt;&lt;stop&gt;&gt; macros internally to show one character every one second.

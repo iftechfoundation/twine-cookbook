@@ -1,7 +1,5 @@
 # "Variable Story Styling": Snowman (v1.3.0)
 
-*Contributed by <a href="https://github.com/videlais">@videlais</a>*
-
 ## Summary
 
 "Variable Story Styling" demonstrates how to use the *[toggleClass()](http://api.jquery.com/toggleclass/)* jQuery function to switch between two pre-defined style rulesets. Used with the “body” selector, the entire page is selected and the classes toggled when the function is called.

@@ -1,11 +1,11 @@
-# Recipe Formatting
+# Example Formatting
 
-*Contributed by Editors*
+<div class="alertbox warning"><strong>Note:</strong> Some examples for specific versions (like those designed for Twine 1.4.2) contain this warning.</div>
 
-<div class="alert information"><strong>Note:</strong> Recipes for Twine 1.4.2 are marked using this visual styling.</div>
+<div class="alertbox information"><strong>Note:</strong> Other examples contain additional important information.</div>
 
 ## Summary
-Each recipe is divided into sections. They start with a summary of the recipe and a short description of what functionality is used and why. If specific macros or functions are mentioned, it is highly recommended to mention and even link to their appropriate documentation.
+Each example is divided into sections. They start with a summary of the example and a short description of what functionality is used and why. If specific macros or functions are mentioned, it is highly recommended to mention and even link to their appropriate documentation.
 
 For terms that may not be familiar to a general audience, they can be added to the Glossary file and their definitions will be available as a tooltip over the term or phrase after being processed.
 

@@ -1,7 +1,5 @@
 # "Variable Story Styling": SugarCube (v2.18)
 
-*Contributed by <a href="https://github.com/videlais">@videlais</a>*
-
 ## Summary
 
 "Variable Story Styling" demonstrates how to use the [&lt;&lt;toggleClass&gt;&gt;](http://www.motoslave.net/sugarcube/2/docs/macros.html#macros-toggleclass) macro to switch between two pre-defined style rulesets. Combined with the “body” selector, the entire page is selected and the classes are switched when the macro is used.

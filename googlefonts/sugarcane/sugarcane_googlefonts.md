@@ -1,8 +1,6 @@
 # "Google Fonts": Sugarcane (v1.4.2)
 
-*Contributed by <a href="https://github.com/videlais">@videlais</a>*
-
-<div class="alert warning"><strong>Note:</strong> The following recipe is designed for Twine 1.4.2.</div>
+<div class="alertbox warning"><strong>Note:</strong> The following example is designed for Twine 1.4.2.</div>
 
 ## Summary
 

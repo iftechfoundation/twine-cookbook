@@ -1,10 +1,8 @@
 # "Delayed Text": SugarCube (v2.18)
 
-*Contributed by <a href="https://github.com/videlais">@videlais</a>*
-
 ## Summary
 
-"Delayed Text" uses the *&lt;&lt;[timed](http://www.motoslave.net/sugarcube/2/docs/macros.html#macros-timed)&gt;&gt;* macro to delay five seconds before showing text.
+"Delayed Text" uses the *[&lt;&lt;timed&gt;&gt;]((http://www.motoslave.net/sugarcube/2/docs/macros.html#macros-timed)* macro to delay five seconds before showing text.
 
 ## Live Example
 

@@ -1,7 +1,5 @@
 # "Delayed Text": Harlowe (v2.0)
 
-*Contributed by <a href="https://github.com/videlais">@videlais</a>*
-
 ## Summary
 
 "Delayed Text" uses the *[(live:)](https://twine2.neocities.org/#macro_live)* and *[(stop:)](https://twine2.neocities.org/#macro_stop)* macros to create a loop that runs only once with a delay of five seconds.

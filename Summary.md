@@ -15,8 +15,6 @@
 	* [SugarCube](googlefonts/sugarcube/sugarcube_googlefonts.md)
 	* [Snowman](googlefonts/snowman/snowman_googlefonts.md)
 	* [Sugarcane (1.4.2)](googlefonts/sugarcane/sugarcane_googlefonts.md)
-	* [Jonah (1.4.2)](googlefonts/jonah/jonah_googlefonts.md)
-	* [Responsive (1.4.2)](googlefonts/responsive/responsive_googlefonts.md)
 
 * Dice Rolling
 	* [Harlowe](dicerolling/harlowe/harlowe_dicerolling.md)

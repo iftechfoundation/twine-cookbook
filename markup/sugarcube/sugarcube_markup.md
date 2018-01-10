@@ -1,7 +1,5 @@
 # "Style Markup": SugarCube (v2.18)
 
-*Contributed by <a href="https://github.com/videlais">@videlais</a>*
-
 ## Summary
 
 [In SugarCube](http://www.motoslave.net/sugarcube/2/docs/markup.html#basic-formatting), style markup follows initial rules established in earlier versions of Twine while also adding many new ones.

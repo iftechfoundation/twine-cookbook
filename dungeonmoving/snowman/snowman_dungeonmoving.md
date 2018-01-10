@@ -1,7 +1,5 @@
 # "Moving through a 'dungeon": Snowman (1.3.0)
 
-*Contributed by <a href="https://github.com/klembot">@klembot</a>*
-
 ## Summary
 
 "Moving through a 'dungeon'" creates a multidimensional array. Movement positions are then tracked through X and Y variables for a grid system. Each movement subtracts or adds to its cooresponding X or Y position and is compared to those same positions within the array. Different directions are shown if movement is possible in that direction.

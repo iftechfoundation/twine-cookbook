@@ -1,7 +1,5 @@
 # "Typewriter Effect": Snowman (v1.3.0)
 
-*Contributed by <a href="https://github.com/videlais">@videlais</a>*
-
 ## Summary
 
 "Typewriter Effect" demonstrates how to create a delayed character-by-character effect. In Snowman, this is achieved using recursive calls to the *[setTimeout()](https://developer.mozilla.org/en-US/docs/Web/API/WindowOrWorkerGlobalScope/setTimeout)* function to repeat function calls every one second. A [jQuery selector](https://api.jquery.com/category/selectors/) is used to find an element with the ID "typewriter" whose HTML content is updated with the text every second until it is fully shown.

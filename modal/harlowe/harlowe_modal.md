@@ -1,7 +1,5 @@
 # "Modal (Pop-up Window)": Harlowe (v2.0)
 
-*Contributed by <a href="https://github.com/videlais">@videlais</a>*
-
 ## Summary
 This example creates a re-usable modal window. It can be opened using the combination of *(link-repeat:)* and *(show:)* to 'show' the window and be 'closed' using *(link-repeat:)* with the *(replace:)* macro to change the content. CSS rules are used to style the window and create the effect of having content be darkeneded behind the 'shown' content.
 

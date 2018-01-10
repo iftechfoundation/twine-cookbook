@@ -1,12 +1,10 @@
 # "Hidden Link": Harlowe (v2.0)
 
-*Contributed by <a href="https://github.com/greyelf">@greyelf</a>*
-
 ## Summary
 
 "Hidden Link" demostrates how to create a 'hidden' link that is only revealed when the cursor passes over it.
 
-Using CSS and JavaScript, a rule is created for transparent color and applied or removed through using jQuery's *on()* function with 'mouseenter' and 'mouseleave' events.
+Using CSS and JavaScript, a rule is created for transparent color and applied or removed through using jQuery's *[on()](http://api.jquery.com/on/)* function with 'mouseenter' and 'mouseleave' events.
 
 The use of a *footer* special Passage is also used to run the required JavaScript after each passage is displayed.
 
