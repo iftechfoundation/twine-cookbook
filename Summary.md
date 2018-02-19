@@ -88,4 +88,9 @@
 	* [Snowman](dungeonmoving/snowman/snowman_dungeonmoving.md)
 	* [Sugarcane (1.4.2)](dungeonmoving/sugarcane/sugarcane_dungeonmoving.md)
 
+* Importing External JavaScript
+	* [Harlowe](importexternaljs/harlowe/harlowe_importexternaljs.md)
+	* [SugarCube](importexternaljs/sugarcube/sugarcube_importexternaljs.md)
+	* [Snowman](importexternaljs/snowman/snowman_importexternaljs.md)
+
 * [Glossary](glossary.md)
