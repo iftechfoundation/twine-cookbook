@@ -2,7 +2,7 @@
 
 ## Summary
 
-"Typewriter Effect" demonstrates how to create a delayed character-by-character effect. In Harlowe, this is achieved using the *[(live:)](https://twine2.neocities.org/#macro_live)* macro for delayed showing and the *[(substring:)](https://twine2.neocities.org/#macro_substring)* macro for selecting a single chracter position.
+"Typewriter Effect" demonstrates how to create a delayed character-by-character effect. In Harlowe, this is achieved using the *[(live:)](https://twine2.neocities.org/#macro_live)* macro for delayed showing and the *[(substring:)](https://twine2.neocities.org/#macro_substring)* macro for selecting a single character position, and the *[(append:)](https://twine2.neocities.org/#macro_append)* macro to append text to a hook.
 
 ## Live Example
 
@@ -21,38 +21,30 @@ Typewriter Effect in Harlowe
 
 :: Start
 <!-- Set the text to show -->
-(set: $textToShow to "Hello, world!")
+(set: $typewriterText to "Hello, world!")
 <!-- Display (call) the Typewriter passage -->
 (display: "Typewriter")
 
 :: Typewriter
 {
-	<!-- Create an empty array -->
-	(set: $textArray to (a:) )
+	<!-- Create a variable to track the position within the $typewriterText string -->
+	(set: $typewriterPos to 1)
 	
-	<!-- Convert the string into an array -->
-	(for: each _item, ...$textToShow)[
-		(set: $textArray to it + (a: _item) )
-	]
+	<!-- Create a hook to hold the typed text -->
+	|typewriterOutput>[]
 	
-	<!-- Harlowe arrays start at index 1 -->
-	(set: $textArrayLength to 1)
-	
-	<!-- Set a delay of 1 second per loop -->
-	(live: 1s)[
+	<!-- Set a delay of 0.2 seconds per loop -->
+	(live: 20ms)[
+
+		<!-- Add the next character to the hook -->
+		(append: ?typewriterOutput)[(print: $typewriterText's $typewriterPos)]
 		
-		<!-- Test if textArrayLength is length of textArray yet -->
-		(if: $textArrayLength >= $textArray's length)[
-			<!-- Stop the looping and show textToShow -->
+		<!-- Update the position -->
+		(set: $typewriterPos to it + 1)
+		
+		<!-- If it's gone past the end, stop -->
+		(if: $typewriterPos is $typewriterText's length + 1)[
 			(stop:)
-			$textToShow
-		]
-		(else:)[
-			<!-- Show substring of textToShow -->
-			(substring: $textToShow, 1, $textArrayLength)
-			
-			<!-- Update the index to next value -->
-			(set: $textArrayLength to it + 1)
 		]
 	]
 }
@@ -61,3 +53,8 @@ Typewriter Effect in Harlowe
 
 Download: <a href="harlowe_typewriter_twee.txt" target="_blank">Twee Code</a>
 
+## Notes
+
+ * This does not allow you to use Harlowe code within the `$typewriterText` string - it will all be printed as-is.
+
+ * You can only use `(display: "Typewriter")` once per passage.
