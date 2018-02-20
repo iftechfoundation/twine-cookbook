@@ -16,6 +16,11 @@
 	* [Snowman](googlefonts/snowman/snowman_googlefonts.md)
 	* [Sugarcane (1.4.2)](googlefonts/sugarcane/sugarcane_googlefonts.md)
 
+* Setting and Showing Variables
+	* [Harlowe](settingandshowing/harlowe/harlowe_settingandshowing.md)
+	* [SugarCube](settingandshowing/sugarcube/sugarcube_settingandshowing.md)
+	* [Snowman](settingandshowing/snowman/snowman_settingandshowing.md)
+
 * Dice Rolling
 	* [Harlowe](dicerolling/harlowe/harlowe_dicerolling.md)
 	* [SugarCube](dicerolling/sugarcube/sugarcube_dicerolling.md)
