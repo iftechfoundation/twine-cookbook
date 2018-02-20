@@ -24,12 +24,8 @@ Harlowe: Google Fonts
 :: StoryStylesheet[stylesheet]
 @import url('https://fonts.googleapis.com/css?family=Roboto');
 
-.googleFont {
-	font-family: 'Roboto', sans-serif; 
-}
-
 :: Start
-<div class="googleFont">This text is styled by a Google Font</div>
+(font:"Roboto")[This text is styled by a Google Font]
 
 ```
 Download: <a href="harlowe_googlefonts_twee.txt" target="_blank">Twee Code</a>
