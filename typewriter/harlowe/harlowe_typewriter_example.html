@@ -15,40 +15,32 @@
 
 </style><script role="script" id="twine-user-script" type="text/twine-javascript">
 
-</script><tw-passagedata pid="1" name="Start" tags="" position="99,100">&lt;!-- Set the text to show --&gt;
-(set: $textToShow to &quot;Hello, world!&quot;)
-&lt;!-- Display (call) the Typewriter passage --&gt;
-(display: &quot;Typewriter&quot;)</tw-passagedata><tw-passagedata pid="2" name="Typewriter" tags="" position="299,99">{
-	&lt;!-- Create an empty array --&gt;
-	(set: $textArray to (a:) )
+</script><tw-passagedata pid="2" name="Typewriter" tags="" position="422,397" size="100,100">{
+	&lt;!-- Create a variable to track the position within the $typewriterText string --&gt;
+	(set: $typewriterPos to 1)
 	
-	&lt;!-- Convert the string into an array --&gt;
-	(for: each _item, ...$textToShow)[
-		(set: $textArray to it + (a: _item) )
-	]
+	&lt;!-- Create a hook to hold the typed text --&gt;
+	|typewriterOutput&gt;[]
 	
-	&lt;!-- Harlowe arrays start at index 1 --&gt;
-	(set: $textArrayLength to 1)
-	
-	&lt;!-- Set a delay of 1 second per loop --&gt;
-	(live: 1s)[
+	&lt;!-- Set a delay of 0.2 seconds per loop --&gt;
+	(live: 20ms)[
+
+		&lt;!-- Add the next character to the hook --&gt;
+		(append: ?typewriterOutput)[(print: $typewriterText&#39;s $typewriterPos)]
 		
-		&lt;!-- Test if textArrayLength is length of textArray yet --&gt;
-		(if: $textArrayLength &gt;= $textArray&#x27;s length)[
-			&lt;!-- Stop the looping and show textToShow --&gt;
+		&lt;!-- Update the position --&gt;
+		(set: $typewriterPos to it + 1)
+		
+		&lt;!-- If it&#39;s gone past the end, stop --&gt;
+		(if: $typewriterPos is $typewriterText&#39;s length + 1)[
 			(stop:)
-			$textToShow
-		]
-		(else:)[
-			&lt;!-- Show substring of textToShow --&gt;
-			(substring: $textToShow, 1, $textArrayLength)
-			
-			&lt;!-- Update the index to next value --&gt;
-			(set: $textArrayLength to it + 1)
 		]
 	]
 }
-</tw-passagedata></tw-storydata>
+</tw-passagedata><tw-passagedata pid="1" name="Start" tags="" position="553,457" size="100,100">&lt;!-- Set the text to show --&gt;
+(set: $typewriterText to &quot;Hello, world!&quot;)
+&lt;!-- Display (call) the Typewriter passage --&gt;
+(display: &quot;Typewriter&quot;)</tw-passagedata></tw-storydata>
 
 <script title="Twine engine code" data-main="harlowe">"use strict";function _defineProperty(e,t,n){return t in e?Object.defineProperty(e,t,{value:n,enumerable:!0,configurable:!0,writable:!0}):e[t]=n,e}function _toConsumableArray(e){if(Array.isArray(e)){for(var t=0,n=Array(e.length);t<e.length;t++)n[t]=e[t];return n}return Array.from(e)}var _slicedToArray=function(){function e(e,t){var n=[],r=!0,i=!1,o=void 0;try{for(var a,s=e[Symbol.iterator]();!(r=(a=s.next()).done)&&(n.push(a.value),!t||n.length!==t);r=!0);}catch(e){i=!0,o=e}finally{try{!r&&s.return&&s.return()}finally{if(i)throw o}}return n}return function(t,n){if(Array.isArray(t))return t;if(Symbol.iterator in Object(t))return e(t,n);throw new TypeError("Invalid attempt to destructure non-iterable instance")}}(),_typeof="function"==typeof Symbol&&"symbol"==typeof Symbol.iterator?function(e){return typeof e}:function(e){return e&&"function"==typeof Symbol&&e.constructor===Symbol&&e!==Symbol.prototype?"symbol":typeof e};!function(){/**
  * @license almond 0.3.3 Copyright jQuery Foundation and other contributors.
