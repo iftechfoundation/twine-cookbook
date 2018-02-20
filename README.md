@@ -19,4 +19,5 @@ The editors of Cookbook would like to thank the following people:
 * [@klembot](https://github.com/klembot)
 * [@tmedwards](https://github.com/tmedwards)
 * [@greyelf](https://github.com/greyelf)
+* [@webbedspace](https://github.com/webbedspace)
 
