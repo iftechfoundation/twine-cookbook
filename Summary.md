@@ -21,6 +21,11 @@
 	* [SugarCube](settingandshowing/sugarcube/sugarcube_settingandshowing.md)
 	* [Snowman](settingandshowing/snowman/snowman_settingandshowing.md)
 
+* Conditional Statements
+	* [Harlowe](conditionalstatements/harlowe/harlowe_conditionalstatements.md)
+	* [SugarCube](conditionalstatements/sugarcube/sugarcube_conditionalstatements.md)
+	* [Snowman](conditionalstatements/snowman/snowman_conditionalstatements.md)
+
 * Dice Rolling
 	* [Harlowe](dicerolling/harlowe/harlowe_dicerolling.md)
 	* [SugarCube](dicerolling/sugarcube/sugarcube_dicerolling.md)
