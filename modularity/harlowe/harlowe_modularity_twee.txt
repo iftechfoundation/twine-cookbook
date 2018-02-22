@@ -1,0 +1,15 @@
+:: StoryTitle
+Modularity in Harlowe
+
+:: Start
+(set: $lineOne to "Give us a verse")
+(set: $lineTwo to "Drop some knowledge")
+
+(display: "showLineOne")
+(display: "showLineTwo")
+
+:: showLineOne
+$lineOne
+
+:: showLineTwo
+$lineTwo

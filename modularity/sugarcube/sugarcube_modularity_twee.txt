@@ -1,0 +1,15 @@
+:: StoryTitle
+Modularity in SugarCube
+
+:: Start
+<<set $lineOne to "Give us a verse">>
+<<set $lineTwo to "Drop some knowledge">>
+
+<<include "showLineOne">>
+<<include "showLineTwo">>
+
+:: showLineOne
+$lineOne
+
+:: showLineTwo
+$lineTwo

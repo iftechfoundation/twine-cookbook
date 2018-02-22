@@ -46,6 +46,11 @@
 	* [SugarCube](typewriter/sugarcube/sugarcube_typewriter.md)
 	* [Snowman](typewriter/snowman/snowman_typewriter.md)
 
+* Modularity
+	* [Harlowe](modularity/harlowe/harlowe_modularity.md)
+	* [SugarCube](modularity/sugarcube/sugarcube_modularity.md)
+	* [Snowman](modularity/snowman/snowman_modularity.md)
+
 * CSS and Passage Tags
 	* [Harlowe](passagetags/harlowe/harlowe_passagetags.md)
 	* [SugarCube](passagetags/sugarcube/sugarcube_passagetags.md)
