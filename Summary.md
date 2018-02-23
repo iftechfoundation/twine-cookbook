@@ -97,6 +97,11 @@
 	* [Snowman](timedpassages/snowman/snowman_timedpassages.md)
 	* [SugarCube](timedpassages/sugarcube/sugarcube_timedpassages.md)
 
+* Audio
+	* [Harlowe](audio/harlowe/harlowe_audio.md)
+	* [SugarCube](audio/sugarcube/sugarcube_audio.md)
+	* [Snowman](audio/snowman/snowman_audio.md)
+
 * Cycling Choices
 	* [Harlowe](cycling/harlowe/harlowe_cycling.md)
 	* [SugarCube](cycling/sugarcube/sugarcube_cycling.md)
