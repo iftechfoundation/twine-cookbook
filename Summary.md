@@ -36,6 +36,11 @@
 	* [SugarCube](headersandfooters/sugarcube/sugarcube_headersandfooters.md)
 	* [Snowman](headersandfooters/snowman/snowman_headersandfooters.md)
 
+* Images
+	* [Harlowe](images/harlowe/harlowe_images.md)
+	* [SugarCube](images/sugarcube/sugarcube_images.md)
+	* [Snowman](images/snowman/snowman_images.md)
+
 * Delayed Text
 	* [Harlowe](delayedtext/harlowe/harlowe_delayedtext.md)
 	* [SugarCube](delayedtext/sugarcube/sugarcube_delayedtext.md)

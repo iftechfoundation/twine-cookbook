@@ -13,4 +13,6 @@ Cascading Style Sheets (CSS) is a language for describing the appearance and lay
 ## HTML
 HyperText Markup Language (HTML) is a set of symbols for describing document layout.
 
+## Base64
+A representation of binary data in ASCII string format
 
