@@ -1,0 +1,14 @@
+:: StoryTitle
+Programmatic Undo in Snowman
+
+:: UserScript[script]
+$(window).on('showpassage:after', function (e, data)
+{
+    window.story.checkpoint(data.passage.name);
+});
+
+:: Start
+[[Enter the Darkness]]
+
+:: Enter the Darkness
+<a href="javascript: window.history.back();">You are not ready! Go back!</a>

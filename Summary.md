@@ -62,6 +62,11 @@
 	* [SugarCube](storystyling/sugarcube/sugarcube_storystyling.md)
 	* [Snowman](storystyling/snowman/snowman_storystyling.md)
 
+* Programmatic Undo
+	* [Harlowe](programmaticundo/harlowe/harlowe_programmaticundo.md)
+	* [SugarCube](programmaticundo/sugarcube/sugarcube_programmaticundo.md)
+	* [Snowman](programmaticundo/snowman/snowman_programmaticundo.md)
+
 * Hidden Link
 	* [Harlowe](hiddenlink/harlowe/harlowe_hiddenlink.md)
 	* [SugarCube](hiddenlink/sugarcube/sugarcube_hiddenlink.md)
