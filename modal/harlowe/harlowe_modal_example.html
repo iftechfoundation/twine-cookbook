@@ -11,56 +11,29 @@
 
 <tw-story></tw-story>
 
-<tw-storydata name="Harlowe: Modal" startnode="1" creator="Twine" creator-version="2.1.3" ifid="B8C3E688-5B78-4BC2-B022-5CD783A4A12E" format="Harlowe" format-version="2.0.1" options="" hidden><style role="stylesheet" id="twine-user-stylesheet" type="text/twine-css">/* The Modal (background) */
-.modal {
-    display: block;
-    position: fixed; /* Stay in place */
-    z-index: 1; /* Sit on top */
-    left: 0;
-    top: 0;
-    width: 100%; /* Full width */
-    height: 100%; /* Full height */
-    overflow: auto; /* Enable scroll if needed */
-    background-color: rgb(0,0,0); /* Fallback color */
-    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
-}
-
-/* Modal Content/Box */
-.modal-content {
-    background-color: #fefefe;
-    margin: 15% auto; /* 15% from the top and centered */
-    padding: 20px;
-    border: 1px solid #888;
-    width: 80%; /* Could be more or less, depending on screen size */
-  	color: black; /* Make the text black */
-}
-
-/* The Close Button */
-.close {
-    float: right;
-    font-size: 28px;
-    font-weight: bold;
-}
-
-.close:hover,
-.close:focus {
-    color: black;
-    text-decoration: none;
-    cursor: pointer;
-}
-
-</style><script role="script" id="twine-user-script" type="text/twine-javascript">
-</script><tw-passagedata pid="1" name="Start" tags="" position="200,99">{[
-	&lt;div class=&quot;modal&quot;&gt;
-  		&lt;div class=&quot;modal-content&quot;&gt;
-    		&lt;span class=&quot;close&quot;&gt;
-			{(link-repeat: &quot;&amp;times&quot;)[(replace: ?modal)[] ]}
-			&lt;/span&gt;
-    	Some text in the Modal..
-  		&lt;/div&gt;
-	&lt;/div&gt;
-](modal|}
-(link-repeat:&quot;Open Modal!&quot;)[(show:?modal)]</tw-passagedata></tw-storydata>
+<tw-storydata name="Harlowe: Modal" startnode="1" creator="Twine" creator-version="2.1.3" ifid="B8C3E688-5B78-4BC2-B022-5CD783A4A12E" format="Harlowe" format-version="2.0.1" options="" hidden><style role="stylesheet" id="twine-user-stylesheet" type="text/twine-css"></style><script role="script" id="twine-user-script" type="text/twine-javascript"></script><tw-passagedata pid="1" name="Start" tags="" position="819.5,439.5" size="100,100">(link-repeat:&quot;Open Modal!&quot;)[(display:&quot;Modal code&quot;)(append:?modal)[Some text in the modal...]]</tw-passagedata><tw-passagedata pid="2" name="Modal code" tags="" position="820,329.5" size="100,100">(replace: ?modalhooks)[{
+  (css:&quot;
+	position: fixed;
+	display:block;
+	z-index: 1;
+	left: 0;
+	top: 0;
+	width: 100%; /* Full width */
+	height: 100%; /* Full height */
+	overflow: auto; /* Enable scroll if needed */
+	background-color: rgba(0,0,0,0.4);
+  &quot;)[
+	(css:&quot;
+	  display:block;
+	  margin: 15% auto;
+	  padding: 20px;
+	  width: 80%;
+	  border: 1px solid white;
+	&quot;)|modal&gt;[
+	  (css:&quot;float:right&quot;)+(link-repeat:&quot;×&quot;)[(replace: ?modalhooks)[]]
+	]
+  ]
+}]</tw-passagedata><tw-passagedata pid="3" name="Header" tags="header" position="710,329.5" size="100,100">|modalhooks&gt;[]</tw-passagedata></tw-storydata>
 
 <script title="Twine engine code" data-main="harlowe">"use strict";function _defineProperty(e,t,n){return t in e?Object.defineProperty(e,t,{value:n,enumerable:!0,configurable:!0,writable:!0}):e[t]=n,e}function _toConsumableArray(e){if(Array.isArray(e)){for(var t=0,n=Array(e.length);t<e.length;t++)n[t]=e[t];return n}return Array.from(e)}var _slicedToArray=function(){function e(e,t){var n=[],r=!0,i=!1,o=void 0;try{for(var a,s=e[Symbol.iterator]();!(r=(a=s.next()).done)&&(n.push(a.value),!t||n.length!==t);r=!0);}catch(e){i=!0,o=e}finally{try{!r&&s.return&&s.return()}finally{if(i)throw o}}return n}return function(t,n){if(Array.isArray(t))return t;if(Symbol.iterator in Object(t))return e(t,n);throw new TypeError("Invalid attempt to destructure non-iterable instance")}}(),_typeof="function"==typeof Symbol&&"symbol"==typeof Symbol.iterator?function(e){return typeof e}:function(e){return e&&"function"==typeof Symbol&&e.constructor===Symbol&&e!==Symbol.prototype?"symbol":typeof e};!function(){/**
  * @license almond 0.3.3 Copyright jQuery Foundation and other contributors.

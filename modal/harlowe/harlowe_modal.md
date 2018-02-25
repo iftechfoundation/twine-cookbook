@@ -1,7 +1,7 @@
 # "Modal (Pop-up Window)": Harlowe (v2.0)
 
 ## Summary
-This example creates a re-usable modal window. It can be opened using the combination of *(link-repeat:)* and *(show:)* to 'show' the window and be 'closed' using *(link-repeat:)* with the *(replace:)* macro to change the content. CSS rules are used to style the window and create the effect of having content be darkeneded behind the 'shown' content.
+This example creates a re-usable modal window. It can be opened using the combination of *(link-repeat:)* and *(replace:)* to create the window in an existing hook, and be 'closed' using the same macros to remove the window. CSS rules are applied with *(css:)* to style the modal, and to change an enclosing hook into a "dimmer" which obscures the rest of the page.
 
 ## Live Example
 
@@ -18,60 +18,36 @@ Download: <a href="harlowe_modal_example.html" target="_blank">Live Example</a>
 :: StoryTitle
 Harlowe: Modal
 
-:: UserStylesheet[stylesheet]
-/* The Modal (background) */
-.modal {
-    display: block;
-    position: fixed; /* Stay in place */
-    z-index: 1; /* Sit on top */
-    left: 0;
-    top: 0;
-    width: 100%; /* Full width */
-    height: 100%; /* Full height */
-    overflow: auto; /* Enable scroll if needed */
-    background-color: rgb(0,0,0); /* Fallback color */
-    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
-}
+:: Header[header]
+|modalhooks>[]
 
-/* Modal Content/Box */
-.modal-content {
-    background-color: #fefefe;
-    margin: 15% auto; /* 15% from the top and centered */
-    padding: 20px;
-    border: 1px solid #888;
-    width: 80%; /* Could be more or less, depending on screen size */
-  	color: black; /* Make the text black */
-}
-
-/* The Close Button */
-.close {
-    float: right;
-    font-size: 28px;
-    font-weight: bold;
-}
-
-.close:hover,
-.close:focus {
-    color: black;
-    text-decoration: none;
-    cursor: pointer;
-}
-
+:: Modal code
+(replace: ?modalhooks)[{
+  (css:"
+	position: fixed;
+	display:block;
+	z-index: 1;
+	left: 0;
+	top: 0;
+	width: 100%; /* Full width */
+	height: 100%; /* Full height */
+	overflow: auto; /* Enable scroll if needed */
+	background-color: rgba(0,0,0,0.4);
+  ")[
+	(css:"
+	  display:block;
+	  margin: 15% auto;
+	  padding: 20px;
+	  width: 80%;
+	  border: 1px solid white;
+	")|modal>[
+	  (css:"float:right")+(link-repeat:"×")[(replace: ?modalhooks)[]]
+	]
+  ]
+}]
 
 :: Start
-{[
-	<div class="modal">
-  		<div class="modal-content">
-    		<span class="close">
-			{(link-repeat: "×")[(replace: ?modal)[] ]}
-			</span>
-    	Some text in the Modal..
-  		</div>
-	</div>
-](modal|}
-(link-repeat:"Open Modal!")[(show:?modal)]
-
-
+(link-repeat:"Open Modal!")[(display:"Modal code")(append:?modal)[Some text in the modal...]]
 ```
 
 Download: <a href="harlowe_modal_twee.txt" target="_blank">Twee Code</a>
