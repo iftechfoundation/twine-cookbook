@@ -3,11 +3,11 @@ Setting and Showing Variables in Harlowe
 
 :: Start
 (set: $numberVariable to 5)
-(set: $wordVariable to "five")
-(set: $phraseVariable to "The value")
+(set: $textVariable to "five")
+(set: _textVariable to "The values")
 
-$phraseVariable is $numberVariable and $wordVariable.
+_textVariable are $numberVariable and $textVariable.
 
 (set: $numberVariable to it + 1)
 
-$phraseVariable is $numberVariable and $wordVariable.
+_textVariable are $numberVariable and $textVariable.
