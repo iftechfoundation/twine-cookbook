@@ -6,3 +6,9 @@ Conditional Statements in Harlowe
 
 (if: $animal is "dog")[It's a dog!]
 (else:)[It's a horse!]
+
+(unless: $animal is "dog")[It's a horse!]
+(else:)[It's a dog!]
+
+(set: $isDog to $animal is "horse")
+$isDog[It's a dog!]
