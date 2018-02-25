@@ -2,7 +2,7 @@
 
 ## Summary
 
-Variables, symbols starting with ```$``` (for normal) or ```_``` (for temporary), can be "set" using the *[(set:)](https://twine2.neocities.org/#macro_set)* macro in Harlowe.
+Variables, symbols starting with ```$``` (for story-wide variables) or ```_``` (for temporary passage variables), can be "set" using the *[(set:)](https://twine2.neocities.org/#macro_set)* macro in Harlowe. ```$``` should be used for data you wish to store throughout the story, and ```_``` should be used for data you only need in the current passage. Using ```_``` is good whens you don't want to accidentally overwrite variables elsewhere in the story, and can help with debugging by not cluttering up the variables list of future passages.
 
 The keyword ```it``` can also be used as a shortcut for changing and saving a value in reference to itself. The ```it``` refers to the first variable named in the macro.
 
@@ -23,14 +23,14 @@ Setting and Showing Variables in Harlowe
 
 :: Start
 (set: $numberVariable to 5)
-(set: $wordVariable to "five")
-(set: $phraseVariable to "The value")
+(set: $textVariable to "five")
+(set: _textVariable to "The values")
 
-$phraseVariable is $numberVariable and $wordVariable.
+_textVariable are $numberVariable and $textVariable.
 
 (set: $numberVariable to it + 1)
 
-$phraseVariable is $numberVariable and $wordVariable.
+_textVariable are $numberVariable and $textVariable.
 ```
 
 Download: <a href="harlowe_settingandshowing_twee.txt" target="_blank">Twee Code</a>
