@@ -26,8 +26,6 @@ Download: <a href="sugarcube_audio_example.html" target="_blank">Live Example</a
 Audio in SugarCube
 
 :: Start
-<<cacheaudio "testpattern" "testpattern.ogg" "testpattern.wav">>
-
 <<link "Start audio!">>
 	<<audio "testpattern" play>>
 <</link>>
@@ -35,6 +33,9 @@ Audio in SugarCube
 <<link "Stop audio!">>
 	<<audio "testpattern" stop>>
 <</link>>
+
+:: StoryInit
+<<cacheaudio "testpattern" "testpattern.ogg" "testpattern.wav">>
 ```
 
 Download: <a href="sugarcube_audio_twee.txt" target="_blank">Twee Code</a>
