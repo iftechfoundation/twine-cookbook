@@ -128,4 +128,9 @@
 	* [SugarCube](importexternaljs/sugarcube/sugarcube_importexternaljs.md)
 	* [Snowman](importexternaljs/snowman/snowman_importexternaljs.md)
 
+* Keyboard
+	* [Harlowe](keyboard/harlowe/harlowe_keyboard.md)
+	* [SugarCube](keyboard/sugarcube/sugarcube_keyboard.md)
+	* [Snowman](keyboard/snowman/snowman_keyboard.md)
+
 * [Glossary](glossary.md)
