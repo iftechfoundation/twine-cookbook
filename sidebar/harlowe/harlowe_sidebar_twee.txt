@@ -1,0 +1,25 @@
+:: StoryTitle
+Sidebar in Harlowe
+
+:: Start
+[[Another passage]]
+
+:: Header[header]
+(css:"
+	background-color: #222;
+	border-right: 1px solid #444;
+	position: fixed;
+	top: 0;
+	right: 0;
+	width: 20%;
+	height: 100%;
+	margin: 0;
+	padding: 0.5em;
+  ")[(display: "Sidebar")]
+
+:: Sidebar
+
+This is the sidebar!
+
+:: Another passage
+[[Start]]

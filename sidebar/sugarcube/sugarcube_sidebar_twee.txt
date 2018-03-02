@@ -1,0 +1,14 @@
+:: StoryTitle
+Sidebar in SugarCube
+
+:: Start
+<<link "Stow the sidebar!">>
+	<<run UIBar.stow() >>
+<</link>>
+
+<<link "Unstow the sidebar!">>
+	<<run UIBar.unstow() >>
+<</link>>
+
+:: StoryMenu[StoryMenu]
+[[New story link!|Start]]

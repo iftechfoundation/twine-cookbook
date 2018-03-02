@@ -62,6 +62,11 @@
 	* [Snowman](passagetags/snowman/snowman_passagetags.md)
 	* [Sugarcane (1.4.2)](passagetags/sugarcane/sugarcane_passagetags.md)
 
+* Sidebar
+	* [Harlowe](sidebar/harlowe/harlowe_sidebar.md)
+	* [SugarCube](sidebar/sugarcube/sugarcube_sidebar.md)
+	* [Snowman](sidebar/snowman/snowman_sidebar.md)
+
 * Variable Style Styling
 	* [Harlowe](storystyling/harlowe/harlowe_storystyling.md)
 	* [SugarCube](storystyling/sugarcube/sugarcube_storystyling.md)
@@ -117,20 +122,20 @@
 	* [SugarCube](modal/sugarcube/sugarcube_modal.md)
 	* [Snowman](modal/snowman/snowman_modal.md)
 
-* Moving through a 'dungeon'
-	* [Harlowe](dungeonmoving/harlowe/harlowe_dungeonmoving.md)
-	* [SugarCube](dungeonmoving/sugarcube/sugarcube_dungeonmoving.md)
-	* [Snowman](dungeonmoving/snowman/snowman_dungeonmoving.md)
-	* [Sugarcane (1.4.2)](dungeonmoving/sugarcane/sugarcane_dungeonmoving.md)
-
 * Importing External JavaScript
 	* [Harlowe](importexternaljs/harlowe/harlowe_importexternaljs.md)
 	* [SugarCube](importexternaljs/sugarcube/sugarcube_importexternaljs.md)
 	* [Snowman](importexternaljs/snowman/snowman_importexternaljs.md)
 
-* Keyboard
+* Keyboard Events
 	* [Harlowe](keyboard/harlowe/harlowe_keyboard.md)
 	* [SugarCube](keyboard/sugarcube/sugarcube_keyboard.md)
 	* [Snowman](keyboard/snowman/snowman_keyboard.md)
+
+* Moving through a 'dungeon'
+	* [Harlowe](dungeonmoving/harlowe/harlowe_dungeonmoving.md)
+	* [SugarCube](dungeonmoving/sugarcube/sugarcube_dungeonmoving.md)
+	* [Snowman](dungeonmoving/snowman/snowman_dungeonmoving.md)
+	* [Sugarcane (1.4.2)](dungeonmoving/sugarcane/sugarcane_dungeonmoving.md)
 
 * [Glossary](glossary.md)

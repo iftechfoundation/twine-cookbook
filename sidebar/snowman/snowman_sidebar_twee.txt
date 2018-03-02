@@ -1,0 +1,27 @@
+:: StoryTitle
+Sidebar in Snowman
+
+:: UserStylesheet[stylesheet]
+#sidebar {
+	background-color: #222;
+    color: white;
+	border-right: 1px solid #444;
+	position: fixed;
+	top: 0;
+	right: 0;
+	width: 20%;
+	height: 100%;
+	margin: 0;
+	padding: 0.5em; 
+}
+
+:: Start
+<div id="sidebar"><%= window.story.render("Sidebar") %></div>
+[[Another passage]]
+
+:: Sidebar
+This is the sidebar!
+
+:: Another passage
+<div id="sidebar"><%= window.story.render("Sidebar") %></div>
+[[Start]] 
