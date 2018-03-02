@@ -4,7 +4,7 @@
 
 "Fairmath System" demonstrates how to re-create the Fairmath system found [in ChoiceScript](http://choicescriptdev.wikia.com/wiki/Arithmetic_operators#Fairmath). Based on a percentage operation, increase and decrease changes the value by a percentage as the difference between the original and adjusted value.
 
-This example uses the *&lt;&lt;widget&gt;&gt;* macro in SugarCube to separate operations for increasing and decreasing.
+This example uses the [*&lt;&lt;widget&gt;&gt;*](http://www.motoslave.net/sugarcube/2/docs/macros.html#macros-widget) macro in SugarCube to separate operations for increasing and decreasing.
 
 ## Live Example
 

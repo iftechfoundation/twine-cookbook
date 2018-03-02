@@ -2,7 +2,7 @@
 
 ## Summary
 
-Made famous in <a href="http://auntiepixelante.com/endoftheworld/">Queers in Love at the End of the World</a>, "Timed Passages" uses the the *(live:)* macro to count seconds while checking if the timer has reached zero. If so, the *(goto:)* macro will immediately go to another passage.
+Made famous in <a href="http://auntiepixelante.com/endoftheworld/">Queers in Love at the End of the World (2013)</a>, "Timed Passages" uses the the [*(live:)*](https://twine2.neocities.org/#macro_live) macro to count seconds while checking if the timer has reached zero. If so, the [*(goto:)*](https://twine2.neocities.org/#macro_go-to) macro will immediately go to another passage.
 
 ## Live Example
 

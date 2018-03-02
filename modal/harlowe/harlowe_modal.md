@@ -1,7 +1,7 @@
 # "Modal (Pop-up Window)": Harlowe (v2.0)
 
 ## Summary
-This example creates a re-usable modal window. It can be opened using the combination of *(link-repeat:)* and *(replace:)* to create the window in an existing hook, and be 'closed' using the same macros to remove the window. CSS rules are applied with *(css:)* to style the modal, and to change an enclosing hook into a "dimmer" which obscures the rest of the page.
+This example creates a re-usable [modal window](https://en.wikipedia.org/wiki/Modal_window). It can be opened using the combination of [*(link-repeat:)*](https://twine2.neocities.org/#macro_link-repeat) and [*(replace:)*](https://twine2.neocities.org/#macro_replace) to create the window in an existing hook, and be 'closed' using the same macros to remove the window. CSS rules are applied with [*(css:)*](https://twine2.neocities.org/#macro_css) to style the modal, and to change an enclosing hook into a "dimmer" which obscures the rest of the page.
 
 ## Live Example
 

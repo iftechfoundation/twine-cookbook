@@ -1,18 +1,13 @@
-# "Keyboard": Snowman (v1.3.0)
+# "Keyboard Events": Snowman (v1.3.0)
 
 ## Summary
 
-"Keyboard" demostrates how to track [keyboard events](https://developer.mozilla.org/en-US/docs/Web/API/KeyboardEvent) (which key was pressed) and how to associate individual keys with activities within a story.
+"Keyboard Events" demostrates how to capture [keyboard events](https://developer.mozilla.org/en-US/docs/Web/API/KeyboardEvent) and then how to associate individual keys with activities within a story.
 
-The code uses jQuery's [**on** function](http://api.jquery.com/on/) to monitor for all [**keyup** events](https://developer.mozilla.org/en-US/docs/Web/Events/keyup) (when a key is released).
+The example uses jQuery's [*on()* function](http://api.jquery.com/on/) to monitor for all [*keyup* events](https://developer.mozilla.org/en-US/docs/Web/Events/keyup). Once a 'keyup' event has occurred, two values are available:
 
-Once a ''keyup'' event has occurred the developer has one of two choices for how to determine **which** key was released:
-
-1. The event object's **keyCode** property<br>
-   which is supported in effectively all web-browsers (both modern and legacy) but requires the developer to know the [decimal ASCII codes](http://www.asciichart.com/) for the keys that they are interested in.
-
-2. The event object's **key** property<br>
-   which is supported by most modern web-browsers.
+ * The *keyCode* property: the numerical value representing the key presented in its [decimal ASCII code](http://www.asciichart.com/) supported by effectively all browsers.
+ * The *key* property: the string value of the key presented supported by most modern web-browsers.
 
 
 ## Live Example

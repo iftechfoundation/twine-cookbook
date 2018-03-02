@@ -15,7 +15,7 @@ Typewriter Effect in Harlowe
 	<!-- Create a hook to hold the typed text -->
 	|typewriterOutput>[]
 	
-	<!-- Set a delay of 0.2 seconds per loop -->
+	<!-- Set a delay of 20ms seconds per loop -->
 	(live: 20ms)[
 
 		<!-- Add the next character to the hook -->

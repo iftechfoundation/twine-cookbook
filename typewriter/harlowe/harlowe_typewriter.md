@@ -4,6 +4,8 @@
 
 "Typewriter Effect" demonstrates how to create a delayed character-by-character effect. In Harlowe, this is achieved using the *[(live:)](https://twine2.neocities.org/#macro_live)* macro for delayed showing and the *[(append:)](https://twine2.neocities.org/#macro_append)* macro to append text to a hook.
 
+<div class="alertbox information"><strong>Note:</strong> Additional Harlowe code will not be run within the $typewriterText variable and will all be printed as-is. This code can only be used once per passage.</div>
+
 ## Live Example
 
 <section>
@@ -33,7 +35,7 @@ Typewriter Effect in Harlowe
 	<!-- Create a hook to hold the typed text -->
 	|typewriterOutput>[]
 	
-	<!-- Set a delay of 0.2 seconds per loop -->
+	<!-- Set a delay of 20ms seconds per loop -->
 	(live: 20ms)[
 
 		<!-- Add the next character to the hook -->
@@ -48,13 +50,7 @@ Typewriter Effect in Harlowe
 		]
 	]
 }
-
 ```
 
 Download: <a href="harlowe_typewriter_twee.txt" target="_blank">Twee Code</a>
 
-## Notes
-
- * This does not allow you to use Harlowe code within the `$typewriterText` string - it will all be printed as-is.
-
- * You can only use `(display: "Typewriter")` once per passage.

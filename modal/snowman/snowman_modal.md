@@ -1,7 +1,7 @@
 # "Modal (Pop-up Window)": Snowman (1.3.0)
 
 ## Summary
-This example uses the jQuery *click()* and *show()/hide()* functions to watch for the user clicking on a button (to open) or "X" (to close). Additional CSS rules are used to create the effect of having the content 'behind' the modal be darkned and unusable until the modal itself is closed.
+This example uses the jQuery [*click()*](https://api.jquery.com/click/) and [*show()/hide()*](http://api.jquery.com/show/) functions to watch for the user clicking on a button (to open) or "X" (to close). Additional CSS rules are used to create the effect of having the content 'behind' the [modal window](https://en.wikipedia.org/wiki/Modal_window) be darkned and unusable until the modal itself is closed.
 
 
 ## Live Example

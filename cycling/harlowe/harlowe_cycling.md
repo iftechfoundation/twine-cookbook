@@ -1,14 +1,14 @@
 # "Cycling Choices": Harlowe (v2.0)
 
-<div class="alert information"><strong>This recipe is affected by history changes in the story.</strong> Undoing or re-doing back to a passage containing this recipe has the potential to change its saved values.</div>
+<div class="alert information"><strong>This example is affected by history changes in the story.</strong> Undoing or re-doing back to a passage containing this recipe has the potential to change its saved values.</div>
 
 ## Summary
 
 "Cycling Choices" demostrates how to create a 'cycling' effect of different choices through clicking on them.
 
-The 'cycle' starts with the use of the *(display:)* macro and assumption of *$choicesCount* beginning at the number 0. It is then increased by one to the value 1 (the first location of an array in Harlowe) and the position of *$choices* is shown based on this. 
+The 'cycle' starts with the use of the [*(display:)*](https://twine2.neocities.org/#macro_display) macro and assumption of *$choicesCount* beginning at the number 0. It is then increased by one to the value 1 (the first location of [an array in Harlowe](https://twine2.neocities.org/#type_array)) and the position of *$choices* is shown based on this. 
 
-If the user clicks on the link (created through using the *(link:)* and *(display:)* macros) again, future 'cycles' test if *$choicesCount* increases beyond the number of values in the *$choices* array and resets it to 1. 
+If the user clicks on the link (created through using the [*(link:)*](https://twine2.neocities.org/#macro_link) and *(display:)* macros) again, future 'cycles' test if *$choicesCount* increases beyond the number of values in the *$choices* array and resets it to 1. 
 
 At the end of every 'cycle,' the currently selected value is stored in the variable *$cyclingResult* for future access and usage.
 

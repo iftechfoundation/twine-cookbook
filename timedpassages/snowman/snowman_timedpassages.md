@@ -2,7 +2,7 @@
 
 ## Summary
 
-Made famous in <a href="http://auntiepixelante.com/endoftheworld/">Queers in Love at the End of the World</a>, "Timed Passages" uses the the *_.delay()* function to count seconds while checking if the timer has reached zero. If so, the *story.show()* function will immediately transition to another passage.
+Made famous in <a href="http://auntiepixelante.com/endoftheworld/">Queers in Love at the End of the World (2013)</a>, "Timed Passages" uses the the [*_.delay()*](http://underscorejs.org/#delay) function to count seconds while checking if the timer has reached zero. If so, the [*window.story.show()*](https://twinery.org/wiki/snowman:window-story:show) function will immediately transition to another passage.
 
 ## Live Example
 

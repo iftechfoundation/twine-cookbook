@@ -2,15 +2,11 @@
 
 ## Summary
 
-"Importing External JavaScript" demostrates how to import an externally stored Javascript script.
+"Importing External JavaScript" demostrates how to import an externally stored JavaScript library, [jQuery UI](https://jqueryui.com/).
 
-It uses the built-in jQuery library's [$.getScript(url) function](https://api.jquery.com/jquery.getscript/) to load and integrate the script file's contents.
+This example uses the built-in jQuery [$.getScript(url) function](https://api.jquery.com/jquery.getscript/) to load the library and demonstrates a short example of how to use it.
 
-> **NOTE:**
->
-> The successful loading of an external Javascript script commonly producess no visual output, which presents a problem when trying to create a **visual** Live Example for a recipe. For that reason the following example demostrates how to load the [jQuery UI library](https://jqueryui.com/), and includes code within the **Start** passage which interactively applies a bounce effect to a square.
->
-> The code within the **Start** passage **IS NOT** required for the succesful loading of an external Javascript script, nor should it be considered an example of the best way to implement said effect.
+<div class="alertbox information"><strong>Note:</strong> The successful loading of an external JavaScript file or library commonly producess no visual output. The code within the example passage is not required for the succesful loading of an external file or library.</div>
 
 
 ## Live Example
