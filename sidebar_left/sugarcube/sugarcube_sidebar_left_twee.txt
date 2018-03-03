@@ -1,0 +1,44 @@
+:: StoryTitle
+Left Sidebar in SugarCube
+
+:: Start
+<<set $name to "Jane Doe", $location to "Work">>\
+[[Another passage]]
+
+
+<<link "Stow the sidebar!">>
+	<<run UIBar.stow() >>
+<</link>>
+<<link "Unstow the sidebar!">>
+	<<run UIBar.unstow() >>
+<</link>>
+
+
+:: StoryBanner
+<img src="https://twinery.org/homepage/img/logo.svg" width="64" height="64">
+
+
+:: StorySubtitle
+Version: 0.2.1
+
+
+:: StoryAuthor
+by Anonymous
+
+
+:: StoryCaption
+Name: $name
+Location: $location
+
+
+:: StoryMenu
+[[New story link!|Start]]
+
+
+:: StoryShare
+[[Twinery|https://twinery.org/]]
+
+
+:: Another passage
+<<set $name to "John Smith", $location to "Shop">>\
+[[Start]] 
