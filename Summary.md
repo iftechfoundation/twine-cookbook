@@ -122,6 +122,11 @@
 	* [SugarCube](modal/sugarcube/sugarcube_modal.md)
 	* [Snowman](modal/snowman/snowman_modal.md)
 
+* Geolocation
+	* [Harlowe](geolocation/harlowe/harlowe_geolocation.md)
+	* [SugarCube](geolocation/sugarcube/sugarcube_geolocation.md)
+	* [Snowman](geolocation/snowman/snowman_geolocation.md)
+
 * Importing External JavaScript
 	* [Harlowe](importexternaljs/harlowe/harlowe_importexternaljs.md)
 	* [SugarCube](importexternaljs/sugarcube/sugarcube_importexternaljs.md)
