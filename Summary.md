@@ -67,6 +67,11 @@
 	* [SugarCube](sidebar/sugarcube/sugarcube_sidebar.md)
 	* [Snowman](sidebar/snowman/snowman_sidebar.md)
 
+* Left Sidebar
+	* [Harlowe](sidebar_left/harlowe/harlowe_sidebar_left.md)
+	* [SugarCube](sidebar_left/sugarcube/sugarcube_sidebar_left.md)
+	* [Snowman](sidebar_left/snowman/snowman_sidebar_left.md)
+
 * Variable Style Styling
 	* [Harlowe](storystyling/harlowe/harlowe_storystyling.md)
 	* [SugarCube](storystyling/sugarcube/sugarcube_storystyling.md)
