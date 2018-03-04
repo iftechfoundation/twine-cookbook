@@ -4,7 +4,7 @@
 
 SugarCube provides built-in functionality for saving, viewing, and deleting game saves through its sidebar. However, the [Save API](http://www.motoslave.net/sugarcube/2/docs/api-save.html) also provides programmable access for re-creating this for users through functions like [*Save.slots.has()*](http://www.motoslave.net/sugarcube/2/docs/api-save.html#slots-has), [*Save.slots.save()*](http://www.motoslave.net/sugarcube/2/docs/api-save.html#slots-save), and [*Save.slots.load()*](http://www.motoslave.net/sugarcube/2/docs/api-save.html#slots-load).
 
-This example also demonstrates the use of the [*variables()*](http://www.motoslave.net/sugarcube/2/docs/functions.html#variables) function to access variables in JavaScript and use them in TwineScript.
+This example also demonstrates the use of the [*State.variables*](http://www.motoslave.net/sugarcube/2/docs/api-state.html#state-api-getter-variables) object to access variables in JavaScript and use them in TwineScript.
 
 ## Live Example
 
@@ -24,9 +24,9 @@ Saving Games in SugarCube
 :: Start
 <<script>>
 if (Save.slots.has(0)) {
-	variables().slotA = true;
+	State.variables.slotA = true;
 } else {
-	variables().slotA = false;
+	State.variables.slotA = false;
 }
 <</script>>
 
@@ -58,6 +58,7 @@ if (Save.slots.has(0)) {
 		} 
 	<</script>>
 <</link>>
+
 ```
 
 Download: <a href="sugarcube_savinggames_twee.txt" target="_blank">Twee Code</a>

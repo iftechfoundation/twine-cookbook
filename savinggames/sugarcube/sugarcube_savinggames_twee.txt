@@ -4,9 +4,9 @@ Saving Games in SugarCube
 :: Start
 <<script>>
 if (Save.slots.has(0)) {
-	variables().slotA = true;
+	State.variables.slotA = true;
 } else {
-	variables().slotA = false;
+	State.variables.slotA = false;
 }
 <</script>>
 
@@ -38,3 +38,4 @@ if (Save.slots.has(0)) {
 		} 
 	<</script>>
 <</link>>
+

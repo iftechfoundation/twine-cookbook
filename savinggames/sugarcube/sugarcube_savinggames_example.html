@@ -102,11 +102,13 @@ var saveAs=saveAs||navigator.msSaveBlob&&navigator.msSaveBlob.bind(navigator)||f
 		<div id="init-lacking">Your browser lacks required capabilities. Please upgrade it or switch to another to continue.</div>
 		<div id="init-loading"><div>Loading&hellip;</div></div>
 	</div>
-	<div id="store-area" hidden><tw-storydata name="Saving Games in SugarCube" startnode="1" creator="Twine" creator-version="2.2.1" ifid="3963B23D-7D11-4F9E-96F8-6CEC6FAE805E" zoom="1" format="SugarCube" format-version="2.21.0" options="" hidden><style role="stylesheet" id="twine-user-stylesheet" type="text/twine-css"></style><script role="script" id="twine-user-script" type="text/twine-javascript"></script><tw-passagedata pid="1" name="Start" tags="" position="103,100" size="100,100">&lt;&lt;script&gt;&gt;
+	<div id="store-area" hidden><tw-storydata name="Saving Games in SugarCube" startnode="1" creator="Twine" creator-version="2.2.1" ifid="3963B23D-7D11-4F9E-96F8-6CEC6FAE805E" zoom="1" format="SugarCube" format-version="2.21.0" options="" hidden><style role="stylesheet" id="twine-user-stylesheet" type="text/twine-css">
+</style><script role="script" id="twine-user-script" type="text/twine-javascript">
+</script><tw-passagedata pid="1" name="Start" tags="" position="103,100" size="100,100">&lt;&lt;script&gt;&gt;
 if (Save.slots.has(0)) {
-	variables().slotA = true;
+	State.variables.slotA = true;
 } else {
-	variables().slotA = false;
+	State.variables.slotA = false;
 }
 &lt;&lt;/script&gt;&gt;
 
