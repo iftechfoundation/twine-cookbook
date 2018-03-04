@@ -2,7 +2,7 @@
 
 ## Summary
 
-Harlowe has a built-in left sidebar, but unfortunately there is no built-in means to add dynamic content to it. However, it is possible to re-purpose a [**footer** tagged passage](https://twine2.neocities.org/#passagetag_footer) to act as a custom sidebar, which you could then use to display dynamic content below Harlowe's own sidebar.
+Harlowe has a built-in left sidebar, but, unfortunately, there is no functionality to add dynamic content to it. However, it is possible to re-purpose a ["footer" tagged passage](https://twine2.neocities.org/#passagetag_footer) to act as a custom sidebar to display dynamic content below Harlowe's own sidebar.
 
 ## Live Example
 
