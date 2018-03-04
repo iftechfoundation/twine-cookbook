@@ -62,11 +62,6 @@
 	* [Snowman](passagetags/snowman/snowman_passagetags.md)
 	* [Sugarcane (1.4.2)](passagetags/sugarcane/sugarcane_passagetags.md)
 
-* Sidebar
-	* [Harlowe](sidebar/harlowe/harlowe_sidebar.md)
-	* [SugarCube](sidebar/sugarcube/sugarcube_sidebar.md)
-	* [Snowman](sidebar/snowman/snowman_sidebar.md)
-
 * Left Sidebar
 	* [Harlowe](sidebar_left/harlowe/harlowe_sidebar_left.md)
 	* [SugarCube](sidebar_left/sugarcube/sugarcube_sidebar_left.md)
