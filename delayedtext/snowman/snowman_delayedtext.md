@@ -33,3 +33,6 @@ Delayed Text in Snowman
 
 Download: <a href="snowman_delayedtext_twee.txt" target="_blank">Twee Code</a>
 
+## See Also
+
+[Typewriter Effect](../../typewriter/snowman/snowman_typewriter.md)

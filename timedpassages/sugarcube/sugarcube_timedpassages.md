@@ -1,7 +1,8 @@
 # "Timed Passages": SugarCube (v2.18)
 
 ## Summary
-Made famous in <a href="http://auntiepixelante.com/endoftheworld/">Queers in Love at the End of the World (2013)</a>, "Timed Passages" uses the the [*&lt;&lt;repeat&gt;&gt;*](http://www.motoslave.net/sugarcube/2/docs/macros.html#macros-repeat) macro to repeat while checking if the timer has reached zero. If so, the [*&lt;&lt;goto&gt;&gt;*](http://www.motoslave.net/sugarcube/2/docs/macros.html#macros-goto) macro will immediately transition to another passage.
+
+Made famous in [*Queers in Love at the End of the World* (2013)](http://auntiepixelante.com/endoftheworld/), "Timed Passages" uses the the [*&lt;&lt;repeat&gt;&gt;*](http://www.motoslave.net/sugarcube/2/docs/macros.html#macros-repeat) macro to repeat while checking if the timer has reached zero. If so, the [*&lt;&lt;goto&gt;&gt;*](http://www.motoslave.net/sugarcube/2/docs/macros.html#macros-goto) macro will immediately transition to another passage.
 
 ## Live Example
 <section>
@@ -57,3 +58,7 @@ The world has ended.
 ```
 
 Download: <a href="sugarcube_timedpassages_twee.txt" target="_blank">Twee Code</a>
+
+## See Also
+
+[Delayed Text](../../delayedtext/sugarcube/sugarcube_delayedtext.md), [Typewriter Effect](../../typewriter/sugarcube/sugarcube_typewriter.md)

@@ -51,4 +51,3 @@ Press and release the ''a'' key to show an Alert dialog.
 ```
 
 Download: <a href="snowman_keyboard_twee.txt" target="_blank">Twee Code</a>
-

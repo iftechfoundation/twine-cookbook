@@ -4,7 +4,7 @@
 
 "Importing External JavaScript" demostrates how to import an externally stored JavaScript library, [jQuery UI](https://jqueryui.com/).
 
-This example uses the built-in jQuery [$.getScript(url) function](https://api.jquery.com/jquery.getscript/) to load the library and demonstrates a short example of how to use it.
+This example uses the built-in jQuery [*$.getScript()* function](https://api.jquery.com/jquery.getscript/) to load the library and demonstrates a short example of how to use it.
 
 <div class="alertbox information"><strong>Note:</strong> The successful loading of an external JavaScript file or library commonly producess no visual output. The code within the example passage is not required for the succesful loading of an external file or library.</div>
 

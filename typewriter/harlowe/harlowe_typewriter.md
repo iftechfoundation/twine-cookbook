@@ -54,3 +54,6 @@ Typewriter Effect in Harlowe
 
 Download: <a href="harlowe_typewriter_twee.txt" target="_blank">Twee Code</a>
 
+## See Also
+
+[Delayed Text](../../delayedtext/harlowe/harlowe_delayedtext.md)

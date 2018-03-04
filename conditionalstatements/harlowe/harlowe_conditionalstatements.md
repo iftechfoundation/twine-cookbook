@@ -36,3 +36,6 @@ $isDog[It's a dog!]
 
 Download: <a href="harlowe_conditionalstatements_twee.txt" target="_blank">Twee Code</a>
 
+## See Also
+
+[Setting and Showing Variables](../../settingandshowing/harlowe/harlowe_settingandshowing.md)

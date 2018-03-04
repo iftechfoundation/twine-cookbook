@@ -46,3 +46,6 @@ Typewriter Effect in Sugarcube
 
 Download: <a href="sugarcube_typewriter_twee.txt" target="_blank">Twee Code</a>
 
+## See Also
+
+[Delayed Text](../../delayedtext/sugarcube/sugarcube_delayedtext.md)

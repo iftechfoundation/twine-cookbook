@@ -63,3 +63,6 @@ You found the key and went through the door!
 
 Download: <a href="snowman_lockandkey_variable_twee.txt" target="_blank">Twee Code</a>
 
+## See Also
+
+[Setting and Showing Variables](../../settingandshowing/snowman/snowman_settingandshowing.md)

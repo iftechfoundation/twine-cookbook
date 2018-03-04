@@ -55,3 +55,6 @@ $cyclingResult
 
 Download: <a href="sugarcube_cycling_twee.txt" target="_blank">Twee Code</a>
 
+## See Also
+
+[Setting and Showing Variables](../../settingandshowing/sugarcube/sugarcube_settingandshowing.md), [Modularity](../../modularity/sugarcube/sugarcube_modularity.md)

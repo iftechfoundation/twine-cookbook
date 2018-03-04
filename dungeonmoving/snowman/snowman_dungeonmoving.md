@@ -125,3 +125,5 @@ You've escaped this fiendish maze!
 
 Download: <a href="snowman_dungeonmoving_twee.txt" target="_blank">Twee Code</a>
 
+[Setting and Showing Variables](../../settingandshowing/snowman/snowman_settingandshowing.md), 
+[Conditional Statements](../../conditionalstatements/snowman/snowman_conditionalstatements.md)

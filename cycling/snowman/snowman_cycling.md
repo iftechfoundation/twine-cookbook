@@ -95,3 +95,6 @@ $(function() {
 
 Download: <a href="snowman_cycling_twee.txt" target="_blank">Twee Code</a>
 
+## See Also
+
+[Setting and Showing Variables](../../settingandshowing/snowman/snowman_settingandshowing.md)

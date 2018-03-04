@@ -66,3 +66,7 @@ window.typewriter.write = function(){
 ```
 
 Download: <a href="snowman_typewriter_twee.txt" target="_blank">Twee Code</a>
+
+## See Also
+
+[Delayed Text](../../delayedtext/snowman/snowman_delayedtext.md)

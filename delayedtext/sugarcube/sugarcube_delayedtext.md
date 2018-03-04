@@ -27,3 +27,6 @@ It has been 5 seconds. Show the text!
 
 Download: <a href="sugarcube_delayedtext_twee.txt" target="_blank">Twee Code</a>
 
+## See Also
+
+[Typewriter Effect](../../typewriter/sugarcube/sugarcube_typewriter.md)

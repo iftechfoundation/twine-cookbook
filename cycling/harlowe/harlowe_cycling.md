@@ -1,6 +1,6 @@
 # "Cycling Choices": Harlowe (v2.0)
 
-<div class="alert information"><strong>This example is affected by history changes in the story.</strong> Undoing or re-doing back to a passage containing this recipe has the potential to change its saved values.</div>
+<div class="alert information"><strong>Note: </strong>This example is affected by history changes in the story. Undoing or re-doing back to a passage containing this recipe has the potential to change its saved values.</div>
 
 ## Summary
 
@@ -46,3 +46,6 @@ $cyclingResult
 
 Download: <a href="harlowe_cycling_twee.txt" target="_blank">Twee Code</a>
 
+## See Also
+
+[Setting and Showing Variables](../../settingandshowing/harlowe/harlowe_settingandshowing.md), [Modularity](../../modularity/harlowe/harlowe_modularity.md)

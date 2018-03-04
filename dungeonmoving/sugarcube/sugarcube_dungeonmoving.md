@@ -20,7 +20,7 @@ Download: <a href="sugarcube_dungeonmoving_example.html" target="_blank">Live Ex
 :: StoryTitle
 SugarCube: Moving through a Dungeon
 
-:: StoryStylesheet[stylesheet]
+:: UserStylesheet[stylesheet]
 #map {
     font-family: monospace; 
 }
@@ -64,22 +64,22 @@ SugarCube: Moving through a Dungeon
 
 :: East
 <<set $positionX += 1>>
-<<display "Map System">>
+<<include "Map System">>
 
 :: West
 <<set $positionX -= 1>>
-<<display "Map System">>
+<<include "Map System">>
 
 :: South
 <<set $positionY += 1>>
-<<display "Map System">>
+<<include "Map System">>
 
 :: North
 <<set $positionY -= 1>>
-<<display "Map System">>
+<<include "Map System">>
 
 :: Map System
-<<display "Location">>
+<<include "Location">>
 <<nobr>>
 <<if $mapArray[$positionY-1][$positionX] eq 1>>
 [[North]] | 
@@ -108,3 +108,8 @@ Double-click this passage to edit it.
 
 ```
 Download: <a href="sugarcube_dungeonmoving_twee.txt" target="_blank">Twee Code</a>
+
+## See Also
+
+[Setting and Showing Variables](../../settingandshowing/sugarcube/sugarcube_settingandshowing.md), 
+[Conditional Statements](../../conditionalstatements/sugarcube/sugarcube_conditionalstatements.md), [Modularity](../../modularity/sugarcube/sugarcube_modularity.md)

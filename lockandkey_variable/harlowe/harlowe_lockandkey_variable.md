@@ -1,6 +1,6 @@
 # "Lock and Key: Variable": Harlowe (v2.0)
 
-<div class="alert information"><strong>This recipe is affected by history changes in the story.</strong> Undoing or re-doing back to a passage containing this recipe has the potential to change its saved values.</div>
+<div class="alert information"><strong>Note:</strong> This recipe is affected by history changes in the story. Undoing or re-doing back to a passage containing this recipe has the potential to change its saved values.</div>
 
 ## Summary
 
@@ -60,3 +60,6 @@ You found the key and went through the door!
 
 Download: <a href="harlowe_lockandkey_variable_twee.txt" target="_blank">Twee Code</a>
 
+## See Also
+
+[Setting and Showing Variables](../../settingandshowing/harlowe/harlowe_settingandshowing.md)

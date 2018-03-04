@@ -31,3 +31,6 @@ It's a horse!
 
 Download: <a href="sugarcube_conditionalstatements_twee.txt" target="_blank">Twee Code</a>
 
+## See Also
+
+[Setting and Showing Variables](../../settingandshowing/sugarcube/sugarcube_settingandshowing.md)

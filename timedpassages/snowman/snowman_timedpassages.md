@@ -2,7 +2,7 @@
 
 ## Summary
 
-Made famous in <a href="http://auntiepixelante.com/endoftheworld/">Queers in Love at the End of the World (2013)</a>, "Timed Passages" uses the the [*_.delay()*](http://underscorejs.org/#delay) function to count seconds while checking if the timer has reached zero. If so, the [*window.story.show()*](https://twinery.org/wiki/snowman:window-story:show) function will immediately transition to another passage.
+Made famous in [*Queers in Love at the End of the World* (2013)](http://auntiepixelante.com/endoftheworld/), "Timed Passages" uses the the [*_.delay()*](http://underscorejs.org/#delay) function to count seconds while checking if the timer has reached zero. If so, the [*window.story.show()*](https://twinery.org/wiki/snowman:window-story:show) function will immediately transition to another passage.
 
 ## Live Example
 
@@ -45,3 +45,7 @@ The world ended.
 ```
 
 Download: <a href="snowman_timedpassages_twee.txt" target="_blank">Twee Code</a>
+
+## See Also
+
+[Delayed Text](../../delayedtext/snowman/snowman_delayedtext.md), [Typewriter Effect](../../typewriter/snowman/snowman_typewriter.md)
