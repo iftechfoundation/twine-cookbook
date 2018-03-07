@@ -2,7 +2,7 @@
 
 ## About
 
-The Twine Cookbook is a collection of examples written in the [GitBook format](https://github.com/GitbookIO/gitbook). To read the book on GitHub, start with the [summary page](Summary.md). To compile it in book-form locally, download or otherwise clone the project and then review the instructions for using GitBook's [command-line tools](https://github.com/GitbookIO/gitbook/blob/master/docs/setup.md).
+The Twine Cookbook is a collection of examples written in the [GitBook format](https://github.com/GitbookIO/gitbook). To read the book on GitHub, start with the [summary page](https://github.com/iftechfoundation/twine-cookbook/blob/master/Summary.md). To compile it in book-form locally, download or otherwise clone the project and then review the instructions for using GitBook's [command-line tools](https://github.com/GitbookIO/gitbook/blob/master/docs/setup.md).
 
 ### Suggesting Recipes, Updates, or Changes
 Include as much as possible of the following in an [issue](https://github.com/iftechfoundation/twine-cookbook/issues):
