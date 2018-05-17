@@ -6,11 +6,11 @@
 
 "Cycling Choices" demostrates how to create a 'cycling' effect of different choices through clicking on them.
 
-The 'cycle' starts with the use of the [*(display:)*](https://twine2.neocities.org/#macro_display) macro and assumption of *$choicesCount* beginning at the number 0. It is then increased by one to the value 1 (the first location of [an array in Harlowe](https://twine2.neocities.org/#type_array)) and the position of *$choices* is shown based on this. 
+The 'cycle' starts with the use of the [*(display:)*](https://twine2.neocities.org/#macro_display) macro and the assumption that the 1st element in the *$choices* [Array](https://twine2.neocities.org/#type_array) is the currently selected choice.
 
-If the user clicks on the link (created through using the [*(link:)*](https://twine2.neocities.org/#macro_link) and *(display:)* macros) again, future 'cycles' test if *$choicesCount* increases beyond the number of values in the *$choices* array and resets it to 1. 
+If the user clicks on the link (created through using the [*(link:)*](https://twine2.neocities.org/#macro_link) then the *$choices* array is updated using the [*(rotated:)*](https://twine2.neocities.org/#macro_rotated) macro, this causes the current 1st element to be moved to the end of the array thus making the element that was previously 2nd to now be 1st.
 
-At the end of every 'cycle,' the currently selected value is stored in the variable *$cyclingResult* for future access and usage.
+At the end of every 'cycle,' the currently selected value is always the 1st element in the *$choices* array.
 
 ## Live Example
 
@@ -28,20 +28,20 @@ Download: <a href="harlowe_cycling_example.html" target="_blank">Live Example</a
 Cycling Choices in Harlowe
 
 :: Start
-Click options to cycle: (display: "Cycling")
+(set: $choices to (array: "First", "Second", "Third"))
+Click options to cycle: [(display: "Cycling")]<choice|
 [[Submit|Results]]
 
 :: Cycling
 {
-	(set: $choices to (array: "First", "Second", "Third") )
-	(if: $choicesCount >= $choices's length)[(set: $choicesCount to 1)]
-	(else:)[(set: $choicesCount to it + 1)]
-	(set: $cyclingResult to $choices's $choicesCount)
-	(link: (text: $choices's $choicesCount) )[(display: "Cycling")]
+	(link: (text: $choices's 1st) )[
+		(set: $choices to (rotated: -1, ...$choices))
+		(replace: ?choice)[(display: "Cycling")]
+	]
 }
 
 :: Results
-$cyclingResult
+Selected choice: (print: $choices's 1st)
 ```
 
 Download: <a href="harlowe_cycling_twee.txt" target="_blank">Twee Code</a>
