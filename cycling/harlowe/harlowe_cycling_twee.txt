@@ -2,17 +2,18 @@
 Cycling Choices in Harlowe
 
 :: Start
-Click options to cycle: (display: "Cycling")
+(set: $choices to (array: "First", "Second", "Third"))
+Click options to cycle: [(display: "Cycling")]<choice|
 [[Submit|Results]]
+
 
 :: Cycling
 {
-	(set: $choices to (array: "First", "Second", "Third") )
-	(if: $choicesCount >= $choices's length)[(set: $choicesCount to 1)]
-	(else:)[(set: $choicesCount to it + 1)]
-	(set: $cyclingResult to $choices's $choicesCount)
-	(link: (text: $choices's $choicesCount) )[(display: "Cycling")]
+	(link: (text: $choices's 1st) )[
+		(set: $choices to (rotated: -1, ...$choices))
+		(replace: ?choice)[(display: "Cycling")]
+	]
 }
 
 :: Results
-$cyclingResult
+Selected choice: (print: $choices's 1st)
