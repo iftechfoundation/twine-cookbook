@@ -1,20 +1,24 @@
 :: StoryTitle
-Left Sidebar in Harlowe (both v1.x and v2.x series)
+Left Sidebar in Harlowe (v2.1.0 or later)
 
 :: UserStylesheet [stylesheet]
 /*
 	Reposition the Sidebar 'footer' tagged passage.
 */
-tw-include[title="Sidebar"] {
+tw-sidebar {
 	position: fixed;
 	top: 0;
 	left: 0;
 	width: 20%;						/* padding-right of the tw-story element. */
 	max-height: 100%;
-	margin-top: calc(5% + 171px);	/* padding-top of the tw-story element plus computed height of the tw-sidebar element. */
-	padding: 0.5em;
-	background-color: transparent;
+	margin-top: 5%;					/* padding-top of the tw-story element. */
+	padding: 0 0.5em 0.5em 0.5em;
 	text-align: right;
+	background-color: transparent;
+}
+tw-icon {
+	text-align: right;
+	padding-right: 0.75em;
 }
 
 :: Start
@@ -22,8 +26,10 @@ tw-include[title="Sidebar"] {
 [[Another passage]]
 
 :: Sidebar [footer]
+(append: ?SideBar)[\
 Name: $name
 Location: $location
+]
 
 :: Another passage
 (set: $name to "John Smith", $location to "Shop")\
