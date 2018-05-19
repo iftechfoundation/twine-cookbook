@@ -77,7 +77,8 @@
 	* [Snowman](keyboard/snowman/snowman_keyboard.md)
 
 * Left Sidebar
-	* [Harlowe](sidebar_left/harlowe/harlowe_sidebar_left.md)
+	* [Harlowe (both v1.x and v2.x series)](sidebar_left/harlowe/harlowe_sidebar_left.md)
+	* [Harlowe (only v2.1.0 or later)](sidebar_left/harlowe_2/harlowe_sidebar_left.md)
 	* [SugarCube](sidebar_left/sugarcube/sugarcube_sidebar_left.md)
 	* [Snowman](sidebar_left/snowman/snowman_sidebar_left.md)
 

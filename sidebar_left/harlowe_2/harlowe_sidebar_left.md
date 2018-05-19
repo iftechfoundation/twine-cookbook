@@ -1,8 +1,8 @@
-# "Left Sidebar": Harlowe (both v1.x and v2.x series)
+# "Left Sidebar": Harlowe (only v2.1.0 or later)
 
 ## Summary
 
-Harlowe has a built-in left sidebar, but, unfortunately until v2.1.0, there was no functionality to add dynamic content to it. However, it is possible to re-purpose a ["footer" tagged passage](https://twine2.neocities.org/#passagetag_footer) to act as a custom sidebar to display dynamic content below Harlowe's own sidebar.
+Harlowe v2.1.0 or later includes a built-in [*named hook*](https://twine2.neocities.org/#markup_named-hook) named *?Sidebar* which when combinded with the [*(append:)* macro](https://twine2.neocities.org/#macro_append) allows dynamic content to be added to the left blank are that contains the default Undo and Redo links. A ["footer" tagged passage](https://twine2.neocities.org/#passagetag_footer) is used to update the dynamic content after each passage transition, and CSS is used to resize and postion the existing *tw-sidebar* element so that there is room for the dynamic content.
 
 ## Live Example
 
@@ -17,41 +17,41 @@ Download: <a href="harlowe_sidebar_left_example.html" target="_blank">Live Examp
 
 ```
 :: StoryTitle
-Left Sidebar in Harlowe
-
+Left Sidebar in Harlowe (v2.1.0 or later)
 
 :: UserStylesheet [stylesheet]
 /*
 	Reposition the Sidebar 'footer' tagged passage.
 */
-tw-include[title="Sidebar"] {
+tw-sidebar {
 	position: fixed;
 	top: 0;
 	left: 0;
 	width: 20%;						/* padding-right of the tw-story element. */
 	max-height: 100%;
-	margin-top: calc(5% + 171px);	/* padding-top of the tw-story element plus computed height of the tw-sidebar element. */
-	padding: 0.5em;
-	background-color: transparent;
+	margin-top: 5%;					/* padding-top of the tw-story element. */
+	padding: 0 0.5em 0.5em 0.5em;
 	text-align: right;
+	background-color: transparent;
 }
-
+tw-icon {
+	text-align: right;
+	padding-right: 0.75em;
+}
 
 :: Start
 (set: $name to "Jane Doe", $location to "Work")\
 [[Another passage]]
 
-
 :: Sidebar [footer]
+(append: ?SideBar)[\
 Name: $name
 Location: $location
-
+]
 
 :: Another passage
 (set: $name to "John Smith", $location to "Shop")\
 [[Start]]
-
-
 ```
 
 Download: <a href="harlowe_sidebar_left_twee.txt" target="_blank">Twee Code</a>
