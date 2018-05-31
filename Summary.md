@@ -1,8 +1,19 @@
-# Summary
+# Part 1: Terms and Structure
+
+* Common Terms
+	* [Twine](terms/terms_twine.md)
+	* [Cookbook](terms/terms_cookbook.md)
+	* [Stories](terms/terms_stories.md)
+	* [Passages](terms/terms_passages.md)
+	* [Variables](terms/terms_variables.md)
+	* [Macros](terms/terms_macros.md)
+	* [Story Formats](terms/terms_storyformats.md)
 
 * [Organization](organization.md)
 
 * [Recipe Formatting](formatting.md)
+
+# Part 2: Recipes
 
 * Audio
 	* [Harlowe](audio/harlowe/harlowe_audio.md)

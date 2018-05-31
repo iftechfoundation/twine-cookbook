@@ -16,3 +16,8 @@ HyperText Markup Language (HTML) is a set of symbols for describing document lay
 ## Base64
 A representation of binary data in ASCII string format
 
+## Hypertexts
+Documents interconnected by hyperlinks allowing the progression between internal elements and to other hyperlinked resources. They are written in Hypertext Markup Language (HTML).
+
+## JavaScript
+A programming language embedded in web browsers that allows for more interactive and responsive websites.

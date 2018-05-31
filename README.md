@@ -21,4 +21,3 @@ The editors of Cookbook would like to thank the following people:
 * [@greyelf](https://github.com/greyelf)
 * [@webbedspace](https://github.com/webbedspace)
 * [@shawngraham](https://github.com/shawngraham)
-
