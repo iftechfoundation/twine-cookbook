@@ -98,6 +98,11 @@
 	* [SugarCube](lockandkey_variable/sugarcube/sugarcube_lockandkey_variable.md)
 	* [Snowman](lockandkey_variable/snowman/snowman_lockandkey_variable.md)
 
+* Looping
+	* [Harlowe](looping/harlowe/harlowe_looping.md)
+	* [SugarCube](looping/sugarcube/sugarcube_looping.md)
+	* [Snowman](looping/snowman/snowman_looping.md)
+
 * Modal (Pop-up Window)
 	* [Harlowe](modal/harlowe/harlowe_modal.md)
 	* [SugarCube](modal/sugarcube/sugarcube_modal.md)
