@@ -36,3 +36,6 @@ This is the footer!
 
 Download: <a href="sugarcube_headersandfooters_twee.txt" target="_blank">Twee Code</a>
 
+## See Also
+
+[Passage Events](../../passageevents/sugarcube/sugarcube_passage_events.md)

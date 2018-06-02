@@ -119,6 +119,10 @@
 	* [Snowman](dungeonmoving/snowman/snowman_dungeonmoving.md)
 	* [Sugarcane (1.4.2)](dungeonmoving/sugarcane/sugarcane_dungeonmoving.md)
 
+* Passage Events
+	* [SugarCube](passageevents/sugarcube/sugarcube_passage_events.md)
+	* [Snowman](passageevents/snowman/snowman_passage_events.md)
+
 * Programmatic Undo
 	* [Harlowe](programmaticundo/harlowe/harlowe_programmaticundo.md)
 	* [SugarCube](programmaticundo/sugarcube/sugarcube_programmaticundo.md)

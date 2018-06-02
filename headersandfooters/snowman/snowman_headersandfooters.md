@@ -37,3 +37,6 @@ This is the footer!
 
 Download: <a href="snowman_headersandfooters_twee.txt" target="_blank">Twee Code</a>
 
+## See Also
+
+[Passage Events](../../passageevents/snowman/snowman_passage_events.md)

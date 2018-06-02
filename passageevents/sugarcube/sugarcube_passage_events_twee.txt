@@ -1,0 +1,48 @@
+:: StoryTitle
+Passage Events in SugarCube
+
+:: UserScript[script]
+/*
+    Prepend the content of the passage "New Header" to every passage.
+		
+		This demonstrates that the 'passagestart' event comes before
+		 the PassageHeader prepending.
+*/
+$(document).on(':passagestart', function (eventObject) {
+	  var headerContent = Story.get("New Header").processText(); 
+    $(eventObject.content).wiki(headerContent);
+});
+
+/*
+    Append the content of the passage "New Footer" to every passage.
+		
+		This demonstrates that the 'passagerender' event comes after
+		 the PassageFooter appending.
+*/
+$(document).on(':passagerender', function (eventObject) {
+	  var footerContent = Story.get("New Footer").processText(); 
+    $(eventObject.content).wiki(footerContent);
+});
+
+:: Start
+[[Another passage]]
+
+:: Another passage
+[[Back to beginning|Start]]
+
+:: New Header
+This is added before the PassageHeader!
+
+
+:: PassageHeader
+This is the PassageHeader.
+
+
+:: PassageFooter
+
+This is the PassageFooter!
+
+
+:: New Footer
+This is added after the PassageFooter!
+
