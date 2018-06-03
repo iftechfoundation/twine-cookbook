@@ -1,0 +1,81 @@
+:: StoryTitle
+Player Statistics in Harlowe
+
+:: Start
+Empathy: {
+  (link-repeat: "|+|")[
+	  (if: $totalPoints > 0)[
+		(set: $empathy to it + 1)
+		(set: $totalPoints to it - 1)
+		(replace: ?empathyStat)[|empathyStat>[$empathy]]
+		(replace: ?pointsStat)[|pointsStat>[$totalPoints]]
+	  ]
+  ] 
+
+  (link-repeat: "|-|")[
+	  (if: $empathy > 0)[
+		(set: $empathy to it - 1)
+		(set: $totalPoints to it + 1)
+		(replace: ?empathyStat)[|empathyStat>[$empathy]]
+		(replace: ?pointsStat)[|pointsStat>[$totalPoints]]
+	  ]
+  ]
+}
+Intelligence: {
+  (link-repeat: "|+|")[
+	  (if: $totalPoints > 0)[
+		(set: $intelligence to it + 1)
+		(set: $totalPoints to it - 1)
+		(replace: ?intelligenceStat)[|intelligenceStat>[$intelligence]]
+		(replace: ?pointsStat)[|pointsStat>[$totalPoints]]
+	  ]
+  ]
+  
+  (link-repeat: "|-|")[
+	  (if: $intelligence > 0)[
+		(set: $intelligence to it - 1)
+		(set: $totalPoints to it + 1)
+		(replace: ?intelligenceStat)[|intelligenceStat>[$intelligence]]
+		(replace: ?pointsStat)[|pointsStat>[$totalPoints]]
+	  ]
+  ]
+}
+{
+  (link-repeat: "|Reset Points|")[
+	  (set: $empathy to 10)
+	  (set: $intelligence to 10)
+	  (set: $totalPoints to 5)
+	  (replace: ?empathyStat)[|empathyStat>[$empathy]]
+	  (replace: ?intelligenceStat)[|intelligenceStat>[$intelligence]]
+	  (replace: ?pointsStat)[|pointsStat>[$totalPoints]]
+  ]
+}
+
+Empathy: |empathyStat>[10]
+Intelligence: |intelligenceStat>[10]
+Remaining Points: |pointsStat>[5]
+
+[[Test Stats]]
+
+:: Test Stats
+(link: "Make an intelligence check?")[
+	(set: _result to (random: 1, 6) + $intelligence)
+	(if: _result >= 15)[
+	Intelligence Success! (_result >= 15)
+	](else:)[
+	Intelligence Failure! (_result < 15)
+	]
+]
+(link: "Make an empathy check?")[
+	(set: _result to (random: 1, 6) + $empathy)
+	(if: _result >= 15)[
+	Empathy Success! (_result >= 15)
+	](else:)[
+	Empathy Failure! (_result < 15)
+	]
+]
+
+:: Startup[startup]
+(set: $empathy to 10)
+(set: $intelligence to 10)
+(set: $totalPoints to 5)

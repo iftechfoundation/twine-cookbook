@@ -123,6 +123,11 @@
 	* [SugarCube](passageevents/sugarcube/sugarcube_passage_events.md)
 	* [Snowman](passageevents/snowman/snowman_passage_events.md)
 
+* Player Statistics
+	* [Harlowe](playerstatistics/harlowe/harlowe_player_statistics.md)
+	* [SugarCube](playerstatistics/sugarcube/sugarcube_player_statistics.md)
+	* [Snowman](playerstatistics/snowman/snowman_player_statistics.md)
+
 * Programmatic Undo
 	* [Harlowe](programmaticundo/harlowe/harlowe_programmaticundo.md)
 	* [SugarCube](programmaticundo/sugarcube/sugarcube_programmaticundo.md)
