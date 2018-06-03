@@ -28,4 +28,4 @@ By default, links are one-way. Navigating the link usually means moving away fro
 [[Link to another passage|Different Passage]]
 ```
 
-When rerouting links, the arrows "->" or "<-" can be used to *point* to the destination of the link. When navigated, the player will go to that next passage. The bar "|" can also be used to rename a link from its original to some other name for the same purpose.
+When rerouting links, the arrows, "->" or "<-", can be used to *point* to the destination of the link. When navigated, the player will go to that next passage. The pipe "|" can also be used to rename a link from its original to some other name for the same purpose. While originally introduced in different story formats, both forms, arrows and pipes, are now supported by all three story formats.

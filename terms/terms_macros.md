@@ -22,4 +22,4 @@ Introduced in Twine 2, the [Harlowe](../terms/terms_storyformats.md) story forma
 
 ## Snowman
 
-[Snowman](../terms/terms_storyformats.md) does not provide macros. Instead, it has a new set JavaScript functions and expects the author to write their own code and macro-like functionality. 
+[Snowman](../terms/terms_storyformats.md) does not provide macros. Instead, it has a new set of JavaScript functions and expects the author to write their own code and macro-like functionality. 
