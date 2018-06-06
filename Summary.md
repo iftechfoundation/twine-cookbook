@@ -13,7 +13,7 @@
 
 * [Recipe Formatting](formatting.md)
 
-# Part 2: Recipes
+# Part 2: Examples
 
 * Audio
 	* [Harlowe](audio/harlowe/harlowe_audio.md)
@@ -142,6 +142,11 @@
 	* [Harlowe](settingandshowing/harlowe/harlowe_settingandshowing.md)
 	* [SugarCube](settingandshowing/sugarcube/sugarcube_settingandshowing.md)
 	* [Snowman](settingandshowing/snowman/snowman_settingandshowing.md)
+
+* Space Exploration
+	* [Harlowe](spaceexploration/harlowe/harlowe_space_exploration.md)
+	* [SugarCube](spaceexploration/sugarcube/sugarcube_space_exploration.md)
+	* [Snowman](spaceexploration/snowman/snowman_space_exploration.md)
 
 * Style Markup
 	* [Harlowe](markup/harlowe/harlowe_markup.md)
