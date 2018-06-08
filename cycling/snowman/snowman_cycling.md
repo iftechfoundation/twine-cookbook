@@ -4,7 +4,7 @@
 
 "Cycling Choices" demostrates how to create a 'cycling' effect of different choices through clicking on them.
 
-Starting with iterating over all elements with the class 'cycle', each element's 'choices' and 'selection' attribute values are saved as global variables not expected to change during the story. Next, through using jQuery, a [*.click()*](https://api.jquery.com/click/) trigger is set for all elements with the class 'cycle'.
+Starting with iterating over all elements with the class cycle, each element's 'choices' and 'selection' attribute values are saved as global variables not expected to change during the story. Next, through using jQuery, a [*.click()*](https://api.jquery.com/click/) trigger is set for all elements with the class 'cycle'.
 
 When triggered, the global values of 'choices' and 'selection' for the element are retrieved and the 'selection' updated. The 'text' of the element is set to the selection index of the 'choices' array.
 
@@ -29,7 +29,7 @@ Cycling Choices in Snowman
 $(function() {
 	
 	// Create a global object
-	window.twine = {};
+	window.setup = {};
 	
 	// Iterate through all elements with the class 'cycle'
 	//  For each, save the current 'choices' and 'selection'
@@ -38,15 +38,15 @@ $(function() {
 		
 		// Create a global object for each 'id'
 		var id = $(this).attr('id');
-		window.twine[id] = {};
+		setup[id] = {};
 		
 		// Save the current 'choices' for each
 		var choices = JSON.parse($(this).attr("data-cycling-choices"));
-		window.twine[id].choices = choices; 
+		setup[id].choices = choices; 
 		
 		// Save the current 'selection' for each
 		var selection = $(this).attr("data-cycling-selection");
-		window.twine[id].selection = selection;
+		setup[id].selection = selection;
   		
 	});
 	
@@ -56,10 +56,10 @@ $(function() {
 		var id = $(this).attr('id');
 		
 		// Retrieve the global 'choices'
-		var choices = window.twine[id].choices;
+		var choices = setup[id].choices;
 		
 		// Retrieve the global 'selection'
-		var selection = window.twine[id].selection;
+		var selection = setup[id].selection;
 		
 		// Update the 'selection' number
 		selection++;
@@ -76,8 +76,8 @@ $(function() {
 		$(this).text(choices[selection]);
 	
 		// Update the global values of 'choices' and 'selection'
-		window.twine[id].choices = choices; 
-		window.twine[id].selection = selection;
+		setup[id].choices = choices; 
+		setup[id].selection = selection;
 	
 	});
 	
@@ -89,7 +89,7 @@ $(function() {
 [[Submit|Results]]
 
 :: Results
-<%= window.twine["cycleOne"].choices[window.twine["cycleOne"].selection] %>
+<%= setup["cycleOne"].choices[setup["cycleOne"].selection] %>
 
 ```
 

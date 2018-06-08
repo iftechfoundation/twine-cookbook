@@ -4,14 +4,15 @@ Passages can be thought of as divisions of time, space, or combinations of the t
 
 # Connecting Passages
 
-The simplest way to connect Passages is through adding two opening and closing brackets around a word, phrase, or sentence. If a passage exists with those exact letters and numbers in the same ordering and combination, the passages will be linked together. When viewing the compiled HTML version, there will now be a link to navigate between the two, sending the player from one passage to another.
+The simplest way to connect Passages is through adding two opening and closing brackets around any collection of letters, numbers, or punctuation. If a passage exists with those exact characters in the same ordering and combination, the passages will be linked together. When viewing the compiled HTML version, there will now be a link to navigate between the two, sending the player from one passage to another.
 
-By default, links are one-way. Navigating the link usually means moving away from one Passage to another in the Story. Sometimes, this can be the desired effect. In other cases, additional code can be added to the link to make it behave in different ways.
+By default, links are one-way. Navigating the link usually means moving away from one Passage to another in the Story. Additional code can be also added to the link to make it appear in different ways.
 
 **Link to Another Passage named "Link to another passage":**
 ```
 [[Link to another passage]]
 ```
+To route links, arrows, "->" or "<-", can be used to *point* to the destination of the link. When navigated, the player will go to that next passage.
 
 **Link to Another Passage Named "Different Passage":**
 ```
@@ -23,9 +24,11 @@ By default, links are one-way. Navigating the link usually means moving away fro
 [[Different Passage<-Link to another passage]]
 ```
 
+The pipe, "|", can also be used to rename a link from its original to some other name for the same purpose.
+
 **Link to Another Passage Named "Different Passage":**
 ```
 [[Link to another passage|Different Passage]]
 ```
 
-When rerouting links, the arrows, "->" or "<-", can be used to *point* to the destination of the link. When navigated, the player will go to that next passage. The pipe "|" can also be used to rename a link from its original to some other name for the same purpose. While originally introduced in different story formats, both forms, arrows and pipes, are now supported by all three story formats.
+While originally introduced in different story formats, both forms, arrows and pipes, are now supported by all three story formats.

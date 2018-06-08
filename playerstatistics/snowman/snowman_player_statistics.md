@@ -27,13 +27,13 @@ Player Statistics in Snowman
 :: UserScript[script]
 $(function() {
 	
-  // Create a global twine property	
-	window.twine = {};
-	// Create a global propety on the twine object
-	window.twine.stats = {};
+  // Create a global setup object	
+	window.setup = {};
+	// Create a global propety on the setup object
+	window.setup.stats = {};
 	
 	// Create (and overwrite) the use of 's'
-	var s = window.twine.stats;
+	var s = window.setup.stats;
 	
 	s.empathy = 10;
 	s.intelligence = 10;
@@ -41,7 +41,7 @@ $(function() {
 	
   $("#empathyIncrease").click(function(){
 		if(s.totalPoints > 0) {
-			window.twine.stats.empathy++;
+			setup.stats.empathy++;
 			s.totalPoints--;
 			$("#empathyStat").text(s.empathy);
 			$("#pointsStat").text(s.totalPoints);
@@ -118,7 +118,6 @@ $(function() {
 	
 	
 });
-
 
 :: Start
 Empathy: <button id="empathyIncrease">[+]</button> <button id="empathyDecrease">[-]</button> 

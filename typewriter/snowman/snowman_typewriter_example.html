@@ -10,48 +10,57 @@ Typewriter Effect in Snowman
 <body>
 <div id="passage"></div>
 
-<tw-storydata name="Typewriter Effect in Snowman" startnode="1" creator="Twine" creator-version="2.1.3" ifid="BCCB4261-112A-4028-8051-0A5541724C1A" format="Snowman" format-version="1.3.0" options="" hidden><style role="stylesheet" id="twine-user-stylesheet" type="text/twine-css">
+<tw-storydata name="Typewriter Effect in Snowman" startnode="1" creator="Twine" creator-version="2.2.1" ifid="BCCB4261-112A-4028-8051-0A5541724C1A" zoom="1" format="Snowman" format-version="1.3.0" options="" hidden><style role="stylesheet" id="twine-user-stylesheet" type="text/twine-css">
 
 
-</style><script role="script" id="twine-user-script" type="text/twine-javascript">// Create a new global object
-window.typewriter = {};
+
+
+
+</style><script role="script" id="twine-user-script" type="text/twine-javascript">// Create a global setup object
+window.setup = {};
+
+// Add a 'typewriter' object
+setup.typewriter = {};
 
 // Save an index of the string.
 // 	Start at -1 because it will be increased
 //  once (to 0) before the first chracter is shown.
-window.typewriter.index = -1;
+setup.typewriter.index = -1;
 
 // Allow users to set global text
-window.typewriter.text = "";
+setup.typewriter.text = "";
 
 // Save a reference to the setTimeout call
-window.typewriter.timerReference = 0;
+setup.typewriter.timerReference = 0;
 
 // Write text character by character to an element
 //  with the ID "typewriter"
-window.typewriter.write = function(){
+setup.typewriter.write = function(){
 	// Test if the index is less than the text length
-		if(window.typewriter.index < window.typewriter.text.length) {
+		if(setup.typewriter.index < setup.typewriter.text.length) {
 			// Update the current text character-by-character
 		$("#typewriter").html(
-			$("#typewriter").html() + window.typewriter.text[window.typewriter.index]
+			$("#typewriter").html() + setup.typewriter.text[setup.typewriter.index]
 		);
 			// Increase the index
-		window.typewriter.index++;
+		setup.typewriter.index++;
 			// Save the timeout reference
-		window.typewriter.timerReference = setTimeout(window.typewriter.write, 1000);
+		setup.typewriter.timerReference = setTimeout(setup.typewriter.write, 1000);
 	} else {
 		// Clear out the timeout once index is greater than string length
-		clearTimeout(window.typewriter.timerReference);
+		clearTimeout(setup.typewriter.timerReference);
 		// Reset the index
-		window.typewriter.index = -1;
+		setup.typewriter.index = -1;
 	}
 	
 }
-</script><tw-passagedata pid="1" name="Start" tags="" position="99,97">&lt;div id=&quot;typewriter&quot;&gt;&lt;/div&gt;
+
+
+
+</script><tw-passagedata pid="1" name="Start" tags="" position="99,97" size="100,100">&lt;div id=&quot;typewriter&quot;&gt;&lt;/div&gt;
 &lt;%
-	window.typewriter.text = &quot;Hello, world!&quot;;
-	window.typewriter.write();
+	setup.typewriter.text = &quot;Hello, world!&quot;;
+	setup.typewriter.write();
 %&gt;
 </tw-passagedata></tw-storydata>
 

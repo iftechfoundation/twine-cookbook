@@ -4,7 +4,7 @@
 
 "Fairmath System" demonstrates how to re-create the Fairmath system found [in ChoiceScript](http://choicescriptdev.wikia.com/wiki/Arithmetic_operators#Fairmath). Based on a percentage operation, increase and decrease changes the value by a percentage as the difference between the original and adjusted value.
 
-This example uses functions *increase()* and *decrease()* as part of a created global *window.fairmath*. These can be called through using the [Underscore template functionality](http://underscorejs.org/#template) to define, use, and show the values of the functions in any one passage.
+This example uses functions *increase()* and *decrease()* as part of a created global *window.setup.fairmath*. These can be called through using the [Underscore template functionality](http://underscorejs.org/#template) to define, use, and show the values of the functions in any one passage.
 
 ## Live Example
 
@@ -22,22 +22,28 @@ Download: <a href="snowman_fairmath_example.html" target="_blank">Live Example</
 Fairmath in Snowman
 
 :: UserScript[script]
-window.fairmath = {};
-	
-window.fairmath.increase = function(x,y) {
+// Create a global object
+window.setup = {}
+
+// Create a fairmath global object
+window.setup.fairmath = {};
+
+// Create an 'increase' function
+setup.fairmath.increase = function(x,y) {
 	return Math.round(x+((100-x)*(y/100)));
 };
-	
-window.fairmath.decrease = function(x,y) {
+
+// Create a "decrease" function
+setup.fairmath.decrease = function(x,y) {
 	return Math.round(x-(x*(y/100)));
 };
 
 :: Start
 Decrease 100 by 50% using Fairmath:
-<%= window.fairmath.decrease(100, 50) %>
+<%= setup.fairmath.decrease(100, 50) %>
 
 Increase 50 by 50% using Fairmath:
-<%= window.fairmath.increase(50, 50) %>
+<%= setup.fairmath.increase(50, 50) %>
 
 ```
 
