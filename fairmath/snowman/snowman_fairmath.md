@@ -23,7 +23,7 @@ Fairmath in Snowman
 
 :: UserScript[script]
 // Create a global object
-window.setup = {}
+window.setup = window.setup || {};
 
 // Create a fairmath global object
 window.setup.fairmath = {};

@@ -10,8 +10,10 @@ Space Exploration in Snowman
 <body>
 <div id="passage"></div>
 
-<tw-storydata name="Space Exploration in Snowman" startnode="1" creator="Twine" creator-version="2.2.1" ifid="3B59844B-00CD-45CB-962D-0204DD4B03BE" zoom="1" format="Snowman" format-version="1.3.0" options="" hidden><style role="stylesheet" id="twine-user-stylesheet" type="text/twine-css"></style><script role="script" id="twine-user-script" type="text/twine-javascript">// Create a global setup object
-window.setup = {};
+<tw-storydata name="Space Exploration in Snowman" startnode="1" creator="Tweego" creator-version="1.3.0" ifid="36844762-020C-4E3A-B2F3-60A8F94CB83C" zoom="1" format="Snowman" format-version="1.3.0" options="" hidden><style role="stylesheet" id="twine-user-stylesheet" type="text/twine-css">/* twine-user-stylesheet #1: "UserStylesheet" */
+</style><script role="script" id="twine-user-script" type="text/twine-javascript">/* twine-user-script #1: "UserScript" */
+// Create a global setup object
+window.setup = window.setup || {};
 
 // Add 'variables' object to setup
 window.setup.variables = {};
@@ -73,7 +75,7 @@ _functions.redOutcome = function() {
 		}
 		
 		return response;
-	};</script><tw-passagedata pid="1" name="Start" tags="" position="92,98" size="100,100">[[Explore Space|Explore Space 1]]</tw-passagedata><tw-passagedata pid="2" name="Explore Space 1" tags="" position="248,101" size="100,100">&lt;div class=&quot;gameScreen&quot;&gt;
+	};</script><tw-passagedata pid="1" name="Start" tags="" position="100,100">[[Explore Space|Explore Space 1]]</tw-passagedata><tw-passagedata pid="2" name="Explore Space 1" tags="" position="225,100">&lt;div class=&quot;gameScreen&quot;&gt;
 
   &lt;% var _vars = window.setup.variables; %&gt;
   &lt;% _vars.fuel-- %&gt;
@@ -93,7 +95,7 @@ _functions.redOutcome = function() {
   
   &lt;%= window.story.render(&quot;Check Status&quot;) %&gt;
 
-&lt;/div&gt;</tw-passagedata><tw-passagedata pid="3" name="Explore Space 2" tags="" position="401,99" size="100,100">&lt;div class=&quot;gameScreen&quot;&gt;
+&lt;/div&gt;</tw-passagedata><tw-passagedata pid="3" name="Explore Space 2" tags="" position="350,100">&lt;div class=&quot;gameScreen&quot;&gt;
 
   &lt;% var _vars = window.setup.variables; %&gt;
   &lt;% _vars.fuel-- %&gt;
@@ -113,7 +115,7 @@ _functions.redOutcome = function() {
   
   &lt;%= window.story.render(&quot;Check Status&quot;) %&gt;
 
-&lt;/div&gt;</tw-passagedata><tw-passagedata pid="4" name="Generate System" tags="" position="100,300" size="100,100">&lt;script&gt;
+&lt;/div&gt;</tw-passagedata><tw-passagedata pid="4" name="Generate System" tags="" position="475,100">&lt;script&gt;
 	var _vars = window.setup.variables;
 	
 	var planets =_.random(1, 4);
@@ -123,7 +125,7 @@ _functions.redOutcome = function() {
 	for(var i = 0; i &lt; _vars.system.length; i++) {
 		_vars.system[i] = _.sample([&quot;RED&quot;, &quot;GREEN&quot;]);
   	}
-&lt;/script&gt;</tw-passagedata><tw-passagedata pid="5" name="Display System" tags="" position="202,301" size="100,100">&lt;script&gt;
+&lt;/script&gt;</tw-passagedata><tw-passagedata pid="5" name="Display System" tags="" position="600,100">&lt;script&gt;
 	var _vars = window.setup.variables;
   	
 	// Wipe out current contents
@@ -154,19 +156,19 @@ _functions.redOutcome = function() {
 	  }
 	}
 	
-&lt;/script&gt;</tw-passagedata><tw-passagedata pid="6" name="Show Outcome - Red" tags="" position="597,100" size="100,100">&lt;%= window.setup.functions.redOutcome() %&gt;
+&lt;/script&gt;</tw-passagedata><tw-passagedata pid="6" name="Show Outcome - Red" tags="" position="725,100">&lt;%= window.setup.functions.redOutcome() %&gt;
 &lt;% $(&quot;#HUD&quot;).html(window.story.render(&quot;HUD&quot;)) %&gt;
-&lt;%= window.story.render(&quot;Check Status&quot;) %&gt;</tw-passagedata><tw-passagedata pid="7" name="Show Outcome - Green" tags="" position="601,201" size="100,100">&lt;%= window.setup.functions.greenOutcome() %&gt;
+&lt;%= window.story.render(&quot;Check Status&quot;) %&gt;</tw-passagedata><tw-passagedata pid="7" name="Show Outcome - Green" tags="" position="850,100">&lt;%= window.setup.functions.greenOutcome() %&gt;
 &lt;% $(&quot;#HUD&quot;).html(window.story.render(&quot;HUD&quot;)) %&gt;
- &lt;%= window.story.render(&quot;Check Status&quot;) %&gt;</tw-passagedata><tw-passagedata pid="8" name="HUD" tags="" position="307,300" size="100,100">Health: &lt;%= window.setup.variables.health %&gt; &lt;br&gt;
+ &lt;%= window.story.render(&quot;Check Status&quot;) %&gt;</tw-passagedata><tw-passagedata pid="8" name="HUD" tags="" position="975,100">Health: &lt;%= window.setup.variables.health %&gt; &lt;br&gt;
 Fuel: &lt;%= window.setup.variables.fuel %&gt; &lt;br&gt;
-Number of Jumps Left: &lt;%= setup.variables.numberOfJumpsLeft %&gt; &lt;br&gt;</tw-passagedata><tw-passagedata pid="9" name="Destroyed" tags="" position="801,200" size="100,100">The ship exploded in flight.
+Number of Jumps Left: &lt;%= setup.variables.numberOfJumpsLeft %&gt; &lt;br&gt;</tw-passagedata><tw-passagedata pid="9" name="Destroyed" tags="" position="1100,100">The ship exploded in flight.
 
-&lt;h3&gt;Game Over&lt;/h3&gt;</tw-passagedata><tw-passagedata pid="10" name="Lost in space" tags="" position="805,305" size="100,100">Without fuel, the ship tumbled and spun in the endless black.
+&lt;h3&gt;Game Over&lt;/h3&gt;</tw-passagedata><tw-passagedata pid="10" name="Lost in space" tags="" position="1225,100">Without fuel, the ship tumbled and spun in the endless black.
 
-&lt;h3&gt;Game Over&lt;/h3&gt;</tw-passagedata><tw-passagedata pid="11" name="Safe" tags="" position="799,99" size="100,100">After 10 hyperjumps, the ship left the hazardous area and called for help.
+&lt;h3&gt;Game Over&lt;/h3&gt;</tw-passagedata><tw-passagedata pid="11" name="Safe" tags="" position="100,225">After 10 hyperjumps, the ship left the hazardous area and called for help.
 
-&lt;h3&gt;Success!&lt;/h3&gt;</tw-passagedata><tw-passagedata pid="12" name="Check Status" tags="" position="411,299" size="100,100">&lt;script&gt;
+&lt;h3&gt;Success!&lt;/h3&gt;</tw-passagedata><tw-passagedata pid="12" name="Check Status" tags="" position="225,225">&lt;script&gt;
 
 	var _vars = window.setup.variables;
 		

@@ -10,12 +10,12 @@ Player Statistics in Snowman
 <body>
 <div id="passage"></div>
 
-<tw-storydata name="Player Statistics in Snowman" startnode="1" creator="Twine" creator-version="2.2.1" ifid="20DBF908-DD0F-45EF-AE54-4B89E1EBB1E2" zoom="1" format="Snowman" format-version="1.3.0" options="" hidden><style role="stylesheet" id="twine-user-stylesheet" type="text/twine-css">
-
-</style><script role="script" id="twine-user-script" type="text/twine-javascript">$(function() {
+<tw-storydata name="Player Statistics in Snowman" startnode="1" creator="Tweego" creator-version="1.3.0" ifid="0114607A-E652-45EF-BA42-1BAB95B65F39" zoom="1" format="Snowman" format-version="1.3.0" options="" hidden><style role="stylesheet" id="twine-user-stylesheet" type="text/twine-css"></style><script role="script" id="twine-user-script" type="text/twine-javascript">/* twine-user-script #1: "UserScript" */
+$(function() {
 	
-  // Create a global setup object	
-	window.setup = {};
+	// Create a global setup object	
+	window.setup = window.setup || {};
+
 	// Create a global propety on the setup object
 	window.setup.stats = {};
 	
@@ -104,9 +104,7 @@ Player Statistics in Snowman
 	});
 	
 	
-});
-
-</script><tw-passagedata pid="1" name="Start" tags="" position="100,99" size="100,100">Empathy: &lt;button id=&quot;empathyIncrease&quot;&gt;[+]&lt;/button&gt; &lt;button id=&quot;empathyDecrease&quot;&gt;[-]&lt;/button&gt; 
+});</script><tw-passagedata pid="1" name="Start" tags="" position="100,100">Empathy: &lt;button id=&quot;empathyIncrease&quot;&gt;[+]&lt;/button&gt; &lt;button id=&quot;empathyDecrease&quot;&gt;[-]&lt;/button&gt; 
 
 Intelligence: &lt;button id=&quot;intelligenceIncrease&quot;&gt;[+]&lt;/button&gt; &lt;button id=&quot;intelligenceDecrease&quot;&gt;[-]&lt;/button&gt;
 
