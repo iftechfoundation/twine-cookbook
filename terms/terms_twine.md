@@ -1,8 +1,8 @@
 # What is Twine?
 
-Twine is an open-source tool for telling interactive, nonlinear stories using hypertexts. Navigation works by moving along, with, and through links. In Twine, clicking (or, on mobile devices, tapping) links is the most common, default action. Changing old, refreshing the current, or even loading new content is all done through this seemingly simple action.
+Twine is an open-source tool for telling interactive, nonlinear stories in hypertext. Navigation works by clicking (or, on mobile devices, tapping) links to change old, refresh current, or even load new content.
 
-The difference between hypertext and a more linear story such as those often found in books and magazines is in this link navigation. The player is given some degree of agency in their movement. They can make decisions while progressing through it or even if to continue at all.
+The difference between hypertext and a more linear story such as those often found in books and magazines is in this link navigation. The reader is given some degree of agency in their progression. They can make different decisions or even if to continue at all.
 
 ## What can you make with Twine?
 

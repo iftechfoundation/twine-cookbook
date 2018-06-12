@@ -11,15 +11,16 @@ Player Statistics in Snowman
 <div id="passage"></div>
 
 <tw-storydata name="Player Statistics in Snowman" startnode="1" creator="Twine" creator-version="2.2.1" ifid="20DBF908-DD0F-45EF-AE54-4B89E1EBB1E2" zoom="1" format="Snowman" format-version="1.3.0" options="" hidden><style role="stylesheet" id="twine-user-stylesheet" type="text/twine-css">
+
 </style><script role="script" id="twine-user-script" type="text/twine-javascript">$(function() {
 	
-  // Create a global twine property	
-	window.twine = {};
-	// Create a global propety on the twine object
-	window.twine.stats = {};
+  // Create a global setup object	
+	window.setup = {};
+	// Create a global propety on the setup object
+	window.setup.stats = {};
 	
 	// Create (and overwrite) the use of 's'
-	var s = window.twine.stats;
+	var s = window.setup.stats;
 	
 	s.empathy = 10;
 	s.intelligence = 10;
@@ -27,7 +28,7 @@ Player Statistics in Snowman
 	
   $("#empathyIncrease").click(function(){
 		if(s.totalPoints > 0) {
-			window.twine.stats.empathy++;
+			setup.stats.empathy++;
 			s.totalPoints--;
 			$("#empathyStat").text(s.empathy);
 			$("#pointsStat").text(s.totalPoints);
@@ -104,6 +105,7 @@ Player Statistics in Snowman
 	
 	
 });
+
 </script><tw-passagedata pid="1" name="Start" tags="" position="100,99" size="100,100">Empathy: &lt;button id=&quot;empathyIncrease&quot;&gt;[+]&lt;/button&gt; &lt;button id=&quot;empathyDecrease&quot;&gt;[-]&lt;/button&gt; 
 
 Intelligence: &lt;button id=&quot;intelligenceIncrease&quot;&gt;[+]&lt;/button&gt; &lt;button id=&quot;intelligenceDecrease&quot;&gt;[-]&lt;/button&gt;

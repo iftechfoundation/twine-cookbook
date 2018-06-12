@@ -13,7 +13,7 @@ Originally, macros were written with two less-than (```<<```) and two-greater-th
 
 ## Harlowe
 
-Introduced in Twine 2, the [Harlowe](../terms/terms_storyformats.md) story format uses a different syntax for macros where they are wrapped in a single open and close parenthesis and use brackets to indicate which text or sections are associated or acted upon by the macro.
+Introduced in Twine 2, the [Harlowe](../terms/terms_storyformats.md) story format uses a different syntax for macros. They are wrapped in a single open, "(", and close parenthesis, ")", and use brackets, "[]", to indicate which text or sections are associated or acted upon by the macro.
 
 **Example:**
 ```
@@ -22,4 +22,4 @@ Introduced in Twine 2, the [Harlowe](../terms/terms_storyformats.md) story forma
 
 ## Snowman
 
-[Snowman](../terms/terms_storyformats.md) does not provide macros. Instead, it has a new set of JavaScript functions and expects the author to write their own code and macro-like functionality. 
+[Snowman](../terms/terms_storyformats.md) does not provide macros. Instead, it introduces a new set of JavaScript functions and expects the author to write their own code and macro-like functionality. 

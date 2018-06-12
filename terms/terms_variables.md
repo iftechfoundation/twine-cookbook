@@ -1,6 +1,6 @@
 # Variables
 
-In programming terminology, a variable is something which changes. In Twine, a variable is a way of storing and acting on data of some sort. Anything from a number to a series of characters, called a string, can be stored in a variable. Unlike other code or text in a [Passage](../terms/terms_passages.md), variables most commonly start with either the dollar sign ($) or the underscore (```_```).
+In programming terminology, a variable is something which changes. In Twine, a variable is a way of storing and acting on data of some sort. Anything from a number to a series of characters can be stored in a variable. Unlike other code or text in a [Passage](../terms/terms_passages.md), variables most commonly start with either the dollar sign ($) or the underscore (```_```).
 
 ## Story Variables
 
@@ -18,16 +18,15 @@ All story formats (except Snowman) understand variables and translate them into 
 The value of the variable is $numberVariable.
 ```
 
-## Temporary Story Variables
+## Temporary Variables
 
-Sometimes, it can be useful to work with values in a more controlled manner. For this purpose, temporary story variables can be used. They are *locally* accessible. They exist while the current passage is shown and then are deleted after it is no longer being shown. They start with an underscore (```_```).
+It can often be useful to work with values in a more controlled manner. For this purpose, temporary variables can be used. They are *locally* accessible. They only exist while the current passage is shown. They start with an underscore (```_```).
 
 **Example:**
 ```
 _tempVariable
 ```
-
-Temporary variables can also be used to display their values with other text.
+Temporary variables can also be used to display their values with other text like Story Variables.
 
 **Example:**
 ```
