@@ -31,4 +31,4 @@ The pipe, "|", can also be used to rename a link from its original to some other
 [[Link to another passage|Different Passage]]
 ```
 
-While originally introduced in different story formats, both forms, arrows and pipes, are now supported by all three story formats.
+While originally introduced in different story formats, both forms, arrows and pipes, are now supported by all three built-in story formats.

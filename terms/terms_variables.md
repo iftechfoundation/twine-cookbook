@@ -1,6 +1,6 @@
 # Variables
 
-In programming terminology, a variable is something which changes. In Twine, a variable is a way of storing and acting on data of some sort. Anything from a number to a series of characters can be stored in a variable. Unlike other code or text in a [Passage](../terms/terms_passages.md), variables most commonly start with either the dollar sign ($) or the underscore (```_```).
+In programming terminology, a variable is a container for a value that can change. In Twine, a variable is a way of storing and acting on data of some sort. Anything from a number to a series of characters can be stored in a variable. Unlike other code or text in a [Passage](../terms/terms_passages.md), variables most commonly start with either the dollar sign ($) or the underscore (```_```) in the Harlowe and SugarCube story formats.
 
 ## Story Variables
 

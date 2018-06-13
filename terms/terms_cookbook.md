@@ -8,4 +8,4 @@ The *Twine Cookbook* is a living document. It has rolling deadlines and is often
 
 ## What this is not
 
-The *Twine Cookbook* is not a textbook. While the editorial team tries very hard to maintain the code and produce the most current explanations, the examples rarely build across each other. The *Twine Cookbook*, like any other cookbook, was created for a more general audience and serves as a companion to other resources. It is designed for learning from individual examples and not necessarily from a comprehensive whole.
+The *Twine Cookbook* is not a textbook. While the editorial team tries very hard to maintain the code and produce the most current explanations, the examples rarely build across each other. The *Twine Cookbook* was created for a more general audience and serves as a companion to other resources. It is designed for learning from individual examples and not necessarily from a comprehensive whole.
