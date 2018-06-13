@@ -3,7 +3,7 @@ Typewriter Effect in Snowman
 
 :: UserScript[script]
 // Create a global setup object
-window.setup = {};
+window.setup = window.setup || {};
 
 // Add a 'typewriter' object
 setup.typewriter = {};

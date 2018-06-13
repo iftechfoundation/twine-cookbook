@@ -29,7 +29,7 @@ Cycling Choices in Snowman
 $(function() {
 	
 	// Create a global object
-	window.setup = {};
+	window.setup = window.setup || {};
 	
 	// Iterate through all elements with the class 'cycle'
 	//  For each, save the current 'choices' and 'selection'

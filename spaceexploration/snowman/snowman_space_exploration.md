@@ -23,7 +23,7 @@ Space Exploration in Snowman
 
 :: UserScript[script]
 // Create a global setup object
-window.setup = {};
+window.setup = window.setup || {};
 
 // Add 'variables' object to setup
 window.setup.variables = {};

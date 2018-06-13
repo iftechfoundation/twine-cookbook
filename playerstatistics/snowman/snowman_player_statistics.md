@@ -27,8 +27,9 @@ Player Statistics in Snowman
 :: UserScript[script]
 $(function() {
 	
-  // Create a global setup object	
-	window.setup = {};
+	// Create a global setup object	
+	window.setup = window.setup || {};
+
 	// Create a global propety on the setup object
 	window.setup.stats = {};
 	
