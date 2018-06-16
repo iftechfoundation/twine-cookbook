@@ -5,7 +5,3 @@ The idea for a *Twine Cookbook* was heavily inspired by the [*Inform Recipe Book
 ## What this is
 
 The *Twine Cookbook* is a living document. It has rolling deadlines and is often updated multiple times a year as new requests and solutions to old problems are found and submitted. It is driven by the Twine community and finds inspiration in what others create and share online.
-
-## What this is not
-
-The *Twine Cookbook* is not a textbook. While the editorial team tries very hard to maintain the code and produce the most current explanations, the examples rarely build across each other. The *Twine Cookbook* was created for a more general audience and serves as a companion to other resources. It is designed for learning from individual examples and not necessarily from a comprehensive whole.
