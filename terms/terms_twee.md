@@ -24,7 +24,7 @@ Charlie Brown is a person in the comic Peanuts
 
 ## Special Passage Names
 
-Because Twee does not currently have a specification, some compilers understand and process certain keywords differently. The following is a common set of reserved passage names.
+Because Twee does not currently have a specification, some compilers understand and process certain keywords differently. The following is a common set of reserved passage names. In each case, capitalization matters: "storytitle" is not the same as "StoryTitle".
 
 #### Start
 
@@ -135,7 +135,9 @@ In Twine 2, this passage is the equivalent of Story JavaScript.
 
 ## Special Tag Names
 
-Most Twee compilers understand two common tag names, stylesheet and script. These are usually loaded and run from passages tagged with them in alphabetical order.
+Most Twee compilers understand two common tag names, stylesheet and script. In each case, the tag names are lowercase.
+
+Passages are also loaded according to alphabetical order if others exist with the same special keywords in their own tags.
 
 #### Stylesheet
 

@@ -16,6 +16,12 @@
 	* [JavaScript](terms/terms_javascript.md)
 	* [Twee](terms/terms_twee.md)
 
+# Adding Functionality
+
+* Adding Functionality
+	* [SugarCube](addingfunctionality/sugarcube/sugarcube_adding_functionality.md)
+	* [Snowman](addingfunctionality/snowman/snowman_adding_functionality.md)
+
 # Audio
 
 * Audio

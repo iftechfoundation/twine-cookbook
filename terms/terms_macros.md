@@ -1,10 +1,10 @@
 # Macros
 
-For as long as [Twine](../terms/terms_twine.md) has existed, macros have been a part of it. They provide ways to do additional functionality ranging from changing the style of text to dynamically reacting to mouse events. Often, [Story Formats](../terms/terms_storyformats.md) are chosen based on what macros they provide and how they can be used.
+Macros provide ways to do additional functionality ranging from changing the style of text to dynamically reacting to mouse events. Often, [Story Formats](../terms/terms_storyformats.md) are chosen based on what macros they provide and how they can be used together.
 
 ## Twine 1 and SugarCube
 
-Originally, macros were written with two less-than (```<<```) and two-greater-than signs (```>>```) around the keyword. ([SugarCube](../terms/terms_storyformats.md), as a successor of this form, follows the same syntax.)
+In Twine 1, macros were written with two less-than (```<<```) and two-greater-than signs (```>>```) around the keyword. ([SugarCube](../terms/terms_storyformats.md), as a successor of this form, follows the same syntax.)
 
 **Example:**
 ```
