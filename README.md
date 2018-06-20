@@ -1,16 +1,16 @@
 # Welcome to the Twine Cookbook!
 
-The *Twine Cookbook* is a collection of common topic areas. For each, the contributors have tried to provide examples covering each major story format (Harlowe, SugarCube, and Snowman) where possible and appropriate. For some topics, examples are also provided in SugarCane for Twine 1.4.2.
+The *Twine Cookbook* is a collection of examples organized around common topic areas. For each, contributors have tried to provide examples covering each major built-in story format (Harlowe, SugarCube, and Snowman) where possible and appropriate. For some topics, examples are also provided in SugarCane for Twine 1.4.2.
 
 Each example page includes a short description, a live version, and its Twee code. Both the live version and Twee code can be downloaded directly from each example page.
 
-## Using the Cookbook
+## Reading the Cookbook
 
-Created using [GitBook](https://www.gitbook.com/), the *Twine Cookbook* is best viewed [as a compiled webpage](https://twinery.org/cookbook/). In this format, the left sidebar provides access to the different topic areas as well as to a search bar to more quickly look through the titles and text of the entries. New updates are published in the website format every few months or as necessary.
+Created using [GitBook](https://www.gitbook.com/), the *Twine Cookbook* is best viewed [as a compiled webpage](https://twinery.org/cookbook/). In this format, the left sidebar provides access to the different topic areas as well as to a search bar for more quickly looking through the titles and text of the entries. New updates are published in the website format every few months or as necessary.
 
-It can also be read without the live versions on GitHub by starting with the [summary page](https://github.com/iftechfoundation/twine-cookbook/blob/master/Summary.md). Note, however, that text of example pages are subject to change on GitHub and, while the most up-to-date, may not always be as polished as the website format between edited versions.
+The *Twine CookBook* can also be read without the live versions on GitHub by starting with the [summary page](https://github.com/iftechfoundation/twine-cookbook/blob/master/Summary.md). Note, however, that example pages on GitHub are subject change as new changes are made and revisions submitted before and during editing cycles.
 
-### Suggesting Examples, Updates, or Changes
+### Suggesting Examples or Changes
 
 Include as much as possible of the following in an [issue](https://github.com/iftechfoundation/twine-cookbook/issues):
 * A short summary of the example(s) or suggestions(s)

@@ -2,6 +2,8 @@
 
 * [Example Formatting](formatting.md)
 
+* [Using the Cookbook](using_cookbook.md)
+
 # Terms
 
 * Common Terms
