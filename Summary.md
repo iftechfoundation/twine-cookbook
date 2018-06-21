@@ -224,6 +224,12 @@
 	* [Snowman](timedpassages/snowman/snowman_timedpassages.md)
 	* [SugarCube](timedpassages/sugarcube/sugarcube_timedpassages.md)
 
+# Timed Progress Bars
+
+* Timed Progress Bars
+	* [SugarCube](timedprogressbars/sugarcube/sugarcube_timed_progress_bars.md)
+	* [Snowman](timedprogressbars/snowman/snowman_timed_progress_bars.md)
+
 # Turn Counter
 
 * Turn Counter
