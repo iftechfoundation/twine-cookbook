@@ -1,4 +1,4 @@
-# "Limiting the range of a number": SugarCube (v2.18)
+# "Limiting the Range of a Number": SugarCube (v2.18)
 
 ## Summary
 

@@ -132,7 +132,7 @@
 	* [SugarCube](sidebar_left/sugarcube/sugarcube_sidebar_left.md)
 	* [Snowman](sidebar_left/snowman/snowman_sidebar_left.md)
 
-# Limiting the range of a number
+# Limiting the Range of a Number
 
 * Limiting the range of a number
 	* [Harlowe](clamping_numbers/harlowe/harlowe_clamping_numbers.md)

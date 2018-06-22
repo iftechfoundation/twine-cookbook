@@ -1,12 +1,12 @@
-# "Limiting the range of a number": Harlowe (v2.0)
+# "Limiting the Range of a Number": Harlowe (v2.0)
 
 ## Summary
 
-This recipe demonstrates how to limit a numeric variable to a value between a set range, this process is commonly known as **clamping**.
+This recipe demonstrates how to limit a numeric variable to a value between a set range. This process is commonly known as **clamping**.
 
 The example adds a *clamp()* function to the existing built-in [*Math*](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Math) global JavaScript object, which can then be called to achieve the desired result.
 
-<div class="alertbox information"><strong>Note:</strong> The example also adds a *clamp()* function to the built-in [*Number*](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number) global JavaScript object which the new *Math.clamp()* function uses internally, **however** due to how Harlowe implements variables the *<Number>.clamp()* function can't be used directly within a [*(set:)*](https://twine2.neocities.org/#macro_set) macro.</div>
+<div class="alertbox information"><strong>Note:</strong> The example also adds a <em>clamp()</em> function to the built-in <em><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number">Number</a></em> global JavaScript object, which the new <em>Math.clamp()</em> function uses internally. However, due to how Harlowe implements variables, the <em><Number>.clamp()</em> function can't be used directly within a <em><a href="https://twine2.neocities.org/#macro_set">(set:)</a></em> macro.</div>
 
 
 ## Live Example
