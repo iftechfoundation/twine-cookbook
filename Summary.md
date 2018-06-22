@@ -132,6 +132,13 @@
 	* [SugarCube](sidebar_left/sugarcube/sugarcube_sidebar_left.md)
 	* [Snowman](sidebar_left/snowman/snowman_sidebar_left.md)
 
+# Limiting the range of a number
+
+* Limiting the range of a number
+	* [Harlowe](clamping_numbers/harlowe/harlowe_clamping_numbers.md)
+	* [SugarCube](clamping_numbers/sugarcube/sugarcube_clamping_numbers.md)
+	* [Snowman](clamping_numbers/snowman/snowman_clamping_numbers.md)
+
 # Lock and Key: Variable
 
 * Lock and Key: Variable
