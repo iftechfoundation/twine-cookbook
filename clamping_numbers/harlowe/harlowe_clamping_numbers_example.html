@@ -11,7 +11,7 @@
 
 <tw-story></tw-story>
 
-<tw-storydata name="Limiting the range of a number in Harlowe" startnode="1" creator="Tweego" creator-version="1.3.0" ifid="4741F649-1834-401E-A70E-F4CDE71EFF00" zoom="1" format="Harlowe" format-version="2.0.1" options="" hidden><style role="stylesheet" id="twine-user-stylesheet" type="text/twine-css"></style><script role="script" id="twine-user-script" type="text/twine-javascript">/* twine-user-script #1: "UserScript" */
+<tw-storydata name="Limiting the range of a number in Harlowe" startnode="1" creator="Tweego" creator-version="1.3.0" ifid="DA902A47-828B-40DD-8C99-638C99DAE883" zoom="1" format="Harlowe" format-version="2.0.1" options="" hidden><style role="stylesheet" id="twine-user-stylesheet" type="text/twine-css"></style><script role="script" id="twine-user-script" type="text/twine-javascript">/* twine-user-script #1: "UserScript" */
 (function () {
 
 	/*
@@ -34,11 +34,13 @@
 				throw new Error('Number.prototype.clamp called with an incorrect number of parameters');
 			}
 
-			let min = Number(arguments[0]);
-			let max = Number(arguments[1]);
+			var min = Number(arguments[0]);
+			var max = Number(arguments[1]);
 
 			if (min > max) {
-				[min, max] = [max, min];
+				var tmp = min;
+				min = max;
+				max = tmp;
 			}
 
 			return Math.min(Math.max(this, min), max);
@@ -61,7 +63,7 @@
 		writable     : true,
 
 		value(num, min, max) {
-			const value = Number(num);
+			var value = Number(num);
 			return Number.isNaN(value) ? NaN : value.clamp(min, max);
 		}
 	});

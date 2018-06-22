@@ -46,11 +46,13 @@ Limiting the range of a number in Snowman
 				throw new Error('Number.prototype.clamp called with an incorrect number of parameters');
 			}
 
-			let min = Number(arguments[0]);
-			let max = Number(arguments[1]);
+			var min = Number(arguments[0]);
+			var max = Number(arguments[1]);
 
 			if (min > max) {
-				[min, max] = [max, min];
+				var tmp = min;
+				min = max;
+				max = tmp;
 			}
 
 			return Math.min(Math.max(this, min), max);
@@ -73,7 +75,7 @@ Limiting the range of a number in Snowman
 		writable     : true,
 
 		value(num, min, max) {
-			const value = Number(num);
+			var value = Number(num);
 			return Number.isNaN(value) ? NaN : value.clamp(min, max);
 		}
 	});
