@@ -36,7 +36,7 @@ if (Save.slots.has(0)) {
 
 <<link "Save to the first slot?">>
 	<<script>>
-		if (Save.ok()) { 
+		if (Save.slots.ok()) { 
 			Save.slots.save(0);
 		}
 	<</script>>
@@ -58,7 +58,6 @@ if (Save.slots.has(0)) {
 		} 
 	<</script>>
 <</link>>
-
 ```
 
 Download: <a href="sugarcube_savinggames_twee.txt" target="_blank">Twee Code</a>
