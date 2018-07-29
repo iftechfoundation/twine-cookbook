@@ -32,6 +32,7 @@ Include as much as possible of the following in an [issue](https://github.com/if
 * [@webbedspace](https://github.com/webbedspace) (Leon Arnott)
 * [@shawngraham](https://github.com/shawngraham) (Shawn Graham)
 * [@Akjosch](https://github.com/Akjosch) (Akjosch)
+* [@ChapelR](https://github.com/ChapelR) (Chapel)
 
 ## License:
 
