@@ -4,7 +4,7 @@
 
 In programming terminology, modularity refers to dividing software into different sections related to their purpose or to better organize the whole. In SugarCube, this technique can be used through the [*&lt;&lt;include&gt;&gt;*](http://www.motoslave.net/sugarcube/2/docs/macros.html#macros-include) macro to print the contents of one passage in another. Parts of a story can often be re-used in this way.
 
-You can also create [*&lt;&lt;widget&gt;&gt;* macros](http://www.motoslave.net/sugarcube/2/docs/macros.html#macros-widget) which is a simplified way of creating your own custom macros using other SugarCube macros and TwineScript instead of JavaScript. When compared to *&lt;&lt;include&lt;&lt;*, widgets have the advantage of accepting arguments and expressions similar to the way other SugarCube macros can. When you create widgets you need to place them in passages tagged `widget`. You can access the arguments of widgets through the special `$args` array.
+You can also create [*&lt;&lt;widget&gt;&gt;* macros](http://www.motoslave.net/sugarcube/2/docs/macros.html#macros-widget), which offer a simplified way of creating your own custom macros using other SugarCube macros and TwineScript instead of JavaScript. When compared to *&lt;&lt;include&gt;&gt;*, widgets have the advantage of accepting arguments and expressions similar to the way other SugarCube macros can. When you create widgets you need to place them in passages tagged `widget`. You can access the arguments of widgets through the special `$args` array.
 
 ## Live Example
 
