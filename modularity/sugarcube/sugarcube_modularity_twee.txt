@@ -8,6 +8,20 @@ Modularity in SugarCube
 <<include "showLineOne">>
 <<include "showLineTwo">>
 
+<<showLine 1>>
+<<showLine 2>>
+
+:: showLineWidget [widget]
+<<widget 'showLine'>>\
+    <<nobr>>
+        <<if $args[0] is 1>>
+            $lineOne
+        <<elseif $args[0] is 2>>
+            $lineTwo
+        <</if>>
+    <</nobr>>\
+<</widget>>
+
 :: showLineOne
 $lineOne
 
