@@ -21,12 +21,13 @@ Download: <a href="snowman_arrays_example.html" target="_blank">Live Example</a>
 :: StoryTitle
 Arrays in Snowman
 
-:: init
-<%
+:: UserScript [script]
+(function () {
+    var s = window.story.state;
     s.inventory = [];
     s.chest = ['a shield', 'a suit of armor'];
     s.chestOpen = false;
-%>
+}());
 
 :: Header
 You are currently carrying: 
@@ -37,7 +38,7 @@ nothing.
 <% } %>
 
 :: Start
-<%= window.story.render("init") %><%= window.story.render("Header") %><hr />
+<%= window.story.render("Header") %><hr />
 
 You find yourself inside a small room. In the corner, you see a sword, and decide to pick it up.
 
