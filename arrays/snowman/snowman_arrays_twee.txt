@@ -1,0 +1,59 @@
+:: StoryTitle
+Arrays in Snowman
+
+:: UserScript [script]
+(function () {
+    var s = window.story.state;
+    s.inventory = [];
+    s.chest = ['a shield', 'a suit of armor'];
+    s.chestOpen = false;
+}());
+
+:: Header
+You are currently carrying: 
+<% if (s.inventory.length === 0) { %>
+nothing.
+<% } else { %>
+<%= s.inventory.join(', ') + '.' %>
+<% } %>
+
+:: Start
+<%= window.story.render("Header") %><hr />
+
+You find yourself inside a small room. In the corner, you see a sword, and decide to pick it up.
+
+<% s.inventory.push('a sword') %>
+[[Continue|hallway]]
+
+:: hallway
+<%= window.story.render("Header") %><hr />
+You see a chest here in the hallway.
+<% if (!s.chestOpen) { %>
+Do you want to open it?
+
+[[Open the chest.|chest]]
+<% } else { %>
+It's open, and there's nothing inside.
+<% } %>
+
+[[Move on.|dart trap]]
+
+:: chest
+<% s.inventory = s.inventory.concat(s.chest) %>
+<% s.chestOpen = true %>
+<%= window.story.render("Header") %><hr />
+
+You open the chest and find <%= s.chest.join(' and ') %>.
+
+[[Okay.|hallway]]
+
+:: dart trap
+<%= window.story.render("Header") %><hr />
+Several darts shoot out of a wall at you!
+<% if (s.inventory.includes('a shield')) { %>
+
+Luckily, your shield will protect you.
+<% } else { %>
+
+With no way to defend yourself, you die.
+<% } %>
