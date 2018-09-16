@@ -19,3 +19,9 @@ section {
     color: #082213;
     background-color: #BDE5F8;
 }
+.markdown-section img {
+    border: solid black 1px;
+    max-width: 70%;
+    margin: auto;
+    display: block;
+}
