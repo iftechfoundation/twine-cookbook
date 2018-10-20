@@ -246,6 +246,12 @@
 	* [SugarCube](spaceexploration/sugarcube/sugarcube_space_exploration.md)
 	* [Snowman](spaceexploration/snowman/snowman_space_exploration.md)
 
+# Static Healthbars
+
+* Static Healthbars
+	* [SugarCube](statichealthbars/sugarcube/sugarcube_statichealthbars.md)
+	* [Snowman](statichealthbars/snowman/snowman_statichealthbars.md)
+
 # Style Markup
 
 * Style Markup
