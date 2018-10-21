@@ -169,6 +169,11 @@
 	* [SugarCube](clamping_numbers/sugarcube/sugarcube_clamping_numbers.md)
 	* [Snowman](clamping_numbers/snowman/snowman_clamping_numbers.md)
 
+# Loading Screen
+
+* Loading Screen
+	* [SugarCube](loadscreen/sugarcube/sugarcube_loadscreen.md)
+
 # Lock and Key: Variable
 
 * Lock and Key: Variable
