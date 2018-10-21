@@ -4,26 +4,13 @@
 
 * [Using the Cookbook](using_cookbook.md)
 
-* [Twine Manual](introduction/introduction_summary.md)
-	* Chapter 1
-		* [Using the Editor](introduction/chapter_1/using_the_editor.md)
-			* [Twine 2](introduction/chapter_1/twine2_editor.md)
-				* [Story Listing](introduction/chapter_1/twine2_story_listing.md)
-				* [Passages View](introduction/chapter_1/twine2_passages_view.md)
-		* [Passages](introduction/chapter_1/passages.md)
-		* [Story Formats](introduction/chapter_1/story_formats.md)
-		* [Styling Text](introduction/chapter_1/styling_text.md)
-		* [Introducing Harlowe](introduction/chapter_1/introducing_harlowe.md)
-	* Chapter 2
-		* [Using Macros](introduction/chapter_2/using_macros.md)
-		* [Story Formats Differences](introduction/chapter_2/story_format_differences.md)
-		* [Introducing Sugarcube](introduction/chapter_2/introducing_sugarcube.md)
-			* Styling
-			* Macro Usage
-	* Chapter 3
-		* [Introducing CSS](introduction/chapter_3/introducing_css.md)
-		* [Introducing JavaScript](introduction/chapter_3/introducing_javascript.md)
-		* [Introducing Snowman](introduction/chapter_3/introducing_snowman.md)
+# Twine Manual
+
+* [Twine 2](introduction/twine2_editor.md)
+	* [Story Listing](introduction/twine2_story_listing.md)
+	* [Passages View](introduction/twine2_passages_view.md)
+* [Passages](introduction/passages.md)
+* [Story Formats](introduction/story_formats.md)
 
 # Terms
 
@@ -302,6 +289,11 @@
 	* [Harlowe](storystyling/harlowe/harlowe_storystyling.md)
 	* [SugarCube](storystyling/sugarcube/sugarcube_storystyling.md)
 	* [Snowman](storystyling/snowman/snowman_storystyling.md)
+
+# Using Add-ons
+
+* Using Add-ons
+	* [SugarCube](usingaddons/sugarcube/sugarcube_usingaddons.md)
 
 # Glossary
 
