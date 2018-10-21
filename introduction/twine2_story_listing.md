@@ -1,4 +1,4 @@
-# Chapter 1: Using the Editor: Story Listing
+# Using the Editor: Story Listing
 
 ![Story List](./images/StoryList.png)
 

@@ -1,4 +1,4 @@
-# Chapter 1: Using the Editor: Passages View
+# Using the Editor: Passages View
 
 ### Passages View
 
