@@ -10,11 +10,9 @@
 			* [Twine 2](introduction/chapter_1/twine2_editor.md)
 				* [Story Listing](introduction/chapter_1/twine2_story_listing.md)
 				* [Passages View](introduction/chapter_1/twine2_passages_view.md)
-			* [Twine 1](introduction/chapter_1/twine1_editor.md)
 		* [Passages](introduction/chapter_1/passages.md)
+		* [Story Formats](introduction/chapter_1/story_formats.md)
 		* [Styling Text](introduction/chapter_1/styling_text.md)
-			* Twine 2
-			* Twine 1
 		* [Introducing Harlowe](introduction/chapter_1/introducing_harlowe.md)
 	* Chapter 2
 		* [Using Macros](introduction/chapter_2/using_macros.md)
@@ -256,6 +254,12 @@
 * Static Healthbars
 	* [SugarCube](statichealthbars/sugarcube/sugarcube_statichealthbars.md)
 	* [Snowman](statichealthbars/snowman/snowman_statichealthbars.md)
+
+# Story and Passage API
+
+* Story and Passage API
+	* [SugarCube](storyandpassage/sugarcube/sugarcube_storyandpassage.md)
+	* [Snowman](storyandpassage/snowman/snowman_storyandpassage.md)
 
 # Style Markup
 
