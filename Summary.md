@@ -239,6 +239,7 @@
 # Static Healthbars
 
 * Static Healthbars
+	* [Harlowe](statichealthbars/harlowe/harlowe_statichealthbars.md)
 	* [SugarCube](statichealthbars/sugarcube/sugarcube_statichealthbars.md)
 	* [Snowman](statichealthbars/snowman/snowman_statichealthbars.md)
 
