@@ -295,7 +295,3 @@
 
 * Using Add-ons
 	* [SugarCube](usingaddons/sugarcube/sugarcube_usingaddons.md)
-
-# Glossary
-
-* [Glossary](glossary.md)
