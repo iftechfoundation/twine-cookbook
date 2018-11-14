@@ -52,7 +52,7 @@ The Story Format screens allows for changing the story format in use when runnin
 
 ![Rename](./images/Rename.png)
 
-The Renme Story option allows for changing the name of the story.
+The Rename Story option allows for changing the name of the story.
 
 ---
 
