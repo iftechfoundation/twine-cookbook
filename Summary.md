@@ -4,6 +4,14 @@
 
 * [Using the Cookbook](using_cookbook.md)
 
+# Twine Manual
+
+* [Twine 2](introduction/twine2_editor.md)
+	* [Story Listing](introduction/twine2_story_listing.md)
+	* [Passages View](introduction/twine2_passages_view.md)
+* [Passages](introduction/passages.md)
+* [Story Formats](introduction/story_formats.md)
+
 # Terms
 
 * Common Terms
@@ -52,6 +60,13 @@
 	* [Harlowe](cycling/harlowe/harlowe_cycling.md)
 	* [SugarCube](cycling/sugarcube/sugarcube_cycling.md)
 	* [Snowman](cycling/snowman/snowman_cycling.md)
+
+# Date and Time
+
+* Date and Time
+	* [Harlowe](dateandtime/harlowe/harlowe_dateandtime.md)
+	* [SugarCube](dateandtime/sugarcube/sugarcube_dateandtime.md)
+	* [Snowman](dateandtime/snowman/snowman_dateandtime.md)
 
 # Delayed Text
 
@@ -139,6 +154,11 @@
 	* [SugarCube](clamping_numbers/sugarcube/sugarcube_clamping_numbers.md)
 	* [Snowman](clamping_numbers/snowman/snowman_clamping_numbers.md)
 
+# Loading Screen
+
+* Loading Screen
+	* [SugarCube](loadscreen/sugarcube/sugarcube_loadscreen.md)
+
 # Lock and Key: Variable
 
 * Lock and Key: Variable
@@ -216,6 +236,19 @@
 	* [SugarCube](spaceexploration/sugarcube/sugarcube_space_exploration.md)
 	* [Snowman](spaceexploration/snowman/snowman_space_exploration.md)
 
+# Static Healthbars
+
+* Static Healthbars
+	* [Harlowe](statichealthbars/harlowe/harlowe_statichealthbars.md)
+	* [SugarCube](statichealthbars/sugarcube/sugarcube_statichealthbars.md)
+	* [Snowman](statichealthbars/snowman/snowman_statichealthbars.md)
+
+# Story and Passage API
+
+* Story and Passage API
+	* [SugarCube](storyandpassage/sugarcube/sugarcube_storyandpassage.md)
+	* [Snowman](storyandpassage/snowman/snowman_storyandpassage.md)
+
 # Style Markup
 
 * Style Markup
@@ -258,6 +291,7 @@
 	* [SugarCube](storystyling/sugarcube/sugarcube_storystyling.md)
 	* [Snowman](storystyling/snowman/snowman_storystyling.md)
 
-# Glossary
+# Using Add-ons
 
-* [Glossary](glossary.md)
+* Using Add-ons
+	* [SugarCube](usingaddons/sugarcube/sugarcube_usingaddons.md)

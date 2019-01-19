@@ -1,0 +1,14 @@
+:: StoryTitle
+Loading Screen in SugarCube
+
+:: UserScript[script]
+// Lock the screen and save the ID
+var lockID = LoadScreen.lock();
+	
+// Pause for 5 second before unlocking the screen
+setTimeout(function(){ 
+		LoadScreen.unlock(lockID);
+}, 5000);
+
+:: Start
+You can now see this after the long pause!
