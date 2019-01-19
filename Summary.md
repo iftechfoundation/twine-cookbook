@@ -32,6 +32,13 @@
 	* [SugarCube](addingfunctionality/sugarcube/sugarcube_adding_functionality.md)
 	* [Snowman](addingfunctionality/snowman/snowman_adding_functionality.md)
 
+# Arrays
+
+* Arrays
+    * [Harlowe](arrays/harlowe/harlowe_arrays.md)
+    * [SugarCube](arrays/sugarcube/sugarcube_arrays.md)
+    * [Snowman](arrays/snowman/snowman_arrays.md)
+
 # Audio
 
 * Audio
