@@ -36,7 +36,7 @@ The Edit Story JavaScript screen allows for adding or changing JavaScript code t
 
 ![Edit Story Stylesheet](./images/StoryStylesheet.png)
 
-THe Edit Story Stylesheet screen allows for adding or changing CSS rules that will be included in the story when run or published in a HTML file.
+The Edit Story Stylesheet screen allows for adding or changing CSS rules that will be included in the story when run or published in a HTML file.
 
 ---
 
@@ -58,7 +58,7 @@ The Rename Story option allows for changing the name of the story.
 
 ##### Select All Passages
 
-The Select All Passages palces all passages into a single selection for moving or re-arragning them as a group
+The Select All Passages places all passages into a single selection for moving or rearranging them as a group
 
 ---
 
@@ -94,7 +94,7 @@ The Publish to File option compiles the current story and any Story JavaScript a
 
 ![Quick Find](./images/QuickFind.png)
 
-THe Quick Find functionality is used for searching for words or longer phrases across all passages.
+The Quick Find functionality is used for searching for words or longer phrases across all passages.
 
 ---
 
@@ -126,7 +126,7 @@ The Passage Tiles view shows simply that: passage titles.
 
 ![Titles and Excerpts](./images/TitlesAndExcerpts.png)
 
-The Titles and Excerpts view shows passages, their conents, and excerpts of their contents.
+The Titles and Excerpts view shows passages, their contents, and excerpts of their contents.
 
 ---
 
@@ -150,5 +150,4 @@ The "Play Story" button starts the story in a new tab or window.
 
 ![Add Passage](./images/AddPassage.png)
 
-THe "Create New Passage" button creates a new, unconnected passage in the Passage View.
-
+The "Create New Passage" button creates a new, unconnected passage in the Passage View.

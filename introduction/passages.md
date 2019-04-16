@@ -6,9 +6,8 @@ A [passage](../terms/terms_passages.md) is a way of thinking about different par
 
 ## Links
 
-Generally, the action of clicking a link in Twine is a movement between passages. In interactive fiction terminology, this can be thought of as a turn. The act of clicking the link signaled that a choice was made and now it is time to progress to the next content or set of choices.
+Generally, the action of clicking a link in Twine is a movement between passages. In interactive fiction terminology, this can be thought of as a turn. The act of clicking the link signaled that a choice was made and it is now time to progress to the next content or set of choices.
 
 ## Content AND Code
 
-While passages can be thought of as content sections, they are also where code goes to change how text appears and how the passage should respond to the user. Writing prose and code both happen within passages. They are not seperated in Twine: writing in a passage has the potential to be either or both at the same time.
-
+While passages can be thought of as content sections, they are also where code goes to change how text appears and how the passage should respond to the user. Writing prose and code both happen within passages. They are not separated in Twine: writing in a passage has the potential to be either or both at the same time.
