@@ -65,6 +65,7 @@
 
 * Cycling Choices
 	* [Harlowe](cycling/harlowe/harlowe_cycling.md)
+	* [Harlowe (only v3.0.1 or later)](cycling/harlowe_3/harlowe_cycling.md)
 	* [SugarCube](cycling/sugarcube/sugarcube_cycling.md)
 	* [Snowman](cycling/snowman/snowman_cycling.md)
 
