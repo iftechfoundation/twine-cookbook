@@ -83,6 +83,11 @@
 	* [SugarCube](delayedtext/sugarcube/sugarcube_delayedtext.md)
 	* [Snowman](delayedtext/snowman/snowman_delayedtext.md)
 
+# Deleting Variables
+
+* Deleting Variables
+	* [SugarCube](deletingvariables/sugarcube/sugarcube_deletingvariables.md)
+
 # Dice Rolling
 
 * Dice Rolling
