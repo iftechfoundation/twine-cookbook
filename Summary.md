@@ -219,6 +219,7 @@
 * Passage Transitions
 	* [Harlowe (only v3.0.1 or later)](passagetransitions/harlowe/harlowe_passagetransitions.md)
 	* [Snowman](passagetransitions/snowman/snowman_passagetransitions.md)
+	* [SugarCube](passagetransitions/sugarcube/sugarcube_passagetransitions.md)
 
 # Player Statistics
 
