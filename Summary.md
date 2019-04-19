@@ -87,6 +87,7 @@
 
 * Deleting Variables
 	* [SugarCube](deletingvariables/sugarcube/sugarcube_deletingvariables.md)
+	* [Snowman](deletingvariables/snowman/snowman_deletingvariables.md)
 
 # Dice Rolling
 
