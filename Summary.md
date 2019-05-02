@@ -96,6 +96,11 @@
 	* [SugarCube](dicerolling/sugarcube/sugarcube_dicerolling.md)
 	* [Snowman](dicerolling/snowman/snowman_dicerolling.md)
 
+# Dropdown
+
+* Dropdown
+	* [Harlowe (only v3.0.1 or later)](dropdown/harlowe/harlowe_dropdown.md)
+
 # Fairmath System
 
 * Fairmath System
