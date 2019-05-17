@@ -2,7 +2,7 @@
 
 ## Summary
 
-"Dice Rolling" demostrates how to create the same effects of rolling various physical dice through using Underscore.js's *[_.random()](http://underscorejs.org/#random)* function and its interpolating functionality.
+"Dice Rolling" demonstrates how to create the same effects of rolling various physical dice through using Underscore.js's *[_.random()](http://underscorejs.org/#random)* function and its interpolating functionality.
 
 ## Live Example
 
@@ -32,7 +32,7 @@ Rolling a 1d12: <%= _.random(1, 12) %>
 
 Rolling a 1d20: <%= _.random(1, 20) %>
 
-Rolling a 1d100: <%= _.random(1, 100) %> 
+Rolling a 1d100: <%= _.random(1, 100) %>
 
 Rolling a 1d4 + 4: <%= _.random(1, 4) + 4 %>
 

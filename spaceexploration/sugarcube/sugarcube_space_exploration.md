@@ -2,7 +2,7 @@
 
 ## Summary
 
-Games in the [roguelike genre](https://en.wikipedia.org/wiki/Roguelike) often have random events that influence player choices. Frequently, decisions can have lasting impact or even lead to an ending of play in that session or run depending on these random outcomes.
+Games in the [rogue-like genre](https://en.wikipedia.org/wiki/Roguelike) often have random events that influence player choices. Frequently, decisions can have lasting impact or even lead to an ending of play in that session or run depending on these random outcomes.
 
 Heavily inspired by [*FTL: Faster Than Light*](https://en.wikipedia.org/wiki/FTL:_Faster_Than_Light) (2012), this example uses the [*random()*](http://www.motoslave.net/sugarcube/2/docs/functions.html#random) function to generate a system of planets consisting of either RED, more risk and more reward, or GREEN, less risk and less reward. Upon entering a system of planets, the player can choose to visit these planets for different outcomes based on a series of choices and an additional use of the *random()* function. While traveling, the player must also balance the health of the ship, the number of jumps left, and the current fuel that are all displayed using the [&lt;&lt;include&gt;&gt;](http://www.motoslave.net/sugarcube/2/docs/macros.html#macros-include) macro. Finally, to capture the permanence of many roguelike games, the [&lt;&lt;goto&gt;&gt;](http://www.motoslave.net/sugarcube/2/docs/macros.html#macros-goto) macro is used to prevent the use of the normal undo/redo in SugarCube.
 
@@ -24,7 +24,7 @@ Download: <a href="sugarcube_space_exploration_example.html" target="_blank">Liv
 Space Exploration in SugarCube
 
 :: Start
-[[Explore Space|Explore Space 1]] 
+[[Explore Space|Explore Space 1]]
 
 :: StoryInit
 <<set $health to 20>>
@@ -69,7 +69,7 @@ Space Exploration in SugarCube
   <<for _i to 0; _i lt _planets; _i++>>
 	  <<set $system[_i] to either("RED", "GREEN") >>
   <</for>>
-  
+
 <</silently>>
 
 :: Display System
@@ -118,7 +118,7 @@ Space Exploration in SugarCube
   <<replace "#HUD">>
 	  <<include "HUD">>
   <</replace>>
-  
+
 <</nobr>>
 
 :: Show Outcome - Green
@@ -148,7 +148,7 @@ Space Exploration in SugarCube
   <<replace "#HUD">>
 	  <<include "HUD">>
   <</replace>>
-  
+
 <</nobr>>
 
 :: HUD
@@ -188,4 +188,3 @@ After 10 hyperjumps, the ship left the hazardous area and called for help.
 ```
 
 Download: <a href="sugarcube_space_exploration_twee.txt" target="_blank">Twee Code</a>
-
