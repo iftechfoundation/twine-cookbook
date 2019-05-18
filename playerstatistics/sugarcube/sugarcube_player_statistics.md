@@ -2,9 +2,9 @@
 
 ## Summary
 
-One of the most popular mechanics of table-top role-playing games are those where the player must determine their in-game statistics and then use them to make decsions.
+One of the most popular mechanics of table-top role-playing games are those where the player must determine their in-game statistics and then use them to make decisions.
 
-In this example, the [&lt;&lt;link&gt;&gt;](http://www.motoslave.net/sugarcube/2/docs/macros.html#macros-link) macro is used multiple times to [replace content](http://www.motoslave.net/sugarcube/2/docs/macros.html#macros-replace) and [adjust values](http://www.motoslave.net/sugarcube/2/docs/macros.html#macros-set) based on [if](http://www.motoslave.net/sugarcube/2/docs/macros.html#macros-if) they are greater than a target number. In a second passage, these values are used in combination with a [random number](http://www.motoslave.net/sugarcube/2/docs/functions.html#random) between 1 to 6, mimicking a common 1d6 mechanic to check if a value is above a target number. 
+In this example, the [&lt;&lt;link&gt;&gt;](http://www.motoslave.net/sugarcube/2/docs/macros.html#macros-link) macro is used multiple times to [replace content](http://www.motoslave.net/sugarcube/2/docs/macros.html#macros-replace) and [adjust values](http://www.motoslave.net/sugarcube/2/docs/macros.html#macros-set) based on [if](http://www.motoslave.net/sugarcube/2/docs/macros.html#macros-if) they are greater than a target number. In a second passage, these values are used in combination with a [random number](http://www.motoslave.net/sugarcube/2/docs/functions.html#random) between 1 to 6, mimicking a common 1d6 mechanic to check if a value is above a target number.
 
 ## Live Example
 
@@ -30,7 +30,7 @@ Empathy: \
 	  <<replace "#empathyStat">><<print $empathy>><</replace>>
 	  <<replace "#pointsStat">><<print $totalPoints>><</replace>>
 	<</if>>
-<</link>>\ 
+<</link>>\
 <<link "[-]">>
 	<<if $empathy gt 0>>
 	  <<set $empathy-->>
@@ -47,7 +47,7 @@ Intelligence: \
 	  <<replace "#intelligenceStat">><<print $intelligence>><</replace>>
 	  <<replace "#pointsStat">><<print $totalPoints>><</replace>>
 	<</if>>
-<</link>>\ 
+<</link>>\
 <<link "[-]">>
 	<<if $intelligence gt 0>>
 	  <<set $intelligence-->>

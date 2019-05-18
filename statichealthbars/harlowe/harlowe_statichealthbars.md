@@ -2,7 +2,7 @@
 
 ## Summary
 
-"Static Healthbars" demonstrates how to write HTML elements using variable values. In this example, the [(print:)](https://twine2.neocities.org/#macro_print) macro is used to create &lt;progress&gt; and &lt;meter&gt; elements. A [(text:)]() macro is also used to temporarly convert the current **Numeric** value of the *$heath* story variable into a **String** value.
+"Static Healthbars" demonstrates how to write HTML elements using variable values. In this example, the [(print:)](https://twine2.neocities.org/#macro_print) macro is used to create &lt;progress&gt; and &lt;meter&gt; elements. A [(text:)]() macro is also used to temporarily convert the current **Numeric** value of the *$heath* story variable into a **String** value.
 
 ## Live Example
 

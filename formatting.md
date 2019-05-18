@@ -11,7 +11,7 @@ For terms that may not be familiar to a more general audience, they can be added
 
 ## Live Example
 
-The next section demostrates the code running.
+The next section demonstrates the code running.
 ```
 <section>
 <iframe src="storyformat_recipe_example.html" height=400 width=90%></iframe>

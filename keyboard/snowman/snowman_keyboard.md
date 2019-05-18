@@ -2,7 +2,7 @@
 
 ## Summary
 
-"Keyboard Events" demostrates how to capture [keyboard events](https://developer.mozilla.org/en-US/docs/Web/API/KeyboardEvent) and then how to associate individual keys with activities within a story.
+"Keyboard Events" demonstrates how to capture [keyboard events](https://developer.mozilla.org/en-US/docs/Web/API/KeyboardEvent) and then how to associate individual keys with activities within a story.
 
 The example uses jQuery's [*on()* function](http://api.jquery.com/on/) to monitor for all [*keyup* events](https://developer.mozilla.org/en-US/docs/Web/Events/keyup). Once a 'keyup' event has occurred, two values are available:
 

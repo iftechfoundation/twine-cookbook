@@ -65,6 +65,7 @@
 
 * Cycling Choices
 	* [Harlowe](cycling/harlowe/harlowe_cycling.md)
+	* [Harlowe (only v3.0.1 or later)](cycling/harlowe_3/harlowe_cycling.md)
 	* [SugarCube](cycling/sugarcube/sugarcube_cycling.md)
 	* [Snowman](cycling/snowman/snowman_cycling.md)
 
@@ -82,12 +83,23 @@
 	* [SugarCube](delayedtext/sugarcube/sugarcube_delayedtext.md)
 	* [Snowman](delayedtext/snowman/snowman_delayedtext.md)
 
+# Deleting Variables
+
+* Deleting Variables
+	* [SugarCube](deletingvariables/sugarcube/sugarcube_deletingvariables.md)
+	* [Snowman](deletingvariables/snowman/snowman_deletingvariables.md)
+
 # Dice Rolling
 
 * Dice Rolling
 	* [Harlowe](dicerolling/harlowe/harlowe_dicerolling.md)
 	* [SugarCube](dicerolling/sugarcube/sugarcube_dicerolling.md)
 	* [Snowman](dicerolling/snowman/snowman_dicerolling.md)
+
+# Dropdown
+
+* Dropdown
+	* [Harlowe (only v3.0.1 or later)](dropdown/harlowe/harlowe_dropdown.md)
 
 # Fairmath System
 
@@ -207,6 +219,13 @@
 * Passage Events
 	* [SugarCube](passageevents/sugarcube/sugarcube_passage_events.md)
 	* [Snowman](passageevents/snowman/snowman_passage_events.md)
+
+# Passage Transitions
+
+* Passage Transitions
+	* [Harlowe (only v3.0.1 or later)](passagetransitions/harlowe/harlowe_passagetransitions.md)
+	* [Snowman](passagetransitions/snowman/snowman_passagetransitions.md)
+	* [SugarCube](passagetransitions/sugarcube/sugarcube_passagetransitions.md)
 
 # Player Statistics
 

@@ -2,7 +2,7 @@
 
 ## Summary
 
-Harlowe v2.1.0 or later includes a built-in [*named hook*](https://twine2.neocities.org/#markup_named-hook) named *?Sidebar*. When combinded with the [*(append:)* macro](https://twine2.neocities.org/#macro_append), dynamic content can be added to the left, blank area containing the default Undo and Redo links. A ["footer" tagged passage](https://twine2.neocities.org/#passagetag_footer) is used to update the dynamic content after each passage transition, and CSS is used to resize and postion the existing *tw-sidebar* element.
+Harlowe v2.1.0 or later includes a built-in [*named hook*](https://twine2.neocities.org/#markup_named-hook) named *?Sidebar*. When combined with the [*(append:)* macro](https://twine2.neocities.org/#macro_append), dynamic content can be added to the left, blank area containing the default Undo and Redo links. A ["footer" tagged passage](https://twine2.neocities.org/#passagetag_footer) is used to update the dynamic content after each passage transition, and CSS is used to resize and position the existing *tw-sidebar* element.
 
 ## Live Example
 

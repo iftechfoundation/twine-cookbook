@@ -2,7 +2,7 @@
 
 ## Summary
 
-"Hidden Link" demostrates how to create a 'hidden' link that is only revealed when the cursor passes over it.
+"Hidden Link" demonstrates how to create a 'hidden' link that is only revealed when the cursor passes over it.
 
 Using CSS and JavaScript, a rule is created for transparent color and applied or removed through using jQuery's *[on()](http://api.jquery.com/on/)* function with 'mouseenter' and 'mouseleave' events.
 
@@ -77,4 +77,3 @@ You found it!
 ```
 
 Download: <a href="sugarcube_hiddenlink_twee.txt" target="_blank">Twee Code</a>
-

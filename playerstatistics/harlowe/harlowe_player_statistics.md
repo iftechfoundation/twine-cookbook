@@ -2,7 +2,7 @@
 
 ## Summary
 
-One of the most popular mechanics of table-top role-playing games are those where the player must determine their in-game statistics and then use them to make decsions.
+One of the most popular mechanics of table-top role-playing games are those where the player must determine their in-game statistics and then use them to make decisions.
 
 In this example, the [(link-repeat:)](https://twine2.neocities.org/#macro_link-repeat) macro is used multiple times to [replace content](https://twine2.neocities.org/#macro_replace) and [adjust values](https://twine2.neocities.org/#macro_set) based on [if](https://twine2.neocities.org/#macro_if) they are higher than a target value. In a second passage, these values are used in combination with a [random number](https://twine2.neocities.org/#macro_random) between 1 to 6, mimicking a common 1d6 mechanic to check if a value is above a target number.
 
@@ -30,7 +30,7 @@ Empathy: {
 		(replace: ?empathyStat)[|empathyStat>[$empathy]]
 		(replace: ?pointsStat)[|pointsStat>[$totalPoints]]
 	  ]
-  ] 
+  ]
 
   (link-repeat: "|-|")[
 	  (if: $empathy > 0)[
@@ -50,7 +50,7 @@ Intelligence: {
 		(replace: ?pointsStat)[|pointsStat>[$totalPoints]]
 	  ]
   ]
-  
+
   (link-repeat: "|-|")[
 	  (if: $intelligence > 0)[
 		(set: $intelligence to it - 1)
