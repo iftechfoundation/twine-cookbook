@@ -8,15 +8,6 @@ In this example, the *length* of the array returned by using the *(history:)* ma
 
 By visiting other passages, the turn count is increased and the hour reaches 23 before being reset back to 0 before increasing again.
 
-## Live Example
-
-<section>
-<iframe src="harlowe_turncounter_example.html" height=400 width=90%></iframe>
-
-
-Download: <a href="harlowe_turncounter_example.html" target="_blank">Live Example</a>
-</section>
-
 ## Twee Code
 
 ```
@@ -59,5 +50,3 @@ Rooms:
 [[Front Room|Start]]
 
 ```
-
-Download: <a href="harlowe_turncounter_twee.txt" target="_blank">Twee Code</a>

@@ -4,15 +4,6 @@
 
 "Moving through a 'dungeon'" creates a multidimensional array. Movement positions are then tracked through X and Y variables for a grid system. Each movement subtracts or adds to its cooresponding X or Y position and is compared to those same positions within the array. Different directions are shown if movement is possible in that direction.
 
-## Live Example
-
-<section>
-<iframe src="snowman_dungeonmoving_example.html" height=400 width=90%></iframe>
-
-
-Download: <a href="snowman_dungeonmoving_example.html" target="_blank">Live Example</a>
-</section>
-
 ## Twee Code
 
 ```
@@ -26,7 +17,7 @@ Download: <a href="snowman_dungeonmoving_example.html" target="_blank">Live Exam
 
 <%
 /* 0s are walls, 1 are spaces, 2 is the goal. */
-var maze = 
+var maze =
 [
 [0,0,0,0,0,0,0,0,0,0,0],
 [0,1,1,1,0,1,1,1,1,1,0],
@@ -47,7 +38,7 @@ var positionX = 1, positionY = 1;
 
 function renderMaze() {
 	/* Transform the maze into ASCII art. */
-	
+
 	/* What characters we use to display the maze. */
 	var displayChars = ['#', '.', 'E'];
 
@@ -56,7 +47,7 @@ function renderMaze() {
 			if (renderX === positionX && renderY === positionY) {
 				return 'P' + html;
 			}
-			
+
 			return displayChars[cell] + html;
 		}, '<br>');
 	}));
@@ -79,7 +70,7 @@ function updateMoves() {
 $(function() {
 	renderMaze();
 	updateMoves();
-	
+
 	/*
 	Change position when the user clicks an appropriate link.
 	We depend on updateMoves() to prevent the user from walking
@@ -88,7 +79,7 @@ $(function() {
 
 	$('[data-move]').click(function() {
 		var direction = $(this).data('move');
-	
+
 		switch (direction) {
 			case 'n':
 				positionY--;
@@ -105,7 +96,7 @@ $(function() {
 			default:
 				throw new Error('Don\'t know how to move ' + direction);
 		}
-		
+
 		if (maze[positionY][positionX] === 2) {
 			story.show('Exit');
 		}
@@ -123,7 +114,7 @@ $(function() {
 You've escaped this fiendish maze!
 ```
 
-Download: <a href="snowman_dungeonmoving_twee.txt" target="_blank">Twee Code</a>
+## See Also
 
 [Setting and Showing Variables](../../settingandshowing/snowman/snowman_settingandshowing.md), 
 [Conditional Statements](../../conditionalstatements/snowman/snowman_conditionalstatements.md)

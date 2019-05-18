@@ -6,15 +6,6 @@
 
 This example uses functions *increase()* and *decrease()* as part of a created global *window.setup.fairmath*. These can be called through using the [Underscore template functionality](http://underscorejs.org/#template) to define, use, and show the values of the functions in any one passage.
 
-## Live Example
-
-<section>
-<iframe src="snowman_fairmath_example.html" height=400 width=90%></iframe>
-
-
-Download: <a href="snowman_fairmath_example.html" target="_blank">Live Example</a>
-</section>
-
 ## Twee Code
 
 ```
@@ -46,6 +37,3 @@ Increase 50 by 50% using Fairmath:
 <%= setup.fairmath.increase(50, 50) %>
 
 ```
-
-Download: <a href="snowman_fairmath_twee.txt" target="_blank">Twee Code</a>
-

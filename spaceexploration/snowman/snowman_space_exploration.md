@@ -6,15 +6,6 @@ Games in the [roguelike genre](https://en.wikipedia.org/wiki/Roguelike) often ha
 
 Heavily inspired by [*FTL: Faster Than Light*](https://en.wikipedia.org/wiki/FTL:_Faster_Than_Light) (2012), this example uses the [*`_`.random()*](http://underscorejs.org/#random) function to generate a system of planets consisting of either RED, more risk and more reward, or GREEN, less risk and less reward. Upon entering a system of planets, the player can choose to visit these planets for different outcomes based on a series of choices and an additional use of the *`_`.random()* function. While traveling, the player must also balance the health of the ship, the number of jumps left, and the current fuel that are all displayed using the [*window.story.render()*](https://twinery.org/wiki/snowman:window-story:render) function in combination with [Underscore.js templating](http://underscorejs.org/#template).
 
-## Live Example
-
-<section>
-<iframe src="snowman_space_exploration_example.html" height=400 width=90%></iframe>
-
-
-Download: <a href="snowman_space_exploration_example.html" target="_blank">Live Example</a>
-</section>
-
 ## Twee Code
 
 ```
@@ -32,11 +23,11 @@ _vars.health = 20;
 _vars.fuel = 4;
 _vars.system = [];
 _vars.numberOfJumpsLeft = 10;
-	
+
 // Create global functions
 window.setup.functions = {};
 var _functions = window.setup.functions;
-	
+
 _functions.redOutcome = function() {
 		var _vars = window.setup.variables;
 		var _percentage = _.random(1, 10);
@@ -47,22 +38,22 @@ _functions.redOutcome = function() {
 			response = "The hostile environment damaged the ship, but extra fuel was found. -" + _foundHealth + " to health and +" + _foundFuel + " to fuel.";
 	  		_vars.health -= _foundHealth;
 	  		_vars.fuel += _foundFuel;
-	
+
 		} else {
-  	  
+
 	  		if( _percentage <= 3) {
 	  			var _foundHealth = _.random(2, 7);
 	  			response = "A hostile ship attacked. -" + _foundHealth + " to health";
 	 			_vars.health -= _foundHealth;
-	
+
 			} else {
 				response = "Nothing happened."
 			}
 		}
-		
+
 		return response;
 	};
-	
+
 	_functions.greenOutcome = function() {
 		var _vars = window.setup.variables;
 		var _percentage = _.random(1, 10);
@@ -71,19 +62,19 @@ _functions.redOutcome = function() {
 	 		var _foundFuel = _.random( 1, 2);
 			response = "Fuel was found in some wreckage. + " + _foundFuel + "to fuel";
 	  		_vars.fuel += _foundFuel;
-	
+
 		} else {
-  	  
+
 	  		if( _percentage >= 6) {
 	  			var _foundHealth = _.random(1, 3);
 				response = "During a brief pause, the ship was able to be repaired. +" + _foundHealth + " to health";
 	 			_vars.health += _foundHealth;
-	
+
 			} else {
 				response = "Nothing happened."
 			}
 		}
-		
+
 		return response;
 	};
 
@@ -108,7 +99,7 @@ _functions.redOutcome = function() {
   <div id="display"></div>
 
   <%= window.story.render("Display System") %>
-  
+
   <%= window.story.render("Check Status") %>
 
 </div>
@@ -131,7 +122,7 @@ _functions.redOutcome = function() {
   <div id="display"></div>
 
   <%= window.story.render("Display System") %>
-  
+
   <%= window.story.render("Check Status") %>
 
 </div>
@@ -139,11 +130,11 @@ _functions.redOutcome = function() {
 :: Generate System
 <script>
 	var _vars = window.setup.variables;
-	
+
 	var planets =_.random(1, 4);
-	
+
 	_vars.system = new Array(planets);
-	
+
 	for(var i = 0; i < _vars.system.length; i++) {
 		_vars.system[i] = _.sample(["RED", "GREEN"]);
   	}
@@ -152,12 +143,12 @@ _functions.redOutcome = function() {
 :: Display System
 <script>
 	var _vars = window.setup.variables;
-  	
+
 	// Wipe out current contents
 	$("#display").html("");
-	
+
 	for(var i = 0; i < _vars.system.length; i++) {
-	
+
 	  if(_vars.system[i] == "RED") {
 		var link = $("<a href='#'>RED</a>")
 		.click(function(e) {
@@ -168,7 +159,7 @@ _functions.redOutcome = function() {
 		$("#display").append( link );
 		$("#display").append( "<br>" );
 	  }
-	  
+
 	  if(_vars.system[i] == "GREEN") {
 		  var link = $("<a href='#'>GREEN</a>")
 		.click(function(e) {
@@ -180,7 +171,7 @@ _functions.redOutcome = function() {
 		$("#display").append( "<br>" );
 	  }
 	}
-	
+
 </script>
 
 :: Show Outcome - Red
@@ -217,7 +208,7 @@ After 10 hyperjumps, the ship left the hazardous area and called for help.
 <script>
 
 	var _vars = window.setup.variables;
-		
+
 	var status = "";
 
 	if(_vars.health <= 0) {
@@ -229,13 +220,10 @@ After 10 hyperjumps, the ship left the hazardous area and called for help.
 	if(_vars.numberOfJumpsLeft <= 0) {
 		status = window.story.render("Safe");
 	}
-	
+
 	if(status != "") {
 		$(".gameScreen").html(status);
 	}
 </script>
 
 ```
-
-Download: <a href="snowman_space_exploration_twee.txt" target="_blank">Twee Code</a>
-

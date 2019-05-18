@@ -8,15 +8,6 @@ Heavily inspired by [*FTL: Faster Than Light*](https://en.wikipedia.org/wiki/FTL
 
 To cleanly present the text, this example also uses both the [&lt;&lt;silently&gt;&gt;](http://www.motoslave.net/sugarcube/2/docs/macros.html#macros-silently) macro, to disregard all output, and [&lt;&lt;nobr&gt;&gt;](http://www.motoslave.net/sugarcube/2/docs/macros.html#macros-nobr) macro, to collapse the whitespace.
 
-## Live Example
-
-<section>
-<iframe src="sugarcube_space_exploration_example.html" height=400 width=90%></iframe>
-
-
-Download: <a href="sugarcube_space_exploration_example.html" target="_blank">Live Example</a>
-</section>
-
 ## Twee Code
 
 ```
@@ -186,5 +177,3 @@ After 10 hyperjumps, the ship left the hazardous area and called for help.
 <</nobr>>
 
 ```
-
-Download: <a href="sugarcube_space_exploration_twee.txt" target="_blank">Twee Code</a>

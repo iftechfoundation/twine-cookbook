@@ -6,15 +6,6 @@ Snowman comes with no user-facing functionality for undoing and re-doing actions
 
 <div class="alertbox information"><strong>Note:</strong> Checkpoints will only affect properties of the 's' (state) global variable.</div>
 
-## Live Example
-
-<section>
-<iframe src="snowman_programmaticundo_example.html" height=400 width=90%></iframe>
-
-
-Download: <a href="snowman_programmaticundo_example.html" target="_blank">Live Example</a>
-</section>
-
 ## Twee Code
 
 ```
@@ -33,6 +24,3 @@ $(window).on('showpassage:after', function (e, data)
 :: Enter the Darkness
 <a href="javascript: window.history.back();">You are not ready! Go back!</a>
 ```
-
-Download: <a href="snowman_programmaticundo_twee.txt" target="_blank">Twee Code</a>
-

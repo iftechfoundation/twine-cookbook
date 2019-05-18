@@ -3,15 +3,6 @@
 ## Summary
 This example creates a re-usable [modal window](https://en.wikipedia.org/wiki/Modal_window). It can be opened using the combination of [*(link-repeat:)*](https://twine2.neocities.org/#macro_link-repeat) and [*(replace:)*](https://twine2.neocities.org/#macro_replace) to create the window in an existing hook, and be 'closed' using the same macros to remove the window. CSS rules are applied with [*(css:)*](https://twine2.neocities.org/#macro_css) to style the modal, and to change an enclosing hook into a "dimmer" which obscures the rest of the page.
 
-## Live Example
-
-<section>
-<iframe src="harlowe_modal_example.html" height=400 width=90%></iframe>
-
-
-Download: <a href="harlowe_modal_example.html" target="_blank">Live Example</a>
-</section>
-
 ## Twee Code
 
 ```
@@ -49,5 +40,3 @@ Harlowe: Modal
 :: Start
 (link-repeat:"Open Modal!")[(display:"Modal code")(append:?modal)[Some text in the modal...]]
 ```
-
-Download: <a href="harlowe_modal_twee.txt" target="_blank">Twee Code</a>

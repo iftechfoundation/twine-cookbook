@@ -4,15 +4,6 @@
 
 [In SugarCube](http://www.motoslave.net/sugarcube/2/docs/markup.html#basic-formatting), style markup follows initial rules established in earlier versions of Twine while also adding many new ones.
 
-## Live Example
-
-<section>
-<iframe src="sugarcube_markup_example.html" height=400 width=90%></iframe>
-
-
-Download: <a href="sugarcube_markup_example.html" target="_blank">Live Example</a>
-</section>
-
 ## Twee Code
 
 ```
@@ -45,6 +36,3 @@ More code
 !!!!!!Level 6 Heading
 
 ```
-
-Download: <a href="sugarcube_markup_twee.txt" target="_blank">Twee Code</a>
-

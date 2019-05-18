@@ -14,15 +14,6 @@ Possible transition effects include:
 * "slide-left" (causes the passage to slide in from the left)
 * "pulse" (causes the passage to disappear while pulsating rapidly)
 
-## Live Example
-
-<section>
-<iframe src="harlowe_passagetransitions_example.html" height=400 width=90%></iframe>
-
-
-Download: <a href="harlowe_passagetransitions_example.html" target="_blank">Live Example</a>
-</section>
-
 ## Twee Code
 
 ```
@@ -39,5 +30,3 @@ Harlowe 3: Passage Transitions
 Double-click this passage to edit it.
 
 ```
-
-Download: <a href="harlowe_passagetransitions_twee.txt" target="_blank">Twee Code</a>

@@ -15,15 +15,6 @@ The following list describes each of the special passages in the order that they
 
 The sidebar can be manually stowed (hidden) and unstowed (revealed) by selecting the **&lt;** or **&gt;** icon in the sidebar's top right corner. The same effect can be achieved programatically by using the [UIBar global object](http://www.motoslave.net/sugarcube/2/docs/api-uibar.html) and its *UIBar.stow()* and *UIBar.unstow()* functions.
 
-## Live Example
-
-<section>
-<iframe src="sugarcube_sidebar_left_example.html" height=400 width=90%></iframe>
-
-
-Download: <a href="sugarcube_sidebar_left_example.html" target="_blank">Live Example</a>
-</section>
-
 ## Twee Code
 
 ```
@@ -70,8 +61,5 @@ Location: $location
 
 :: Another passage
 <<set $name to "John Smith", $location to "Shop">>\
-[[Start]] 
+[[Start]]
 ```
-
-Download: <a href="sugarcube_sidebar_left_twee.txt" target="_blank">Twee Code</a>
-

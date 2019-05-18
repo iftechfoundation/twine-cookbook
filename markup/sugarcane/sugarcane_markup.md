@@ -6,15 +6,6 @@
 
 [Style formatting in Twine 1.4.2](https://twinery.org/wiki/twine1:syntax) is supported across all story formats and includes both more basic markup such as italics and bolds and the more advanced construction of HTML tables.
 
-## Live Example
-
-<section>
-<iframe src="sugarcane_markup_example.html" height=400 width=90%></iframe>
-
-
-Download: <a href="sugarcane_markup_example.html" target="_blank">Live Example</a>
-</section>
-
 ## Twee Code
 
 ```
@@ -29,11 +20,11 @@ Escaped: {{{a //word//}}}
 Comment: /%a comment%/
 Error: @@error@@
 Inline styling: @@font-weight:bold;text@@
-Bulleted list:	
-* one 
+Bulleted list:
+* one
 * two
-Numbered list:	
-# one 
+Numbered list:
+# one
 # two
 !Heading 1
 !!Heading 2
@@ -63,6 +54,3 @@ Videlais
 
 
 ```
-
-Download: <a href="sugarcane_markup_twee.txt" target="_blank">Twee Code</a>
-

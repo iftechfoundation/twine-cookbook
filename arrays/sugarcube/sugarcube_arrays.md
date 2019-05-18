@@ -6,15 +6,6 @@ Arrays are a collection of values. Each value in an array is assigned an *index*
 
 [Specific elements](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array#Accessing_array_elements) can be accessed in an array by following its variable name with a pair of brackets containing the index to check. Testing whether an array contains an element can be done using the [*Array#includes()* function](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/includes); adding new items can be done using the [*Array#push()* function](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/push).
 
-## Live Example
-
-<section>
-<iframe src="sugarcube_arrays_example.html" height=400 width=90%></iframe>
-
-
-Download: <a href="sugarcube_arrays_example.html" target="_blank">Live Example</a>
-</section>
-
 ## Twee Code
 
 ```
@@ -28,7 +19,7 @@ Arrays in SugarCube
 <<set $chestOpen to false>>
 
 :: PassageHeader
-You are currently carrying: 
+You are currently carrying:
 /% if the inventory contains nothing, show "nothing" %/\
 <<if $inventory.length is 0>>\
     nothing.
@@ -74,7 +65,5 @@ Several darts shoot out of a wall at you!
     Luckily, your shield will protect you.
 <<else>>\
     With no way to defend yourself, you die.
-<</if>> 
+<</if>>
 ```
-
-Download: <a href="sugarcube_arrays_twee.txt" target="_blank">Twee Code</a>

@@ -8,15 +8,6 @@ Using CSS and JavaScript, a rule is created for transparent color and applied or
 
 The use of the *postdisplay* functionality is also used to run JavaScript after each passage is displayed.
 
-## Live Example
-
-<section>
-<iframe src="sugarcube_hiddenlink_example.html" height=400 width=90%></iframe>
-
-
-Download: <a href="sugarcube_hiddenlink_example.html" target="_blank">Live Example</a>
-</section>
-
 ## Twee Code
 
 ```
@@ -75,5 +66,3 @@ You found it!
 
 
 ```
-
-Download: <a href="sugarcube_hiddenlink_twee.txt" target="_blank">Twee Code</a>

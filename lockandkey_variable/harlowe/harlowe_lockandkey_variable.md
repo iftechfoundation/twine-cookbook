@@ -8,15 +8,6 @@
 
 When the link "Pick up the key" is clicked, *$key* is changed to the value *true* and the door link changes from its initial response of "*Locked Door*" to a link to the passage Exit.
 
-## Live Example
-
-<section>
-<iframe src="harlowe_lockandkey_variable_example.html" height=400 width=90%></iframe>
-
-
-Download: <a href="harlowe_lockandkey_variable_example.html" target="_blank">Live Example</a>
-</section>
-
 ## Twee Code
 
 ```
@@ -57,8 +48,6 @@ Rooms:
 You found the key and went through the door!
 
 ```
-
-Download: <a href="harlowe_lockandkey_variable_twee.txt" target="_blank">Twee Code</a>
 
 ## See Also
 

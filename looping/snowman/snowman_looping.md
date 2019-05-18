@@ -6,15 +6,6 @@ In programming terminology, a "loop" is a common technique for iterating, moving
 
 In this example, the *s* shortcut to the *[window.story.state](https://twinery.org/wiki/snowman:window-story:state)* variable used. A new property called “arrayInventory” is set to the series of values “Bread”, “Pan”, and “Book”. The first example uses the JavaScript “for” keyword to move through the values. The second example uses the ```_```.each() function in Underscore.js, and the third uses the jQuery.each() function for the same purpose.
 
-## Live Example
-
-<section>
-<iframe src="snowman_looping_example.html" height=400 width=90%></iframe>
-
-
-Download: <a href="snowman_looping_example.html" target="_blank">Live Example</a>
-</section>
-
 ## Twee Code
 
 ```
@@ -50,6 +41,3 @@ jQuery.each(s.arrayInventory, function( index, value ) {
 %>
 
 ```
-
-Download: <a href="snowman_looping_twee.txt" target="_blank">Twee Code</a>
-

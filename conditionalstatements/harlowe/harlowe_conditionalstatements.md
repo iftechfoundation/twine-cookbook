@@ -6,15 +6,6 @@ The [*(if:)*](https://twine2.neocities.org/#macro_if) and [*(else:)*](https://tw
 
 The [*(unless:)*](https://twine2.neocities.org/#macro_unless) macro can also be used in place of *(if:)* for the opposite effect. Furthermore, variables can be attached to hooks to control whether they are displayed based on if they are 'true' (will be displayed) or 'false' (will not be displayed).
 
-## Live Example
-
-<section>
-<iframe src="harlowe_conditionalstatements_example.html" height=400 width=90%></iframe>
-
-
-Download: <a href="harlowe_conditionalstatements_example.html" target="_blank">Live Example</a>
-</section>
-
 ## Twee Code
 
 ```
@@ -33,8 +24,6 @@ Conditional Statements in Harlowe
 (set: $isDog to $animal is "horse")
 $isDog[It's a dog!]
 ```
-
-Download: <a href="harlowe_conditionalstatements_twee.txt" target="_blank">Twee Code</a>
 
 ## See Also
 

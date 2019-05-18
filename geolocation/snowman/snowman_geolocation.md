@@ -8,16 +8,6 @@ Functionality availability and their results should always be tested against oth
 
 This example uses [Underscore template functionality](http://underscorejs.org/#template) to test for and show the values of properties storied in the ```s``` global variable in Snowman.
 
-
-## Live Example
-
-<section>
-<iframe src="snowman_geolocation_example.html" height=400 width=90%></iframe>
-
-
-Download: <a href="snowman_geolocation_example.html" target="_blank">Live Example</a>
-</section>
-
 ## Twee Code
 
 ```
@@ -30,34 +20,34 @@ Geolocation in Snowman
 	window.geolocation = {
 
 		available: function() {
-			return ("geolocation" in navigator 
+			return ("geolocation" in navigator
 				&& typeof navigator.geolocation.getCurrentPosition === "function");
 		},
 		getLocation: function() {
 
 			// Create initial values
 			var location = { latitude : 0, longitude : 0 };
-			
+
 			// Create success callback to store values
 			var	positionSuccess = function (position) {
-				
+
 				location.latitude = position.coords.latitude;
 				location.longitude = position.coords.longitude;
 
 			};
-			
+
 			// Create error callback
 			var positionError = function (error) {
 				/* Code that handles errors */
 			};
-			
+
 			// Create initial options
 			var positionOptions = {
-				timeout: 31000, 
+				timeout: 31000,
 				enableHighAccuracy: true,
 				maximumAge : 120000
 			};
-			
+
 
 			// Ask for location based on callbacks and options
 			navigator.geolocation.getCurrentPosition(
@@ -71,19 +61,19 @@ Geolocation in Snowman
 			return location;
 
 		},
-		approximateLocation: function (a, b, allowedDiff) { 
+		approximateLocation: function (a, b, allowedDiff) {
 		    // allowedDiff must always be > 0
 			if (a === b) { // handles various "exact" edge cases
 				return true;
 			}
 
 			allowedDiff = allowedDiff || 0.0005;
-			
+
 			return Math.abs(a - b) < allowedDiff;
 		}
 
 	};
-	
+
 }());
 
 :: Start
@@ -118,5 +108,3 @@ Longitude: <%= window.geolocation.approximateLocation(s.location.longitude, -1.8
 [[Show results]]
 
 ```
-
-Download: <a href="snowman_geolocation_twee.txt" target="_blank">Twee Code</a>

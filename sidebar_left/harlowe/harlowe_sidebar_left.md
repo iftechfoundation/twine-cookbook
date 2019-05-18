@@ -4,15 +4,6 @@
 
 Harlowe has a built-in left sidebar. Before v2.1.0, however, there was no functionality to add dynamic content. It is possible to re-purpose a ["footer" tagged passage](https://twine2.neocities.org/#passagetag_footer) to act as a custom sidebar to display dynamic content below Harlowe's own sidebar.
 
-## Live Example
-
-<section>
-<iframe src="harlowe_sidebar_left_example.html" height=400 width=90%></iframe>
-
-
-Download: <a href="harlowe_sidebar_left_example.html" target="_blank">Live Example</a>
-</section>
-
 ## Twee Code
 
 ```
@@ -53,8 +44,6 @@ Location: $location
 
 
 ```
-
-Download: <a href="harlowe_sidebar_left_twee.txt" target="_blank">Twee Code</a>
 
 ## See Also
 

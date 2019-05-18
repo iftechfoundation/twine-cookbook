@@ -10,15 +10,6 @@ Due to browser differences in licensing, some audio formats are not universally 
 
 <div class="alertbox information"><strong>Note:</strong> This examples uses two additional files, <a href="testpattern.ogg">testpattern.ogg</a> and <a href="testpattern.wav">testpattern.wav</a>. Both files need to be downloaded and placed in the same folder as the HTML file in order to work as designed.</div>
 
-## Live Example
-
-<section>
-<iframe src="sugarcube_audio_example.html" height=400 width=90%></iframe>
-
-
-Download: <a href="sugarcube_audio_example.html" target="_blank">Live Example</a>
-</section>
-
 ## Twee Code
 
 ```
@@ -37,6 +28,3 @@ Audio in SugarCube
 :: StoryInit
 <<cacheaudio "testpattern" "testpattern.ogg" "testpattern.wav">>
 ```
-
-Download: <a href="sugarcube_audio_twee.txt" target="_blank">Twee Code</a>
-

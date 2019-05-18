@@ -8,16 +8,6 @@ The example adds a *clamp()* function to the existing built-in [*Math*](https://
 
 <div class="alertbox information"><strong>Note:</strong> The example also adds a <em>clamp()</em> function to the built-in <em><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number">Number</a></em> global JavaScript object, which the new <em>Math.clamp()</em> function uses internally. However, due to how Harlowe implements variables, the <em><Number>.clamp()</em> function can't be used directly within a <em><a href="https://twine2.neocities.org/#macro_set">(set:)</a></em> macro.</div>
 
-
-## Live Example
-
-<section>
-<iframe src="harlowe_clamping_numbers_example.html" height=400 width=90%></iframe>
-
-
-Download: <a href="harlowe_clamping_numbers_example.html" target="_blank">Live Example</a>
-</section>
-
 ## Twee Code
 
 ```
@@ -118,6 +108,3 @@ eg. Minus 100 from the current value.\
 ''New value'': $valueToClamp
 
 ```
-
-Download: <a href="harlowe_clamping_numbers_twee.txt" target="_blank">Twee Code</a>
-

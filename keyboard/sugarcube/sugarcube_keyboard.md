@@ -9,16 +9,6 @@ The example uses jQuery's [*on()* function](http://api.jquery.com/on/) to monito
  * The *keyCode* property: the numerical value representing the key presented in its [decimal ASCII code](http://www.asciichart.com/) supported by effectively all browsers.
  * The *key* property: the string value of the key presented supported by most modern web-browsers.
 
-
-## Live Example
-
-<section>
-<iframe src="sugarcube_keyboard_example.html" height=400 width=90%></iframe>
-
-
-Download: <a href="sugarcube_keyboard_example.html" target="_blank">Live Example</a>
-</section>
-
 ## Twee Code
 
 ```
@@ -48,5 +38,3 @@ SugarCube: Keyboard
 Press and release the ''a'' key to show an Alert dialog.
 
 ```
-
-Download: <a href="sugarcube_keyboard_twee.txt" target="_blank">Twee Code</a>

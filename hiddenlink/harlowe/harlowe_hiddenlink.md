@@ -10,16 +10,6 @@ The use of a *footer* special Passage is also used to run the required JavaScrip
 
 Harlowe supports a number of different techniques for creating links and the resulting HTML elements generated is different for each of these techniques. The generated HTML falls into two main groups: those that include a *tw-link* element; and those that include a *.enchantment-link* classed element. This recipe supports both groups.
 
-
-## Live Example
-
-<section>
-<iframe src="harlowe_hiddenlink_example.html" height=400 width=90%></iframe>
-
-
-Download: <a href="harlowe_hiddenlink_example.html" target="_blank">Live Example</a>
-</section>
-
 ## Twee Code
 
 ```
@@ -97,5 +87,3 @@ You found it!
 
 
 ```
-
-Download: <a href="harlowe_hiddenlink_twee.txt" target="_blank">Twee Code</a>

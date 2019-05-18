@@ -8,16 +8,6 @@ This example uses the built-in jQuery [*$.getScript()* function](https://api.jqu
 
 <div class="alertbox information"><strong>Note:</strong> The successful loading of an external JavaScript file or library commonly produces no visual output. The code within the example passage is not required for the successful loading of an external file or library.</div>
 
-
-## Live Example
-
-<section>
-<iframe src="harlowe_importexternaljs_example.html" height=400 width=90%></iframe>
-
-
-Download: <a href="harlowe_importexternaljs_example.html" target="_blank">Live Example</a>
-</section>
-
 ## Twee Code
 
 ```
@@ -48,5 +38,3 @@ $("#box").click(function () {
 
 
 ```
-
-Download: <a href="harlowe_importexternaljs_twee.txt" target="_blank">Twee Code</a>

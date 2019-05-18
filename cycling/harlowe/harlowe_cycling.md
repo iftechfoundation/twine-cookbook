@@ -12,15 +12,6 @@ If the user clicks on the link (created through using the [*(link:)*](https://tw
 
 At the end of every cycle, the currently selected value is always the 1st element in the *$choices* array.
 
-## Live Example
-
-<section>
-<iframe src="harlowe_cycling_example.html" height=400 width=90%></iframe>
-
-
-Download: <a href="harlowe_cycling_example.html" target="_blank">Live Example</a>
-</section>
-
 ## Twee Code
 
 ```
@@ -43,8 +34,6 @@ Click options to cycle: [(display: "Cycling")]<choice|
 :: Results
 Selected choice: (print: $choices's 1st)
 ```
-
-Download: <a href="harlowe_cycling_twee.txt" target="_blank">Twee Code</a>
 
 ## See Also
 

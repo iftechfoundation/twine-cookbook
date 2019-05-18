@@ -6,15 +6,6 @@
 
 Using CSS and JavaScript, a rule is created for transparent color and applied or removed through using jQuery's *[on()](http://api.jquery.com/on/)* function with 'mouseenter' and 'mouseleave' events.
 
-## Live Example
-
-<section>
-<iframe src="snowman_hiddenlink_example.html" height=400 width=90%></iframe>
-
-
-Download: <a href="snowman_hiddenlink_example.html" target="_blank">Live Example</a>
-</section>
-
 ## Twee Code
 
 ```
@@ -77,5 +68,3 @@ You found it!
 
 
 ```
-
-Download: <a href="snowman_hiddenlink_twee.txt" target="_blank">Twee Code</a>

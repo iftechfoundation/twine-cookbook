@@ -1,8 +1,0 @@
-:: StoryTitle
-Harlowe: Google Fonts
-
-:: StoryStylesheet[stylesheet]
-@import url('https://fonts.googleapis.com/css?family=Roboto');
-
-:: Start
-(font:"Roboto")[This text is styled by a Google Font]

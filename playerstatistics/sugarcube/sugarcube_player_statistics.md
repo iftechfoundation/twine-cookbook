@@ -6,15 +6,6 @@ One of the most popular mechanics of table-top role-playing games are those wher
 
 In this example, the [&lt;&lt;link&gt;&gt;](http://www.motoslave.net/sugarcube/2/docs/macros.html#macros-link) macro is used multiple times to [replace content](http://www.motoslave.net/sugarcube/2/docs/macros.html#macros-replace) and [adjust values](http://www.motoslave.net/sugarcube/2/docs/macros.html#macros-set) based on [if](http://www.motoslave.net/sugarcube/2/docs/macros.html#macros-if) they are greater than a target number. In a second passage, these values are used in combination with a [random number](http://www.motoslave.net/sugarcube/2/docs/functions.html#random) between 1 to 6, mimicking a common 1d6 mechanic to check if a value is above a target number.
 
-## Live Example
-
-<section>
-<iframe src="sugarcube_player_statistics_example.html" height=400 width=90%></iframe>
-
-
-Download: <a href="sugarcube_player_statistics_example.html" target="_blank">Live Example</a>
-</section>
-
 ## Twee Code
 
 ```
@@ -95,8 +86,6 @@ Remaining Points: <span id="pointsStat">5</span>
 <</linkreplace>>
 
 ```
-
-Download: <a href="sugarcube_player_statistics_twee.txt" target="_blank">Twee Code</a>
 
 ## See Also
 

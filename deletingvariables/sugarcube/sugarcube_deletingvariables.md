@@ -4,15 +4,6 @@
 
 In SugarCube, [*&lt;&lt;unset&gt;&gt;*](http://www.motoslave.net/sugarcube/2/docs/#macros-macro-unset) works as a "reverse" to &lt;&lt;set&gt;&gt;. Instead of setting a value, it deletes it. *&lt;&lt;unset&gt;&gt;* works on both temporary and story variables.
 
-## Live Example
-
-<section>
-<iframe src="sugarcube_deletingvariables_example.html" height=400 width=90%></iframe>
-
-
-Download: <a href="sugarcube_deletingvariables_example.html" target="_blank">Live Example</a>
-</section>
-
 ## Twee Code
 
 ```
@@ -33,8 +24,6 @@ SugarCube: Unsetting Variables
 You present the $proof to the sheriff, not realizing the rain has washed away the ink from the hand-written letter.
 
 ```
-
-Download: <a href="sugarcube_deletingvariables_twee.txt" target="_blank">Twee Code</a>
 
 ## See Also
 

@@ -6,15 +6,6 @@
 
 This example shows how to use CSS selectors to selectively style different passages based on how they are tagged. In Sugarcane, the "data-tags" attribute can be used to create different sets of styles and apply them when shown.
 
-## Live Example
-
-<section>
-<iframe src="sugarcane_passagetags_example.html" height=400 width=90%></iframe>
-
-
-Download: <a href="sugarcane_passagetags_example.html" target="_blank">Live Example</a>
-</section>
-
 ## Twee Code
 
 ```
@@ -49,6 +40,3 @@ Videlais
 
 
 ```
-
-Download: <a href="sugarcane_passagetags_twee.txt" target="_blank">Twee Code</a>
-

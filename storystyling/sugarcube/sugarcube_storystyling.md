@@ -4,15 +4,6 @@
 
 "Variable Story Styling" demonstrates how to use the [&lt;&lt;toggleClass&gt;&gt;](http://www.motoslave.net/sugarcube/2/docs/macros.html#macros-toggleclass) macro to switch between two pre-defined style rulesets. Combined with the “body” selector, the entire page is selected and the classes are switched when the macro is used.
 
-## Live Example
-
-<section>
-<iframe src="sugarcube_storystyling_example.html" height=400 width=90%></iframe>
-
-
-Download: <a href="sugarcube_storystyling_example.html" target="_blank">Live Example</a>
-</section>
-
 ## Twee Code
 
 ```
@@ -41,6 +32,3 @@ This text is white on a black background.
 <<toggleclass "body" $classToShow>>
 
 ```
-
-Download: <a href="sugarcube_storystyling_twee.txt" target="_blank">Twee Code</a>
-

@@ -4,15 +4,6 @@
 
 Snowman provides the [*window.story.saveHash()*](https://twinery.org/wiki/snowman:window-story:savehash) and [*window.story.restore()*](https://twinery.org/wiki/snowman:window-story:restore) functions to produce a hash of the current story state and then recover it. However, it does not provide a mechanism for saving the hash between sessions. Through using the [*window.localStorage API*](https://developer.mozilla.org/en-US/docs/Web/API/Window/localStorage), this can be accomplished.
 
-## Live Example
-
-<section>
-<iframe src="snowman_savinggames_example.html" height=400 width=90%></iframe>
-
-
-Download: <a href="snowman_savinggames_example.html" target="_blank">Live Example</a>
-</section>
-
 ## Twee Code
 
 ```
@@ -59,7 +50,7 @@ window.storage = {
 <%
 	if(window.storage.ok()) { %>
 	Window storage works!
-<% } %>	
+<% } %>
 <%
 	if(window.storage.restore()) { %>
 	There is a session saved!
@@ -83,7 +74,7 @@ The hash is <%= window.story.saveHash() %>. It has been saved!
 <% if(window.storage.ok()) {
 	if(window.story.restore(window.storage.restore()) ) { %>
 	The restore was successful!
-<% } 
+<% }
 }
 %>
 
@@ -94,6 +85,3 @@ The hash is <%= window.story.saveHash() %>. It has been saved!
 
 [[Go back?|Start]]
 ```
-
-Download: <a href="snowman_savinggames_twee.txt" target="_blank">Twee Code</a>
-

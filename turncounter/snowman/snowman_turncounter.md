@@ -8,15 +8,6 @@ In this example, the *length* of the array *window.story.history* is compared to
 
 By visiting other passages, the turn count is increased and the hour reaches 23 before being reset back to 0 before increasing again.
 
-## Live Example
-
-<section>
-<iframe src="snowman_turncounter_example.html" height=400 width=90%></iframe>
-
-
-Download: <a href="snowman_turncounter_example.html" target="_blank">Live Example</a>
-</section>
-
 ## Twee Code
 
 ```
@@ -84,5 +75,3 @@ Rooms:
 %>
 
 ```
-
-Download: <a href="snowman_turncounter_twee.txt" target="_blank">Twee Code</a>

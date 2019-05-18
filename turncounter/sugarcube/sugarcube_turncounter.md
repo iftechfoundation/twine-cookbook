@@ -8,15 +8,6 @@ In this example, the *State.turns* attribute is compared to its modulo 24 value.
 
 This example also uses the special name "[PassageHeader](http://www.motoslave.net/sugarcube/2/docs/special-names.html#special-passages)" as a named passage that is prepended to each passage in the story. The results of the modulo 24 calculation and clock string is displayed on every passage. By visiting other passages, the turn count is increased and the hour reaches 23 before being reset back to 0 before increasing again.
 
-## Live Example
-
-<section>
-<iframe src="sugarcube_turncounter_example.html" height=400 width=90%></iframe>
-
-
-Download: <a href="sugarcube_turncounter_example.html" target="_blank">Live Example</a>
-</section>
-
 ## Twee Code
 
 ```
@@ -60,5 +51,3 @@ Rooms:
 
 
 ```
-
-Download: <a href="sugarcube_turncounter_twee.txt" target="_blank">Twee Code</a>

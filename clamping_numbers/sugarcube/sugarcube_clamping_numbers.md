@@ -4,15 +4,6 @@
 
 This recipe demonstrates how to limit a numeric variable to a value between a set range, this process is commonly known as **clamping**. It uses the [*Math.clamp()*](http://www.motoslave.net/sugarcube/2/docs/object-methods.html#math-mathclamp) function in SugarCube to achieve the desired result.
 
-## Live Example
-
-<section>
-<iframe src="sugarcube_clamping_numbers_example.html" height=400 width=90%></iframe>
-
-
-Download: <a href="sugarcube_clamping_numbers_example.html" target="_blank">Live Example</a>
-</section>
-
 ## Twee Code
 
 ```
@@ -53,6 +44,3 @@ eg. Minus 100 from the current value.\
 ''New value'': $valueToClamp
 
 ```
-
-Download: <a href="sugarcube_clamping_numbers_twee.txt" target="_blank">Twee Code</a>
-

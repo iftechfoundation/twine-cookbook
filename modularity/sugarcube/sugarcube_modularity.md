@@ -6,15 +6,6 @@ In programming terminology, modularity refers to dividing software into differen
 
 You can also create [*&lt;&lt;widget&gt;&gt;* macros](http://www.motoslave.net/sugarcube/2/docs/macros.html#macros-widget), which offer a simplified way of creating your own custom macros using other SugarCube macros and TwineScript instead of JavaScript. When compared to *&lt;&lt;include&gt;&gt;*, widgets have the advantage of accepting arguments and expressions similar to the way other SugarCube macros can. When you create widgets you need to place them in passages tagged `widget`. You can access the arguments of widgets through the special `$args` array.
 
-## Live Example
-
-<section>
-<iframe src="sugarcube_modularity_example.html" height=400 width=90%></iframe>
-
-
-Download: <a href="sugarcube_modularity_example.html" target="_blank">Live Example</a>
-</section>
-
 ## Twee Code
 
 ```
@@ -48,6 +39,3 @@ $lineOne
 :: showLineTwo
 $lineTwo
 ```
-
-Download: <a href="sugarcube_modularity_twee.txt" target="_blank">Twee Code</a>
-

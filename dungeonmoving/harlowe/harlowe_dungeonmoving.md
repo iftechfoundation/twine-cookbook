@@ -6,15 +6,6 @@
 
 A map of the array is created by iterating through temporary variables and placing different symbols matching walls, movement spaces, and the player herself.
 
-## Live Example
-
-<section>
-<iframe src="harlowe_dungeonmoving_example.html" height=400 width=90%></iframe>
-
-
-Download: <a href="harlowe_dungeonmoving_example.html" target="_blank">Live Example</a>
-</section>
-
 ## Twee Code
 
 ```
@@ -27,7 +18,7 @@ tw-include[type="startup"], tw-hook[name="workarea"] {
 	display: none;
 }
 tw-hook[name="map"] {
-    font-family: monospace; 
+    font-family: monospace;
 	line-height: 1.75;
 	font-size: 16pt;
 }
@@ -120,8 +111,8 @@ $map
 
 
 :: Startup [startup]
-{	
-	(set: $dungeon to (array: 
+{
+	(set: $dungeon to (array:
 			(a: 0,0,0,0,0,0,0,0,0,0,0),
 			(a: 0,1,1,1,0,1,1,1,1,1,0),
 			(a: 0,0,0,1,0,0,0,0,0,1,0),
@@ -144,9 +135,7 @@ $map
 You have exited the map.
 ```
 
-Download: <a href="harlowe_dungeonmoving_twee.txt" target="_blank">Twee Code</a>
-
 ## See Also
 
-[Setting and Showing Variables](../../settingandshowing/harlowe/harlowe_settingandshowing.md), 
+[Setting and Showing Variables](../../settingandshowing/harlowe/harlowe_settingandshowing.md),
 [Conditional Statements](../../conditionalstatements/harlowe/harlowe_conditionalstatements.md), [Modularity](../../modularity/harlowe/harlowe_modularity.md)

@@ -6,15 +6,6 @@ SugarCube provides multiple ways to address passage transitions. To work with th
 
 Through using [jQuery event listeners](https://api.jquery.com/category/events/), different functionality can be triggered as part of normal passage events such as rendering or displaying content. Acting on the *:passagerender* event, for example, could be used to apply a [jQuery effect](https://api.jquery.com/category/effects/) on the passage element after it has been loaded and rendered.
 
-## Live Example
-
-<section>
-<iframe src="sugarcube_passagetransitions_example.html" height=400 width=90%></iframe>
-
-
-Download: <a href="sugarcube_passagetransitions_example.html" target="_blank">Live Example</a>
-</section>
-
 ## Twee Code
 
 ```
@@ -38,5 +29,3 @@ No more content!
 [[A third passage]]
 
 ```
-
-Download: <a href="sugarcube_passagetransitions_twee.txt" target="_blank">Twee Code</a>

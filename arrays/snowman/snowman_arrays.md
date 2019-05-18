@@ -6,15 +6,6 @@
 
 [Specific elements](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array#Accessing_array_elements) can be accessed in an array by following its variable name with a pair of brackets containing the index to check. Testing whether an array contains an element can be done using the [*Array#includes()* function](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/includes); adding new items can be doone using the [*Array#push()* function](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/push).
 
-## Live Example
-
-<section>
-<iframe src="snowman_arrays_example.html" height=400 width=90%></iframe>
-
-
-Download: <a href="snowman_arrays_example.html" target="_blank">Live Example</a>
-</section>
-
 ## Twee Code
 
 ```
@@ -30,7 +21,7 @@ Arrays in Snowman
 }());
 
 :: Header
-You are currently carrying: 
+You are currently carrying:
 <% if (s.inventory.length === 0) { %>
 nothing.
 <% } else { %>
@@ -78,5 +69,3 @@ Luckily, your shield will protect you.
 With no way to defend yourself, you die.
 <% } %>
 ```
-
-Download: <a href="snowman_arrays_twee.txt" target="_blank">Twee Code</a>

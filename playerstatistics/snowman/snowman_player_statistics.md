@@ -9,15 +9,6 @@ In this example, the jQuery event handler *[click()](https://api.jquery.com/clic
 
 <div class="alertbox information"><strong>Note:</strong> Elements must exist <em>before</em> the attempt to bind to them in order to be successful. This example uses the <em><a href="https://api.jquery.com/ready/">ready()</a></em> function to achieve this with the first, starting passage.</div>
 
-## Live Example
-
-<section>
-<iframe src="snowman_player_statistics_example.html" height=400 width=90%></iframe>
-
-
-Download: <a href="snowman_player_statistics_example.html" target="_blank">Live Example</a>
-</section>
-
 ## Twee Code
 
 ```
@@ -140,8 +131,6 @@ Remaining Points: <span id="pointsStat">5</span>
 <div id="empathyResult"></div>
 
 ```
-
-Download: <a href="snowman_player_statistics_twee.txt" target="_blank">Twee Code</a>
 
 ## See Also
 

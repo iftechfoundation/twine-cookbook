@@ -6,15 +6,6 @@ Snowman does not provide [macros](../../terms/terms_macros.md). However, additio
 
 In this example, a global function, *showCurrentTime()*, is added to the *window.setup* object. It is called in a passage through using the interpolation functionality of [Underscore's template system](https://underscorejs.org/#template) to show a value.
 
-## Live Example
-
-<section>
-<iframe src="snowman_adding_functionality_example.html" height=400 width=90%></iframe>
-
-
-Download: <a href="snowman_adding_functionality_example.html" target="_blank">Live Example</a>
-</section>
-
 ## Twee Code
 
 ```
@@ -34,5 +25,3 @@ window.setup.showCurrentTime = function() {
 The current time is <%= setup.showCurrentTime() %>
 
 ```
-
-Download: <a href="snowman_adding_functionality_twee.txt" target="_blank">Twee Code</a>

@@ -6,15 +6,6 @@
 
 When the timer runs out, the *payload* of the macro is run and the length of the inner `<div>` element is reduced to 0.
 
-## Live Example
-
-<section>
-<iframe src="sugarcube_timed_progress_bars_example.html" height=400 width=90%></iframe>
-
-
-Download: <a href="sugarcube_timed_progress_bars_example.html" target="_blank">Live Example</a>
-</section>
-
 ## Twee Code
 
 ```
@@ -24,12 +15,12 @@ Timed Progress Bars in SugarCube
 :: UserScript[script]
 /*
 		Macro: timedprogressbar
-		
-		Description: Show a dynamically-created "progress bar" 
+
+		Description: Show a dynamically-created "progress bar"
 		that changes colors as its timer runs down.
-		
+
 		Original design: Akjosch (https://github.com/Akjosch)
-		
+
 		Arguments:
 			[0]: The time to run in seconds
 			[1]: The length of the progress bar in CSS units (px, em, or %)
@@ -40,23 +31,23 @@ Macro.add("timedprogressbar", {
 	handler: function() {
 		// Filter the payload for newlines and save it for later execution
 		var payload = this.payload[0].contents.replace(/\n$/, '').trim();
-		
+
 		// Save or generate a default duration
 		var duration = (Number(this.args[0]) || 60) * 1000;
-		
+
 		// Save or generate a width
 		var width = this.args[1] || "100%";
-		
+
 		// Generate a unique hash
 		var hash = Math.floor(Math.random() * 0x100000000).toString(16);
-		
+
 		//  Create an outer ID
 		var outerId = "outer_" + hash;
-		
+
 		// Create an inner ID
 		var innerId = "inner_" + hash;
-		
-		// Create an outer div, 
+
+		// Create an outer div,
 		// add an ID,
 		// add a class,
 		// change the CSS width, and
@@ -66,8 +57,8 @@ Macro.add("timedprogressbar", {
 		.addClass("progress-bar")
 		.css('width', width)
 		.appendTo(this.output);
-		
-		// Create an inner div, 
+
+		// Create an inner div,
 		// add an ID,
 		// add a class,
 		// change the CSS width, and
@@ -77,70 +68,70 @@ Macro.add("timedprogressbar", {
 		.addClass("progress-value")
 		.css('width', "100%")
 		.appendTo(progressbar);
-		
+
 		// Create a function to convert into hexadecimal
 		var toHex = function(num) {
 			var res = Math.round(Number(num)).toString(16);
 			return (res.length === 1 ? "0" + res : res);
 		};
-		
+
 		// Save a reference to possible payload content
 		var functionToRun = this.createShadowWrapper(
 			payload
 				? function() { Wikifier.wikifyEval(payload); }
 				: null
 		);
-		
+
 		// Watch for the :passagedisplay event once
 		jQuery(document).one(":passagedisplay", function() {
-			
+
 			// Get the current time
 			var timeStarted = (new Date()).getTime();
-			
+
 			// Save a reference to the setInterval function
 			var workFunction = setInterval(function() {
-				
+
 				// Check if the element is still 'connected'
 				if(! progressbar.prop("isConnected") ) {
-					
+
 					// Navigated away from the passage
 					clearInterval(workFunction);
 					return;
 				}
-				
+
 				// Figure out how much time has passed
 				var timePassed = (new Date()).getTime() - timeStarted;
-				
+
 				// Check if the timer has run out
 				if(timePassed >= duration) {
-					
+
 					// Reduce the inner width to 0
 					progressvalue.css('width', "0");
-					
+
 					// Clear interval
 					clearInterval(workFunction);
-					
+
 					// Run the inner function (if set)
 					setTimeout(functionToRun, 40);
 					return;
 				}
-				
+
 				// Update the progress percentage
 				var percentage = 100 - 100 * timePassed / duration;
-				
+
 				// Save the new color
 				var color = "#"
 					+ toHex(Math.min(255, 510 -  5.1 * percentage))
 					+ toHex(Math.min(255, 5.1 * percentage)) + "00";
-				
+
 				// Update the background color of the inner div
 				progressvalue.css("backgroundColor", color);
-				
+
 				// Update the inner div width
 				progressvalue.css("width", (100 - 100 * timePassed / duration) + "%");
-				
+
 			}, 40);
-			
+
 		});
 	},
 });
@@ -170,8 +161,6 @@ Macro.add("timedprogressbar", {
 <</timedprogressbar>>
 
 ```
-
-Download: <a href="sugarcube_timed_progress_bars_twee.txt" target="_blank">Twee Code</a>
 
 ## See Also
 
