@@ -28,7 +28,7 @@ Include as much as possible of the following in an [issue](https://github.com/if
 * [@videlais](https://github.com/videlais) (Dan Cox)
 * [@klembot](https://github.com/klembot) (Chris Klimas)
 * [@tmedwards](https://github.com/tmedwards) (Thomas Michael Edwards)
-* [@greyelf](https://github.com/greyelf) (Greyelf)
+* [@greyelf](https://github.com/greyelf) (David Tarrant)
 * [@webbedspace](https://github.com/webbedspace) (Leon Arnott)
 * [@shawngraham](https://github.com/shawngraham) (Shawn Graham)
 * [@Akjosch](https://github.com/Akjosch) (Akjosch)
