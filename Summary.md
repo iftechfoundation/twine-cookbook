@@ -275,6 +275,7 @@
 	* [Harlowe](settingandshowing/harlowe/harlowe_settingandshowing.md)
 	* [SugarCube](settingandshowing/sugarcube/sugarcube_settingandshowing.md)
 	* [Snowman](settingandshowing/snowman/snowman_settingandshowing.md)
+	* [Chapbook](settingandshowing/chapbook/chapbook_settingandshowing.md)
 
 # Space Exploration
 
