@@ -42,6 +42,15 @@ Sub<sub>script</sub> <br>
 1. A Numbered list item
 2. Another Numbered list item
 
+[align left]
+Text is left-aligned.
+[align center]
+Text is centered / centred.
+[align right]
+Text is right-aligned.
+[Continue]
+Text-alignment has been reset to the default.
+
 Ignoring of \*Formatting\* Characters <br>
 More ignoring of \_\_Formatting\_\_ Characters
 
@@ -62,11 +71,11 @@ Alternative Level 1 Heading
 Alternative Level 2 Heading
 ------
 
-| Table mark-up | with          | alignment |
-| ---           | :---:         | ---:      |
-| column 1 is   | left-aligned  | 1         |
-| col 2 is      | centered      | 10        |
-| col 3 is      | right-aligned | 100       |
+| Table mark-up	| with			| alignment	|
+| ---			| :---:			| ---:		|
+| column 1 is	| left-aligned	| 1			|
+| col 2 is		| centered      | 10		|
+| col 3 is		| right-aligned	| 100		|
 
 ```
 
