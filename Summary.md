@@ -303,6 +303,7 @@
 	* [SugarCube](markup/sugarcube/sugarcube_markup.md)
 	* [Snowman](markup/snowman/snowman_markup.md)
 	* [Sugarcane (1.4.2)](markup/sugarcane/sugarcane_markup.md)
+	* [Chapbook](markup/chapbook/chapbook_markup.md)
 
 # Timed Passages
 
