@@ -1,0 +1,11 @@
+:: StoryTitle
+Harlowe 3: Passage Transitions
+
+:: Start
+(transition-depart: "dissolve")[[Dissolve Passage]]
+
+:: Dissolve Passage
+(transition-arrive: "slide-right")[[Slide-right Passage]]
+
+:: Slide-right Passage
+Double-click this passage to edit it.

@@ -2,7 +2,7 @@
 
 ## Summary
 
-"Turn Counter" demostrates the use of the *[State.turns](http://www.motoslave.net/sugarcube/2/docs/api-state.html)* attribute of the *State* object to keep track of the "turns" (moments within the story).
+"Turn Counter" demonstrates the use of the *[State.turns](http://www.motoslave.net/sugarcube/2/docs/api-state.html)* attribute of the *State* object to keep track of the "turns" (moments within the story).
 
 In this example, the *State.turns* attribute is compared to its modulo 24 value. Sometimes known as "wrap around," the modulus operator (%) is used to get the remainder of the number of "turns" (moments) divided by 24. This creates a clock where its value shows one of a series of strings representing "morning", "mid-morning", "afternoon", or "night."
 
@@ -62,4 +62,3 @@ Rooms:
 ```
 
 Download: <a href="sugarcube_turncounter_twee.txt" target="_blank">Twee Code</a>
-

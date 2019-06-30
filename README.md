@@ -28,7 +28,7 @@ Include as much as possible of the following in an [issue](https://github.com/if
 * [@videlais](https://github.com/videlais) (Dan Cox)
 * [@klembot](https://github.com/klembot) (Chris Klimas)
 * [@tmedwards](https://github.com/tmedwards) (Thomas Michael Edwards)
-* [@greyelf](https://github.com/greyelf) (Greyelf)
+* [@greyelf](https://github.com/greyelf) (David Tarrant)
 * [@webbedspace](https://github.com/webbedspace) (Leon Arnott)
 * [@shawngraham](https://github.com/shawngraham) (Shawn Graham)
 * [@Akjosch](https://github.com/Akjosch) (Akjosch)
@@ -38,4 +38,4 @@ Include as much as possible of the following in an [issue](https://github.com/if
 
 <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-sa/4.0/88x31.png" /></a><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International License</a>.
 
-## Version 1.2 (October 2018)
+## Version 1.3 (May 2019)

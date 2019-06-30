@@ -2,11 +2,11 @@
 
 ## Summary
 
-"Importing External JavaScript" demostrates how to import an externally stored JavaScript library, [jQuery UI](https://jqueryui.com/).
+"Importing External JavaScript" demonstrates how to import an externally stored JavaScript library, [jQuery UI](https://jqueryui.com/).
 
 This example uses the SugarCube [*importScripts()*](http://www.motoslave.net/sugarcube/2/docs/functions.html#importscripts) function to load and integrate the script file's contents.
 
-<div class="alertbox information"><strong>Note:</strong> The successful loading of an external JavaScript file or library commonly producess no visual output. The code within the example passage is not required for the succesful loading of an external file or library.</div>
+<div class="alertbox information"><strong>Note:</strong> The successful loading of an external JavaScript file or library commonly produces no visual output. The code within the example passage is not required for the successful loading of an external file or library.</div>
 
 
 ## Live Example
@@ -33,7 +33,7 @@ importScripts("https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.m
 :: Start
 <p>Click on the grey box below to see it bounce.</p>
 <div id="box" style="width: 100px; height: 100px; background: #ccc;"></div>
- 
+
 <<script>>
 $(document).one(':passagerender', function (ev) {
 	$(ev.content)
@@ -48,4 +48,3 @@ $(document).one(':passagerender', function (ev) {
 ```
 
 Download: <a href="sugarcube_importexternaljs_twee.txt" target="_blank">Twee Code</a>
-
