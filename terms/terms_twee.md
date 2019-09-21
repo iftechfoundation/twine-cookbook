@@ -8,10 +8,10 @@ Starting with Twee 3, there is [a standard for reading and writing Twee](https:/
 
 Twee 3 notation is written as a series of four parts for the header of each passage:
 
-* Sigil: Two colons (":") followed by a space
-* Passage Name: The name of the passage
-* Tags: Optional tags
-* Metadata: Information about the passage
+* Sigil: (Required) Two colons (":") followed by a space
+* Passage Name: (Required) The name of the passage
+* Tags: (Optional) Optional tags
+* Metadata: (Optional) Information about the passage
 
 The content of a passage continues until the next header of a passage is found or the input ends with at least a single empty line between passage headers.
 
@@ -111,12 +111,12 @@ localfile.tws
 
 A JSON chunk encapsulating various Twine 2-compatible details about the story.
 
-* ifid: IFID of the story
-* format: Story format
-* format-version: Story format version
-* start: PID of starting passage
-* tag-colors: Pairs of tags and colors
-* zoom: Decimal zoom level
+* ifid: (Required) IFID of the story
+* format: (Optional) Story format
+* format-version: (Optional) Story format version
+* start: (Optional) PID of starting passage
+* tag-colors: (Optional) Pairs of tags and colors
+* zoom: (Optional) Decimal zoom level
 
 ```
 :: StoryData
@@ -136,9 +136,9 @@ A JSON chunk encapsulating various Twine 2-compatible details about the story.
 
 ## Special Tag Names
 
-Most Twee compilers understand two case-sensitive, lowercase tag names: stylesheet and script.
+Twee 3 defines two special case-sensitive lowercase passage tags: `stylesheet` and `script`.
 
-Passages are also loaded according to alphabetical order if others exist with the same special keywords in their own tags.
+(Passages are also loaded according to alphabetical order if others exist with the same special passage tags.)
 
 #### Stylesheet
 
