@@ -1,0 +1,9 @@
+:: StoryTitle
+Harlowe: Passages in Passages
+
+:: Start
+This is the Start passage!
+(display: "Another")
+
+:: Another
+And this is another passage!

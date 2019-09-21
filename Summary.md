@@ -220,6 +220,13 @@
 	* [SugarCube](passageevents/sugarcube/sugarcube_passage_events.md)
 	* [Snowman](passageevents/snowman/snowman_passage_events.md)
 
+# Passages in Passages
+
+* Passages in Passages
+	* [Harlowe](passagesinpassages/harlowe/harlowe_passagesinpassages.md)
+	* [Snowman](passagesinpassages/snowman/snowman_passagesinpassages.md)
+	* [SugarCube](passagesinpassages/sugarcube/sugarcube_passagesinpassages.md)
+
 # Passage Transitions
 
 * Passage Transitions
