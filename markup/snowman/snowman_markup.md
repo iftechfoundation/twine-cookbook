@@ -2,7 +2,7 @@
 
 ## Summary
 
-Snowman uses a sub-set of [markdown](https://guides.github.com/features/mastering-markdown/) to support style formatting. However, code highlighting and many other advanced functionalities are not available.
+Snowman uses a sub-set of [markdown](https://marked.js.org/#/README.md) for in-line styling. Snowman does not support multi-line markdown variations.
 
 ## Live Example
 
@@ -52,4 +52,3 @@ Another line of code.
 ```
 
 Download: <a href="snowman_markup_twee.txt" target="_blank">Twee Code</a>
-
