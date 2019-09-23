@@ -10,7 +10,7 @@ When using Twine, additional CSS styles can be added through the Story Styleshee
 
 Considering the complex nature of CSS cascading, it is always highly recommended to use a story format's own macros where possible to change the presentation or layout of a story.
 
-Common areas involved in story format styling include the full page or window, a sidebar (if present), and the current [passage](terms/terms_passages.md) as a sub-area of the page.  Often there is also a mechanism to style passages according to its tags (as assigned in Twine 2).
+Common areas involved in story format styling include the full page or window, a sidebar (if present), and the current [passage](../terms/terms_passages.md) as a sub-area of the page.  Often there is also a mechanism to style passages according to its tags (as assigned in Twine 2).
 
 ### Harlowe
 
@@ -25,7 +25,7 @@ Harlowe uses the custom `<tw-story>` element to style the page.  It also contain
 </tw-story>
 ```
 
-See the [left sidebar recipe](sidebar_left/harlowe_2/harlowe_sidebar_left.md) for an example of stylying custom elements like `<tw-sidebar>`.  Harlowe also supports [styling passages by tag](passagetags/harlowe/harlowe_passagetags.md) using its custom `tags` attribute.
+See the [left sidebar recipe](../sidebar_left/harlowe_2/harlowe_sidebar_left.md) for an example of stylying custom elements like `<tw-sidebar>`.  Harlowe also supports [styling passages by tag](../passagetags/harlowe/harlowe_passagetags.md) using its custom `tags` attribute.
 
 ### SugarCube
 
@@ -42,7 +42,7 @@ SugarCube uses nested `<div>`s with ids to structure its significant elements.  
 </body>
 ```
 
-See the [SugarCube images recipe](images/sugarcube/sugarcube_images.md) for an example of using a single [*class* CSS selector](https://developer.mozilla.org/en-US/docs/Web/CSS/Class_selectors) to style an element.   See [styling passages by tag](passagetags/sugarcube/sugarcube_passagetags.md) for an example of using two classes to style a single element.
+See the [SugarCube images recipe](../images/sugarcube/sugarcube_images.md) for an example of using a single [*class* CSS selector](https://developer.mozilla.org/en-US/docs/Web/CSS/Class_selectors) to style an element.   See [styling passages by tag](../passagetags/sugarcube/sugarcube_passagetags.md) for an example of using two classes to style a single element.
 
 #### Bleached
 
@@ -50,7 +50,7 @@ See the [SugarCube images recipe](images/sugarcube/sugarcube_images.md) for an e
 
 ### Snowman
 
-Snowman uses a simple HTML structure of a `<div>` with id `passage` directly below (inside) the `<body>` tag.  See the Snowman [left sidebar recipe](sidebar_left/snowman/snowman_sidebar_left.md) for an example of styling passages using the [*id* CSS selector](https://developer.mozilla.org/en-US/docs/Web/CSS/ID_selectors).
+Snowman uses a simple HTML structure of a `<div>` with id `passage` directly below (inside) the `<body>` tag.  See the Snowman [left sidebar recipe](../sidebar_left/snowman/snowman_sidebar_left.md) for an example of styling passages using the [*id* CSS selector](https://developer.mozilla.org/en-US/docs/Web/CSS/ID_selectors).
 
 ```
 <body>
