@@ -253,6 +253,7 @@
 
 * Render Passage to Element
 	* [SugarCube](passagetoelement/sugarcube/sugarcube_passagetoelement.md)
+	* [Snowman (2.0 or later)](passagetoelement/snowman/snowman_passagetoelement.md)
 
 # Saving Games
 
