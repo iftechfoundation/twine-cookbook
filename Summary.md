@@ -249,6 +249,11 @@
 	* [SugarCube](programmaticundo/sugarcube/sugarcube_programmaticundo.md)
 	* [Snowman](programmaticundo/snowman/snowman_programmaticundo.md)
 
+# Render Passage to Element
+
+* Render Passage to Element
+	* [SugarCube](passagetoelement/sugarcube/sugarcube_passagetoelement.md)
+
 # Saving Games
 
 * Saving Games

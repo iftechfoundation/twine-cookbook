@@ -1,0 +1,15 @@
+:: StoryTitle
+SugarCube: Render Passage to Element
+
+:: Start
+<div id="hudID"></div>
+<<script>>
+	// Wait for the passage to be displayed
+	$(document).one(':passagedisplay', function (ev) {
+		// Render the passage named HUD into the element with id of "hudID"
+		setPageElement("hudID", "HUD");
+	});
+<</script>>
+
+:: HUD
+<h1>This is the heads-up display!</h1>
