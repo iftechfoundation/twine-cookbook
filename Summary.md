@@ -219,6 +219,7 @@
 * Passage Events
 	* [SugarCube](passageevents/sugarcube/sugarcube_passage_events.md)
 	* [Snowman](passageevents/snowman/snowman_passage_events.md)
+	* [Snowman (v2.0 or later)](passageevents/snowman_2/snowman_passage_events.md)
 
 # Passages in Passages
 
