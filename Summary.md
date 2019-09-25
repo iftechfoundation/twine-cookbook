@@ -35,9 +35,9 @@
 # Arrays
 
 * Arrays
-    * [Harlowe](arrays/harlowe/harlowe_arrays.md)
-    * [SugarCube](arrays/sugarcube/sugarcube_arrays.md)
-    * [Snowman](arrays/snowman/snowman_arrays.md)
+  * [Harlowe](arrays/harlowe/harlowe_arrays.md)
+  * [SugarCube](arrays/sugarcube/sugarcube_arrays.md)
+  * [Snowman](arrays/snowman/snowman_arrays.md)
 
 # Audio
 
@@ -65,7 +65,7 @@
 
 * Cycling Choices
 	* [Harlowe](cycling/harlowe/harlowe_cycling.md)
-	* [Harlowe (only v3.0.1 or later)](cycling/harlowe_3/harlowe_cycling.md)
+	* [Harlowe (v3.0.1 or later)](cycling/harlowe_3/harlowe_cycling.md)
 	* [SugarCube](cycling/sugarcube/sugarcube_cycling.md)
 	* [Snowman](cycling/snowman/snowman_cycling.md)
 
@@ -99,7 +99,7 @@
 # Dropdown
 
 * Dropdown
-	* [Harlowe (only v3.0.1 or later)](dropdown/harlowe/harlowe_dropdown.md)
+	* [Harlowe (v3.0.1 or later)](dropdown/harlowe/harlowe_dropdown.md)
 
 # Fairmath System
 
@@ -162,7 +162,7 @@
 
 * Left Sidebar
 	* [Harlowe (both v1.x and v2.x series)](sidebar_left/harlowe/harlowe_sidebar_left.md)
-	* [Harlowe (only v2.1.0 or later)](sidebar_left/harlowe_2/harlowe_sidebar_left.md)
+	* [Harlowe (v2.1.0 or later)](sidebar_left/harlowe_2/harlowe_sidebar_left.md)
 	* [SugarCube](sidebar_left/sugarcube/sugarcube_sidebar_left.md)
 	* [Snowman](sidebar_left/snowman/snowman_sidebar_left.md)
 
@@ -219,21 +219,28 @@
 * Passage Events
 	* [SugarCube](passageevents/sugarcube/sugarcube_passage_events.md)
 	* [Snowman](passageevents/snowman/snowman_passage_events.md)
-	* [Snowman (v2.0 or later)](passageevents/snowman_2/snowman_passage_events.md)
+	* [Snowman (v2.0.2 or later)](passageevents/snowman_2/snowman_passage_events.md)
 
 # Passages in Passages
 
 * Passages in Passages
 	* [Harlowe](passagesinpassages/harlowe/harlowe_passagesinpassages.md)
-	* [Snowman](passagesinpassages/snowman/snowman_passagesinpassages.md)
 	* [SugarCube](passagesinpassages/sugarcube/sugarcube_passagesinpassages.md)
+	* [Snowman](passagesinpassages/snowman/snowman_passagesinpassages.md)
 
 # Passage Transitions
 
 * Passage Transitions
-	* [Harlowe (only v3.0.1 or later)](passagetransitions/harlowe/harlowe_passagetransitions.md)
-	* [Snowman](passagetransitions/snowman/snowman_passagetransitions.md)
+	* [Harlowe (v3.0.1 or later)](passagetransitions/harlowe/harlowe_passagetransitions.md)
 	* [SugarCube](passagetransitions/sugarcube/sugarcube_passagetransitions.md)
+	* [Snowman](passagetransitions/snowman/snowman_passagetransitions.md)
+
+# Passage Visits
+
+* Passage Visits
+	* [Harlowe](passagevisits/harlowe/harlowe_passagevisits.md)
+	* [SugarCube](passagevisits/sugarcube/sugarcube_passagevisits.md)
+	* [Snowman (v2.0.2 and later)](passagevisits/snowman/snowman_passagevisits.md)
 
 # Player Statistics
 
@@ -301,8 +308,8 @@
 
 * Timed Passages
 	* [Harlowe](timedpassages/harlowe/harlowe_timedpassages.md)
-	* [Snowman](timedpassages/snowman/snowman_timedpassages.md)
 	* [SugarCube](timedpassages/sugarcube/sugarcube_timedpassages.md)
+	* [Snowman](timedpassages/snowman/snowman_timedpassages.md)
 
 # Timed Progress Bars
 
