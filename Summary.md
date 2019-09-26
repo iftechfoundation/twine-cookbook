@@ -92,6 +92,7 @@
 # Dice Rolling
 
 * Dice Rolling
+	* [Chapbook](dicerolling/chapbook/chapbook_dicerolling.md)
 	* [Harlowe](dicerolling/harlowe/harlowe_dicerolling.md)
 	* [SugarCube](dicerolling/sugarcube/sugarcube_dicerolling.md)
 	* [Snowman](dicerolling/snowman/snowman_dicerolling.md)
