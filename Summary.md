@@ -52,6 +52,7 @@
 	* [Harlowe](conditionalstatements/harlowe/harlowe_conditionalstatements.md)
 	* [SugarCube](conditionalstatements/sugarcube/sugarcube_conditionalstatements.md)
 	* [Snowman](conditionalstatements/snowman/snowman_conditionalstatements.md)
+	* [Chapbook](conditionalstatements/chapbook/chapbook_conditionalstatements.md)
 
 # CSS and Passage Tags
 
