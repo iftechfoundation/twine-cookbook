@@ -54,6 +54,13 @@
 	* [Snowman](conditionalstatements/snowman/snowman_conditionalstatements.md)
 	* [Chapbook](conditionalstatements/chapbook/chapbook_conditionalstatements.md)
 
+# CSS Selectors
+
+* CSS Selectors
+	* [Harlowe](cssselectors/harlowe/harlowe_cssselectors.md)
+	* [SugarCube](cssselectors/sugarcube/sugarcube_cssselectors.md)
+	* [Snowman](cssselectors/snowman/snowman_cssselectors.md)
+
 # CSS and Passage Tags
 
 * CSS and Passage Tags

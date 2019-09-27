@@ -1,0 +1,22 @@
+:: StoryTitle
+CSS Selectors in SugarCube
+
+:: UserStylesheet [stylesheet]
+body {
+    background-color: darkgreen;
+}
+
+#ui-bar { 
+    border: 2px solid blue;
+}
+
+.passage { 
+    border: 1px solid red;
+}
+
+:: Start
+The page has a green border; it contains this passage (red border) and the sidebar (blue border).
+[[Second]]
+
+:: Second
+This passage also has a red border.
