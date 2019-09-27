@@ -1,16 +1,16 @@
 :: StoryTitle
-CSS Selectors in Harlowe
+CSS Selectors in SugarCube
 
 :: UserStylesheet [stylesheet]
-tw-story {
-    border: 5px solid lightgreen;
+body {
+    background-color: darkgreen;
 }
 
-tw-sidebar {
+#ui-bar { 
     border: 2px solid blue;
 }
 
-tw-passage {
+.passage { 
     border: 1px solid red;
 }
 
@@ -20,4 +20,3 @@ The page has a green border; it contains this passage (red border) and the sideb
 
 :: Second
 This passage also has a red border.
-

@@ -6,6 +6,15 @@
 
 This example shows how to use [CSS](../../terms/terms_css.md) selectors to selectively style different areas of the page.  In Harlowe, custom HTML elements are used for layout:  the `<tw-story>` element contains the page as well as a an element containing the currently shown passage, `<tw-passage>`, and an element containing the sidebar, `<tw-sidebar>`.
 
+```
+<tw-story>
+	<tw-passage>
+		<tw-sidebar>...</tw-sidebar>
+		...
+	</tw-passage>
+</tw-story>
+```
+
 ## Live Example
 
 <section>
@@ -21,7 +30,7 @@ Download: <a href="harlowe_cssselectors_example.html" target="_blank">Live Examp
 :: StoryTitle
 CSS Selectors in Harlowe
 
-:: UserStylesheet[stylesheet]
+:: UserStylesheet [stylesheet]
 tw-story {
     border: 5px solid lightgreen;
 }
