@@ -109,6 +109,7 @@
 # Dropdown
 
 * Dropdown
+	* [Chapbook](dropdown/chapbook/chapbook_dropdown.md)
 	* [Harlowe (v3.0.1 or later)](dropdown/harlowe/harlowe_dropdown.md)
 
 # Fairmath System

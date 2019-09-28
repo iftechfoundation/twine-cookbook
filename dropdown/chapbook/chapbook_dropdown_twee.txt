@@ -1,0 +1,10 @@
+:: StoryTitle
+Chapbook: Dropdown
+
+:: Start
+{dropdown menu for: "chosenValue", choices: ["Up", "Down", "Left", "Right"]}
+
+[[Check Choice]]
+
+:: Check Choice
+You chose {chosenValue}.
