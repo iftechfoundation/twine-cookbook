@@ -49,10 +49,10 @@
 # Conditional Statements
 
 * Conditional Statements
+	* [Chapbook](conditionalstatements/chapbook/chapbook_conditionalstatements.md)
 	* [Harlowe](conditionalstatements/harlowe/harlowe_conditionalstatements.md)
 	* [SugarCube](conditionalstatements/sugarcube/sugarcube_conditionalstatements.md)
 	* [Snowman](conditionalstatements/snowman/snowman_conditionalstatements.md)
-	* [Chapbook](conditionalstatements/chapbook/chapbook_conditionalstatements.md)
 
 # CSS Selectors
 
@@ -60,6 +60,7 @@
 	* [Harlowe](cssselectors/harlowe/harlowe_cssselectors.md)
 	* [SugarCube](cssselectors/sugarcube/sugarcube_cssselectors.md)
 	* [Snowman](cssselectors/snowman/snowman_cssselectors.md)
+	* [Snowman (v2.0 and later)](cssselectors/snowman_2/snowman_cssselectors.md)
 
 # CSS and Passage Tags
 
@@ -281,10 +282,10 @@
 # Setting and Showing Variables
 
 * Setting and Showing Variables
+	* [Chapbook](settingandshowing/chapbook/chapbook_settingandshowing.md)
 	* [Harlowe](settingandshowing/harlowe/harlowe_settingandshowing.md)
 	* [SugarCube](settingandshowing/sugarcube/sugarcube_settingandshowing.md)
 	* [Snowman](settingandshowing/snowman/snowman_settingandshowing.md)
-	* [Chapbook](settingandshowing/chapbook/chapbook_settingandshowing.md)
 
 # Space Exploration
 
@@ -309,11 +310,11 @@
 # Style Markup
 
 * Style Markup
+	* [Chapbook](markup/chapbook/chapbook_markup.md)
 	* [Harlowe](markup/harlowe/harlowe_markup.md)
 	* [SugarCube](markup/sugarcube/sugarcube_markup.md)
 	* [Snowman](markup/snowman/snowman_markup.md)
 	* [Sugarcane (1.4.2)](markup/sugarcane/sugarcane_markup.md)
-	* [Chapbook](markup/chapbook/chapbook_markup.md)
 
 # Timed Passages
 
