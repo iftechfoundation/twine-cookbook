@@ -4,7 +4,7 @@
 
 ## Summary
 
-This example shows how to use [CSS](../../terms/terms_css.md) selectors to selectively style different areas of the page.  In Harlowe, custom HTML elements are used for layout:  the `<tw-story>` element contains the page as well as a an element containing the currently shown passage, `<tw-passage>`, and an element containing the sidebar, `<tw-sidebar>`.
+This example shows how to use [CSS](../../terms/terms_css.md) selectors to style different areas of the page.  In Harlowe, custom HTML elements are used for layout:  the `<tw-story>` element contains the page as well as a an element containing the currently shown passage, `<tw-passage>`, and an element containing the sidebar, `<tw-sidebar>`.
 
 ```
 <tw-story>
@@ -56,4 +56,4 @@ Download: <a href="harlowe_cssselectors_twee.txt" target="_blank">Twee Code</a>
 
 ## See Also
 
-See the [left sidebar recipe](../../sidebar_left/harlowe_2/harlowe_sidebar_left.md) for another example of stylying custom elements like `<tw-sidebar>`.  Harlowe also supports [styling passages by tag](../../passagetags/harlowe/harlowe_passagetags.md) using its custom `tags` attribute.
+See the [left sidebar recipe](../../sidebar_left/harlowe_2/harlowe_sidebar_left.md) for another example of stylying custom elements like `<tw-sidebar>`. Harlowe also supports [styling passages by tag](../../passagetags/harlowe/harlowe_passagetags.md) using its custom 'tags' attribute.

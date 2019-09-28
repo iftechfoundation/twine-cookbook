@@ -2,14 +2,16 @@
 
 ## Summary
 
-Chapbook uses a customised sub-set of [Markdown](https://guides.github.com/features/mastering-markdown/) to support its style formatting.
+Chapbook uses a customized sub-set of [Markdown](https://guides.github.com/features/mastering-markdown/) to support its style formatting.
 
-<div class="alertbox information"><strong>Notes:</strong>The [Text Formatting](https://klembot.github.io/chapbook/guide/text-and-links/text-formatting.html) section of the [Chapbook Guide](https://klembot.github.io/chapbook/guide/) states you can also use a &#35; character to indicate a <em>Numbered List</em> item. This currently (as of v1.0.0-beta) isn't correct as that character actually results in a <em>Level 1 Header</em>.</div>
+<div class="alertbox information">
+<strong>Notes:</strong> The <a href="https://klembot.github.io/chapbook/guide/text-and-links/text-formatting.html">Text Formatting</a> section of the <a href="https://klembot.github.io/chapbook/guide/">Chapbook Guide</a> states you can also use a &#35; character to indicate a <em>Numbered List</em> item. This currently (as of v1.0.0-beta) isn't correct, as that character actually results in a <em>Level 1 Header</em>.
+</div>
 
 ## Live Example
 
 <section>
-<iframe src="shapbook_markup_example.html" height=400 width=90%></iframe>
+<iframe src="chapbook_markup_example.html" height=400 width=90%></iframe>
 
 
 Download: <a href="chapbook_markup_example.html" target="_blank">Live Example</a>
@@ -80,4 +82,3 @@ Alternative Level 2 Heading
 ```
 
 Download: <a href="chapbook_markup_twee.txt" target="_blank">Twee Code</a>
-

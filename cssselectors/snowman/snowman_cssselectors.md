@@ -2,7 +2,7 @@
 
 ## Summary
 
-This example shows how to use [CSS](../../terms/terms_css.md) selectors to selectively style different areas of the page.  Snowman uses a simple HTML structure of a `<div>` with id `passage` directly below (inside) the `<body>` tag. 
+This example shows how to use [CSS](../../terms/terms_css.md) selectors to style different areas of the page.  Snowman uses a simple HTML structure of a `<div>` with id `passage` directly below (inside) the `<body>` tag.
 
 ```
 <body>
@@ -14,7 +14,6 @@ This example shows how to use [CSS](../../terms/terms_css.md) selectors to selec
 
 <section>
 <iframe src="snowman_cssselectors_example.html" height=400 width=90%></iframe>
-
 
 Download: <a href="snowman_cssselectors_example.html" target="_blank">Live Example</a>
 </section>
@@ -50,4 +49,3 @@ Download: <a href="snowman_cssselectors_twee.txt" target="_blank">Twee Code</a>
 ## See Also
 
 See the Snowman [left sidebar recipe](../../sidebar_left/snowman/snowman_sidebar_left.md) for an example of styling passages using the [*id* CSS selector](https://developer.mozilla.org/en-US/docs/Web/CSS/ID_selectors).
-
