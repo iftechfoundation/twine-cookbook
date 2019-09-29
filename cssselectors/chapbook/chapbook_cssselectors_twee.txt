@@ -1,0 +1,23 @@
+:: StoryTitle
+CSS Selectors in Chapbook
+
+:: UserStylesheet[stylesheet]
+#backdrop {
+    border: 5px solid green;
+}
+
+#page {
+    border: 2px solid red;
+}
+
+#page article>:first-child {
+    border: 1px solid blue;
+}
+
+:: Start
+The backdrop has a green border; it contains this page (red border) and the article (blue border).
+
+[[Second]]
+
+:: Second
+This passage also has a blue border.
