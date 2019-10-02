@@ -4,9 +4,9 @@ SugarCube: Google Fonts
 :: StoryStylesheet[stylesheet]
 @import url('https://fonts.googleapis.com/css?family=Roboto');
 
-.googleFont {
+.warning {
 	font-family: 'Roboto', sans-serif; 
 }
 
 :: Start
-<div class="googleFont">This text is styled using a Google Font</div>
+<div class="warning">This text is styled using a Google Font</div>
