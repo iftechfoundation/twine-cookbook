@@ -20,21 +20,21 @@ Download: <a href="sugarcane_googlefonts_example.html" target="_blank">Live Exam
 ## Twee Code
 
 ```
-:: Start
-<div class="googleFont">This text is styled using a Google Font</div>
-
-:: StoryStylesheet [stylesheet]
-@import url('https://fonts.googleapis.com/css?family=Roboto');
-
-.googleFont {
-	font-family: 'Roboto', sans-serif; 
-}
-
 :: StoryTitle
 Responsive: Google Fonts
 
 :: StoryAuthor
 @videlais
+
+:: StoryStylesheet [stylesheet]
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+.warning {
+	font-family: 'Roboto', sans-serif; 
+}
+
+:: Start
+<div class="warning">This text is styled using a Google Font</div>
 
 ```
 
