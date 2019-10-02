@@ -24,12 +24,12 @@ Snowman: Google Fonts
 :: StoryStylesheet[stylesheet]
 @import url('https://fonts.googleapis.com/css?family=Roboto');
 
-.warning {
+.message {
 	font-family: 'Roboto', sans-serif; 
 }
 
 :: Start
-<div class="warning">This text is styled using a Google Font</div>
+<div class="message">This text is styled using a Google Font</div>
 
 ```
 
