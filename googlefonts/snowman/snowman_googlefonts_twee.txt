@@ -4,9 +4,9 @@ Snowman: Google Fonts
 :: StoryStylesheet[stylesheet]
 @import url('https://fonts.googleapis.com/css?family=Roboto');
 
-.googleFont {
+.message {
 	font-family: 'Roboto', sans-serif; 
 }
 
 :: Start
-<div class="googleFont">This text is styled using a Google Font</div>
+<div class="message">This text is styled using a Google Font</div>
