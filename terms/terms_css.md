@@ -1,28 +1,13 @@
 # CSS
 
-[Cascading Style Sheets](https://en.wikipedia.org/wiki/Cascading_Style_Sheets) (CSS) is a style sheet language for describing the presentation of elements in HTML. 
+[Cascading Style Sheets](https://en.wikipedia.org/wiki/Cascading_Style_Sheets) (CSS) is programming language for describing the presentation of HTML elements (*i.e.* the  colors, fonts, spacing, and general layout of a web page).  "Cascading" means rules move from a parent element to any children. Any specific rules also overrule any general ones.
+
+CSS styles are associated with [HTML elements](https://en.wikipedia.org/wiki/HTML_element) using the element's (tag)name, id, classes, and/or other, possibly custom, [attributes](https://en.wikipedia.org/wiki/HTML_attribute).   Each built-in story format in Twine 2 uses different, sometimes custom, HTML elements to organize the story and then applies its own CSS rules.
 
 ## Story Stylesheet
 
-Each built-in story format in Twine 2 defines or understands its core HTML elements differently. While a story format may provide new elements, it is always highly recommended to use its own macros, if provided, to change the presentation or layout.
+When using Twine, additional CSS rules can be added through the Story Stylesheet screen. This CSS is inserted into the final story and provides an opportunity to override the color and formatting choices expressed in the story format's own stylesheet. (When using Twee, styles can be added using one or more passages tagged `stylesheet`.)
 
-### Harlowe
+Considering the complex nature of CSS cascading, it is always highly recommended to use a story format's own macros where possible to change the presentation or layout of a story.
 
-Harlowe uses the `tw-story` element as a container for the currently shown passage, `tw-passage`. The sidebar is inside (a child of) each passage and is the element `tw-sidebar`.
-
-The story data is storied in the `tw-storydata` element and it contains the story metadata as atttributes of the following:
-* creator: the tool used to create the Story, usually "Twine"
-* creator-version: version of the tool
-* format: the story format
-* format-version: the version of the story format
-* [IFID](../terms/terms_stories.md): the Interactive Fiction IDentifier created with the Story
-
-### SugarCube
-
-SugarCube uses the [*id* CSS selector](https://developer.mozilla.org/en-US/docs/Web/CSS/ID_selectors) for its elements. Like Harlowe, the "story" *id* is applied to the container of the element containing the "passages". Unlike Harlowe, the currently shown passage's *id* is named after a combination of "passage-" and then the name of the passage with hyphens ("-") used to fill in any spaces. The currently shown passage is also given the [*class* CSS selector](https://developer.mozilla.org/en-US/docs/Web/CSS/Class_selectors) "passage".
-
-The *id* of the sidebar is "ui-bar".
-
-### Snowman
-
-Snowman follows a combination of both Harlowe and SugarCube patterns. It has a `tw-storydata` element with the same attributes generated for the story. It also contains an element with the *id* CSS selector of "passage" for the currently shown passage. 
+Common areas involved in story format styling include the full page or window, a sidebar (if present), and the current [passage](../terms/terms_passages.md) as a sub-area of the page.  Often there is also a mechanism to style passages according to their tags (as assigned in Twine 2). See the CSS Selectors recipes for more details.
