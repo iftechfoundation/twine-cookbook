@@ -2,7 +2,7 @@
 
 ## Summary
 
-"Google Fonts" uses a [Google Font](https://fonts.google.com/) loaded via the CSS ```@import``` at-rule. A class style rule ("googleFont") is then created using the imported font-family and applied to a ```<div>``` element within a single passage. 
+"Google Fonts" uses a [Google Font](https://fonts.google.com/) loaded via the CSS ```@import``` at-rule. The loaded font is then applied to selected text using the [`(font:)`](https://twine2.neocities.org/#macro_font) macro.
 
 Other Google Fonts could be imported and applied using the same method, creating new class or ID style rules to be applied for and across different HTML elements in the same way.
 

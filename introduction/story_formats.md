@@ -12,12 +12,14 @@ Now, story formats are more like dialects of the overall language of Twine along
 
 ## What are the differences between story formats?
 
-There are many. Harlowe was created to be more user-friendly in many ways. However, this also means that more advanced functionality is much harder or nearly impossible. SugarCube follows many of the patterns started with Twine 1 with a large, expanded set of functionality, but also expects some knowledge on the part of the author. Snowman comes with very little built-in functionality and expects the author to write or otherwise supply their own.
+There are many. Harlowe and Chapbook were created to be more user-friendly in many ways. However, this also means that more advanced functionality is much harder or nearly impossible. SugarCube follows many of the patterns started with Twine 1 with a large, expanded set of functionality, but also expects some knowledge on the part of the author. Snowman comes with very little built-in functionality and expects the author to write or otherwise supply their own.
 
 ### Macros
 
 The main differences between story formats come in how they handle [macros](../terms/terms_macros.md). SugarCube, for example, supplies a large number of macros for doing many different things. Harlowe has less macros for authors to use, but is also aimed at a different, more general audience.
 
+Chapbook also uses macros but calls them inserts and modifiers.
+
 ### Style Markup
 
-The rules for styling text are often very different between story formats. The "Style Markup" examples show a great breakdown of the different options per story format ([Harlowe](../markup/harlowe/harlowe_markup.md), [SugarCube](../markup/sugarcube/sugarcube_markup.md), and [Snowman](../markup/snowman/snowman_markup.md) ).
+The rules for styling text are often very different between story formats. The "Style Markup" examples show a great breakdown of the different options per story format ([Chapbook](../markup/chapbook/chapbook_markup.md), [Harlowe](../markup/harlowe/harlowe_markup.md), [SugarCube](../markup/sugarcube/sugarcube_markup.md), and [Snowman](../markup/snowman/snowman_markup.md) ).

@@ -35,9 +35,9 @@
 # Arrays
 
 * Arrays
-    * [Harlowe](arrays/harlowe/harlowe_arrays.md)
-    * [SugarCube](arrays/sugarcube/sugarcube_arrays.md)
-    * [Snowman](arrays/snowman/snowman_arrays.md)
+  * [Harlowe](arrays/harlowe/harlowe_arrays.md)
+  * [SugarCube](arrays/sugarcube/sugarcube_arrays.md)
+  * [Snowman](arrays/snowman/snowman_arrays.md)
 
 # Audio
 
@@ -49,9 +49,19 @@
 # Conditional Statements
 
 * Conditional Statements
+	* [Chapbook](conditionalstatements/chapbook/chapbook_conditionalstatements.md)
 	* [Harlowe](conditionalstatements/harlowe/harlowe_conditionalstatements.md)
 	* [SugarCube](conditionalstatements/sugarcube/sugarcube_conditionalstatements.md)
 	* [Snowman](conditionalstatements/snowman/snowman_conditionalstatements.md)
+
+# CSS Selectors
+
+* CSS Selectors
+	* [Chapbook](cssselectors/chapbook/chapbook_cssselectors.md)
+	* [Harlowe](cssselectors/harlowe/harlowe_cssselectors.md)
+	* [SugarCube](cssselectors/sugarcube/sugarcube_cssselectors.md)
+	* [Snowman](cssselectors/snowman/snowman_cssselectors.md)
+	* [Snowman (v2.0 and later)](cssselectors/snowman_2/snowman_cssselectors.md)
 
 # CSS and Passage Tags
 
@@ -65,7 +75,7 @@
 
 * Cycling Choices
 	* [Harlowe](cycling/harlowe/harlowe_cycling.md)
-	* [Harlowe (only v3.0.1 or later)](cycling/harlowe_3/harlowe_cycling.md)
+	* [Harlowe (v3.0.1 or later)](cycling/harlowe_3/harlowe_cycling.md)
 	* [SugarCube](cycling/sugarcube/sugarcube_cycling.md)
 	* [Snowman](cycling/snowman/snowman_cycling.md)
 
@@ -92,6 +102,7 @@
 # Dice Rolling
 
 * Dice Rolling
+	* [Chapbook](dicerolling/chapbook/chapbook_dicerolling.md)
 	* [Harlowe](dicerolling/harlowe/harlowe_dicerolling.md)
 	* [SugarCube](dicerolling/sugarcube/sugarcube_dicerolling.md)
 	* [Snowman](dicerolling/snowman/snowman_dicerolling.md)
@@ -99,7 +110,8 @@
 # Dropdown
 
 * Dropdown
-	* [Harlowe (only v3.0.1 or later)](dropdown/harlowe/harlowe_dropdown.md)
+	* [Chapbook](dropdown/chapbook/chapbook_dropdown.md)
+	* [Harlowe (v3.0.1 or later)](dropdown/harlowe/harlowe_dropdown.md)
 
 # Fairmath System
 
@@ -162,7 +174,7 @@
 
 * Left Sidebar
 	* [Harlowe (both v1.x and v2.x series)](sidebar_left/harlowe/harlowe_sidebar_left.md)
-	* [Harlowe (only v2.1.0 or later)](sidebar_left/harlowe_2/harlowe_sidebar_left.md)
+	* [Harlowe (v2.1.0 or later)](sidebar_left/harlowe_2/harlowe_sidebar_left.md)
 	* [SugarCube](sidebar_left/sugarcube/sugarcube_sidebar_left.md)
 	* [Snowman](sidebar_left/snowman/snowman_sidebar_left.md)
 
@@ -219,13 +231,28 @@
 * Passage Events
 	* [SugarCube](passageevents/sugarcube/sugarcube_passage_events.md)
 	* [Snowman](passageevents/snowman/snowman_passage_events.md)
+	* [Snowman (v2.0.2 or later)](passageevents/snowman_2/snowman_passage_events.md)
+
+# Passages in Passages
+
+* Passages in Passages
+	* [Harlowe](passagesinpassages/harlowe/harlowe_passagesinpassages.md)
+	* [SugarCube](passagesinpassages/sugarcube/sugarcube_passagesinpassages.md)
+	* [Snowman](passagesinpassages/snowman/snowman_passagesinpassages.md)
 
 # Passage Transitions
 
 * Passage Transitions
-	* [Harlowe (only v3.0.1 or later)](passagetransitions/harlowe/harlowe_passagetransitions.md)
-	* [Snowman](passagetransitions/snowman/snowman_passagetransitions.md)
+	* [Harlowe (v3.0.1 or later)](passagetransitions/harlowe/harlowe_passagetransitions.md)
 	* [SugarCube](passagetransitions/sugarcube/sugarcube_passagetransitions.md)
+	* [Snowman](passagetransitions/snowman/snowman_passagetransitions.md)
+
+# Passage Visits
+
+* Passage Visits
+	* [Harlowe](passagevisits/harlowe/harlowe_passagevisits.md)
+	* [SugarCube](passagevisits/sugarcube/sugarcube_passagevisits.md)
+	* [Snowman (v2.0.2 and later)](passagevisits/snowman/snowman_passagevisits.md)
 
 # Player Statistics
 
@@ -241,6 +268,12 @@
 	* [SugarCube](programmaticundo/sugarcube/sugarcube_programmaticundo.md)
 	* [Snowman](programmaticundo/snowman/snowman_programmaticundo.md)
 
+# Render Passage to Element
+
+* Render Passage to Element
+	* [SugarCube](passagetoelement/sugarcube/sugarcube_passagetoelement.md)
+	* [Snowman (2.0 or later)](passagetoelement/snowman/snowman_passagetoelement.md)
+
 # Saving Games
 
 * Saving Games
@@ -251,6 +284,7 @@
 # Setting and Showing Variables
 
 * Setting and Showing Variables
+	* [Chapbook](settingandshowing/chapbook/chapbook_settingandshowing.md)
 	* [Harlowe](settingandshowing/harlowe/harlowe_settingandshowing.md)
 	* [SugarCube](settingandshowing/sugarcube/sugarcube_settingandshowing.md)
 	* [Snowman](settingandshowing/snowman/snowman_settingandshowing.md)
@@ -278,6 +312,7 @@
 # Style Markup
 
 * Style Markup
+	* [Chapbook](markup/chapbook/chapbook_markup.md)
 	* [Harlowe](markup/harlowe/harlowe_markup.md)
 	* [SugarCube](markup/sugarcube/sugarcube_markup.md)
 	* [Snowman](markup/snowman/snowman_markup.md)
@@ -287,8 +322,8 @@
 
 * Timed Passages
 	* [Harlowe](timedpassages/harlowe/harlowe_timedpassages.md)
-	* [Snowman](timedpassages/snowman/snowman_timedpassages.md)
 	* [SugarCube](timedpassages/sugarcube/sugarcube_timedpassages.md)
+	* [Snowman](timedpassages/snowman/snowman_timedpassages.md)
 
 # Timed Progress Bars
 
