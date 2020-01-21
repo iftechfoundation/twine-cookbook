@@ -1,16 +1,29 @@
 # Introduction
 
-* [Example Formatting](formatting.md)
+# Common Questions
 
-* [Using the Cookbook](using_cookbook.md)
+* Common Questions
+	* [What can I make with Twine?](questions/making.md)
+	* [How do I get started?](questions/getting_started.md)
+	* [How do I make links?](questions/links.md)
+	* [How do I style text?](questions/style_text.md)
+	* [Where are my stories saved?](questions/stories_saved.md)
+	* [What do I need to know?](questions/need_to_know.md)
+	
+# Cookbook Introduction
 
-# Twine Manual
+* Cookbook Introduction
+	* [Using the Cookbook](using_cookbook.md)
+	* [Example Formatting](formatting.md)
 
-* [Twine 2](introduction/twine2_editor.md)
+# Twine 2 Documentation
+
+* Twine 2 Documentation
+	* [Twine 2 Editor](introduction/twine2_editor.md)
 	* [Story Listing](introduction/twine2_story_listing.md)
 	* [Passages View](introduction/twine2_passages_view.md)
-* [Passages](introduction/passages.md)
-* [Story Formats](introduction/story_formats.md)
+	* [Passages](introduction/passages.md)
+	* [Story Formats](introduction/story_formats.md)
 
 # Terms
 
@@ -25,6 +38,7 @@
 	* [CSS](terms/terms_css.md)
 	* [JavaScript](terms/terms_javascript.md)
 	* [Twee](terms/terms_twee.md)
+	* [HTML](terms/terms_html.md)
 
 # Adding Functionality
 

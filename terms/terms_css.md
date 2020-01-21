@@ -10,4 +10,4 @@ When using Twine, additional CSS rules can be added through the Story Stylesheet
 
 Considering the complex nature of CSS cascading, it is always highly recommended to use a story format's own macros where possible to change the presentation or layout of a story.
 
-Common areas involved in story format styling include the full page or window, a sidebar (if present), and the current [passage](../terms/terms_passages.md) as a sub-area of the page.  Often there is also a mechanism to style passages according to their tags (as assigned in Twine 2). See the CSS Selectors recipes for more details.
+Common areas involved in story format styling include the full page or window, a sidebar (if present), and the current [passage](../terms/terms_passages.md) as a sub-area of the page.  Often, there is also a mechanism to style passages according to their tags (as assigned in Twine 2). See the CSS Selectors recipes for more details.
