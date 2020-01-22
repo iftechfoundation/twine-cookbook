@@ -2,7 +2,7 @@
 
 ## Summary
 
-Using the [Vars Section](https://klembot.github.io/chapbook/guide/state/the-vars-section.html), different values can be set in Chapbook. In this example, a new [Date object](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Date) is created in JavaScript and the result of its functions are saved before using expressions to show them.
+Using [lookups](https://klembot.github.io/chapbook/guide/state/objects-and-lookups.html), Chapbook can easily retrieve the current month, day, and year.
 
 ## Live Example
 
@@ -19,17 +19,12 @@ Download: <a href="chapbook_dateandtime_example.html" target="_blank">Live Examp
 Date and Time in Chapbook
 
 :: Start
-date: new Date()
-month: date.getMonth()
-day: date.getDay()
-year: date.getFullYear()
---
+The current month number is {now.month}.
 
-The current month number is {month}.
+The current day number is {now.day}.
 
-The current day number is {day}.
+The current full-year number is {now.year}.
 
-The current full-year number is {year}.
 
 ```
 Download: <a href="chapbook_dateandtime_twee.txt" target="_blank">Twee Code</a>
