@@ -49,11 +49,11 @@
 # Arrays
 
 * Arrays
+  * [Chapbook](arrays/chapbook/chapbook_arrays.md)
   * [Harlowe](arrays/harlowe/harlowe_arrays.md)
   * [SugarCube](arrays/sugarcube/sugarcube_arrays.md)
   * [Snowman](arrays/snowman/snowman_arrays.md)
-  * [Chapbook](arrays/chapbook/chapbook_arrays.md)
-
+  
 # Audio
 
 * Audio
@@ -97,6 +97,7 @@
 # Date and Time
 
 * Date and Time
+	* [Chapbook](dateandtime/chapbook/chapbook_dateandtime.md)
 	* [Harlowe](dateandtime/harlowe/harlowe_dateandtime.md)
 	* [SugarCube](dateandtime/sugarcube/sugarcube_dateandtime.md)
 	* [Snowman](dateandtime/snowman/snowman_dateandtime.md)

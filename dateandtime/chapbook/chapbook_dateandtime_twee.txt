@@ -1,0 +1,15 @@
+:: StoryTitle
+Date and Time in Chapbook
+
+:: Start
+date: new Date()
+month: date.getMonth()
+day: date.getDay()
+year: date.getFullYear()
+--
+
+The current month number is {month}.
+
+The current day number is {day}.
+
+The current full-year number is {year}.
