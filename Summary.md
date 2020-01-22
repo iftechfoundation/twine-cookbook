@@ -252,6 +252,7 @@
 # Passages in Passages
 
 * Passages in Passages
+	* [Chapbook](passagesinpassages/chapbook/chapbook_passagesinpassages.md)
 	* [Harlowe](passagesinpassages/harlowe/harlowe_passagesinpassages.md)
 	* [SugarCube](passagesinpassages/sugarcube/sugarcube_passagesinpassages.md)
 	* [Snowman](passagesinpassages/snowman/snowman_passagesinpassages.md)
