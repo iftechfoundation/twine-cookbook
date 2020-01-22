@@ -52,6 +52,7 @@
   * [Harlowe](arrays/harlowe/harlowe_arrays.md)
   * [SugarCube](arrays/sugarcube/sugarcube_arrays.md)
   * [Snowman](arrays/snowman/snowman_arrays.md)
+  * [Chapbook](arrays/chapbook/chapbook_arrays.md)
 
 # Audio
 
