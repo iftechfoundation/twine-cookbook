@@ -140,6 +140,7 @@
 # Geolocation
 
 * Geolocation
+	* [Chapbook](geolocation/chapbook/chapbook_geolocation.md)
 	* [Harlowe](geolocation/harlowe/harlowe_geolocation.md)
 	* [SugarCube](geolocation/sugarcube/sugarcube_geolocation.md)
 	* [Snowman](geolocation/snowman/snowman_geolocation.md)
