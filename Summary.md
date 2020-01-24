@@ -132,6 +132,7 @@
 # Fairmath System
 
 * Fairmath System
+	* [Chapbook](fairmath/chapbook/chapbook_fairmath.md)
 	* [Harlowe](fairmath/harlowe/harlowe_fairmath.md)
 	* [SugarCube](fairmath/sugarcube/sugarcube_fairmath.md)
 	* [Snowman](fairmath/snowman/snowman_fairmath.md)
