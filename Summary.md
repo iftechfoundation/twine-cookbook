@@ -267,6 +267,7 @@
 # Passage Visits
 
 * Passage Visits
+	* [Chapbook](passagevisits/chapbook/chapbook_passagevisits.md)
 	* [Harlowe](passagevisits/harlowe/harlowe_passagevisits.md)
 	* [SugarCube](passagevisits/sugarcube/sugarcube_passagevisits.md)
 	* [Snowman (v2.0.2 and later)](passagevisits/snowman/snowman_passagevisits.md)
