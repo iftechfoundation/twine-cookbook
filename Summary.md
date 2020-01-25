@@ -115,6 +115,7 @@
 # Deleting Variables
 
 * Deleting Variables
+	* [Chapbook](deletingvariables/chapbook/chapbook_deletingvariables.md)
 	* [SugarCube](deletingvariables/sugarcube/sugarcube_deletingvariables.md)
 	* [Snowman](deletingvariables/snowman/snowman_deletingvariables.md)
 
