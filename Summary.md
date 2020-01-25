@@ -58,6 +58,7 @@
 # Audio
 
 * Audio
+	* [Chapbook](audio/chapbook/chapbook_audio.md)
 	* [Harlowe](audio/harlowe/harlowe_audio.md)
 	* [SugarCube](audio/sugarcube/sugarcube_audio.md)
 	* [Snowman](audio/snowman/snowman_audio.md)
