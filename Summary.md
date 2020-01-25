@@ -83,6 +83,7 @@
 # CSS and Passage Tags
 
 * CSS and Passage Tags
+	* [Chapbook](passagetags/chapbook/chapbook_passagetags.md)
 	* [Harlowe](passagetags/harlowe/harlowe_passagetags.md)
 	* [SugarCube](passagetags/sugarcube/sugarcube_passagetags.md)
 	* [Snowman](passagetags/snowman/snowman_passagetags.md)
