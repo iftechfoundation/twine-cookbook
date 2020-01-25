@@ -43,6 +43,7 @@
 # Adding Functionality
 
 * Adding Functionality
+	* [Chapbook](addingfunctionality/chapbook/chapbook_adding_functionality.md)
 	* [SugarCube](addingfunctionality/sugarcube/sugarcube_adding_functionality.md)
 	* [Snowman](addingfunctionality/snowman/snowman_adding_functionality.md)
 
