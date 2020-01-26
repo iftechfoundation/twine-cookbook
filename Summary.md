@@ -181,6 +181,7 @@
 # Importing External JavaScript
 
 * Importing External JavaScript
+	* [Chapbook](importexternaljs/chapbook/chapbook_importexternaljs.md)
 	* [Harlowe](importexternaljs/harlowe/harlowe_importexternaljs.md)
 	* [SugarCube](importexternaljs/sugarcube/sugarcube_importexternaljs.md)
 	* [Snowman](importexternaljs/snowman/snowman_importexternaljs.md)
