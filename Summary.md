@@ -174,6 +174,7 @@
 # Images
 
 * Images
+	* [Chapbook](images/chapbook/chapbook_images.md)
 	* [Harlowe](images/harlowe/harlowe_images.md)
 	* [SugarCube](images/sugarcube/sugarcube_images.md)
 	* [Snowman](images/snowman/snowman_images.md)
