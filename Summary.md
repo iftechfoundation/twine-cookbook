@@ -190,6 +190,7 @@
 # Keyboard Events
 
 * Keyboard Events
+	* [Chapbook](keyboard/chapbook/chapbook_keyboard.md)
 	* [Harlowe](keyboard/harlowe/harlowe_keyboard.md)
 	* [SugarCube](keyboard/sugarcube/sugarcube_keyboard.md)
 	* [Snowman](keyboard/snowman/snowman_keyboard.md)
