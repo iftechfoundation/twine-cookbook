@@ -1,0 +1,45 @@
+:: StoryTitle
+Chapbook: Lock and Key: Variable
+
+:: Start
+key: false
+--
+
+Rooms:
+
+[[Front Room]]
+
+[[Back Room]]
+
+
+:: Front Room
+[if key == true]
+	[[Unlock the door->Exit]]
+[else]
+	*Locked Door*
+[continued]
+
+Rooms:
+
+[[Back Room]]
+
+
+:: Back Room
+[if key == false]
+	Items:
+	{reveal link: 'Pick up key', passage: 'Key'}
+[else]
+	There is nothing here.
+[continued]
+
+Rooms:
+
+[[Front Room]] 
+
+:: Exit
+You found the key and went through the door!
+
+:: Key
+key: true
+--
+You picked up the key!

@@ -210,6 +210,7 @@
 # Limiting the Range of a Number
 
 * Limiting the range of a number
+	* [Chapbook](clamping_numbers/chapbook/chapbook_clamping_numbers.md)
 	* [Harlowe](clamping_numbers/harlowe/harlowe_clamping_numbers.md)
 	* [SugarCube](clamping_numbers/sugarcube/sugarcube_clamping_numbers.md)
 	* [Snowman](clamping_numbers/snowman/snowman_clamping_numbers.md)
@@ -222,6 +223,7 @@
 # Lock and Key: Variable
 
 * Lock and Key: Variable
+	* [Chapbook](lockandkey_variable/chapbook/chapbook_lockandkey_variable.md)
 	* [Harlowe](lockandkey_variable/harlowe/harlowe_lockandkey_variable.md)
 	* [SugarCube](lockandkey_variable/sugarcube/sugarcube_lockandkey_variable.md)
 	* [Snowman](lockandkey_variable/snowman/snowman_lockandkey_variable.md)
