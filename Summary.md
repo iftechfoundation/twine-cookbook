@@ -231,6 +231,7 @@
 # Looping
 
 * Looping
+	* [Chapbook](looping/chapbook/chapbook_looping.md)
 	* [Harlowe](looping/harlowe/harlowe_looping.md)
 	* [SugarCube](looping/sugarcube/sugarcube_looping.md)
 	* [Snowman](looping/snowman/snowman_looping.md)
