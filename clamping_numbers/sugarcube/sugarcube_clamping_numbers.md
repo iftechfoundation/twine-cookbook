@@ -2,7 +2,7 @@
 
 ## Summary
 
-This recipe demonstrates how to limit a numeric variable to a value between a set range, this process is commonly known as **clamping**. It uses the [*Math.clamp()*](http://www.motoslave.net/sugarcube/2/docs/object-methods.html#math-mathclamp) function in SugarCube to achieve the desired result.
+This example demonstrates how to limit a numeric variable to a value between a set range, this process is commonly known as **clamping**. It uses the [*Math.clamp()*](http://www.motoslave.net/sugarcube/2/docs/object-methods.html#math-mathclamp) function in SugarCube to achieve the desired result.
 
 ## Live Example
 
