@@ -92,6 +92,7 @@
 # Cycling Choices
 
 * Cycling Choices
+	* [Chapbook](cycling/chapbook/chapbook_cycling.md)
 	* [Harlowe](cycling/harlowe/harlowe_cycling.md)
 	* [Harlowe (v3.0.1 or later)](cycling/harlowe_3/harlowe_cycling.md)
 	* [SugarCube](cycling/sugarcube/sugarcube_cycling.md)
