@@ -154,6 +154,7 @@
 # Google Fonts
 
 * Google Fonts
+	* [Chapbook](googlefonts/chapbook/chapbook_googlefonts.md)
 	* [Harlowe](googlefonts/harlowe/harlowe_googlefonts.md)
 	* [SugarCube](googlefonts/sugarcube/sugarcube_googlefonts.md)
 	* [Snowman](googlefonts/snowman/snowman_googlefonts.md)
