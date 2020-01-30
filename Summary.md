@@ -291,6 +291,7 @@
 # Player Statistics
 
 * Player Statistics
+	* [Chapbook](playerstatistics/chapbook/chapbook_player_statistics.md)
 	* [Harlowe](playerstatistics/harlowe/harlowe_player_statistics.md)
 	* [SugarCube](playerstatistics/sugarcube/sugarcube_player_statistics.md)
 	* [Snowman](playerstatistics/snowman/snowman_player_statistics.md)
