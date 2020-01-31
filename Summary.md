@@ -342,6 +342,7 @@
 # Story and Passage API
 
 * Story and Passage API
+	* [Chapbook](storyandpassage/chapbook/chapbook_storyandpassage.md)
 	* [SugarCube](storyandpassage/sugarcube/sugarcube_storyandpassage.md)
 	* [Snowman](storyandpassage/snowman/snowman_storyandpassage.md)
 
