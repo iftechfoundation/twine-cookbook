@@ -334,6 +334,7 @@
 # Static Healthbars
 
 * Static Healthbars
+	* [Chapbook](statichealthbars/chapbook/chapbook_statichealthbars.md)
 	* [Harlowe](statichealthbars/harlowe/harlowe_statichealthbars.md)
 	* [SugarCube](statichealthbars/sugarcube/sugarcube_statichealthbars.md)
 	* [Snowman](statichealthbars/snowman/snowman_statichealthbars.md)
