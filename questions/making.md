@@ -12,5 +12,5 @@ Because hypertext branches so much, it's easy to get lost in your own work. Much
 
 Of course! 
 
-However, things a little more complicated than they initial appear. Twine itself can be thought of as more of an editor that helps package up [Stories](../terms/terms_stories.md). What provides the underlining conditional logic, variables, and other trappings of game programming are provided by [Story Formats](../terms/terms_storyformats.md).
+However, things a little more complicated than they initial appear. Twine itself can be thought of as more of an editor that helps package up [Stories](../terms/terms_stories.md). What provides the underlining conditional logic, variables, and other trappings of game programming are [Story Formats](../terms/terms_storyformats.md).
 
