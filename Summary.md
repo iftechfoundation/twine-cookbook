@@ -358,6 +358,7 @@
 # Timed Passages
 
 * Timed Passages
+	* [Chapbook](timedpassages/chapbook/chapbook_timedpassages.md)
 	* [Harlowe](timedpassages/harlowe/harlowe_timedpassages.md)
 	* [SugarCube](timedpassages/sugarcube/sugarcube_timedpassages.md)
 	* [Snowman](timedpassages/snowman/snowman_timedpassages.md)
