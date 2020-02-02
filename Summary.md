@@ -372,6 +372,7 @@
 # Turn Counter
 
 * Turn Counter
+	* [Chapbook](turncounter/chapbook/chapbook_turncounter.md)
 	* [Harlowe](turncounter/harlowe/harlowe_turncounter.md)
 	* [SugarCube](turncounter/sugarcube/sugarcube_turncounter.md)
 	* [Snowman](turncounter/snowman/snowman_turncounter.md)
