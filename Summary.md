@@ -328,6 +328,7 @@
 # Space Exploration
 
 * Space Exploration
+	* [Chapbook](spaceexploration/chapbook/chapbook_space_exploration.md)
 	* [Harlowe](spaceexploration/harlowe/harlowe_space_exploration.md)
 	* [SugarCube](spaceexploration/sugarcube/sugarcube_space_exploration.md)
 	* [Snowman](spaceexploration/snowman/snowman_space_exploration.md)
