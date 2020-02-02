@@ -388,6 +388,7 @@
 # Variable Style Styling
 
 * Variable Style Styling
+	* [Chapbook](storystyling/chapbook/chapbook_storystyling.md)
 	* [Harlowe](storystyling/harlowe/harlowe_storystyling.md)
 	* [SugarCube](storystyling/sugarcube/sugarcube_storystyling.md)
 	* [Snowman](storystyling/snowman/snowman_storystyling.md)
