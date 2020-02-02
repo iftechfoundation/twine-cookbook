@@ -33,6 +33,7 @@
 	* [Stories](terms/terms_stories.md)
 	* [Passages](terms/terms_passages.md)
 	* [Variables](terms/terms_variables.md)
+	* [Markdown / Markup](terms/terms_markdown_and_markup.md)
 	* [Macros](terms/terms_macros.md)
 	* [Story Formats](terms/terms_storyformats.md)
 	* [CSS](terms/terms_css.md)
