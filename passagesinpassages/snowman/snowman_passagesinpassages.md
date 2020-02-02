@@ -2,7 +2,7 @@
 
 ## Summary
 
-In Snowman, the contents of one passage can be included in another through using the [`window.story.render()`](https://videlais.github.io/snowman/1/window_story/functions/render.html) function. This will find and return the source of an existing passage in the story. Combined with the use of Underscore's [template system](https://videlais.github.io/snowman/1/learning/template.html), the returned value can be included directly where the function is used in a passage.
+In Snowman, the contents of one passage can be included in another through using the *[window.story.render()](https://videlais.github.io/snowman/1/window_story/functions/render.html)* function. This will find and return the source of an existing passage in the story. Combined with the use of Underscore's [template system](https://videlais.github.io/snowman/1/learning/template.html), the returned value can be included directly where the function is used in a passage.
 
 ## Live Example
 

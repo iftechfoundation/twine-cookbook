@@ -2,7 +2,7 @@
 
 ## Summary
 
-In Snowman, the function [*renderToSelector()*](https://videlais.github.io/snowman/2/utility/renderToSelector.html) renders the contents of a passage into an element based on its [jQuery selector](https://api.jquery.com/category/selectors/).
+In Snowman, the function *[renderToSelector()](https://videlais.github.io/snowman/2/utility/renderToSelector.html)* renders the contents of a passage into an element based on its [jQuery selector](https://api.jquery.com/category/selectors/).
 
 The event [`sm.passage.shown`](https://videlais.github.io/snowman/2/events/passage_events.html) is used in this example to guarantee that the passage has been rendered before acting. Calling the function *renderToSelector()* inside the [jQuery event listener](https://api.jquery.com/on/) then renders another passage into an existing element.
 

@@ -2,7 +2,7 @@
 
 ## Summary
 
-In Snowman, the *showpassage* event is triggered once a passage is loaded. By listening for this event, [jQuery effects](https://api.jquery.com/category/effects/) can be applied to the passage element to produce a transition.
+In Snowman, the `showpassage` event is triggered once a passage is loaded. By listening for this event, [jQuery effects](https://api.jquery.com/category/effects/) can be applied to the passage element to produce a transition.
 
 ## Live Example
 
