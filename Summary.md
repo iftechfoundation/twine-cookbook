@@ -380,6 +380,7 @@
 # Typewriter Effect
 
 * Typewriter Effect
+	* [Chapbook](typewriter/chapbook/chapbook_typewriter.md)
 	* [Harlowe](typewriter/harlowe/harlowe_typewriter.md)
 	* [SugarCube](typewriter/sugarcube/sugarcube_typewriter.md)
 	* [Snowman](typewriter/snowman/snowman_typewriter.md)
