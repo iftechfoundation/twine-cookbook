@@ -2,7 +2,7 @@
 
 ## Summary
 
-In SugarCube, the global function [`visited()`](http://www.motoslave.net/sugarcube/2/docs/#functions-function-visited) returns the number of times a passage has been visited during the course of the story. Combined with the [`<<= >>`](http://www.motoslave.net/sugarcube/2/docs/#macros-macro-equal) expression, the result of a global function can be written to a passage.
+In SugarCube, the global function *[visited()](http://www.motoslave.net/sugarcube/2/docs/#functions-function-visited)* returns the number of times a passage has been visited during the course of the story. Combined with the [`<<= >>`](http://www.motoslave.net/sugarcube/2/docs/#macros-macro-equal) macro expression, the result of a global function can be written to a passage.
 
 ## Live Example
 

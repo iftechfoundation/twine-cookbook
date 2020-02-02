@@ -4,13 +4,12 @@
 
 Arrays are a collection of values. Each value in an array is assigned an *index*, which is a number that corresponds to the position of that item or element. Arrays have many built-in methods and other features, and [SugarCube adds many more](http://www.motoslave.net/sugarcube/2/docs/object-methods.html#array). Arrays can be created by assigning a variable to the array literal, which is a pair of brackets (`[]`): `<<set $myArray to []>>`.
 
-[Specific elements](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array#Accessing_array_elements) can be accessed in an array by following its variable name with a pair of brackets containing the index to check. Testing whether an array contains an element can be done using the [*Array#includes()* function](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/includes); adding new items can be done using the [*Array#push()* function](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/push).
+[Specific elements](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array#Accessing_array_elements) can be accessed in an array by following its variable name with a pair of brackets containing the index to check. Testing whether an array contains an element can be done using the *[Array#includes() function](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/includes)*; adding new items can be done using the *[Array#push() function](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/push)*.
 
 ## Live Example
 
 <section>
 <iframe src="sugarcube_arrays_example.html" height=400 width=90%></iframe>
-
 
 Download: <a href="sugarcube_arrays_example.html" target="_blank">Live Example</a>
 </section>

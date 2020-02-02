@@ -6,7 +6,7 @@
 
 Using CSS and JavaScript, a rule is created for transparent color and applied or removed through using jQuery's *[on()](http://api.jquery.com/on/)* function with 'mouseenter' and 'mouseleave' events.
 
-The use of the *postdisplay* functionality is also used to run JavaScript after each passage is displayed.
+The use of the *[postdisplay](https://www.motoslave.net/sugarcube/2/docs/#special-variable-postdisplay)* functionality is also used to run JavaScript after each passage is displayed.
 
 ## Live Example
 

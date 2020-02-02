@@ -2,7 +2,7 @@
 
 ## Summary
 
-"Timed Progress Bars" uses the [*Macro.Add()*](http://www.motoslave.net/sugarcube/2/docs/api-macro.html#macro-api) function in SugarCube to introduce a new macro. Using jQuery within the definition, the new macro records arguments passed to it and creates outer and inner `<div>` elements with classes defined in the Story Stylesheet. Using a combination of [*setInterval()*](https://developer.mozilla.org/en-US/docs/Web/API/WindowOrWorkerGlobalScope/setInterval) and [*setTimeout()*](https://developer.mozilla.org/en-US/docs/Web/API/WindowOrWorkerGlobalScope/setTimeout), a timer is created based on the argument passed to the macro. The length and color of an inner `<div>` element is adjusted based on the remaining time each loop.
+"Timed Progress Bars" uses the *[Macro.Add()](http://www.motoslave.net/sugarcube/2/docs/api-macro.html#macro-api)* function in SugarCube to introduce a new macro. Using jQuery within the definition, the new macro records arguments passed to it and creates outer and inner `<div>` elements with classes defined in the Story Stylesheet. Using a combination of *[setInterval()](https://developer.mozilla.org/en-US/docs/Web/API/WindowOrWorkerGlobalScope/setInterval)* and *[setTimeout()](https://developer.mozilla.org/en-US/docs/Web/API/WindowOrWorkerGlobalScope/setTimeout)*, a timer is created based on the argument passed to the macro. The length and color of an inner `<div>` element is adjusted based on the remaining time each loop.
 
 When the timer runs out, the *payload* of the macro is run and the length of the inner `<div>` element is reduced to 0.
 
@@ -10,7 +10,6 @@ When the timer runs out, the *payload* of the macro is run and the length of the
 
 <section>
 <iframe src="sugarcube_timed_progress_bars_example.html" height=400 width=90%></iframe>
-
 
 Download: <a href="sugarcube_timed_progress_bars_example.html" target="_blank">Live Example</a>
 </section>

@@ -2,7 +2,7 @@
 
 ## Summary
 
-"Static Healthbars" demonstrates how to write HTML elements using variable values. In this example, [Attribute Directive](http://www.motoslave.net/sugarcube/2/docs/#markup-html-attribute-directive) markup is used to inject the current value of the *$heath* story variable into the &lt;progress&gt; and &lt;meter&gt; elements.
+"Static Healthbars" demonstrates how to write HTML elements using variable values. In this example, [Attribute Directive](http://www.motoslave.net/sugarcube/2/docs/#markup-html-attribute-directive) markup is used to inject the current value of the *$heath* story variable into the `<progress>` and `<meter>` elements.
 
 ## Live Example
 

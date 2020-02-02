@@ -2,13 +2,12 @@
 
 ## Summary
 
-In SugarCube, the contents of a passage can be shown in another through the use of the [&lt;&lt;`include`&gt;&gt;](http://www.motoslave.net/sugarcube/2/docs/#macros-macro-include) macro. Through using the name of an existing passage, its contents will be included where the macro is called.
+In SugarCube, the contents of a passage can be shown in another through the use of the [`<<include>>`](http://www.motoslave.net/sugarcube/2/docs/#macros-macro-include) macro. Through using the name of an existing passage, its contents will be included where the macro is called.
 
 ## Live Example
 
 <section>
 <iframe src="sugarcube_passagesinpassages_example.html" height=400 width=90%></iframe>
-
 
 Download: <a href="sugarcube_passagesinpassages_example.html" target="_blank">Live Example</a>
 </section>

@@ -2,7 +2,7 @@
 
 ## Summary
 
-"Dice Rolling" demonstrates how to create the same effects of rolling various physical dice through using the *[random()](http://www.motoslave.net/sugarcube/2/docs/functions.html#random)* function and the *[&lt;&lt;print&gt;&gt;]((http://www.motoslave.net/sugarcube/2/docs/macros.html#macros-print)* macro to show the results.
+"Dice Rolling" demonstrates how to create the same effects of rolling various physical dice through using the *[random()](http://www.motoslave.net/sugarcube/2/docs/functions.html#random)* function and the [`<<print>>`]((http://www.motoslave.net/sugarcube/2/docs/macros.html#macros-print)* macro to show the results.
 
 ## Live Example
 

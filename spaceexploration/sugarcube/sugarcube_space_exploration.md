@@ -4,15 +4,14 @@
 
 Games in the [rogue-like genre](https://en.wikipedia.org/wiki/Roguelike) often have random events that influence player choices. Frequently, decisions can have lasting impact or even lead to an ending of play in that session or run depending on these random outcomes.
 
-Heavily inspired by [*FTL: Faster Than Light*](https://en.wikipedia.org/wiki/FTL:_Faster_Than_Light) (2012), this example uses the [*random()*](http://www.motoslave.net/sugarcube/2/docs/functions.html#random) function to generate a system of planets consisting of either RED, more risk and more reward, or GREEN, less risk and less reward. Upon entering a system of planets, the player can choose to visit these planets for different outcomes based on a series of choices and an additional use of the *random()* function. While traveling, the player must also balance the health of the ship, the number of jumps left, and the current fuel that are all displayed using the [&lt;&lt;include&gt;&gt;](http://www.motoslave.net/sugarcube/2/docs/macros.html#macros-include) macro. Finally, to capture the permanence of many roguelike games, the [&lt;&lt;goto&gt;&gt;](http://www.motoslave.net/sugarcube/2/docs/macros.html#macros-goto) macro is used to prevent the use of the normal undo/redo in SugarCube.
+Heavily inspired by [*FTL: Faster Than Light*](https://en.wikipedia.org/wiki/FTL:_Faster_Than_Light) (2012), this example uses the *[random()](http://www.motoslave.net/sugarcube/2/docs/functions.html#random)* function to generate a system of planets consisting of either RED, more risk and more reward, or GREEN, less risk and less reward. Upon entering a system of planets, the player can choose to visit these planets for different outcomes based on a series of choices and an additional use of the *random()* function. While traveling, the player must also balance the health of the ship, the number of jumps left, and the current fuel that are all displayed using the [`<<include>>`](http://www.motoslave.net/sugarcube/2/docs/macros.html#macros-include) macro. Finally, to capture the permanence of many roguelike games, the [`<<goto>>`](http://www.motoslave.net/sugarcube/2/docs/macros.html#macros-goto) macro is used to prevent the use of the normal undo/redo in SugarCube.
 
-To cleanly present the text, this example also uses both the [&lt;&lt;silently&gt;&gt;](http://www.motoslave.net/sugarcube/2/docs/macros.html#macros-silently) macro, to disregard all output, and [&lt;&lt;nobr&gt;&gt;](http://www.motoslave.net/sugarcube/2/docs/macros.html#macros-nobr) macro, to collapse the whitespace.
+To cleanly present the text, this example also uses both the [`<<silently>>`](http://www.motoslave.net/sugarcube/2/docs/macros.html#macros-silently) macro, to disregard all output, and [`<<nobr>>`](http://www.motoslave.net/sugarcube/2/docs/macros.html#macros-nobr) macro, to collapse the whitespace.
 
 ## Live Example
 
 <section>
 <iframe src="sugarcube_space_exploration_example.html" height=400 width=90%></iframe>
-
 
 Download: <a href="sugarcube_space_exploration_example.html" target="_blank">Live Example</a>
 </section>

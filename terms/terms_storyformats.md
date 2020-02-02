@@ -4,7 +4,7 @@ Each story format provides a different visual layout, set of [macros](../terms/t
 
 ## Harlowe
 
-[Harlowe](https://twine2.neocities.org/) is the default story format in Twine 2. It is designed for ease-of-use and for those using Twine for the first time.
+[Harlowe](https://twine2.neocities.org/) is the default story format in Twine 2. It is designed for ease-of-use and for those using Twine 2 for the first time.
 
 **Harlowe Example:**
 ```
@@ -27,7 +27,7 @@ No way forward!
 
 ## Snowman
 
-[Snowman](https://twinery.org/wiki/snowman:reference) is designed to be written with custom JavaScript and CSS. It has no built-in macros, but includes the [Underscore.js JavaScript library](http://underscorejs.org/).
+[Snowman](https://videlais.github.io/snowman/) is designed to be written with custom JavaScript and CSS. It has no built-in macros, but includes the [Underscore.js](http://underscorejs.org/), [Marked](https://marked.js.org/#/README.md), and [jQuery](https://jquery.com/) JavaScript libraries.
 
 **Snowman Example:**
 ```

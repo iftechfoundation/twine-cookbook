@@ -4,7 +4,7 @@
 
 "Keyboard Events" demonstrates how to capture [keyboard events](https://developer.mozilla.org/en-US/docs/Web/API/KeyboardEvent) and then how to associate individual keys with activities within a story.
 
-The example uses jQuery's [*on()* function](http://api.jquery.com/on/) to monitor for all [*keyup* events](https://developer.mozilla.org/en-US/docs/Web/Events/keyup). Once a 'keyup' event has occurred, two values are available:
+The example uses jQuery's *[on()](http://api.jquery.com/on/)* function to monitor for all [*keyup* events](https://developer.mozilla.org/en-US/docs/Web/Events/keyup). Once a 'keyup' event has occurred, two values are available:
 
  * The *keyCode* property: the numerical value representing the key presented in its [decimal ASCII code](http://www.asciichart.com/) supported by effectively all browsers.
  * The *key* property: the string value of the key presented supported by most modern web-browsers.

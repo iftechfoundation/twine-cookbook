@@ -2,12 +2,11 @@
 
 ## Summary
 
-Made famous in [*Queers in Love at the End of the World* (2013)](https://w.itch.io/end-of-the-world), "Timed Passages" uses the the [`<<repeat>>`](http://www.motoslave.net/sugarcube/2/docs/macros.html#macros-repeat) macro to repeat while checking if the timer has reached zero. If so, the [`<<goto>>`](http://www.motoslave.net/sugarcube/2/docs/macros.html#macros-goto) macro will immediately transition to another passage.
+Made famous in [*Queers in Love at the End of the World*](https://w.itch.io/end-of-the-world) (2013), "Timed Passages" uses the the [`<<repeat>>`](http://www.motoslave.net/sugarcube/2/docs/macros.html#macros-repeat) macro to repeat while checking if the timer has reached zero. If so, the [`<<goto>>`](http://www.motoslave.net/sugarcube/2/docs/macros.html#macros-goto) macro will immediately transition to another passage.
 
 ## Live Example
 <section>
 <iframe src="sugarcube_timedpassages_example.html" height=400 width=90%></iframe>
-
 
 Download: <a href="sugarcube_timedpassages_example.html" target="_blank">Live Example</a>
 </section>

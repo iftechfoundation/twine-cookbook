@@ -20,7 +20,6 @@ The sidebar can be manually stowed (hidden) and unstowed (revealed) by selecting
 <section>
 <iframe src="sugarcube_sidebar_left_example.html" height=400 width=90%></iframe>
 
-
 Download: <a href="sugarcube_sidebar_left_example.html" target="_blank">Live Example</a>
 </section>
 

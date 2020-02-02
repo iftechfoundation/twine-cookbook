@@ -2,7 +2,7 @@
 
 ## Summary
 
-Made famous in [*Queers in Love at the End of the World* (2013)](https://w.itch.io/end-of-the-world), "Timed Passages" uses the the *[_.delay()](http://underscorejs.org/#delay)* function to count seconds while checking if the timer has reached zero. If so, the *[window.story.show()](https://videlais.github.io/snowman/1/window_story/functions/show.html)* function will immediately transition to another passage.
+Made famous in [*Queers in Love at the End of the World*](https://w.itch.io/end-of-the-world) (2013), "Timed Passages" uses the the *[_.delay()](http://underscorejs.org/#delay)* function to count seconds while checking if the timer has reached zero. If so, the *[window.story.show()](https://videlais.github.io/snowman/1/window_story/functions/show.html)* function will immediately transition to another passage.
 
 ## Live Example
 

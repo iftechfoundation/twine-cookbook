@@ -2,7 +2,7 @@
 
 ## Summary
 
-When using SugarCube, images can be displayed through the [image HTML element](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/img) and [*url()*](https://developer.mozilla.org/en-US/docs/Web/CSS/url) CSS data type when encoded as Base64.
+When using SugarCube, images can be displayed through the [image HTML element](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/img) and *[url()](https://developer.mozilla.org/en-US/docs/Web/CSS/url)* CSS data type when encoded as Base64.
 
 When using an image element, its source is either absolutely or relatively located. An absolute reference starts with HTTP or another protocol; a relative reference describes the location of the image in relation to the webpage.
 
@@ -14,7 +14,6 @@ Many macros also support [using images](http://www.motoslave.net/sugarcube/2/doc
 
 <section>
 <iframe src="sugarcube_images_example.html" height=400 width=90%></iframe>
-
 
 Download: <a href="sugarcube_images_example.html" target="_blank">Live Example</a>
 </section>

@@ -11,7 +11,6 @@ SugarCube 2.x and later also applies a "data-tags" attribute to the html, body, 
 <section>
 <iframe src="sugarcube_passagetags_example.html" height=400 width=90%></iframe>
 
-
 Download: <a href="sugarcube_passagetags_example.html" target="_blank">Live Example</a>
 </section>
 
