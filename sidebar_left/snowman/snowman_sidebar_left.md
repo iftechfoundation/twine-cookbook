@@ -4,15 +4,14 @@
 
 Snowman does not have a built-in sidebar, but one can be created using JavaScript, [jQuery](http://api.jquery.com/), and CSS.
 
-The [*createElement()*](https://developer.mozilla.org/en-US/docs/Web/API/Document/createElement) function is used to create a new DIV element into which the generated output of the Sidebar passage will later be added. This new DIV is assigned an ID of "sidebar" using the [*attr()*](http://api.jquery.com/attr/#attr2) function and then inserted into the story's Document Object Model (DOM) using the [*insertBefore()*](http://api.jquery.com/insertbefore/) function.
+The **[createElement()](https://developer.mozilla.org/en-US/docs/Web/API/Document/createElement)** function is used to create a new DIV element into which the generated output of the Sidebar passage will later be added. This new DIV is assigned an ID of "sidebar" using the **[attr()](http://api.jquery.com/attr/#attr2)** function and then inserted into the story's Document Object Model (DOM) using the **[insertBefore()](http://api.jquery.com/insertbefore/)** function.
 
-Snowman triggers a [*showpassage:after*](https://github.com/klembot/snowman/blob/1.1/js/story.js#L342) event after each passage is shown. The [*on()*](http://api.jquery.com/on/) function can be used to monitor for this event. Once it has occurred, a combination of the [*html()*](http://api.jquery.com/html/) and [*window.story.render()*](https://twinery.org/wiki/snowman:window-story:render) functions can be used to display the dynamic contents of the Sidebar passage within the "sidebar" DIV element.
+Snowman triggers a "showpassage:after" event after each passage is shown. The **[on()](http://api.jquery.com/on/)** function can be used to monitor for this event. Once it has occurred, a combination of the **[html()](http://api.jquery.com/html/)** and **[window.story.render()](https://twinery.org/wiki/snowman:window-story:render)** functions can be used to display the dynamic contents of the Sidebar passage within the "sidebar" DIV element.
 
 ## Live Example
 
 <section>
 <iframe src="snowman_sidebar_left_example.html" height=400 width=90%></iframe>
-
 
 Download: <a href="snowman_sidebar_left_example.html" target="_blank">Live Example</a>
 </section>

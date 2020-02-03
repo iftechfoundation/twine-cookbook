@@ -1,10 +1,10 @@
 # Story Formats
 
-Each story format provides a different default layout, set of [macros](../terms/terms_macros.md), and its own internal set of JavaScript functionality.
+Each story format provides a different visual layout, set of [macros](../terms/terms_macros.md), and internal JavaScript functionality.
 
 ## Harlowe
 
-[Harlowe](https://twine2.neocities.org/) is the default story format in Twine 2. It is designed for ease-of-use and those beginning with Twine.
+[Harlowe](https://twine2.neocities.org/) is the default story format in Twine 2. It is designed for ease-of-use and for those using Twine 2 for the first time.
 
 **Harlowe Example:**
 ```
@@ -27,7 +27,7 @@ No way forward!
 
 ## Snowman
 
-[Snowman](https://twinery.org/wiki/snowman:reference) is designed to be written with custom JavaScript and CSS. It has no built-in macros, but includes the [Underscore.js JavaScript library](http://underscorejs.org/).
+[Snowman](https://videlais.github.io/snowman/) is designed to be written with custom JavaScript and CSS. It has no built-in macros, but includes the [Underscore.js](http://underscorejs.org/), [Marked](https://marked.js.org/#/README.md), and [jQuery](https://jquery.com/) JavaScript libraries.
 
 **Snowman Example:**
 ```
@@ -36,4 +36,16 @@ It looks like the key will open the door.
 <% } else { %>
 No way forward!
 <% } %> 
+```
+
+## Chapbook
+
+[Chapbook](https://klembot.github.io/chapbook/guide/) is a "second-generation" Twine 2 story format that seperates its functionality into ["inserts"](https://klembot.github.io/chapbook/guide/references/inserts.html), which cause text to appear, and ["modifiers"](https://klembot.github.io/chapbook/guide/references/modifiers.html), functionality that affect text in some way.
+
+**Chapbook Example**
+```
+[if hasKey]
+It looks like the key will open the door.
+[else]
+No way forward!
 ```

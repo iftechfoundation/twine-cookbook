@@ -1,12 +1,11 @@
 # "Modal (Pop-up Window)": SugarCube (v2.18)
 
 ## Summary
-This example uses the built-in [*Dialog*](http://www.motoslave.net/sugarcube/2/docs/api-dialog.html) object to *setup()*, add content ( *wiki()* ), and finally *open()* the dialog window. SugarCube also comes with [additional functionality](http://www.motoslave.net/sugarcube/2/docs/api-dialog.html) to adjust other settings.
+This example uses the built-in *[Dialog](http://www.motoslave.net/sugarcube/2/docs/api-dialog.html)* object to **setup()**, add content ( **wiki()** ), and finally **open()** the dialog window. SugarCube also comes with [additional functionality](http://www.motoslave.net/sugarcube/2/docs/api-dialog.html) to adjust other settings.
 
 ## Live Example
 <section>
 <iframe src="sugarcube_modal_example.html" height=400 width=90%></iframe>
-
 
 Download: <a href="sugarcube_modal_example.html" target="_blank">Live Example</a>
 </section>

@@ -13,13 +13,12 @@ The following list describes each of the special passages in the order that they
 * [StoryMenu](http://www.motoslave.net/sugarcube/2/docs/special-names.html#special-passages-storymenu) appears directly above the *Save* button and is used to show custom menu items.
 * [StoryShare](http://www.motoslave.net/sugarcube/2/docs/special-names.html#special-passages-storyshare) appears directly below the *Restart* button and is used to access a dialog containing Author's social media or web-site links.
 
-The sidebar can be manually stowed (hidden) and unstowed (revealed) by selecting the **&lt;** or **&gt;** icon in the sidebar's top right corner. The same effect can be achieved programatically by using the [UIBar global object](http://www.motoslave.net/sugarcube/2/docs/api-uibar.html) and its *UIBar.stow()* and *UIBar.unstow()* functions.
+The sidebar can be manually stowed (hidden) and unstowed (revealed) by selecting the **&lt;** or **&gt;** icon in the sidebar's top right corner. The same effect can be achieved programatically by using the [UIBar global object](http://www.motoslave.net/sugarcube/2/docs/api-uibar.html) and its **UIBar.stow()** and **UIBar.unstow()** functions.
 
 ## Live Example
 
 <section>
 <iframe src="sugarcube_sidebar_left_example.html" height=400 width=90%></iframe>
-
 
 Download: <a href="sugarcube_sidebar_left_example.html" target="_blank">Live Example</a>
 </section>

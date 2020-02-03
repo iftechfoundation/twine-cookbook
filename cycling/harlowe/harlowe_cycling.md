@@ -6,9 +6,9 @@
 
 "Cycling Choices" demostrates how to create a 'cycling' effect of different choices through clicking on them.
 
-The cycle starts with the use of the [*(display:)*](https://twine2.neocities.org/#macro_display) macro and the assumption that the 1st element in the *$choices* [Array](https://twine2.neocities.org/#type_array) is the currently selected choice.
+The cycle starts with the use of the [`(display:)`](https://twine2.neocities.org/#macro_display) macro and the assumption that the 1st element in the *$choices* [Array](https://twine2.neocities.org/#type_array) is the currently selected choice.
 
-If the user clicks on the link (created through using the [*(link:)*](https://twine2.neocities.org/#macro_link) macro), the *$choices* array is updated using the [*(rotated:)*](https://twine2.neocities.org/#macro_rotated) macro. This causes the current 1st element to be moved to the end of the array, making the element that was previously 2nd to now be 1st.
+If the user clicks on the link (created through using the [`(link:)`](https://twine2.neocities.org/#macro_link) macro), the *$choices* array is updated using the [`(rotated:)`](https://twine2.neocities.org/#macro_rotated) macro. This causes the current 1st element to be moved to the end of the array, making the element that was previously 2nd to now be 1st.
 
 At the end of every cycle, the currently selected value is always the 1st element in the *$choices* array.
 
@@ -16,7 +16,6 @@ At the end of every cycle, the currently selected value is always the 1st elemen
 
 <section>
 <iframe src="harlowe_cycling_example.html" height=400 width=90%></iframe>
-
 
 Download: <a href="harlowe_cycling_example.html" target="_blank">Live Example</a>
 </section>

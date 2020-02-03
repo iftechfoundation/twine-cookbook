@@ -4,13 +4,12 @@
 
 Many people have developed external add-ons for use in story formats like SugarCube. Often, these add-ons will come with instructions that should be followed to incorporate them into a story.
 
-This example uses the [&lt;&lt;cyclinglink&gt;&gt;](https://www.motoslave.net/sugarcube/2/#downloads) macro created by Thomas Michael Edwards based on the work done by Leon Arnott for Twine 1. It's code was copied into the Story JavaScript for use in the story.
+This example uses the [`<<cyclinglink>>`](https://www.motoslave.net/sugarcube/2/#downloads) macro created by Thomas Michael Edwards based on the work done by Leon Arnott for Twine 1. It's code was copied into the Story JavaScript for use in the story.
 
 ## Live Example
 
 <section>
 <iframe src="sugarcube_usingaddons_example.html" height=400 width=90%></iframe>
-
 
 Download: <a href="sugarcube_usingaddons_example.html" target="_blank">Live Example</a>
 </section>

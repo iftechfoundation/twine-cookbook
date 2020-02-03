@@ -2,13 +2,12 @@
 
 ## Summary
 
-In SugarCube, the *[&lt;&lt;if&gt;&gt;](http://www.motoslave.net/sugarcube/2/docs/macros.html#macros-if)* and *&lt;&lt;else&gt;&gt;* macros conditionally run sections. If the statement is true, the *&lt;&lt;if&gt;&gt;* section will be run. Otherwise, the *&lt;&lt;else&gt;&gt;* section will be.
+In SugarCube, the [`<<if>>`](http://www.motoslave.net/sugarcube/2/docs/macros.html#macros-if) and `<<else>>` macros conditionally run sections. If the statement is true, the `<<if>>` section will be run. Otherwise, the `<<else>>` section will be.
 
 ## Live Example
 
 <section>
 <iframe src="sugarcube_conditionalstatements_example.html" height=400 width=90%></iframe>
-
 
 Download: <a href="sugarcube_conditionalstatements_example.html" target="_blank">Live Example</a>
 </section>

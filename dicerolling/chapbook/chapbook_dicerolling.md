@@ -2,7 +2,7 @@
 
 ## Summary
 
-This example demonstrates how to create the same effects of rolling various physical dice through using the [*random*](https://klembot.github.io/chapbook/guide/state/randomness.html) global keyword in Chapbook.
+This example demonstrates how to create the same effects of rolling various physical dice through using the *[random](https://klembot.github.io/chapbook/guide/state/randomness.html)* global variable in Chapbook.
 
 [Inserts](https://klembot.github.io/chapbook/guide/modifiers-and-inserts/) are used to display the use of *random* in the passage. For calculations, a [var section](https://klembot.github.io/chapbook/guide/state/the-vars-section.html) and temporary variables are used because expressions cannot be used within inserts.
 
@@ -10,7 +10,6 @@ This example demonstrates how to create the same effects of rolling various phys
 
 <section>
 <iframe src="chapbook_dicerolling_example.html" height=400 width=90%></iframe>
-
 
 Download: <a href="chapbook_dicerolling_example.html" target="_blank">Live Example</a>
 </section>

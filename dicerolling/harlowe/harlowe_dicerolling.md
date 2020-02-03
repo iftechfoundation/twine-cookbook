@@ -2,13 +2,12 @@
 
 ## Summary
 
-"Dice Rolling" demonstrates how to create the same effects of rolling various physical dice through using the *[(random:)](https://twine2.neocities.org/#macro_random)* macro and adding or subtracting numbers.
+"Dice Rolling" demonstrates how to create the same effects of rolling various physical dice through using the [`(random:)`](https://twine2.neocities.org/#macro_random) macro and adding or subtracting numbers.
 
 ## Live Example
 
 <section>
 <iframe src="harlowe_dicerolling_example.html" height=400 width=90%></iframe>
-
 
 Download: <a href="harlowe_dicerolling_example.html" target="_blank">Live Example</a>
 </section>

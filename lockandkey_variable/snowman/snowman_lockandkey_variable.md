@@ -4,7 +4,7 @@
 
 "Lock and Key: Variable" demonstrates how to create the effect of picking up a key and unlocking a door. In this example, the key is a variable (*s.key*) and does not initially exist in the Start passage.
 
-When the link "Pick up the key" is clicked, *s.key* is changed to the value *true* and the door link changes from its initial response of "Locked Door" to a link to the passage Exit.
+When the link "Pick up the key" is clicked, *s.key* is changed to the value "true" and the door link changes from its initial response of "Locked Door" to a link to the passage Exit.
 
 ## Live Example
 

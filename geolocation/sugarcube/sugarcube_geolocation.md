@@ -6,14 +6,13 @@ Many browsers allow access to the current location through the [Geolocation prop
 
 Functionality availability and their results should always be tested against other location services or information. Most browsers will return results through the fastest and sometimes least-accurate methods possible.
 
-This example uses [&lt;&lt;linkreplace&gt;&gt;](http://www.motoslave.net/sugarcube/2/docs/macros.html#macros-linkreplace) and [&lt;&lt;script&gt;&gt;](http://www.motoslave.net/sugarcube/2/docs/macros.html#macros-script) macros to run JavaScript in passages in SugarCube. The [State.variables](http://www.motoslave.net/sugarcube/2/docs/api-state.html#state-api-getter-variables) object is used to store the results of running JavaScript functions and using those values in TwineScript.
+This example uses [`<<linkreplace>>`](http://www.motoslave.net/sugarcube/2/docs/macros.html#macros-linkreplace) and [`<<script>>`](http://www.motoslave.net/sugarcube/2/docs/macros.html#macros-script) macros to run JavaScript in passages in SugarCube. The *[State.variables](http://www.motoslave.net/sugarcube/2/docs/api-state.html#state-api-getter-variables)* object is used to store the results of running JavaScript functions and using those values in TwineScript.
 
 
 ## Live Example
 
 <section>
 <iframe src="sugarcube_geolocation_example.html" height=400 width=90%></iframe>
-
 
 Download: <a href="sugarcube_geolocation_example.html" target="_blank">Live Example</a>
 </section>

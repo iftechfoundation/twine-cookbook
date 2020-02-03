@@ -2,13 +2,12 @@
 
 ## Summary
 
-"Headers and Footers" demonstrates the use of the *window.story.render()* function to return the HTML contents of another passage. Combined with [Underscore template functionality](http://underscorejs.org/#template), the content of passages can be "displayed" in others. Because Snowman does not have pre-defined 'header' or 'footer' functionality, using these two different methods together can create the same result. However, the code would need to be included on any additional passages to continue the effect.
+"Headers and Footers" demonstrates the use of the **window.story.render()** function to return the HTML contents of another passage. Combined with [Underscore template functionality](http://underscorejs.org/#template), the content of passages can be "displayed" in others. Because Snowman does not have pre-defined 'header' or 'footer' functionality, using these two different methods together can create the same result. However, the code would need to be included on any additional passages to continue the effect.
 
 ## Live Example
 
 <section>
 <iframe src="snowman_headersandfooters_example.html" height=400 width=90%></iframe>
-
 
 Download: <a href="snowman_headersandfooters_example.html" target="_blank">Live Example</a>
 </section>

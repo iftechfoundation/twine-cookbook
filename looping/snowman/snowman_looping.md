@@ -2,15 +2,14 @@
 
 ## Summary
 
-In programming terminology, a "loop" is a common technique for iterating, moving through one by one, some type of data. Because Snowman does not provide macros, the existing [JavaScript “for” keyword](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/for)) can be used to create loops. Since Snowman also includes the Underscore.js and jQuery libraries, the [```_```.each()](http://underscorejs.org/#each) and [jQuery.each()](http://api.jquery.com/jquery.each/) functions can also be used.
+In programming terminology, a "loop" is a common technique for iterating, moving through one by one, some type of data. Because Snowman does not provide macros, the existing JavaScript **[for](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/for)** keyword can be used to create loops. Since Snowman also includes the Underscore.js and jQuery libraries, the **[_.each()](http://underscorejs.org/#each)** and **[jQuery.each()](http://api.jquery.com/jquery.each/)** functions can also be used.
 
-In this example, the *s* shortcut to the *[window.story.state](https://twinery.org/wiki/snowman:window-story:state)* variable used. A new property called “arrayInventory” is set to the series of values “Bread”, “Pan”, and “Book”. The first example uses the JavaScript “for” keyword to move through the values. The second example uses the ```_```.each() function in Underscore.js, and the third uses the jQuery.each() function for the same purpose.
+In this example, the *s* global shortcut to the *[window.story.state](https://videlais.github.io/snowman/1/window_story/properties/state.html)* variable used. A new property called "arrayInventory" is set to the series of values "Bread", "Pan", and "Book". The first example uses the JavaScript **for** keyword to move through the values. The second example uses the **_.each()** function in Underscore.js, and the third uses the **jQuery.each()** function for the same purpose.
 
 ## Live Example
 
 <section>
 <iframe src="snowman_looping_example.html" height=400 width=90%></iframe>
-
 
 Download: <a href="snowman_looping_example.html" target="_blank">Live Example</a>
 </section>

@@ -1,0 +1,32 @@
+:: StoryTitle
+Chapbook: Fairmath
+
+:: UserScript[script]
+// Create a global object
+window.setup = window.setup || {};
+
+// Create a fairmath global object
+window.setup.fairmath = {};
+
+// Create an 'increase' function
+setup.fairmath.increase = function(x,y) {
+    return Math.round(x+((100-x)*(y/100)));
+};
+
+// Create a "decrease" function
+setup.fairmath.decrease = function(x,y) {
+    return Math.round(x-(x*(y/100)));
+};
+
+
+:: Start
+decreaseExample: setup.fairmath.decrease(100, 50)
+increaseExample: setup.fairmath.increase(50, 50)
+--
+
+Decrease 100 by 50% using Fairmath:
+Decrease Example: {decreaseExample}
+
+Increase 50 by 50% using Fairmath:
+Increase Example: {increaseExample}
+

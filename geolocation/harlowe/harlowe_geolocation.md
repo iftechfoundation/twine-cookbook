@@ -6,13 +6,12 @@ Many browsers allow access to the current location through the [Geolocation prop
 
 Functionality availability and their results should always be tested against other location services or information. Most browsers will return results through the fastest and sometimes least-accurate methods possible.
 
-Harlowe does not have an easy way to bridge the gap between its macros and JavaScript. In this example, the &lt;script&gt; tag is used to test for, run, and show an [alert()](https://developer.mozilla.org/en-US/docs/Web/API/Window/alert) with data from the JavaScript functions.
+Harlowe does not have an easy way to bridge the gap between its macros and JavaScript. In this example, the `<script>` element is used to test for, run, and show an **[alert()](https://developer.mozilla.org/en-US/docs/Web/API/Window/alert)** with data from the JavaScript functions.
 
 ## Live Example
 
 <section>
 <iframe src="harlowe_geolocation_example.html" height=400 width=90%></iframe>
-
 
 Download: <a href="harlowe_geolocation_example.html" target="_blank">Live Example</a>
 </section>

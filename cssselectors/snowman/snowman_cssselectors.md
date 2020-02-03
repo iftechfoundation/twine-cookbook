@@ -2,7 +2,7 @@
 
 ## Summary
 
-This example shows how to use [CSS](../../terms/terms_css.md) selectors to style different areas of the page.  Snowman uses a simple HTML structure of a `<div>` with id `passage` directly below (inside) the `<body>` tag.
+This example shows how to use [CSS](../../terms/terms_css.md) selectors to style different areas of the page.  Snowman uses a simple HTML structure of a `<div>` with id "passage" directly below (inside) the `<body>` tag.
 
 ```
 <body>

@@ -4,13 +4,12 @@
 
 SugarCube triggers different [events as they happen to passages](http://www.motoslave.net/sugarcube/2/docs/passage-events-task-objects.html). Through using jQuery and its own [JavaScript event handling](http://api.jquery.com/category/events/event-handler-attachment/), code can be added to work with other, existing functionality.
 
-In this example, the 'passagestart' and 'passagerender' events are shown. In the event progression, the 'passagestart' event occurs before the [PassageHeader](http://www.motoslave.net/sugarcube/2/docs/special-names.html#special-passages-passageheader) prepending its content and the 'passagerender' happens after the [PassageFooter](http://www.motoslave.net/sugarcube/2/docs/special-names.html#special-passages-passagefooter). Through using event handling, content is added before the PassageHeader and after the PassageFooter as an example of when events occur in presenting passages.
+In this example, the "passagestart" and "passagerender" events are shown. In the event progression, the 'passagestart' event occurs before the [PassageHeader](http://www.motoslave.net/sugarcube/2/docs/special-names.html#special-passages-passageheader) prepending its content and the 'passagerender' happens after the [PassageFooter](http://www.motoslave.net/sugarcube/2/docs/special-names.html#special-passages-passagefooter). Through using event handling, content is added before the PassageHeader and after the PassageFooter as an example of when events occur in presenting passages.
 
 ## Live Example
 
 <section>
 <iframe src="sugarcube_passage_events_example.html" height=400 width=90%></iframe>
-
 
 Download: <a href="sugarcube_passage_events_example.html" target="_blank">Live Example</a>
 </section>

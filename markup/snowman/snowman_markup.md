@@ -9,7 +9,6 @@ Snowman uses a sub-set of [markdown](https://marked.js.org/#/README.md) for in-l
 <section>
 <iframe src="snowman_markup_example.html" height=400 width=90%></iframe>
 
-
 Download: <a href="snowman_markup_example.html" target="_blank">Live Example</a>
 </section>
 

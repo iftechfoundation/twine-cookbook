@@ -2,13 +2,12 @@
 
 ## Summary
 
-"Date and Time" demonstrates how to use the JavaScirpt *[Date() ](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Date)* functionality in SugarCube.
+"Date and Time" demonstrates how to use the JavaScirpt *[Date()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Date)* functionality in SugarCube.
 
 ## Live Example
 
 <section>
 <iframe src="sugarcube_dateandtime_example.html" height=400 width=90%></iframe>
-
 
 Download: <a href="sugarcube_dateandtime_example.html" target="_blank">Live Example</a>
 </section>

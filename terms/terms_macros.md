@@ -4,7 +4,7 @@ Macros allow programming code to be intermixed with text shown onscreen. They al
 
 ## Twine 1 and SugarCube
 
-In Twine 1, macros were written with two less-than (```<<```) and two-greater-than signs (```>>```) around code. ([SugarCube](../terms/terms_storyformats.md), as a successor of this form, follows the same syntax.)
+In Twine 1, macros were written with two less-than (`<<`) and two-greater-than signs (`>>`) around code. ([SugarCube](../terms/terms_storyformats.md), as a successor of this form, follows the same syntax.)
 
 **Example:**
 ```
@@ -13,7 +13,7 @@ In Twine 1, macros were written with two less-than (```<<```) and two-greater-th
 
 ## Harlowe
 
-The [Harlowe](../terms/terms_storyformats.md) story format uses a different syntax for macros. They are wrapped in a single open ```(``` and close parenthesis ```)```, and use brackets, ```[]```, to indicate which text or sections are associated or acted upon by the macro.
+The [Harlowe](../terms/terms_storyformats.md) story format uses a different syntax for macros. They are wrapped in a single open `(` and close parenthesis `)`, and use brackets, `[]`, to indicate which text or sections are associated or acted upon by the macro.
 
 **Example:**
 ```
@@ -22,7 +22,7 @@ The [Harlowe](../terms/terms_storyformats.md) story format uses a different synt
 
 ## Snowman
 
-[Snowman](../terms/terms_storyformats.md) does not provide macros in the same sense that SugarCube and Harlowe do, but allow mixing JavaScript code in text with ```<%``` and ```%>```, with ```<%=``` and ```%>``` displaying the result on the page.
+[Snowman](../terms/terms_storyformats.md) does not provide macros in the same sense that SugarCube and Harlowe do, but allow mixing JavaScript code in text with `<%` and `%>`, with `<%=` and `%>` displaying the result on the page.
 
 **Examples**
 ```

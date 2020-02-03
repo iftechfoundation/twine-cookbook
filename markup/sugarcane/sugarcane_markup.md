@@ -11,7 +11,6 @@
 <section>
 <iframe src="sugarcane_markup_example.html" height=400 width=90%></iframe>
 
-
 Download: <a href="sugarcane_markup_example.html" target="_blank">Live Example</a>
 </section>
 

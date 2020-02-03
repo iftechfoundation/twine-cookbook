@@ -9,7 +9,6 @@ The insert [`{dropdown}`](https://klembot.github.io/chapbook/guide/player-input/
 <section>
 <iframe src="chapbook_dropdown_example.html" height=400 width=90%></iframe>
 
-
 Download: <a href="chapbook_dropdown_example.html" target="_blank">Live Example</a>
 </section>
 

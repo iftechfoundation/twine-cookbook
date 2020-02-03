@@ -2,13 +2,12 @@
 
 ## Summary
 
-Snowman provides the [*window.story.saveHash()*](https://twinery.org/wiki/snowman:window-story:savehash) and [*window.story.restore()*](https://twinery.org/wiki/snowman:window-story:restore) functions to produce a hash of the current story state and then recover it. However, it does not provide a mechanism for saving the hash between sessions. Through using the [*window.localStorage API*](https://developer.mozilla.org/en-US/docs/Web/API/Window/localStorage), this can be accomplished.
+Snowman provides the **[window.story.saveHash()](https://videlais.github.io/snowman/1/window_story/functions/saveHash.html)** and **[window.story.restore()](https://videlais.github.io/snowman/1/window_story/functions/restore.html)** functions to produce a hash of the current story state and then recover it. However, it does not provide a mechanism for saving the hash between sessions. Through using the *[window.localStorage](https://developer.mozilla.org/en-US/docs/Web/API/Window/localStorage)* global variable, this can be accomplished.
 
 ## Live Example
 
 <section>
 <iframe src="snowman_savinggames_example.html" height=400 width=90%></iframe>
-
 
 Download: <a href="snowman_savinggames_example.html" target="_blank">Live Example</a>
 </section>
