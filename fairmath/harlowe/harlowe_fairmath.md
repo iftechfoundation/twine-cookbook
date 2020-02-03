@@ -4,14 +4,12 @@
 
 "Fairmath System" demonstrates how to re-create the Fairmath system found [in ChoiceScript](http://choicescriptdev.wikia.com/wiki/Arithmetic_operators#Fairmath). Based on a percentage operation, increasing and decreasing changes the value by a percentage as the difference between the original and adjusted value.
 
-This example uses the [*(display:)*](https://twine2.neocities.org/#macro_display) macro in Harlowe to separate operations for increasing and decreasing. Through setting values to adjust, either passage can be included and the *$resultValue* used to track and store changes.
-
+This example uses the [`(display:)`](https://twine2.neocities.org/#macro_display) macro in Harlowe to separate operations for increasing and decreasing. Through setting values to adjust, either passage can be included and the *$resultValue* used to track and store changes.
 
 ## Live Example
 
 <section>
 <iframe src="harlowe_fairmath_example.html" height=400 width=90%></iframe>
-
 
 Download: <a href="harlowe_fairmath_example.html" target="_blank">Live Example</a>
 </section>

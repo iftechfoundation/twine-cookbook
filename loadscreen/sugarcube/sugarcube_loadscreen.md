@@ -2,13 +2,12 @@
 
 ## Summary
 
-"Loading Screen" demonstrates how the *[LockScreen.lock()](http://www.motoslave.net/sugarcube/2/docs/#loadscreen-api-method-lock)* and *[LockScreen.unlock()](http://www.motoslave.net/sugarcube/2/docs/#loadscreen-api-method-lock)* functions work in SugarCube. (This example also uses the *[setTimeout()](https://developer.mozilla.org/en-US/docs/Web/API/WindowOrWorkerGlobalScope/setTimeout)* JavaScript function.)
+"Loading Screen" demonstrates how the **[LockScreen.lock()](http://www.motoslave.net/sugarcube/2/docs/#loadscreen-api-method-lock)** and **[LockScreen.unlock()](http://www.motoslave.net/sugarcube/2/docs/#loadscreen-api-method-lock)** functions work in SugarCube. (This example also uses the **[setTimeout()](https://developer.mozilla.org/en-US/docs/Web/API/WindowOrWorkerGlobalScope/setTimeout)** JavaScript function.)
 
 ## Live Example
 
 <section>
 <iframe src="sugarcube_loadscreen_example.html" height=400 width=90%></iframe>
-
 
 Download: <a href="sugarcube_loadscreen_example.html" target="_blank">Live Example</a>
 </section>

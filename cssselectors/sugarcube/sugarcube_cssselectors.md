@@ -2,7 +2,7 @@
 
 ## Summary
 
-This example shows how to use [CSS](../../terms/terms_css.md) selectors to style different areas of the page. SugarCube uses nested `<div>`s with ids to structure its significant elements. Most notably the sidebar is a `<div>` with id `ui-bar`. However, these elements are often more easily styled by other means, such as selecting the `<body>` element to style the entire page, and the `passage` class to style the current passage.
+This example shows how to use [CSS](../../terms/terms_css.md) selectors to style different areas of the page. SugarCube uses nested `<div>`s with ids to structure its significant elements. Most notably the sidebar is a `<div>` with id "ui-bar". However, these elements are often more easily styled by other means, such as selecting the `<body>` element to style the entire page, and the "passage" class to style the current passage.
 
 ```
 <body>

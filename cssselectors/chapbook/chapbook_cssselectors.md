@@ -2,7 +2,7 @@
 
 ## Summary
 
-This example shows how to use [CSS](../../terms/terms_css.md) selectors to style different areas of the page. In Chapbook, the *id* `backdrop` covers the whole page, the *id* `page` is like a "story" area in other story formats, and the first `<div>` inside the `<article>` is the main passage area.
+This example shows how to use [CSS](../../terms/terms_css.md) selectors to style different areas of the page. In Chapbook, the *backdrop* covers the whole page, the *page* is like a "story" area in other story formats, and the first `<div>` inside the `<article>` is the main passage area.
 
 ```
 <div id="backdrop">
@@ -28,7 +28,6 @@ This example shows how to use [CSS](../../terms/terms_css.md) selectors to style
 
 <section>
 <iframe src="chapbook_cssselectors_example.html" height=400 width=90%></iframe>
-
 
 Download: <a href="chapbook_cssselectors_example.html" target="_blank">Live Example</a>
 </section>

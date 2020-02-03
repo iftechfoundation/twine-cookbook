@@ -4,13 +4,12 @@
 
 "Fairmath System" demonstrates how to re-create the Fairmath system found [in ChoiceScript](http://choicescriptdev.wikia.com/wiki/Arithmetic_operators#Fairmath). Based on a percentage operation, increase and decrease changes the value by a percentage as the difference between the original and adjusted value.
 
-This example uses functions *increase()* and *decrease()* as part of a created global *window.setup.fairmath*. These can be called through using the [Underscore template functionality](http://underscorejs.org/#template) to define, use, and show the values of the functions in any one passage.
+This example uses functions **increase()** and **decrease()** as part of a created global *window.setup.fairmath*. These can be called through using the [Underscore template functionality](http://underscorejs.org/#template) to define, use, and show the values of the functions in any one passage.
 
 ## Live Example
 
 <section>
 <iframe src="snowman_fairmath_example.html" height=400 width=90%></iframe>
-
 
 Download: <a href="snowman_fairmath_example.html" target="_blank">Live Example</a>
 </section>

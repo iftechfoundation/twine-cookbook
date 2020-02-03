@@ -15,7 +15,6 @@ Due to browser differences in licensing, some audio formats are not universally 
 <section>
 <iframe src="harlowe_audio_example.html" height=400 width=90%></iframe>
 
-
 Download: <a href="harlowe_audio_example.html" target="_blank">Live Example</a>
 </section>
 

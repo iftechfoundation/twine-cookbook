@@ -4,13 +4,12 @@
 
 One of the most popular mechanics of table-top role-playing games are those where the player must determine their in-game statistics and then use them to make decisions.
 
-In this example, the [(link-repeat:)](https://twine2.neocities.org/#macro_link-repeat) macro is used multiple times to [replace content](https://twine2.neocities.org/#macro_replace) and [adjust values](https://twine2.neocities.org/#macro_set) based on [if](https://twine2.neocities.org/#macro_if) they are higher than a target value. In a second passage, these values are used in combination with a [random number](https://twine2.neocities.org/#macro_random) between 1 to 6, mimicking a common 1d6 mechanic to check if a value is above a target number.
+In this example, the [`(link-repeat:)`](https://twine2.neocities.org/#macro_link-repeat) macro is used multiple times with [`(replace:)`](https://twine2.neocities.org/#macro_replace) and [`(set:)`](https://twine2.neocities.org/#macro_set) macros based on [if](https://twine2.neocities.org/#macro_if) they are higher than a target value. In a second passage, these values are used in combination with a [random number](https://twine2.neocities.org/#macro_random) between 1 to 6, mimicking a common 1d6 mechanic to check if a value is above a target number.
 
 ## Live Example
 
 <section>
 <iframe src="harlowe_player_statistics_example.html" height=400 width=90%></iframe>
-
 
 Download: <a href="harlowe_player_statistics_example.html" target="_blank">Live Example</a>
 </section>

@@ -2,7 +2,7 @@
 
 ## Summary
 
-When using the [*(transition-arrive:)*](https://twine2.neocities.org/#macro_transition-arrive) or [*(transition-depart:)*](https://twine2.neocities.org/#macro_transition-depart) macros with links, the resulting transition effect will be shown to the player upon activating the link (depart) or as it is shown (arrive).
+When using the [`(transition-arrive:)`](https://twine2.neocities.org/#macro_transition-arrive) or [`(transition-depart:)`](https://twine2.neocities.org/#macro_transition-depart) macros with links, the resulting transition effect will be shown to the player upon activating the link (depart) or as it is shown (arrive).
 
 Possible transition effects include:
 * "instant" (causes the passage to instantly vanish)
@@ -18,7 +18,6 @@ Possible transition effects include:
 
 <section>
 <iframe src="harlowe_passagetransitions_example.html" height=400 width=90%></iframe>
-
 
 Download: <a href="harlowe_passagetransitions_example.html" target="_blank">Live Example</a>
 </section>

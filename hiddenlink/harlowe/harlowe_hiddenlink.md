@@ -4,18 +4,16 @@
 
 "Hidden Link" demonstrates how to create a 'hidden' link that is only revealed when the cursor passes over it.
 
-Using CSS and JavaScript, a rule is created for transparent color and applied or removed through using jQuery's *[on()](http://api.jquery.com/on/)* function with 'mouseenter' and 'mouseleave' events.
+Using CSS and JavaScript, a rule is created for transparent color and applied or removed through using jQuery's **[on()](http://api.jquery.com/on/)** function with 'mouseenter' and 'mouseleave' events.
 
-The use of a *footer* special Passage is also used to run the required JavaScript after each passage is displayed.
+The use of a "footer" special Passage is also used to run the required JavaScript after each passage is displayed.
 
-Harlowe supports a number of different techniques for creating links and the resulting HTML elements generated is different for each of these techniques. The generated HTML falls into two main groups: those that include a *tw-link* element; and those that include a *.enchantment-link* classed element. This recipe supports both groups.
-
+Harlowe supports a number of different techniques for creating links and the resulting HTML elements generated is different for each of these techniques. The generated HTML falls into two main groups: those that include a `<<tw-link>>` element, and those that include a ".enchantment-link" classed element. This example supports both groups.
 
 ## Live Example
 
 <section>
 <iframe src="harlowe_hiddenlink_example.html" height=400 width=90%></iframe>
-
 
 Download: <a href="harlowe_hiddenlink_example.html" target="_blank">Live Example</a>
 </section>

@@ -9,7 +9,6 @@ Harlowe has a built-in left sidebar. Before v2.1.0, however, there was no functi
 <section>
 <iframe src="harlowe_sidebar_left_example.html" height=400 width=90%></iframe>
 
-
 Download: <a href="harlowe_sidebar_left_example.html" target="_blank">Live Example</a>
 </section>
 

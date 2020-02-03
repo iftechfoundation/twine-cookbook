@@ -2,7 +2,7 @@
 
 ## Summary
 
-Chapbook allows for creation of custom inserts and modifiers. See [Adding Custom Inserts] and [Adding Custom Modifiers] in the [Chapbook Guide] for more details.
+Chapbook allows for creation of [custom inserts and modifiers](https://klembot.github.io/chapbook/guide/advanced/adding-custom-inserts.html).
 
 The example below adds an insert that displays a 😀 emoji, and a modifier that uppercases its text.
 
@@ -46,8 +46,7 @@ engine.extend('1.0.0', () => {
 :: See the new functionality
 [uppercase]
 Hello there {smiley face}
+
 ```
 
-[Adding Custom Inserts]: https://klembot.github.io/chapbook/guide/advanced/adding-custom-inserts.html
-[Adding Custom Modifiers]: https://klembot.github.io/chapbook/guide/advanced/adding-custom-modifiers.html
-[Chapbook Guide]: https://klembot.github.io/chapbook/guide
+Download: <a href="chapbook_adding_functionality_twee.txt" target="_blank">Twee Code</a>

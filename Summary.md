@@ -1,16 +1,30 @@
 # Introduction
 
-* [Example Formatting](formatting.md)
+# Common Questions
 
-* [Using the Cookbook](using_cookbook.md)
+* Common Questions
+	* [What can I make with Twine?](questions/making.md)
+	* [How do I get started?](questions/getting_started.md)
+	* [How do I make links?](questions/links.md)
+	* [How do I style text?](questions/style_text.md)
+	* [Where are my stories saved?](questions/stories_saved.md)
+	* [What do I need to know?](questions/need_to_know.md)
+	
+# Cookbook Introduction
 
-# Twine Manual
+* Cookbook Introduction
+	* [Using the Cookbook](using_cookbook.md)
+	* [Example Formatting](formatting.md)
+	* [Style Guide](style_guide.md)
 
-* [Twine 2](introduction/twine2_editor.md)
+# Twine 2 Documentation
+
+* Twine 2 Documentation
+	* [Twine 2 Editor](introduction/twine2_editor.md)
 	* [Story Listing](introduction/twine2_story_listing.md)
 	* [Passages View](introduction/twine2_passages_view.md)
-* [Passages](introduction/passages.md)
-* [Story Formats](introduction/story_formats.md)
+	* [Passages](introduction/passages.md)
+	* [Story Formats](introduction/story_formats.md)
 
 # Terms
 
@@ -20,28 +34,33 @@
 	* [Stories](terms/terms_stories.md)
 	* [Passages](terms/terms_passages.md)
 	* [Variables](terms/terms_variables.md)
+	* [Markdown / Markup](terms/terms_markdown_and_markup.md)
 	* [Macros](terms/terms_macros.md)
 	* [Story Formats](terms/terms_storyformats.md)
 	* [CSS](terms/terms_css.md)
 	* [JavaScript](terms/terms_javascript.md)
 	* [Twee](terms/terms_twee.md)
+	* [HTML](terms/terms_html.md)
 
 # Adding Functionality
 
 * Adding Functionality
+	* [Chapbook](addingfunctionality/chapbook/chapbook_adding_functionality.md)
 	* [SugarCube](addingfunctionality/sugarcube/sugarcube_adding_functionality.md)
 	* [Snowman](addingfunctionality/snowman/snowman_adding_functionality.md)
 
 # Arrays
 
 * Arrays
+  * [Chapbook](arrays/chapbook/chapbook_arrays.md)
   * [Harlowe](arrays/harlowe/harlowe_arrays.md)
   * [SugarCube](arrays/sugarcube/sugarcube_arrays.md)
   * [Snowman](arrays/snowman/snowman_arrays.md)
-
+  
 # Audio
 
 * Audio
+	* [Chapbook](audio/chapbook/chapbook_audio.md)
 	* [Harlowe](audio/harlowe/harlowe_audio.md)
 	* [SugarCube](audio/sugarcube/sugarcube_audio.md)
 	* [Snowman](audio/snowman/snowman_audio.md)
@@ -66,6 +85,7 @@
 # CSS and Passage Tags
 
 * CSS and Passage Tags
+	* [Chapbook](passagetags/chapbook/chapbook_passagetags.md)
 	* [Harlowe](passagetags/harlowe/harlowe_passagetags.md)
 	* [SugarCube](passagetags/sugarcube/sugarcube_passagetags.md)
 	* [Snowman](passagetags/snowman/snowman_passagetags.md)
@@ -74,6 +94,7 @@
 # Cycling Choices
 
 * Cycling Choices
+	* [Chapbook](cycling/chapbook/chapbook_cycling.md)
 	* [Harlowe](cycling/harlowe/harlowe_cycling.md)
 	* [Harlowe (v3.0.1 or later)](cycling/harlowe_3/harlowe_cycling.md)
 	* [SugarCube](cycling/sugarcube/sugarcube_cycling.md)
@@ -82,6 +103,7 @@
 # Date and Time
 
 * Date and Time
+	* [Chapbook](dateandtime/chapbook/chapbook_dateandtime.md)
 	* [Harlowe](dateandtime/harlowe/harlowe_dateandtime.md)
 	* [SugarCube](dateandtime/sugarcube/sugarcube_dateandtime.md)
 	* [Snowman](dateandtime/snowman/snowman_dateandtime.md)
@@ -89,6 +111,7 @@
 # Delayed Text
 
 * Delayed Text
+	* [Chapbook](delayedtext/chapbook/chapbook_delayedtext.md)
 	* [Harlowe](delayedtext/harlowe/harlowe_delayedtext.md)
 	* [SugarCube](delayedtext/sugarcube/sugarcube_delayedtext.md)
 	* [Snowman](delayedtext/snowman/snowman_delayedtext.md)
@@ -96,6 +119,7 @@
 # Deleting Variables
 
 * Deleting Variables
+	* [Chapbook](deletingvariables/chapbook/chapbook_deletingvariables.md)
 	* [SugarCube](deletingvariables/sugarcube/sugarcube_deletingvariables.md)
 	* [Snowman](deletingvariables/snowman/snowman_deletingvariables.md)
 
@@ -116,6 +140,7 @@
 # Fairmath System
 
 * Fairmath System
+	* [Chapbook](fairmath/chapbook/chapbook_fairmath.md)
 	* [Harlowe](fairmath/harlowe/harlowe_fairmath.md)
 	* [SugarCube](fairmath/sugarcube/sugarcube_fairmath.md)
 	* [Snowman](fairmath/snowman/snowman_fairmath.md)
@@ -123,6 +148,7 @@
 # Geolocation
 
 * Geolocation
+	* [Chapbook](geolocation/chapbook/chapbook_geolocation.md)
 	* [Harlowe](geolocation/harlowe/harlowe_geolocation.md)
 	* [SugarCube](geolocation/sugarcube/sugarcube_geolocation.md)
 	* [Snowman](geolocation/snowman/snowman_geolocation.md)
@@ -130,6 +156,7 @@
 # Google Fonts
 
 * Google Fonts
+	* [Chapbook](googlefonts/chapbook/chapbook_googlefonts.md)
 	* [Harlowe](googlefonts/harlowe/harlowe_googlefonts.md)
 	* [SugarCube](googlefonts/sugarcube/sugarcube_googlefonts.md)
 	* [Snowman](googlefonts/snowman/snowman_googlefonts.md)
@@ -138,6 +165,7 @@
 # Headers and Footers
 
 * Headers and Footers
+	* [Chapbook](headersandfooters/chapbook/chapbook_headersandfooters.md)
 	* [Harlowe](headersandfooters/harlowe/harlowe_headersandfooters.md)
 	* [SugarCube](headersandfooters/sugarcube/sugarcube_headersandfooters.md)
 	* [Snowman](headersandfooters/snowman/snowman_headersandfooters.md)
@@ -152,6 +180,7 @@
 # Images
 
 * Images
+	* [Chapbook](images/chapbook/chapbook_images.md)
 	* [Harlowe](images/harlowe/harlowe_images.md)
 	* [SugarCube](images/sugarcube/sugarcube_images.md)
 	* [Snowman](images/snowman/snowman_images.md)
@@ -159,6 +188,7 @@
 # Importing External JavaScript
 
 * Importing External JavaScript
+	* [Chapbook](importexternaljs/chapbook/chapbook_importexternaljs.md)
 	* [Harlowe](importexternaljs/harlowe/harlowe_importexternaljs.md)
 	* [SugarCube](importexternaljs/sugarcube/sugarcube_importexternaljs.md)
 	* [Snowman](importexternaljs/snowman/snowman_importexternaljs.md)
@@ -166,6 +196,7 @@
 # Keyboard Events
 
 * Keyboard Events
+	* [Chapbook](keyboard/chapbook/chapbook_keyboard.md)
 	* [Harlowe](keyboard/harlowe/harlowe_keyboard.md)
 	* [SugarCube](keyboard/sugarcube/sugarcube_keyboard.md)
 	* [Snowman](keyboard/snowman/snowman_keyboard.md)
@@ -181,6 +212,7 @@
 # Limiting the Range of a Number
 
 * Limiting the range of a number
+	* [Chapbook](clamping_numbers/chapbook/chapbook_clamping_numbers.md)
 	* [Harlowe](clamping_numbers/harlowe/harlowe_clamping_numbers.md)
 	* [SugarCube](clamping_numbers/sugarcube/sugarcube_clamping_numbers.md)
 	* [Snowman](clamping_numbers/snowman/snowman_clamping_numbers.md)
@@ -193,6 +225,7 @@
 # Lock and Key: Variable
 
 * Lock and Key: Variable
+	* [Chapbook](lockandkey_variable/chapbook/chapbook_lockandkey_variable.md)
 	* [Harlowe](lockandkey_variable/harlowe/harlowe_lockandkey_variable.md)
 	* [SugarCube](lockandkey_variable/sugarcube/sugarcube_lockandkey_variable.md)
 	* [Snowman](lockandkey_variable/snowman/snowman_lockandkey_variable.md)
@@ -200,6 +233,7 @@
 # Looping
 
 * Looping
+	* [Chapbook](looping/chapbook/chapbook_looping.md)
 	* [Harlowe](looping/harlowe/harlowe_looping.md)
 	* [SugarCube](looping/sugarcube/sugarcube_looping.md)
 	* [Snowman](looping/snowman/snowman_looping.md)
@@ -236,6 +270,7 @@
 # Passages in Passages
 
 * Passages in Passages
+	* [Chapbook](passagesinpassages/chapbook/chapbook_passagesinpassages.md)
 	* [Harlowe](passagesinpassages/harlowe/harlowe_passagesinpassages.md)
 	* [SugarCube](passagesinpassages/sugarcube/sugarcube_passagesinpassages.md)
 	* [Snowman](passagesinpassages/snowman/snowman_passagesinpassages.md)
@@ -250,6 +285,7 @@
 # Passage Visits
 
 * Passage Visits
+	* [Chapbook](passagevisits/chapbook/chapbook_passagevisits.md)
 	* [Harlowe](passagevisits/harlowe/harlowe_passagevisits.md)
 	* [SugarCube](passagevisits/sugarcube/sugarcube_passagevisits.md)
 	* [Snowman (v2.0.2 and later)](passagevisits/snowman/snowman_passagevisits.md)
@@ -257,6 +293,7 @@
 # Player Statistics
 
 * Player Statistics
+	* [Chapbook](playerstatistics/chapbook/chapbook_player_statistics.md)
 	* [Harlowe](playerstatistics/harlowe/harlowe_player_statistics.md)
 	* [SugarCube](playerstatistics/sugarcube/sugarcube_player_statistics.md)
 	* [Snowman](playerstatistics/snowman/snowman_player_statistics.md)
@@ -292,6 +329,7 @@
 # Space Exploration
 
 * Space Exploration
+	* [Chapbook](spaceexploration/chapbook/chapbook_space_exploration.md)
 	* [Harlowe](spaceexploration/harlowe/harlowe_space_exploration.md)
 	* [SugarCube](spaceexploration/sugarcube/sugarcube_space_exploration.md)
 	* [Snowman](spaceexploration/snowman/snowman_space_exploration.md)
@@ -299,6 +337,7 @@
 # Static Healthbars
 
 * Static Healthbars
+	* [Chapbook](statichealthbars/chapbook/chapbook_statichealthbars.md)
 	* [Harlowe](statichealthbars/harlowe/harlowe_statichealthbars.md)
 	* [SugarCube](statichealthbars/sugarcube/sugarcube_statichealthbars.md)
 	* [Snowman](statichealthbars/snowman/snowman_statichealthbars.md)
@@ -306,6 +345,7 @@
 # Story and Passage API
 
 * Story and Passage API
+	* [Chapbook](storyandpassage/chapbook/chapbook_storyandpassage.md)
 	* [SugarCube](storyandpassage/sugarcube/sugarcube_storyandpassage.md)
 	* [Snowman](storyandpassage/snowman/snowman_storyandpassage.md)
 
@@ -321,6 +361,7 @@
 # Timed Passages
 
 * Timed Passages
+	* [Chapbook](timedpassages/chapbook/chapbook_timedpassages.md)
 	* [Harlowe](timedpassages/harlowe/harlowe_timedpassages.md)
 	* [SugarCube](timedpassages/sugarcube/sugarcube_timedpassages.md)
 	* [Snowman](timedpassages/snowman/snowman_timedpassages.md)
@@ -334,6 +375,7 @@
 # Turn Counter
 
 * Turn Counter
+	* [Chapbook](turncounter/chapbook/chapbook_turncounter.md)
 	* [Harlowe](turncounter/harlowe/harlowe_turncounter.md)
 	* [SugarCube](turncounter/sugarcube/sugarcube_turncounter.md)
 	* [Snowman](turncounter/snowman/snowman_turncounter.md)
@@ -341,6 +383,7 @@
 # Typewriter Effect
 
 * Typewriter Effect
+	* [Chapbook](typewriter/chapbook/chapbook_typewriter.md)
 	* [Harlowe](typewriter/harlowe/harlowe_typewriter.md)
 	* [SugarCube](typewriter/sugarcube/sugarcube_typewriter.md)
 	* [Snowman](typewriter/snowman/snowman_typewriter.md)
@@ -348,6 +391,7 @@
 # Variable Style Styling
 
 * Variable Style Styling
+	* [Chapbook](storystyling/chapbook/chapbook_storystyling.md)
 	* [Harlowe](storystyling/harlowe/harlowe_storystyling.md)
 	* [SugarCube](storystyling/sugarcube/sugarcube_storystyling.md)
 	* [Snowman](storystyling/snowman/snowman_storystyling.md)

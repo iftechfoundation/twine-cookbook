@@ -13,7 +13,6 @@ Chapbook uses a customized sub-set of [Markdown](https://guides.github.com/featu
 <section>
 <iframe src="chapbook_markup_example.html" height=400 width=90%></iframe>
 
-
 Download: <a href="chapbook_markup_example.html" target="_blank">Live Example</a>
 </section>
 

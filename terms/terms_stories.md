@@ -8,4 +8,4 @@ Stories can be published to HTML and are readable in a web browser without Twine
 
 When created, each Story is each given a series of letters and numbers called an Interactive Fiction IDentifier ([IFID](http://ifdb.tads.org/help-ifid)).
 
-The IFID always retained. This helps authors track their projects on different platforms, or if other authors have copied or tried to claim it as their own without their knowledge or consent.
+The IFID is always retained when importing or publishing Stories. This helps authors track their projects on different platforms, or if other authors have copied or tried to claim it as their own without their knowledge or consent.

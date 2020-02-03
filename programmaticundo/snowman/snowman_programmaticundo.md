@@ -2,7 +2,7 @@
 
 ## Summary
 
-Snowman comes with no user-facing functionality for undoing and re-doing actions. However, though using [jQuery](https://jquery.com/) and a combination of the [*window.story.checkpoint()*](https://twinery.org/wiki/snowman:window-story:checkpoint) and [*window.history.back()*](https://developer.mozilla.org/en-US/docs/Web/API/Window/history) functions, this can be emulated.
+Snowman comes with no user-facing functionality for undoing and re-doing actions. However, though using [jQuery](https://jquery.com/) and a combination of the **[window.story.checkpoint()](https://videlais.github.io/snowman/1/window_story/functions/checkpoint.html)** and **[window.history.back()*](https://developer.mozilla.org/en-US/docs/Web/API/Window/history)** functions, this can be emulated.
 
 <div class="alertbox information"><strong>Note:</strong> Checkpoints will only affect properties of the 's' (state) global variable.</div>
 
@@ -10,7 +10,6 @@ Snowman comes with no user-facing functionality for undoing and re-doing actions
 
 <section>
 <iframe src="snowman_programmaticundo_example.html" height=400 width=90%></iframe>
-
 
 Download: <a href="snowman_programmaticundo_example.html" target="_blank">Live Example</a>
 </section>

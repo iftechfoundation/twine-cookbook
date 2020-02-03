@@ -4,13 +4,12 @@
 
 ## Summary
 
-"Moving through a 'dungeon'" uses an array of arrays to track positions 'moved' through using X and Y variables. It also creates a *&lt;&lt;navigate&gt;&gt;* macro that handles the showing of directions.
+"Moving through a 'dungeon'" uses an array of arrays to track positions 'moved' through using X and Y variables. It also creates a `<<navigate>>` macro that handles the showing of directions.
 
 ## Live Example
 
 <section>
 <iframe src="sugarcane_dungeonmoving_example.html" height=400 width=90%></iframe>
-
 
 Download: <a href="sugarcane_dungeonmoving_example.html" target="_blank">Live Example</a>
 </section>

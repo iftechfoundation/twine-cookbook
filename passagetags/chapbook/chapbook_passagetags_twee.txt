@@ -1,0 +1,13 @@
+:: StoryTitle
+Chapbook: CSS and Passage Tags
+
+:: Start
+config.style.page.color: "yellow-4"
+--
+This is one color!
+[JavaScript]
+// Overwrite the default text color
+config.style.page.color = "violet-6";
+[continued]
+
+And this is the same color!

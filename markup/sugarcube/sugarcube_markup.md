@@ -9,7 +9,6 @@
 <section>
 <iframe src="sugarcube_markup_example.html" height=400 width=90%></iframe>
 
-
 Download: <a href="sugarcube_markup_example.html" target="_blank">Live Example</a>
 </section>
 

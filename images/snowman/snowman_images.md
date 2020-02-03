@@ -2,7 +2,7 @@
 
 ## Summary
 
-When using Snowman, images can be displayed through the [image HTML element](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/img) and [*url()*](https://developer.mozilla.org/en-US/docs/Web/CSS/url) CSS data type when encoded as Base64.
+When using Snowman, images can be displayed through the [image HTML element](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/img) and **[url()](https://developer.mozilla.org/en-US/docs/Web/CSS/url)** CSS data type when encoded as Base64.
 
 When using an image element, its source is either absolutely or relatively located. An absolute reference starts with HTTP or another protocol; a relative reference describes the location of the image in relation to the webpage.
 

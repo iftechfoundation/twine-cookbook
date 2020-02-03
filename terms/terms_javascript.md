@@ -6,7 +6,7 @@ Knowledge of JavaScript is not required to create [stories](../terms/terms_stori
 
 ## Story JavaScript
 
-When using Twine, extra functionality can be added through the Story JavaScript screen. This is run *before* the Story is run and provides an opportunity to write specialized code or include external libraries and files. Some story formats, like SugarCube, provide the ability to translate between JavaScript and macro usage in Twine. Others, like Snowman, expect this to be used when creating more complex projects.
+When using Twine, extra functionality can be added through the Story JavaScript screen. This is run before the Story is run and provides an opportunity to write specialized code or include external libraries and files. Some story formats, like SugarCube, provide the ability to translate between JavaScript and macro usage in Twine. Others, like Snowman, expect this to be used when creating more complex projects.
 
 ## *window.setup*
 

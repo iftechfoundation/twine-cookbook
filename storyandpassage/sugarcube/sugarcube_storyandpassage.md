@@ -9,7 +9,6 @@ Often, it can be useful to access information about the story or other passages 
 <section>
 <iframe src="sugarcube_storyandpassage_example.html" height=400 width=90%></iframe>
 
-
 Download: <a href="sugarcube_storyandpassage_example.html" target="_blank">Live Example</a>
 </section>
 

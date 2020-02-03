@@ -2,15 +2,14 @@
 
 ## Summary
 
-Variables, symbols starting with ```$``` (for normal) or ```_``` (for temporary), can be "set" using the *[```<<set>>```](http://www.motoslave.net/sugarcube/2/docs/macros.html#macros-set)* macro in SugarCube.
+Variables, symbols starting with `$` (for normal) or `_` (for temporary), can be "set" using the *[`<<set>>`](http://www.motoslave.net/sugarcube/2/docs/macros.html#macros-set)* macro in SugarCube.
 
-```$``` is used for storing data throughout the story, and ```_``` should be used for data only needed in the current passage. Using ```_``` is useful for not wanting to accidentally overwrite variables elsewhere in the story. They can also help with debugging through not cluttering up the variables list of future passages.
+`$` is used for storing data throughout the story, and `_` should be used for data only needed in the current passage. Using `_` is useful for not wanting to accidentally overwrite variables elsewhere in the story. They can also help with debugging through not cluttering up the variables list of future passages.
 
 ## Live Example
 
 <section>
 <iframe src="sugarcube_settingandshowing_example.html" height=400 width=90%></iframe>
-
 
 Download: <a href="sugarcube_settingandshowing_example.html" target="_blank">Live Example</a>
 </section>
