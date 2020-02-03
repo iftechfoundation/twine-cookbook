@@ -2,7 +2,7 @@
 
 ## Summary
 
-In Chapbook, the [lookup](https://klembot.github.io/chapbook/guide/state/objects-and-lookups.html) `passage.visits` contains the number of times the current passages has been visited by the user.
+In Chapbook, the [lookup](https://klembot.github.io/chapbook/guide/state/objects-and-lookups.html) *passage.visits* variable contains the number of times the current passages has been visited by the user.
 
 ## Live Example
 

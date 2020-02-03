@@ -2,7 +2,7 @@
 
 ## Summary
 
-Made famous in [*Queers in Love at the End of the World*](https://w.itch.io/end-of-the-world) (2013), "Timed Passages" uses the JavaScript function *[setTimeout()](https://developer.mozilla.org/en-US/docs/Web/API/WindowOrWorkerGlobalScope/setTimeout)* and Chapbook's internal *go()* function to reload a passage every second. It combines the use of the [Vars Section](https://klembot.github.io/chapbook/guide/state/the-vars-section.html) with [multiple modifiers](https://klembot.github.io/chapbook/guide/references/modifiers.html).
+Made famous in [*Queers in Love at the End of the World*](https://w.itch.io/end-of-the-world) (2013), "Timed Passages" uses the JavaScript function **[setTimeout()](https://developer.mozilla.org/en-US/docs/Web/API/WindowOrWorkerGlobalScope/setTimeout)** and Chapbook's internal **go()** function to reload a passage every second. It combines the use of the [Vars Section](https://klembot.github.io/chapbook/guide/state/the-vars-section.html) with [multiple modifiers](https://klembot.github.io/chapbook/guide/references/modifiers.html).
 
 ## Live Example
 

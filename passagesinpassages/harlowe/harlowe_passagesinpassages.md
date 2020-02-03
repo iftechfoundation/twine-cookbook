@@ -9,7 +9,6 @@ The Harlowe story format allows for content in one passage to be displayed in an
 <section>
 <iframe src="harlowe_passagesinpassages_example.html" height=400 width=90%></iframe>
 
-
 Download: <a href="harlowe_passagesinpassages_example.html" target="_blank">Live Example</a>
 </section>
 

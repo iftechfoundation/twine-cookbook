@@ -2,9 +2,9 @@
 
 ## Summary
 
-"Turn Counter" demonstrates the use of the *[(history:)](https://twine2.neocities.org/#macro_history)* macro in keeping track of "turns" (number of passages visited).
+"Turn Counter" demonstrates the use of the [`(history:)`](https://twine2.neocities.org/#macro_history) macro in keeping track of "turns" (number of passages visited).
 
-In this example, the *length* of the array returned by using the *(history:)* macro is compared to its modulo 24 value. Sometimes known as "wrap around," the modulus operator (%) is used to get the remainder of the number of "turns" (passages) divided by 24. This creates a clock where its value shows one of a series of strings representing "morning", "mid-morning", "afternoon", or "night."
+In this example, the *length* of the array returned by using the `(history:)` macro is compared to its modulo 24 value. Sometimes known as "wrap around," the modulus operator (%) is used to get the remainder of the number of "turns" (passages) divided by 24. This creates a clock where its value shows one of a series of strings representing "morning", "mid-morning", "afternoon", or "night."
 
 By visiting other passages, the turn count is increased and the hour reaches 23 before being reset back to 0 before increasing again.
 
@@ -12,7 +12,6 @@ By visiting other passages, the turn count is increased and the hour reaches 23 
 
 <section>
 <iframe src="harlowe_turncounter_example.html" height=400 width=90%></iframe>
-
 
 Download: <a href="harlowe_turncounter_example.html" target="_blank">Live Example</a>
 </section>

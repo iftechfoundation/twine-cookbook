@@ -2,7 +2,7 @@
 
 ## Summary
 
-Using the [`[CSS]` modifier](https://klembot.github.io/chapbook/guide/advanced/using-css-in-passages.html) in Chapbook, it is possible to combine expressions with variables and change the text and background colors dynamically. This examples creates a variable *color* and changes its value in the [Vars Section](https://klembot.github.io/chapbook/guide/state/the-vars-section.html) of two passages.
+Using the [`[CSS]`](https://klembot.github.io/chapbook/guide/advanced/using-css-in-passages.html) modifier in Chapbook, it is possible to combine expressions with variables and change the text and background colors dynamically. This examples creates a variable *color* and changes its value in the [Vars Section](https://klembot.github.io/chapbook/guide/state/the-vars-section.html) of two passages.
 
 ## Live Example
 

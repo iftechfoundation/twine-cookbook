@@ -2,7 +2,7 @@
 
 ## Summary
 
-"Timed Progress Bars" creates a global *window.setup* object and function, *timedprogressbars()*. Using jQuery within the definition, the function creates outer and inner `<div>` elements with CSS classes defined in the Story Stylesheet. Using a combination of *[setInterval()](https://developer.mozilla.org/en-US/docs/Web/API/WindowOrWorkerGlobalScope/setInterval)* and *[setTimeout()*](https://developer.mozilla.org/en-US/docs/Web/API/WindowOrWorkerGlobalScope/setTimeout)*, a timer is created. The length and color of an inner `<div>` element is adjusted based on the remaining time each loop.
+"Timed Progress Bars" creates a global *window.setup* object and function, **timedprogressbars()**. Using jQuery within the definition, the function creates outer and inner `<div>` elements with CSS classes defined in the Story Stylesheet. Using a combination of **[setInterval()](https://developer.mozilla.org/en-US/docs/Web/API/WindowOrWorkerGlobalScope/setInterval)** and **[setTimeout()](https://developer.mozilla.org/en-US/docs/Web/API/WindowOrWorkerGlobalScope/setTimeout)**, a timer is created. The length and color of an inner `<div>` element is adjusted based on the remaining time each loop.
 
 When the timer runs out, the function argument is run and the length of the inner `<div>` element is reduced to 0.
 

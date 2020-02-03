@@ -2,7 +2,7 @@
 
 ## Summary
 
-In Chapbook, the global variable `trail` stores all of the passages visited as an increasing array. For each passage visited, a new entry is added.
+In Chapbook, the global variable *trail* stores all of the passages visited as an increasing array. For each passage visited, a new entry is added.
 
 Sometimes known as "wrap around," the modulus operator (%) is used to get the remainder of the number of "turns" (number of passages) divided by 24. This creates a clock where its value shows one of a series of strings representing "morning", "mid-morning", "afternoon", or "night."
 

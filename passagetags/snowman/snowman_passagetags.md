@@ -2,13 +2,12 @@
 
 ## Summary
 
-This example shows how to use CSS selectors to style different passages. Snowman does not support tags in passages. However, the effect can be implemented through using [jQuery](https://jquery.com/) and the *[toggleClass()](http://api.jquery.com/toggleclass/)* function to switch between different pre-defined classes.
+This example shows how to use CSS selectors to style different passages. Snowman does not support tags in passages. However, the effect can be implemented through using [jQuery](https://jquery.com/) and the **[toggleClass()](http://api.jquery.com/toggleclass/)** function to switch between different pre-defined classes.
 
 ## Live Example
 
 <section>
 <iframe src="snowman_passagetags_example.html" height=400 width=90%></iframe>
-
 
 Download: <a href="snowman_passagetags_example.html" target="_blank">Live Example</a>
 </section>

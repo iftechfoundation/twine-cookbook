@@ -2,7 +2,7 @@
 
 ## Summary
 
-In Snowman, the `s` global variable can be used to store and retrieve values. Properties can be created and assigned freely. The [Underscore template functionality](http://underscorejs.org/#template) can be used to define, change, and show the values of variables. 
+In Snowman, the *s* global variable can be used to store and retrieve values. Properties can be created and assigned freely. The [Underscore template functionality](http://underscorejs.org/#template) can be used to define, change, and show the values of variables. 
 
 ## Live Example
 

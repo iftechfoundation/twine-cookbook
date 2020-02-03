@@ -2,7 +2,7 @@
 
 ## Summary
 
-Using the built-in global variable `config`, [text colors and other CSS properties](https://klembot.github.io/chapbook/guide/customization/fonts-and-colors.html) can be programmatically adjusted using the [`[JavaScript]`](https://klembot.github.io/chapbook/guide/advanced/using-javascript-in-passages.html) modifer in Chapbook.
+Using the built-in global variable *config*, [text colors and other CSS properties](https://klembot.github.io/chapbook/guide/customization/fonts-and-colors.html) can be programmatically adjusted using the [`[JavaScript]`](https://klembot.github.io/chapbook/guide/advanced/using-javascript-in-passages.html) modifer in Chapbook.
 
 ## Live Example
 

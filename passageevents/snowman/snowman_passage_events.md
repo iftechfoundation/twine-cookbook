@@ -11,7 +11,6 @@ In this example, a header and footer is created by listening for the 'shown.sm.p
 <section>
 <iframe src="snowman_passage_events_example.html" height=400 width=90%></iframe>
 
-
 Download: <a href="snowman_passage_events_example.html" target="_blank">Live Example</a>
 </section>
 

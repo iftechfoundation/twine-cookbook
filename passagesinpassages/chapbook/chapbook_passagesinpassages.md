@@ -9,7 +9,6 @@ Using the insert [`{embed passage: }`](https://klembot.github.io/chapbook/guide/
 <section>
 <iframe src="chapbook_passagesinpassages_example.html" height=400 width=90%></iframe>
 
-
 Download: <a href="chapbook_passagesinpassages_example.html" target="_blank">Live Example</a>
 </section>
 

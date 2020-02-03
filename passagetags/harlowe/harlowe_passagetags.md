@@ -11,7 +11,6 @@ This example shows how to use CSS selectors to selectively style different passa
 <section>
 <iframe src="harlowe_passagetags_example.html" height=400 width=90%></iframe>
 
-
 Download: <a href="harlowe_passagetags_example.html" target="_blank">Live Example</a>
 </section>
 

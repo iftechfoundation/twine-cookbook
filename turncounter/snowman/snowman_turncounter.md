@@ -2,7 +2,7 @@
 
 ## Summary
 
-"Turn Counter" demonstrates the use of the *window.story.history* array in keeping track of "turns" (number of passages visited). The *[window.story.render()](https://videlais.github.io/snowman/1/window_story/functions/render.html)* function is used to "display" or otherwise include another passage at the start of each.
+"Turn Counter" demonstrates the use of the *window.story.history* array in keeping track of "turns" (number of passages visited). The ***[window.story.render()](https://videlais.github.io/snowman/1/window_story/functions/render.html)*** function is used to "display" or otherwise include another passage at the start of each.
 
 In this example, the *length* of the array *[window.story.history](https://videlais.github.io/snowman/1/window_story/properties/history.html)* is compared to its modulo 24 value. Sometimes known as "wrap around," the modulus operator (%) is used to get the remainder of the number of "turns" (passages) divided by 24. This creates a clock where its value shows one of a series of strings representing "morning", "mid-morning", "afternoon", or "night."
 

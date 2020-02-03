@@ -4,7 +4,7 @@
 
 "Typewriter Effect" demonstrates how to create a delayed character-by-character effect. In Chapbook, [new modifiers](https://klembot.github.io/chapbook/guide/advanced/adding-custom-modifiers.html) can be added through the *engine.extend()* function. This examples creates a new modifier called `[typewriter]` that accepts a time in milliseconds.
 
-The `[typewriter]` modifier creates a series of `<span>` elements for each character found within the output of the modifier and sets an *[animation-delay](https://developer.mozilla.org/en-US/docs/Web/CSS/animation-delay)* equal to the time given to the modifier multiplied by the position of the character within the total length of the text output. When used, each character will appear within the passage as if "typed" based on the time given to the modifier.
+The `[typewriter]` modifier creates a series of `<span>` elements for each character found within the output of the modifier and sets an **[animation-delay](https://developer.mozilla.org/en-US/docs/Web/CSS/animation-delay)** equal to the time given to the modifier multiplied by the position of the character within the total length of the text output. When used, each character will appear within the passage as if "typed" based on the time given to the modifier.
 
 ## Live Example
 

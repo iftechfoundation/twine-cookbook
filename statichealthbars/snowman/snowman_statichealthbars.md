@@ -2,13 +2,12 @@
 
 ## Summary
 
-"Static Healthbars" demonstrates how to write HTML elements using variable values. In this example, [Underscore template](https://underscorejs.org/#template) functionality is used to create &lt;progress&gt; and &lt;meter&gt; elements.
+"Static Healthbars" demonstrates how to write HTML elements using variable values. In this example, [Underscore template](https://underscorejs.org/#template) functionality is used to create `<progress>` and `<meter>` elements.
 
 ## Live Example
 
 <section>
 <iframe src="snowman_statichealthbars_example.html" height=400 width=90%></iframe>
-
 
 Download: <a href="snowman_statichealthbars_example.html" target="_blank">Live Example</a>
 </section>

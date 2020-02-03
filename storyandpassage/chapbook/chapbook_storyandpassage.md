@@ -2,14 +2,13 @@
 
 ## Summary
 
-Often, it can be useful to access information about the story or other passages while it is running. In Chapbook, the *engine.story* object provides two functions, *passageNamed()* and
-*passageWithId()*, for accessing other passages. Combined with the [`[JavaScript]` modifier](https://klembot.github.io/chapbook/guide/advanced/using-javascript-in-passages.html), these functions and values they return when given existing passage names, can be used to show the name and source of one passage in another.
+Often, it can be useful to access information about the story or other passages while it is running. In Chapbook, the *engine.story* object provides two functions, **passageNamed()** and
+**passageWithId()**, for accessing other passages. Combined with the [`[JavaScript]`](https://klembot.github.io/chapbook/guide/advanced/using-javascript-in-passages.html) modifier, these functions and values they return when given existing passage names, can be used to show the name and source of one passage in another.
 
 ## Live Example
 
 <section>
 <iframe src="chapbook_storyandpassage_example.html" height=400 width=90%></iframe>
-
 
 Download: <a href="chapbook_storyandpassage_example.html" target="_blank">Live Example</a>
 </section>

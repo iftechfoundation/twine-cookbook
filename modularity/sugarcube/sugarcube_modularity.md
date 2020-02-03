@@ -11,7 +11,6 @@ The[`<<widget>>`](http://www.motoslave.net/sugarcube/2/docs/macros.html#macros-w
 <section>
 <iframe src="sugarcube_modularity_example.html" height=400 width=90%></iframe>
 
-
 Download: <a href="sugarcube_modularity_example.html" target="_blank">Live Example</a>
 </section>
 

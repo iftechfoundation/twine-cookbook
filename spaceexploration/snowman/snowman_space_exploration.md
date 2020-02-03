@@ -4,13 +4,12 @@
 
 Games in the [roguelike genre](https://en.wikipedia.org/wiki/Roguelike) often have random events that influence player choices. Frequently, decisions can have lasting impact or even lead to an ending of play in that session or run depending on these random outcomes.
 
-Heavily inspired by [*FTL: Faster Than Light*](https://en.wikipedia.org/wiki/FTL:_Faster_Than_Light) (2012), this example uses the *[_.random()](http://underscorejs.org/#random)* function to generate a system of planets consisting of either RED, more risk and more reward, or GREEN, less risk and less reward. Upon entering a system of planets, the player can choose to visit these planets for different outcomes based on a series of choices and an additional use of the *`_`.random()* function. While traveling, the player must also balance the health of the ship, the number of jumps left, and the current fuel that are all displayed using the *[window.story.render()](https://videlais.github.io/snowman/1/window_story/functions/render.html)* function in combination with [Underscore.js templating](http://underscorejs.org/#template).
+Heavily inspired by [*FTL: Faster Than Light*](https://en.wikipedia.org/wiki/FTL:_Faster_Than_Light) (2012), this example uses the **[`_`.random()](http://underscorejs.org/#random)** function to generate a system of planets consisting of either RED, more risk and more reward, or GREEN, less risk and less reward. Upon entering a system of planets, the player can choose to visit these planets for different outcomes based on a series of choices and an additional use of the **`_`.random()** function. While traveling, the player must also balance the health of the ship, the number of jumps left, and the current fuel that are all displayed using the **[window.story.render()](https://videlais.github.io/snowman/1/window_story/functions/render.html)** function in combination with [Underscore.js templating](http://underscorejs.org/#template).
 
 ## Live Example
 
 <section>
 <iframe src="snowman_space_exploration_example.html" height=400 width=90%></iframe>
-
 
 Download: <a href="snowman_space_exploration_example.html" target="_blank">Live Example</a>
 </section>

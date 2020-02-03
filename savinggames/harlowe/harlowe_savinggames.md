@@ -2,7 +2,7 @@
 
 ## Summary
 
-Harlowe provides macros like [*(save-game:)*](https://twine2.neocities.org/#macro_save-game) and [*(load-game:)*](https://twine2.neocities.org/#macro_load-game) to store and retrieve game "saves" of the variables and current passage. [*(saved-games:)*](https://twine2.neocities.org/#macro_saved-games) can also be used to check if a certain game save exists.
+Harlowe provides macros like [`(save-game:)`](https://twine2.neocities.org/#macro_save-game) and [`(load-game:)`](https://twine2.neocities.org/#macro_load-game) to store and retrieve game "saves" of the variables and current passage. [`(saved-games:)`](https://twine2.neocities.org/#macro_saved-games) can also be used to check if a certain game save exists.
 
 Game saves are stored as cookies in the user's browser. If cookies cannot be stored for some reason, game saves will fail. It is recommended to always check if the game save was stored before trying to retrieve it later.
 
@@ -10,7 +10,6 @@ Game saves are stored as cookies in the user's browser. If cookies cannot be sto
 
 <section>
 <iframe src="harlowe_savinggames_example.html" height=400 width=90%></iframe>
-
 
 Download: <a href="harlowe_savinggames_example.html" target="_blank">Live Example</a>
 </section>

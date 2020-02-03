@@ -4,13 +4,12 @@
 
 Games in the [rogue-like genre](https://en.wikipedia.org/wiki/Roguelike) often have random events that influence player choices. Frequently, decisions can have lasting impact or even lead to an ending of play in that session or run depending on these random outcomes.
 
-Heavily inspired by [*FTL: Faster Than Light*](https://en.wikipedia.org/wiki/FTL:_Faster_Than_Light) (2012), this example uses the [(random:)](https://twine2.neocities.org/#macro_random) macro to generate a system of planets consisting of either RED, more risk and more reward, or GREEN, less risk and less reward. Upon entering a system of planets, the player can choose to visit these planets for different outcomes based on a series of choices and an additional use of the (random:) macro. While traveling, the player must also balance the health of the ship, the number of jumps left, and the current fuel that are all displayed using the [(display:)](https://twine2.neocities.org/#macro_display) macro. Finally, to capture the permanence of many rogue-like games, the [(go-to:)](https://twine2.neocities.org/#macro_go-to) macro is used to prevent the use of the normal undo/redo operations in Harlowe.
+Heavily inspired by [*FTL: Faster Than Light*](https://en.wikipedia.org/wiki/FTL:_Faster_Than_Light) (2012), this example uses the [`(random:)`](https://twine2.neocities.org/#macro_random) macro to generate a system of planets consisting of either RED, more risk and more reward, or GREEN, less risk and less reward. Upon entering a system of planets, the player can choose to visit these planets for different outcomes based on a series of choices and an additional use of the (random:) macro. While traveling, the player must also balance the health of the ship, the number of jumps left, and the current fuel that are all displayed using the [`(display:)`](https://twine2.neocities.org/#macro_display) macro. Finally, to capture the permanence of many rogue-like games, the [`(go-to:)`](https://twine2.neocities.org/#macro_go-to) macro is used to prevent the use of the normal undo/redo operations in Harlowe.
 
 ## Live Example
 
 <section>
 <iframe src="harlowe_space_exploration_example.html" height=400 width=90%></iframe>
-
 
 Download: <a href="harlowe_space_exploration_example.html" target="_blank">Live Example</a>
 </section>

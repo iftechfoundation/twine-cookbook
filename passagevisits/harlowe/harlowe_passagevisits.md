@@ -11,7 +11,6 @@ Combined together, the macro `(count:)` with the `(history:)` can return the num
 <section>
 <iframe src="harlowe_passagevisits_example.html" height=400 width=90%></iframe>
 
-
 Download: <a href="harlowe_passagevisits_example.html" target="_blank">Live Example</a>
 </section>
 
