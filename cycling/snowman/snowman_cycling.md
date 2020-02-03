@@ -4,9 +4,9 @@
 
 "Cycling Choices" demostrates how to create a 'cycling' effect of different choices through clicking on them.
 
-Starting with iterating over all elements with the class cycle, each element's 'choices' and 'selection' attribute values are saved as global variables not expected to change during the story. Next, through using jQuery, a [*.click()*](https://api.jquery.com/click/) trigger is set for all elements with the class 'cycle'.
+Starting with iterating over all elements with the class cycle, each element's 'choices' and 'selection' attribute values are saved as global variables not expected to change during the story. Next, through using jQuery, a [*.click()*](https://api.jquery.com/click/) trigger is set for all elements with the class "cycle".
 
-When triggered, the global values of 'choices' and 'selection' for the element are retrieved and the 'selection' updated. The 'text' of the element is set to the selection index of the 'choices' array.
+When triggered, the global values of "choices" and "selection" for the element are retrieved and the "selection" updated. The **text()** of the element is set to the selection index of the *choices* array.
 
 Finally, the global variables are updated according to the element's *id* for later access and to prevent changes to the history of the story potentially affecting saved values.
 

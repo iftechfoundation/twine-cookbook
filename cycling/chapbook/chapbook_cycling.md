@@ -2,7 +2,7 @@
 
 ## Summary
 
-Chapbook provides the [`{cycling link}` modifier](https://klembot.github.io/chapbook/guide/player-input/dropdown-menus-cycling-links.html) for creating a cycling link effect.
+Chapbook provides the [`{cycling link}`](https://klembot.github.io/chapbook/guide/player-input/dropdown-menus-cycling-links.html) modifier for creating a cycling link effect.
 
 ## Live Example
 

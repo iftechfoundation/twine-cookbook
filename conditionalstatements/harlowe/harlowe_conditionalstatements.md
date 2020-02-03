@@ -2,9 +2,9 @@
 
 ## Summary
 
-The [*(if:)*](https://twine2.neocities.org/#macro_if) and [*(else:)*](https://twine2.neocities.org/#macro_else) macros conditionally produce commands that can be attached to hooks in Harlowe. If the statement is true, the *(if:)* section will be run. Otherwise, the *(else:)* section will be.
+The [`(if:)`](https://twine2.neocities.org/#macro_if) and [`(else:)`](https://twine2.neocities.org/#macro_else) macros conditionally produce commands that can be attached to hooks in Harlowe. If the statement is true, the `(if:)` section will be run. Otherwise, the `(else:)` section will be.
 
-The [*(unless:)*](https://twine2.neocities.org/#macro_unless) macro can also be used in place of *(if:)* for the opposite effect. Furthermore, variables can be attached to hooks to control whether they are displayed based on if they are 'true' (will be displayed) or 'false' (will not be displayed).
+The [`(unless:)`](https://twine2.neocities.org/#macro_unless) macro can also be used in place of `(if:)` for the opposite effect. Furthermore, variables can be attached to hooks to control whether they are displayed based on if they are "true" (will be displayed) or "false" (will not be displayed).
 
 ## Live Example
 

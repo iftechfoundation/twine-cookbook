@@ -6,7 +6,7 @@ Many browsers allow access to the current location through the [Geolocation prop
 
 Functionality availability and their results should always be tested against other location services or information. Most browsers will return results through the fastest and sometimes least-accurate methods possible.
 
-In this example, the [`[JavaScript]` modifer](https://klembot.github.io/chapbook/guide/advanced/using-javascript-in-passages.html) is used to test for, run, and show data using an *[alert()](https://developer.mozilla.org/en-US/docs/Web/API/Window/alert)* from the JavaScript functions.
+In this example, the [`[JavaScript]`](https://klembot.github.io/chapbook/guide/advanced/using-javascript-in-passages.html) modifer is used to test for, run, and show data using an **[alert()](https://developer.mozilla.org/en-US/docs/Web/API/Window/alert)** from the JavaScript functions.
 
 ## Live Example
 

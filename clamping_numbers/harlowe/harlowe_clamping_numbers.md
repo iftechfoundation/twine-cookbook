@@ -2,12 +2,11 @@
 
 ## Summary
 
-This example demonstrates how to limit a numeric variable to a value between a set range. This process is commonly known as **clamping**.
+This example demonstrates how to limit a numeric variable to a value between a set range. This process is commonly known as clamping.
 
-The example adds a *clamp()* function to the existing built-in [*Math*](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Math) global JavaScript object, which can then be called to achieve the desired result.
+The example adds a **clamp()** function to the existing built-in *[Math](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Math)* global JavaScript object, which can then be called to achieve the desired result.
 
-<div class="alertbox information"><strong>Note:</strong> The example also adds a <em>clamp()</em> function to the built-in <em><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number">Number</a></em> global JavaScript object, which the new <em>Math.clamp()</em> function uses internally. However, due to how Harlowe implements variables, the <em><Number>.clamp()</em> function can't be used directly within a <em><a href="https://twine2.neocities.org/#macro_set">(set:)</a></em> macro.</div>
-
+<div class="alertbox information"><strong>Note:</strong> The example also adds a <strong>clamp()</strong> function to the built-in <em><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number">Number</a></em> global JavaScript object, which the new <strong>Math.clamp()</strong> function uses internally. However, due to how Harlowe implements variables, the <strong><Number>.clamp()</strong> function can't be used directly.
 
 ## Live Example
 

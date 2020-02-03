@@ -2,7 +2,7 @@
 
 ## Summary
 
-This example shows how to use [CSS](../../terms/terms_css.md) selectors to style different areas of the page. Snowman 2.0 uses the elements `<tw-story>` and `<tw-passage>` to show a passage. It also changes from an `id` to a `class` named `passage` from previous versions of Snowman.
+This example shows how to use [CSS](../../terms/terms_css.md) selectors to style different areas of the page. Snowman 2.0 uses the elements `<tw-story>` and `<tw-passage>` to show a passage. It also changes from an *id* to a *class* named "passage" from previous versions of Snowman.
 
 ```
 <body>

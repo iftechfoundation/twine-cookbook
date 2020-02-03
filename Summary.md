@@ -15,6 +15,7 @@
 * Cookbook Introduction
 	* [Using the Cookbook](using_cookbook.md)
 	* [Example Formatting](formatting.md)
+	* [Style Guide](style_guide.md)
 
 # Twine 2 Documentation
 

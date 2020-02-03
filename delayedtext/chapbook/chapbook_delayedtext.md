@@ -2,7 +2,7 @@
 
 ## Summary
 
-In Chapbook, the [`[after]` modifier](https://klembot.github.io/chapbook/guide/modifiers-and-inserts/delayed-text.html) shows text after a set amount of time.
+In Chapbook, the [`[after]`](https://klembot.github.io/chapbook/guide/modifiers-and-inserts/delayed-text.html) modifier shows text after a set amount of time.
 
 ## Live Example
 

@@ -2,7 +2,7 @@
 
 ## Summary
 
-While variables created using the `[JavaScript]` modifier can be deleted within their blocks, any created within the [Vars Section](https://klembot.github.io/chapbook/guide/state/the-vars-section.html) can simply be set to [`undefined`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/undefined) to make them unable to be shown within an expression using the *[engine.state.set()](https://klembot.github.io/chapbook/guide/advanced/using-javascript-in-passages.html)* function.
+While variables created using the `[JavaScript]` modifier can be deleted within their blocks, any created within the [Vars Section](https://klembot.github.io/chapbook/guide/state/the-vars-section.html) can simply be set to [`undefined`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/undefined) to make them unable to be shown within an expression using the **[engine.state.set()](https://klembot.github.io/chapbook/guide/advanced/using-javascript-in-passages.html)** function.
 
 ## Live Example
 

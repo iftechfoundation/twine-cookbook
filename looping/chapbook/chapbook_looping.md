@@ -4,13 +4,12 @@
 
 In programming terminology, a "loop" is a common technique for iterating, moving through one by one, some type of data. 
 
-In Chapbook, the modifier `[JavaScript]` allows for using JavaScript inside a passage. Through using the *[forEach()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/forEach)* function of Arrays and the *[write()](https://klembot.github.io/chapbook/guide/advanced/using-javascript-in-passages.html)* function supplied by Chapbook, each entry within an array can be shown.
+In Chapbook, the modifier `[JavaScript]` allows for using JavaScript inside a passage. Through using the **[forEach()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/forEach)** function of Arrays and the **[write()](https://klembot.github.io/chapbook/guide/advanced/using-javascript-in-passages.html)** function supplied by Chapbook, each entry within an array can be shown.
 
 ## Live Example
 
 <section>
 <iframe src="chapbook_looping_example.html" height=400 width=90%></iframe>
-
 
 Download: <a href="chapbook_looping_example.html" target="_blank">Live Example</a>
 </section>

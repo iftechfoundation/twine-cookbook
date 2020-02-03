@@ -2,9 +2,9 @@
 
 ## Summary
 
-"Lock and Key: Variable" demonstrates how to create the effect of picking up a key and unlocking a door. In this example, the key is a variable (*key*) and is initially set to the value *false* in the Start passage.
+"Lock and Key: Variable" demonstrates how to create the effect of picking up a key and unlocking a door. In this example, the key is a variable (*key*) and is initially set to the value "false" in the Start passage.
 
-When the link "Pick up key" is clicked in the `Back Room` passage, *key* is changed to the value *true* via embedding the passage `Key`. When the passage is visited and *key* is set to the value of *true*, door link changes from its initial response of *Locked Door* to "Unlock the door".
+When the link "Pick up key" is clicked in the "Back Room" passage, *key* is changed to the value "true" via embedding the passage "Key". When the passage is visited and *key* is set to the value of "true", door link changes from its initial response of "Locked Door" to "Unlock the door".
 
 ## Live Example
 

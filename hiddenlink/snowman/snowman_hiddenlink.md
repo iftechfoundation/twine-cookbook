@@ -4,13 +4,12 @@
 
 "Hidden Link" demonstrates how to create a 'hidden' link that is only revealed when the cursor passes over it.
 
-Using CSS and JavaScript, a rule is created for transparent color and applied or removed through using jQuery's *[on()](http://api.jquery.com/on/)* function with 'mouseenter' and 'mouseleave' events.
+Using CSS and JavaScript, a rule is created for transparent color and applied or removed through using jQuery's **[on()](http://api.jquery.com/on/)** function with 'mouseenter' and 'mouseleave' events.
 
 ## Live Example
 
 <section>
 <iframe src="snowman_hiddenlink_example.html" height=400 width=90%></iframe>
-
 
 Download: <a href="snowman_hiddenlink_example.html" target="_blank">Live Example</a>
 </section>

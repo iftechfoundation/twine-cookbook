@@ -2,7 +2,7 @@
 
 ## Summary
 
-Chapbook provides two global variables, [`config.header` and `config.footer`](https://klembot.github.io/chapbook/guide/customization/header-and-footer.html), that each have the properties `left`, `right`, and `center`. When set, these properties show their content as the header or footer in the particular position matching its property name.
+Chapbook provides two global variables, [*config.header* and *config.footer*](https://klembot.github.io/chapbook/guide/customization/header-and-footer.html), that each have the properties *left*, *right*, and *center*. When set, these properties show their content as the header or footer in the particular position matching its property name.
 
 ## Live Example
 

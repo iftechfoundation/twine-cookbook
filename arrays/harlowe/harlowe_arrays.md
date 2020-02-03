@@ -2,7 +2,7 @@
 
 ## Summary
 
-[Arrays](https://twine2.neocities.org/#type_array) are a collection of values. Each entry in an array is assigned an *index*, which is a number that corresponds to its position in the array. In Harlowe, and unlike in JavaScript, arrays are *one-based*, meaning the first element in the array is given the index `1`. Arrays can be created using the `(a:)` or `(array:)` macro and assigning a variable to it: `(set: $myArray to (a:))`.
+[Arrays](https://twine2.neocities.org/#type_array) are a collection of values. Each entry in an array is assigned an *index*, which is a number that corresponds to its position in the array. In Harlowe, and unlike in JavaScript, arrays are one-based, meaning the first element in the array is given the index "1". Arrays can be created using the `(a:)` or `(array:)` macro and assigning a variable to it: `(set: $myArray to (a:))`.
 
 Specific elements in an array can be accessed by following its variable name with a possessive `'s` and an ordinal number referencing the index to check, (`$myArray's 2nd`); the final entry, `$myArray's last`, points to the final element. Its contents can be tested using the `contains` operator (e.g. `(if: $myArray contains 'something')[...]`), add new items using the `+` operator (e.g. `(set: $myArray to + (a: 'something'))`), and remove items using the `-` operator. All elements in an array can be passed to macros as separate arguments with the spread operator (`...`). 
 

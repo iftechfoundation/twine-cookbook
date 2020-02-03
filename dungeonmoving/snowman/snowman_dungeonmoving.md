@@ -9,7 +9,6 @@
 <section>
 <iframe src="snowman_dungeonmoving_example.html" height=400 width=90%></iframe>
 
-
 Download: <a href="snowman_dungeonmoving_example.html" target="_blank">Live Example</a>
 </section>
 

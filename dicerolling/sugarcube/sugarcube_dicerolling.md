@@ -2,13 +2,12 @@
 
 ## Summary
 
-"Dice Rolling" demonstrates how to create the same effects of rolling various physical dice through using the *[random()](http://www.motoslave.net/sugarcube/2/docs/functions.html#random)* function and the [`<<print>>`]((http://www.motoslave.net/sugarcube/2/docs/macros.html#macros-print)* macro to show the results.
+"Dice Rolling" demonstrates how to create the same effects of rolling various physical dice through using the **[random()](http://www.motoslave.net/sugarcube/2/docs/functions.html#random)** function and the [`<<print>>`]((http://www.motoslave.net/sugarcube/2/docs/macros.html#macros-print) macro to show the results.
 
 ## Live Example
 
 <section>
 <iframe src="sugarcube_dicerolling_example.html" height=400 width=90%></iframe>
-
 
 Download: <a href="sugarcube_dicerolling_example.html" target="_blank">Live Example</a>
 </section>

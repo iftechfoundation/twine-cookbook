@@ -6,14 +6,12 @@ Many browsers allow access to the current location through the [Geolocation prop
 
 Functionality availability and their results should always be tested against other location services or information. Most browsers will return results through the fastest and sometimes least-accurate methods possible.
 
-This example uses [Underscore template functionality](http://underscorejs.org/#template) to test for and show the values of properties storied in the ```s``` global variable in Snowman.
-
+This example uses [Underscore template functionality](http://underscorejs.org/#template) to test for and show the values of properties storied in the *s* global variable in Snowman.
 
 ## Live Example
 
 <section>
 <iframe src="snowman_geolocation_example.html" height=400 width=90%></iframe>
-
 
 Download: <a href="snowman_geolocation_example.html" target="_blank">Live Example</a>
 </section>
