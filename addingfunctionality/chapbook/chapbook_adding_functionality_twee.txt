@@ -1,28 +1,13 @@
-:: Start
-{embed passage: 'Extensions'}
+:: StoryTitle
+Adding Functionality
 
-[[See the new functionality]]
-
-:: Extensions
-[JavaScript]
-// The preferred method is to add this to your story's JavaScript section.
-// But since that is not is possible to encode in Twee formatting, we use
-// the JavaScript modifier instead.
-
+:: UserScript[script]
 engine.extend('1.0.0', () => {
     config.template.inserts = [{
         match: /^smiley face$/i,
         render: () => '😀'
     }, ...config.template.inserts];
-	
-	config.template.modifiers = [{
-        match: /^uppercase$/i,
-        process(output) {
-            output.text = output.text.toUpperCase();
-        }
-    }, ...config.template.modifiers];
 });
 
-:: See the new functionality
-[uppercase]
+:: Start
 Hello there {smiley face}

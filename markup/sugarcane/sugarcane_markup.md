@@ -24,7 +24,6 @@ Underline: __text__
 Strikethrough: ==text==
 Subscript: H~~2~~O
 Superscript: meters/second^^2^^
-Escaped: {{{a //word//}}}
 Comment: /%a comment%/
 Error: @@error@@
 Inline styling: @@font-weight:bold;text@@
