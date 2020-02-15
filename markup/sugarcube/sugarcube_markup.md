@@ -26,10 +26,6 @@ Super^^script^^
 Sub~~script~~
 > Quote
 >> Nested quote
-{{{
-Code
-More code
-}}}
 * A list item
 * Another list item
 # A list item
@@ -42,7 +38,6 @@ More code
 !!!!Level 4 Heading
 !!!!!Level 5 Heading
 !!!!!!Level 6 Heading
-
 ```
 
 Download: <a href="sugarcube_markup_twee.txt" target="_blank">Twee Code</a>
