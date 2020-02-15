@@ -281,6 +281,7 @@
 	* [Harlowe (v3.0.1 or later)](passagetransitions/harlowe/harlowe_passagetransitions.md)
 	* [SugarCube](passagetransitions/sugarcube/sugarcube_passagetransitions.md)
 	* [Snowman](passagetransitions/snowman/snowman_passagetransitions.md)
+	* [Snowman (v2.0 and later)](passagetransitions/snowman_2/snowman_2_passagetransitions.md)
 
 # Passage Visits
 
