@@ -1,0 +1,11 @@
+:: StoryTitle
+SugarCube: Modal
+
+:: Start
+<<link "Open dialog!">>
+	<<script>>
+		Dialog.setup("Dialog");
+		Dialog.wiki("Text within the dialog window");
+		Dialog.open();
+	<</script>>
+<</link>>

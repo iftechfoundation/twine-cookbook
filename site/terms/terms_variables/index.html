@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<!--[if IE 8]><html class="no-js lt-ie9" lang="en" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  
+  
+  <link rel="shortcut icon" href="../../img/favicon.ico">
+  <title>Variables - Twine Cookbook</title>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato:400,700|Roboto+Slab:400,700|Inconsolata:400,700" />
+
+  <link rel="stylesheet" href="../../css/theme.css" />
+  <link rel="stylesheet" href="../../css/theme_extra.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/github.min.css" />
+  
+  <script>
+    // Current page data
+    var mkdocs_page_name = "Variables";
+    var mkdocs_page_input_path = "terms\\terms_variables.md";
+    var mkdocs_page_url = null;
+  </script>
+  
+  <script src="../../js/jquery-2.1.1.min.js" defer></script>
+  <script src="../../js/modernizr-2.8.3.min.js" defer></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
+  <script>hljs.initHighlightingOnLoad();</script> 
+  
+</head>
+
+<body class="wy-body-for-nav" role="document">
+
+  <div class="wy-grid-for-nav">
+
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side stickynav">
+    <div class="wy-side-scroll">
+      <div class="wy-side-nav-search">
+        <a href="../.." class="icon icon-home"> Twine Cookbook</a>
+        <div role="search">
+  <form id ="rtd-search-form" class="wy-form" action="../../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" title="Type search term here" />
+  </form>
+</div>
+      </div>
+
+      <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+                <p class="caption"><span class="caption-text">Common Questions</span></p>
+                <ul>
+                    <li class="toctree-l1"><a class="reference internal" href="../../questions/making/">What can I make with Twine?</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../../questions/getting_started/">How do I get started?</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../../questions/links/">How do I make links?</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../../questions/style_text/">How do I style text?</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../../questions/stories_saved/">Where are my stories saved?</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../../questions/need_to_know/">What do I need to know?</a>
+                    </li>
+                </ul>
+      </div>
+    </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" role="navigation" aria-label="top navigation">
+        <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+        <a href="../..">Twine Cookbook</a>
+      </nav>
+
+      
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="breadcrumbs navigation">
+  <ul class="wy-breadcrumbs">
+    <li><a href="../..">Docs</a> &raquo;</li>
+    
+      
+    
+    <li>Variables</li>
+    <li class="wy-breadcrumbs-aside">
+      
+    </li>
+  </ul>
+  
+  <hr/>
+</div>
+          <div role="main">
+            <div class="section">
+              
+                <h1 id="variables">Variables</h1>
+<p>In programming terminology, a variable is a container for a value that can change. In Twine, a variable is a way of storing and acting on data of some sort. Anything from a number to a series of characters can be stored in a variable. Unlike other code or text in a <a href="../terms_passages/">Passage</a>, variables most commonly start with either the dollar sign ($) or the underscore (<code>_</code>) in the Harlowe and SugarCube story formats. (In Chapbook, variables are part of a <a href="https://klembot.github.io/chapbook/guide/state/the-vars-section.html">'vars section'</a>.)</p>
+<h2 id="story-variables-harlowe-and-sugarcube">Story Variables (Harlowe and SugarCube)</h2>
+<p>Once created, story variables in Twine can be accessed from any passage at any time. They are <em>globally</em> accessible to all functionality everywhere.</p>
+<p><strong>Example:</strong></p>
+<pre><code class="twee">$numberVariable
+</code></pre>
+
+<p>Variables are translated into their values when used by themselves in a Passage. To display their value, they can simply be included as part of any other text.</p>
+<p><strong>Example:</strong></p>
+<pre><code class="twee">The value of the variable is $numberVariable.
+</code></pre>
+
+<h2 id="temporary-variables-harlowe-and-sugarcube">Temporary Variables (Harlowe and SugarCube)</h2>
+<p>It can often be useful to work with values in a more controlled manner. For this purpose, temporary variables can be used. They are <em>locally</em> accessible. They only exist while the current passage is shown. They start with an underscore (<code>_</code>).</p>
+<p><strong>Example:</strong></p>
+<pre><code class="twee">_tempVariable
+</code></pre>
+
+<p>Temporary variables can also be used to display their values with other text like Story Variables.</p>
+<p><strong>Example:</strong></p>
+<pre><code class="twee">The value of the variable is _numberVariable.
+</code></pre>
+
+<h2 id="differences-in-chapbook">Differences in Chapbook</h2>
+<p>Chapbook <a href="https://klembot.github.io/chapbook/guide/state/the-vars-section.html">handles variables</a> differently. Instead of variables needing to start with the dollar sign <code>$</code> or an underscore, <code>_</code>, Chapbook also allows variable names to start with upper or lowercase letters as well.</p>
+<p><strong>Example:</strong></p>
+<pre><code class="twee">strength: 18
+$dexterity: 7
+_constitution: 14
+</code></pre>
+
+<h2 id="differences-in-snowman">Differences in Snowman</h2>
+<p>Snowman uses JavaScript <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/var">variables</a>. It provides three global variables: <em>window.story</em> (for working with the story), <em>window.passage</em> (for working with the current passage), and <em>s</em> (as a way to access values across passages).</p>
+<p><strong>Example:</strong></p>
+<pre><code class="twee">s.strength = 14;
+</code></pre>
+              
+            </div>
+          </div>
+          <footer>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <!-- Copyright etc -->
+    
+  </div>
+
+  Built with <a href="https://www.mkdocs.org/">MkDocs</a> using a <a href="https://github.com/snide/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>.
+</footer>
+      
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+
+  <div class="rst-versions" role="note" aria-label="versions">
+    <span class="rst-current-version" data-toggle="rst-current-version">
+      
+      
+      
+    </span>
+</div>
+    <script>var base_url = '../..';</script>
+    <script src="../../js/theme.js" defer></script>
+      <script src="../../search/main.js" defer></script>
+    <script defer>
+        window.onload = function () {
+            SphinxRtdTheme.Navigation.enable(true);
+        };
+    </script>
+
+</body>
+</html>

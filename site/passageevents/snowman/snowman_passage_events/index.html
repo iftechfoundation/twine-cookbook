@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<!--[if IE 8]><html class="no-js lt-ie9" lang="en" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  
+  
+  <link rel="shortcut icon" href="../../../img/favicon.ico">
+  <title>"Passage Events": Snowman (v1.4.0) - Twine Cookbook</title>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato:400,700|Roboto+Slab:400,700|Inconsolata:400,700" />
+
+  <link rel="stylesheet" href="../../../css/theme.css" />
+  <link rel="stylesheet" href="../../../css/theme_extra.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/github.min.css" />
+  
+  <script>
+    // Current page data
+    var mkdocs_page_name = "\"Passage Events\": Snowman (v1.4.0)";
+    var mkdocs_page_input_path = "passageevents\\snowman\\snowman_passage_events.md";
+    var mkdocs_page_url = null;
+  </script>
+  
+  <script src="../../../js/jquery-2.1.1.min.js" defer></script>
+  <script src="../../../js/modernizr-2.8.3.min.js" defer></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
+  <script>hljs.initHighlightingOnLoad();</script> 
+  
+</head>
+
+<body class="wy-body-for-nav" role="document">
+
+  <div class="wy-grid-for-nav">
+
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side stickynav">
+    <div class="wy-side-scroll">
+      <div class="wy-side-nav-search">
+        <a href="../../.." class="icon icon-home"> Twine Cookbook</a>
+        <div role="search">
+  <form id ="rtd-search-form" class="wy-form" action="../../../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" title="Type search term here" />
+  </form>
+</div>
+      </div>
+
+      <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+                <p class="caption"><span class="caption-text">Common Questions</span></p>
+                <ul>
+                    <li class="toctree-l1"><a class="reference internal" href="../../../questions/making/">What can I make with Twine?</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../../../questions/getting_started/">How do I get started?</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../../../questions/links/">How do I make links?</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../../../questions/style_text/">How do I style text?</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../../../questions/stories_saved/">Where are my stories saved?</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../../../questions/need_to_know/">What do I need to know?</a>
+                    </li>
+                </ul>
+      </div>
+    </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" role="navigation" aria-label="top navigation">
+        <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+        <a href="../../..">Twine Cookbook</a>
+      </nav>
+
+      
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="breadcrumbs navigation">
+  <ul class="wy-breadcrumbs">
+    <li><a href="../../..">Docs</a> &raquo;</li>
+    
+      
+    
+    <li>"Passage Events": Snowman (v1.4.0)</li>
+    <li class="wy-breadcrumbs-aside">
+      
+    </li>
+  </ul>
+  
+  <hr/>
+</div>
+          <div role="main">
+            <div class="section">
+              
+                <h1 id="passage-events-snowman-v140">"Passage Events": Snowman (v1.4.0)</h1>
+<h2 id="summary">Summary</h2>
+<p>Snowman triggers different events <a href="https://videlais.github.io/snowman/1/events/passage_events.html">as they happen to passages</a>.</p>
+<p>In this example, a header and footer is created by listening for the 'shown.sm.passage' event with a <a href="http://api.jquery.com/category/events/event-handler-attachment/">jQuery event handle</a> and then prepending the content of the passage "Header" and appending the content of the passage "Footer" to the current passage after it has been initially rendered.</p>
+<h2 id="live-example">Live Example</h2>
+<section>
+<iframe src="snowman_passage_events_example.html" height=400 width=90%></iframe>
+
+Download: <a href="snowman_passage_events_example.html" target="_blank">Live Example</a>
+</section>
+
+<h2 id="twee-code">Twee Code</h2>
+<pre><code class="twee">:: StoryTitle
+Snowman: Passage Events
+
+:: UserScript[script]
+/*
+    Prepend the content of the passage &quot;Header&quot; to every passage.
+        Append the content of the passage &quot;Footer&quot; to every passage.
+*/
+$(window).on('shown.sm.passage', function (eventObject, passageObject) {
+        var headerContent = window.story.render(&quot;Header&quot;);
+        var currentContent = passageObject.passage.render();
+        var footerContent = window.story.render(&quot;Footer&quot;);
+
+        $('#main').html(headerContent + currentContent + footerContent);
+});
+
+:: Start
+[[Another Passage]]
+
+:: Another Passage
+[[Back to Beginning|Start]]
+
+:: Header
+This is the header!
+
+:: Footer
+This is the footer!
+
+</code></pre>
+
+<p>Download: <a href="snowman_passage_events_twee.txt" target="_blank">Twee Code</a></p>
+<h2 id="see-also">See Also</h2>
+<p><a href="../../../headersandfooters/snowman/snowman_headersandfooters/">Headers and Footers</a></p>
+              
+            </div>
+          </div>
+          <footer>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <!-- Copyright etc -->
+    
+  </div>
+
+  Built with <a href="https://www.mkdocs.org/">MkDocs</a> using a <a href="https://github.com/snide/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>.
+</footer>
+      
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+
+  <div class="rst-versions" role="note" aria-label="versions">
+    <span class="rst-current-version" data-toggle="rst-current-version">
+      
+      
+      
+    </span>
+</div>
+    <script>var base_url = '../../..';</script>
+    <script src="../../../js/theme.js" defer></script>
+      <script src="../../../search/main.js" defer></script>
+    <script defer>
+        window.onload = function () {
+            SphinxRtdTheme.Navigation.enable(true);
+        };
+    </script>
+
+</body>
+</html>

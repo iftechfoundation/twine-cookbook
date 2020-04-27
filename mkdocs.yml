@@ -1,0 +1,12 @@
+site_name: Twine Cookbook
+
+nav:
+  - Common Questions:
+    - 'What can I make with Twine?': 'questions/making.md'
+    - 'How do I get started?': 'questions/getting_started.md'
+    - 'How do I make links?': 'questions/links.md'
+    - 'How do I style text?': 'questions/style_text.md'
+    - 'Where are my stories saved?': 'questions/stories_saved.md'
+    - 'What do I need to know?': 'questions/need_to_know.md'
+    
+theme: readthedocs

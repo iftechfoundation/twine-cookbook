@@ -1,0 +1,43 @@
+# "Cycling Choices": Harlowe (v3.0)
+
+## Summary
+
+Starting in Harlowe 3.0.1, the [`(cycling-link)`](https://twine2.neocities.org/#macro_cycling-link) macro was introduced. Clicking on the link it provides allows for cycling though its possibilities. Combined with the [`bind`](https://twine2.neocities.org/#type_bind) keyword, its selection can be saved to a variable.
+
+## Live Example
+
+<section>
+<iframe src="harlowe_cycling_example.html" height=400 width=90%></iframe>
+
+Download: <a href="harlowe_cycling_example.html" target="_blank">Live Example</a>
+</section>
+
+## Twee Code
+
+```twee
+:: StoryTitle
+Harlowe 3: Cycling Links
+
+:: Start
+This cycling-link example remembers the choice made:
+(cycling-link: bind $hair, "Black", "Brown", "Blonde", "Red", "White")
+
+This cycling-link example does not:
+(cycling-link: "Cat", "Dog", "Fish", "Mouse")
+
+This cycling-link example will disappear (show empty string) on its last choice:
+(cycling-link: "Two eggs", "One egg", "")
+
+[[Show result]]
+
+:: Show result
+The choice of hair was $hair.
+
+
+```
+
+Download: <a href="harlowe_cycling_twee.txt" target="_blank">Twee Code</a>
+
+## See Also
+
+[Setting and Showing Variables](../../settingandshowing/harlowe/harlowe_settingandshowing.md), [Modularity](../../modularity/harlowe/harlowe_modularity.md)

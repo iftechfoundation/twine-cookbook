@@ -1,0 +1,33 @@
+:: StoryTitle
+Harlowe: Modal
+
+:: Header[header]
+|modalhooks>[]
+
+:: Modal code
+(replace: ?modalhooks)[{
+  (css:"
+	position: fixed;
+	display:block;
+	z-index: 1;
+	left: 0;
+	top: 0;
+	width: 100%; /* Full width */
+	height: 100%; /* Full height */
+	overflow: auto; /* Enable scroll if needed */
+	background-color: rgba(0,0,0,0.4);
+  ")[
+	(css:"
+	  display:block;
+	  margin: 15% auto;
+	  padding: 20px;
+	  width: 80%;
+	  border: 1px solid white;
+	")|modal>[
+	  (css:"float:right")+(link-repeat:"×")[(replace: ?modalhooks)[]]
+	]
+  ]
+}]
+
+:: Start
+(link-repeat:"Open Modal!")[(display:"Modal code")(append:?modal)[Some text in the modal...]]

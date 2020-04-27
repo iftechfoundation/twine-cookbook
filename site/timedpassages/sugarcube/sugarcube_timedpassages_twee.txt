@@ -1,0 +1,39 @@
+:: StoryTitle
+SugarCube: Timed Passages
+
+:: StoryJavaScript[script]
+UIBar.destroy();
+
+:: Start
+[[Start Timer|First Passage]]
+
+:: Timer
+<span id="countdown">The world will end in $seconds seconds.</span>
+<<silently>>
+    <<repeat 1s>>
+        <<set $seconds to $seconds - 1>>
+        <<if $seconds gt 0>>
+            <<replace "#countdown">>The world will end in $seconds seconds.<</replace>>
+        <<else>>
+            <<replace "#countdown">><</replace>>
+            <<goto "World End">>
+            <<stop>>
+        <</if>>
+    <</repeat>>
+<</silently>>
+
+:: First Passage
+<<include "Timer">>
+
+[[Second Passage]]
+
+:: Second Passage
+<<include "Timer">>
+
+[[First Passage]]
+
+:: World End
+The world has ended.
+
+:: StoryInit
+<<set $seconds to 10>>

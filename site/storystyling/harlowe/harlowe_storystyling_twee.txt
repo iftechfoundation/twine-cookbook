@@ -1,0 +1,13 @@
+:: StoryTitle
+Variable Story Styling in Harlowe
+
+:: Start
+(set: $storyStyle to (background: white) + (color: green) )
+(enchant: ?Page, $storyStyle)
+This text is green on a white background.
+[[Next Passage]]
+
+:: Next Passage
+(set: $storyStyle to (background: black) + (color: white) )
+(enchant: ?Page, $storyStyle)
+This text is white on a black background.

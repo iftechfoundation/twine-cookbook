@@ -1,0 +1,15 @@
+:: StoryTitle
+SugarCube: Unsetting Variables
+
+:: Start
+<<set $proof to "hand-written letter">>
+
+[[Accidentally drop the letter]]
+
+:: Accidentally drop the letter
+<<unset $proof>>
+
+[[Present the letter to the sheriff]]
+
+:: Present the letter to the sheriff
+You present the $proof to the sheriff, not realizing the rain has washed away the ink from the hand-written letter.

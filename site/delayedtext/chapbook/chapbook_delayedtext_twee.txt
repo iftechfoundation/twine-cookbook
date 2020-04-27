@@ -1,0 +1,6 @@
+:: StoryTitle
+Chapbook: Delayed Text
+
+:: Start
+[after 5s; append]
+It has been 5 seconds. Show the text!

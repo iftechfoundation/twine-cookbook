@@ -1,0 +1,23 @@
+:: StoryTitle
+Chapbook: Static Healthbars
+
+:: Start
+[JavaScript]
+	// Create a global variable, health
+	engine.state.set('health', 80);
+	
+	// Get the current value of 'health'
+	let health = engine.state.get('health');
+	
+	// Write description
+	write("Show a healthbar using a Progress element:<br>");
+	
+	// Write the progress element with dynamic value
+	write('<progress value="' + health + '" max="100"></progress><br>');
+	
+	// Write description
+	write("Show a healthbar using a Meter element:<br>");
+	
+	// Write the meter element with dynamic value
+	write('<meter value="' + health + '" min="0" max="100"></meter>');
+

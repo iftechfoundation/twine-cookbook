@@ -1,0 +1,28 @@
+:: StoryTitle
+Chapbook: Rolling Dice
+
+:: Start
+_example1: random.d4 + 4
+_example2: random.d6 - 2
+_example3: random.d6 + random.d6 + 10
+--
+
+Rolling a 1d4: {random.d4}
+
+Rolling a 1d6: {random.d6}
+
+Rolling a 1d8: {random.d8}
+
+Rolling a 1d10: {random.d10}
+
+Rolling a 1d12: {random.d12}
+
+Rolling a 1d20: {random.d20}
+
+Rolling a 1d100: {random.d100}
+
+Rolling a 1d4 + 4: {_example1}
+
+Rolling a 1d6 - 2: {_example2}
+
+Rolling a 2d6 + 10: {_example3}

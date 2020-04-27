@@ -1,0 +1,34 @@
+:: StoryTitle
+Fairmath System in Harlowe
+
+:: Start
+<!-- Fairmath formulas based on http://choicescriptdev.wikia.com/wiki/Arithmetic_operators#Fairmath -->
+
+<!-- Set an initial value for the story -->
+(set: $valueToAdjust to 100)
+The initial value is $valueToAdjust.
+
+<!-- Set originalValue to the value to adjust -->
+(set: $originalValue to $valueToAdjust)
+<!-- Set the changeValue (percentage) to adjust -->
+(set: $changeValue to 50)
+<!-- Display (call) the Fairmath Decrease passage -->
+(display: "Decrease")
+<!-- The new value will be resultValue -->
+The adjusted value is $resultValue.
+
+<!-- Update valueToAdjust -->
+(set: $valueToAdjust to $resultValue)
+<!-- Set originalValue to the value to adjust -->
+(set: $originalValue to $valueToAdjust)
+<!-- Set the changeValue (percentage) to adjust -->
+(set: $changeValue to 100)
+<!-- Display (call) the Fairmath Increase passage -->
+(display: "Increase")
+The adjusted value is $resultValue.
+
+:: Increase
+(set: $resultValue to (round: $originalValue+((100-$originalValue)*($changeValue/100))) )
+
+:: Decrease
+(set: $resultValue to (round: $originalValue-($originalValue*($changeValue/100)) ) )

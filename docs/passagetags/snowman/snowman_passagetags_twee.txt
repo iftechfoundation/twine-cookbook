@@ -1,0 +1,22 @@
+:: StoryTitle
+CSS and Passage Tags in Snowman
+
+:: UserStylesheet[stylesheet]
+.grey {
+	background: grey;
+  	color: white;
+}
+.yellow {
+	background: yellow;
+  	color: black;
+}
+
+:: Start[grey]
+<% $("body").toggleClass("grey") %>
+This passage has a grey background and white text.
+
+[[Second]]
+
+:: Second[yellow]
+<% $("body").toggleClass("yellow") %>
+This passage has a yellow background and black text.

@@ -1,0 +1,11 @@
+:: StoryTitle
+Chapbook: Passage Visits
+
+:: Start
+
+[[Another Passage]]
+
+:: Another Passage
+How many times has the current passage been visited? {passage.visits}
+
+[[Start]]

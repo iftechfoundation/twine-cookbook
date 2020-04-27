@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<!--[if IE 8]><html class="no-js lt-ie9" lang="en" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  
+  
+  <link rel="shortcut icon" href="../../img/favicon.ico">
+  <title>Macros - Twine Cookbook</title>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato:400,700|Roboto+Slab:400,700|Inconsolata:400,700" />
+
+  <link rel="stylesheet" href="../../css/theme.css" />
+  <link rel="stylesheet" href="../../css/theme_extra.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/github.min.css" />
+  
+  <script>
+    // Current page data
+    var mkdocs_page_name = "Macros";
+    var mkdocs_page_input_path = "terms\\terms_macros.md";
+    var mkdocs_page_url = null;
+  </script>
+  
+  <script src="../../js/jquery-2.1.1.min.js" defer></script>
+  <script src="../../js/modernizr-2.8.3.min.js" defer></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
+  <script>hljs.initHighlightingOnLoad();</script> 
+  
+</head>
+
+<body class="wy-body-for-nav" role="document">
+
+  <div class="wy-grid-for-nav">
+
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side stickynav">
+    <div class="wy-side-scroll">
+      <div class="wy-side-nav-search">
+        <a href="../.." class="icon icon-home"> Twine Cookbook</a>
+        <div role="search">
+  <form id ="rtd-search-form" class="wy-form" action="../../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" title="Type search term here" />
+  </form>
+</div>
+      </div>
+
+      <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+                <p class="caption"><span class="caption-text">Common Questions</span></p>
+                <ul>
+                    <li class="toctree-l1"><a class="reference internal" href="../../questions/making/">What can I make with Twine?</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../../questions/getting_started/">How do I get started?</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../../questions/links/">How do I make links?</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../../questions/style_text/">How do I style text?</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../../questions/stories_saved/">Where are my stories saved?</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../../questions/need_to_know/">What do I need to know?</a>
+                    </li>
+                </ul>
+      </div>
+    </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" role="navigation" aria-label="top navigation">
+        <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+        <a href="../..">Twine Cookbook</a>
+      </nav>
+
+      
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="breadcrumbs navigation">
+  <ul class="wy-breadcrumbs">
+    <li><a href="../..">Docs</a> &raquo;</li>
+    
+      
+    
+    <li>Macros</li>
+    <li class="wy-breadcrumbs-aside">
+      
+    </li>
+  </ul>
+  
+  <hr/>
+</div>
+          <div role="main">
+            <div class="section">
+              
+                <h1 id="macros">Macros</h1>
+<p>Macros allow programming code to be intermixed with text shown onscreen. They allow a wide variety of functionality to be added to a story, from changing the appearance of text to reacting to mouse and touch events. <a href="../terms_storyformats/">Story Formats</a> are often chosen based on the macros they provide and how they can be used together.</p>
+<h2 id="twine-1-and-sugarcube">Twine 1 and SugarCube</h2>
+<p>In Twine 1, macros were written with two less-than (<code>&lt;&lt;</code>) and two-greater-than signs (<code>&gt;&gt;</code>) around code. (<a href="../terms_storyformats/">SugarCube</a>, as a successor of this form, follows the same syntax.)</p>
+<p><strong>Example:</strong></p>
+<pre><code class="twee">&lt;&lt;display &quot;Another Passage&quot;&gt;&gt;
+</code></pre>
+
+<h2 id="harlowe">Harlowe</h2>
+<p>The <a href="../terms_storyformats/">Harlowe</a> story format uses a different syntax for macros. They are wrapped in a single open <code>(</code> and close parenthesis <code>)</code>, and use brackets, <code>[]</code>, to indicate which text or sections are associated or acted upon by the macro.</p>
+<p><strong>Example:</strong></p>
+<pre><code class="twee">(font: &quot;Arial&quot;)[This text will be in Arial.]
+</code></pre>
+
+<h2 id="snowman">Snowman</h2>
+<p><a href="../terms_storyformats/">Snowman</a> does not provide macros in the same sense that SugarCube and Harlowe do, but allow mixing JavaScript code in text with <code>&lt;%</code> and <code>%&gt;</code>, with <code>&lt;%=</code> and <code>%&gt;</code> displaying the result on the page.</p>
+<p><strong>Example:</strong></p>
+<pre><code class="twee">The chalkboard reads 2 + 2 = &lt;%= 2 + 2 %&gt;.
+</code></pre>
+
+<h2 id="chapbook">Chapbook</h2>
+<p><a href="https://klembot.github.io/chapbook/guide/state/the-vars-section.html">Chapbook</a> provides <a href="https://klembot.github.io/chapbook/guide/references/inserts.html">inserts</a> and <a href="https://klembot.github.io/chapbook/guide/references/modifiers.html">modifiers</a> to work with variables and other values. However, any variable testing must be done within the vars section itself.</p>
+<p><strong>Example:</strong></p>
+<pre><code class="twee">largeFamily: cousins &gt; 10
+--
+</code></pre>
+              
+            </div>
+          </div>
+          <footer>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <!-- Copyright etc -->
+    
+  </div>
+
+  Built with <a href="https://www.mkdocs.org/">MkDocs</a> using a <a href="https://github.com/snide/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>.
+</footer>
+      
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+
+  <div class="rst-versions" role="note" aria-label="versions">
+    <span class="rst-current-version" data-toggle="rst-current-version">
+      
+      
+      
+    </span>
+</div>
+    <script>var base_url = '../..';</script>
+    <script src="../../js/theme.js" defer></script>
+      <script src="../../search/main.js" defer></script>
+    <script defer>
+        window.onload = function () {
+            SphinxRtdTheme.Navigation.enable(true);
+        };
+    </script>
+
+</body>
+</html>

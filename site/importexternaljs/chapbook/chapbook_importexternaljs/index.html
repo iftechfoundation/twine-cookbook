@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<!--[if IE 8]><html class="no-js lt-ie9" lang="en" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  
+  
+  <link rel="shortcut icon" href="../../../img/favicon.ico">
+  <title>"Importing External JavaScript": Chapbook (v1.0.0) - Twine Cookbook</title>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato:400,700|Roboto+Slab:400,700|Inconsolata:400,700" />
+
+  <link rel="stylesheet" href="../../../css/theme.css" />
+  <link rel="stylesheet" href="../../../css/theme_extra.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/github.min.css" />
+  
+  <script>
+    // Current page data
+    var mkdocs_page_name = "\"Importing External JavaScript\": Chapbook (v1.0.0)";
+    var mkdocs_page_input_path = "importexternaljs\\chapbook\\chapbook_importexternaljs.md";
+    var mkdocs_page_url = null;
+  </script>
+  
+  <script src="../../../js/jquery-2.1.1.min.js" defer></script>
+  <script src="../../../js/modernizr-2.8.3.min.js" defer></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
+  <script>hljs.initHighlightingOnLoad();</script> 
+  
+</head>
+
+<body class="wy-body-for-nav" role="document">
+
+  <div class="wy-grid-for-nav">
+
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side stickynav">
+    <div class="wy-side-scroll">
+      <div class="wy-side-nav-search">
+        <a href="../../.." class="icon icon-home"> Twine Cookbook</a>
+        <div role="search">
+  <form id ="rtd-search-form" class="wy-form" action="../../../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" title="Type search term here" />
+  </form>
+</div>
+      </div>
+
+      <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+                <p class="caption"><span class="caption-text">Common Questions</span></p>
+                <ul>
+                    <li class="toctree-l1"><a class="reference internal" href="../../../questions/making/">What can I make with Twine?</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../../../questions/getting_started/">How do I get started?</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../../../questions/links/">How do I make links?</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../../../questions/style_text/">How do I style text?</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../../../questions/stories_saved/">Where are my stories saved?</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../../../questions/need_to_know/">What do I need to know?</a>
+                    </li>
+                </ul>
+      </div>
+    </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" role="navigation" aria-label="top navigation">
+        <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+        <a href="../../..">Twine Cookbook</a>
+      </nav>
+
+      
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="breadcrumbs navigation">
+  <ul class="wy-breadcrumbs">
+    <li><a href="../../..">Docs</a> &raquo;</li>
+    
+      
+    
+    <li>"Importing External JavaScript": Chapbook (v1.0.0)</li>
+    <li class="wy-breadcrumbs-aside">
+      
+    </li>
+  </ul>
+  
+  <hr/>
+</div>
+          <div role="main">
+            <div class="section">
+              
+                <h1 id="importing-external-javascript-chapbook-v100">"Importing External JavaScript": Chapbook (v1.0.0)</h1>
+<div class="alertbox information"><strong>Note:</strong>This example uses code from <a href="https://threejs.org/">Three.js</a>, a library for creating 3D graphics in the browser. It is include only for demonstrational purposes and its own documentation should be consulted to understand its functionality.</div>
+
+<h2 id="summary">Summary</h2>
+<p>To include external JavaScript, it must first be loaded. This example uses code from the Mozilla Developer Network to <a href="https://developer.mozilla.org/en-US/docs/Web/API/HTMLScriptElement#Dynamically_importing_scripts">dynamically import scripts</a>. The example library loaded is Three.js.</p>
+<p>Once loaded, a callback function is used to create a simple Three.js example and, if the browser supports it, shows a rotating 3D cube within the passage.</p>
+<h2 id="live-example">Live Example</h2>
+<section>
+<iframe src="chapbook_importexternaljs_example.html" height=400 width=90%></iframe>
+
+Download: <a href="chapbook_importexternaljs_example.html" target="_blank">Live Example</a>
+</section>
+
+<h2 id="twee-code">Twee Code</h2>
+<pre><code class="twee">:: StoryTitle
+Chapbook: Importing External JS
+
+:: UserScript[script]
+// The following code is used from MDN for
+// dynamically importing scripts
+// https://developer.mozilla.org/en-US/docs/Web/API/HTMLScriptElement#Dynamically_importing_scripts
+
+window.setup = {};
+
+setup.loadError = function(oError) {
+  throw new URIError(&quot;The script &quot; + oError.target.src + &quot; didn't load correctly.&quot;);
+};
+
+setup.loadScript = function(url, onloadFunction) {
+  var newScript = document.createElement(&quot;script&quot;);
+  newScript.onerror = setup.loadError;
+  if (onloadFunction) { newScript.onload = onloadFunction; }
+  document.head.appendChild(newScript);
+    newScript.async = true;
+  newScript.src = url;
+};
+
+
+:: Start
+&lt;div id=&quot;drawArea&quot;&gt;&lt;/div&gt;
+[JavaScript]
+setup.loadScript(&quot;https://ajax.googleapis.com/ajax/libs/threejs/r84/three.min.js&quot;, function() {
+    var scene = new THREE.Scene();
+    var camera = new THREE.PerspectiveCamera( 
+        75, 
+        1,
+        0.1,
+        1000 );
+
+    var renderer = new THREE.WebGLRenderer();
+    renderer.setSize( 250, 250 );
+    document.getElementById(&quot;drawArea&quot;).appendChild( renderer.domElement );
+
+    var geometry = new THREE.BoxGeometry( 1, 1, 1 );
+    var material = new THREE.MeshBasicMaterial( { color: 0x00ff00 } );
+    var cube = new THREE.Mesh( geometry, material );
+    scene.add( cube );
+
+    camera.position.z = 5;
+
+    var animate = function () {
+        requestAnimationFrame( animate );
+
+        cube.rotation.x += 0.01;
+        cube.rotation.y += 0.01;
+
+        renderer.render( scene, camera );
+    };
+
+    animate();
+
+});
+
+[continued]
+
+</code></pre>
+
+<p>Download: <a href="chapbook_importexternaljs_twee.txt" target="_blank">Twee Code</a></p>
+              
+            </div>
+          </div>
+          <footer>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <!-- Copyright etc -->
+    
+  </div>
+
+  Built with <a href="https://www.mkdocs.org/">MkDocs</a> using a <a href="https://github.com/snide/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>.
+</footer>
+      
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+
+  <div class="rst-versions" role="note" aria-label="versions">
+    <span class="rst-current-version" data-toggle="rst-current-version">
+      
+      
+      
+    </span>
+</div>
+    <script>var base_url = '../../..';</script>
+    <script src="../../../js/theme.js" defer></script>
+      <script src="../../../search/main.js" defer></script>
+    <script defer>
+        window.onload = function () {
+            SphinxRtdTheme.Navigation.enable(true);
+        };
+    </script>
+
+</body>
+</html>
