@@ -252,6 +252,11 @@ nav:
       - 'Snowman': 'storystyling/snowman/snowman_storystyling.md'
     - Using Add-ons:
       - 'SugarCube': 'usingaddons/sugarcube/sugarcube_usingaddons.md'
+  - Twine 1 Documentation:
+      - 'Passages': 'twine1documentation/passages.md'
+      - 'Links': 'twine1documentation/links.md'
+      - 'Formatting': 'twine1documentation/formatting.md'
+      - 'Tags': 'twine1documentation/tags.md'
 
 theme:
   name: material
