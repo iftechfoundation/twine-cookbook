@@ -1,0 +1,1104 @@
+
+
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+      <link rel="shortcut icon" href="assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.1, mkdocs-material-5.1.3">
+    
+    
+      
+        <title>Introduction - Twine Cookbook</title>
+      
+    
+    
+      <link rel="stylesheet" href="assets/stylesheets/main.62d34fff.min.css">
+      
+        <link rel="stylesheet" href="assets/stylesheets/palette.c8acc6db.min.css">
+      
+      
+        
+        
+        <meta name="theme-color" content="#2196f3">
+      
+    
+    
+    
+      
+        <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,400i,700%7CRoboto+Mono&display=fallback">
+        <style>body,input{font-family:"Roboto",-apple-system,BlinkMacSystemFont,Helvetica,Arial,sans-serif}code,kbd,pre{font-family:"Roboto Mono",SFMono-Regular,Consolas,Menlo,monospace}</style>
+      
+    
+    
+    
+    
+      
+    
+    
+  </head>
+  
+  
+    
+    
+    <body dir="ltr" data-md-color-primary="blue" data-md-color-accent="lightblue">
+  
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#introduction" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+      <header class="md-header" data-md-component="header">
+  <nav class="md-header-nav md-grid" aria-label="Header">
+    <a href="." title="Twine Cookbook" class="md-header-nav__button md-logo" aria-label="Twine Cookbook">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12,8A3,3 0 0,0 15,5A3,3 0 0,0 12,2A3,3 0 0,0 9,5A3,3 0 0,0 12,8M12,11.54C9.64,9.35 6.5,8 3,8V19C6.5,19 9.64,20.35 12,22.54C14.36,20.35 17.5,19 21,19V8C17.5,8 14.36,9.35 12,11.54Z" /></svg>
+
+    </a>
+    <label class="md-header-nav__button md-icon" for="__drawer">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3,6H21V8H3V6M3,11H21V13H3V11M3,16H21V18H3V16Z" /></svg>
+    </label>
+    <div class="md-header-nav__title" data-md-component="header-title">
+      
+        <div class="md-header-nav__ellipsis">
+          <span class="md-header-nav__topic md-ellipsis">
+            Twine Cookbook
+          </span>
+          <span class="md-header-nav__topic md-ellipsis">
+            
+              Introduction
+            
+          </span>
+        </div>
+      
+    </div>
+    
+      <label class="md-header-nav__button md-icon" for="__search">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5,3A6.5,6.5 0 0,1 16,9.5C16,11.11 15.41,12.59 14.44,13.73L14.71,14H15.5L20.5,19L19,20.5L14,15.5V14.71L13.73,14.44C12.59,15.41 11.11,16 9.5,16A6.5,6.5 0 0,1 3,9.5A6.5,6.5 0 0,1 9.5,3M9.5,5C7,5 5,7 5,9.5C5,12 7,14 9.5,14C12,14 14,12 14,9.5C14,7 12,5 9.5,5Z" /></svg>
+      </label>
+      
+<div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" data-md-state="active">
+      <label class="md-search__icon md-icon" for="__search">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5,3A6.5,6.5 0 0,1 16,9.5C16,11.11 15.41,12.59 14.44,13.73L14.71,14H15.5L20.5,19L19,20.5L14,15.5V14.71L13.73,14.44C12.59,15.41 11.11,16 9.5,16A6.5,6.5 0 0,1 3,9.5A6.5,6.5 0 0,1 9.5,3M9.5,5C7,5 5,7 5,9.5C5,12 7,14 9.5,14C12,14 14,12 14,9.5C14,7 12,5 9.5,5Z" /></svg>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20,11V13H8L13.5,18.5L12.08,19.92L4.16,12L12.08,4.08L13.5,5.5L8,11H20Z" /></svg>
+      </label>
+      <button type="reset" class="md-search__icon md-icon" aria-label="Clear" data-md-component="search-reset" tabindex="-1">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19,6.41L17.59,5L12,10.59L6.41,5L5,6.41L10.59,12L5,17.59L6.41,19L12,13.41L17.59,19L19,17.59L13.41,12L19,6.41Z" /></svg>
+      </button>
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+    
+    
+  </nav>
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+        
+      
+      
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              <div class="md-sidebar md-sidebar--primary" data-md-component="navigation">
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    <nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="." title="Twine Cookbook" class="md-nav__button md-logo" aria-label="Twine Cookbook">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12,8A3,3 0 0,0 15,5A3,3 0 0,0 12,2A3,3 0 0,0 9,5A3,3 0 0,0 12,8M12,11.54C9.64,9.35 6.5,8 3,8V19C6.5,19 9.64,20.35 12,22.54C14.36,20.35 17.5,19 21,19V8C17.5,8 14.36,9.35 12,11.54Z" /></svg>
+
+    </a>
+    Twine Cookbook
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+      
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-nav__toggle md-toggle" data-md-toggle="nav-1" type="checkbox" id="nav-1">
+    
+    <label class="md-nav__link" for="nav-1">
+      Common Questions
+      <span class="md-nav__icon md-icon">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M8.59,16.58L13.17,12L8.59,7.41L10,6L16,12L10,18L8.59,16.58Z" /></svg>
+      </span>
+    </label>
+    <nav class="md-nav" aria-label="Common Questions" data-md-level="1">
+      <label class="md-nav__title" for="nav-1">
+        <span class="md-nav__icon md-icon">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20,11V13H8L13.5,18.5L12.08,19.92L4.16,12L12.08,4.08L13.5,5.5L8,11H20Z" /></svg>
+        </span>
+        Common Questions
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="questions/making.html" title="What can I make with Twine?" class="md-nav__link">
+      What can I make with Twine?
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="questions/getting_started.html" title="How do I get started?" class="md-nav__link">
+      How do I get started?
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="questions/links.html" title="How do I make links?" class="md-nav__link">
+      How do I make links?
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="questions/style_text.html" title="How do I style text?" class="md-nav__link">
+      How do I style text?
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="questions/stories_saved.html" title="Where are my stories saved?" class="md-nav__link">
+      Where are my stories saved?
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="questions/need_to_know.html" title="What do I need to know?" class="md-nav__link">
+      What do I need to know?
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="toc">
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20,11V13H8L13.5,18.5L12.08,19.92L4.16,12L12.08,4.08L13.5,5.5L8,11H20Z" /></svg>
+      </span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#common-questions" class="md-nav__link">
+    Common Questions
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#cookbook-introduction" class="md-nav__link">
+    Cookbook Introduction
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#twine-2-documentation" class="md-nav__link">
+    Twine 2 Documentation
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#terms" class="md-nav__link">
+    Terms
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#adding-functionality" class="md-nav__link">
+    Adding Functionality
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#arrays" class="md-nav__link">
+    Arrays
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#audio" class="md-nav__link">
+    Audio
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#conditional-statements" class="md-nav__link">
+    Conditional Statements
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#css-selectors" class="md-nav__link">
+    CSS Selectors
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#css-and-passage-tags" class="md-nav__link">
+    CSS and Passage Tags
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#cycling-choices" class="md-nav__link">
+    Cycling Choices
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#date-and-time" class="md-nav__link">
+    Date and Time
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#delayed-text" class="md-nav__link">
+    Delayed Text
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#deleting-variables" class="md-nav__link">
+    Deleting Variables
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#dice-rolling" class="md-nav__link">
+    Dice Rolling
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#dropdown" class="md-nav__link">
+    Dropdown
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#fairmath-system" class="md-nav__link">
+    Fairmath System
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#geolocation" class="md-nav__link">
+    Geolocation
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#google-fonts" class="md-nav__link">
+    Google Fonts
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#headers-and-footers" class="md-nav__link">
+    Headers and Footers
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#hidden-link" class="md-nav__link">
+    Hidden Link
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#images" class="md-nav__link">
+    Images
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#importing-external-javascript" class="md-nav__link">
+    Importing External JavaScript
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#keyboard-events" class="md-nav__link">
+    Keyboard Events
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#left-sidebar" class="md-nav__link">
+    Left Sidebar
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#limiting-the-range-of-a-number" class="md-nav__link">
+    Limiting the Range of a Number
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#loading-screen" class="md-nav__link">
+    Loading Screen
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#lock-and-key-variable" class="md-nav__link">
+    Lock and Key: Variable
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#looping" class="md-nav__link">
+    Looping
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#modal-pop-up-window" class="md-nav__link">
+    Modal (Pop-up Window)
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#modularity" class="md-nav__link">
+    Modularity
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#moving-through-a-dungeon" class="md-nav__link">
+    Moving through a 'dungeon'
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#passage-events" class="md-nav__link">
+    Passage Events
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#passages-in-passages" class="md-nav__link">
+    Passages in Passages
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#passage-transitions" class="md-nav__link">
+    Passage Transitions
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#passage-visits" class="md-nav__link">
+    Passage Visits
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#player-statistics" class="md-nav__link">
+    Player Statistics
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#programmatic-undo" class="md-nav__link">
+    Programmatic Undo
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#render-passage-to-element" class="md-nav__link">
+    Render Passage to Element
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#saving-games" class="md-nav__link">
+    Saving Games
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#setting-and-showing-variables" class="md-nav__link">
+    Setting and Showing Variables
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#space-exploration" class="md-nav__link">
+    Space Exploration
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#static-healthbars" class="md-nav__link">
+    Static Healthbars
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#story-and-passage-api" class="md-nav__link">
+    Story and Passage API
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#style-markup" class="md-nav__link">
+    Style Markup
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#timed-passages" class="md-nav__link">
+    Timed Passages
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#timed-progress-bars" class="md-nav__link">
+    Timed Progress Bars
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#turn-counter" class="md-nav__link">
+    Turn Counter
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#typewriter-effect" class="md-nav__link">
+    Typewriter Effect
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#variable-style-styling" class="md-nav__link">
+    Variable Style Styling
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#using-add-ons" class="md-nav__link">
+    Using Add-ons
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          <div class="md-content">
+            <article class="md-content__inner md-typeset">
+              
+                
+                
+                  
+                
+                
+                <h1 id="introduction">Introduction<a class="headerlink" href="#introduction" title="Permanent link">&para;</a></h1>
+<h2 id="common-questions">Common Questions<a class="headerlink" href="#common-questions" title="Permanent link">&para;</a></h2>
+<ul>
+<li>Common Questions</li>
+<li><a href="questions/making.html">What can I make with Twine?</a></li>
+<li><a href="questions/getting_started.html">How do I get started?</a></li>
+<li><a href="questions/links.html">How do I make links?</a></li>
+<li><a href="questions/style_text.html">How do I style text?</a></li>
+<li><a href="questions/stories_saved.html">Where are my stories saved?</a></li>
+<li><a href="questions/need_to_know.html">What do I need to know?</a></li>
+</ul>
+<h2 id="cookbook-introduction">Cookbook Introduction<a class="headerlink" href="#cookbook-introduction" title="Permanent link">&para;</a></h2>
+<ul>
+<li>Cookbook Introduction</li>
+<li><a href="using_cookbook.html">Using the Cookbook</a></li>
+<li><a href="formatting.html">Example Formatting</a></li>
+<li><a href="style_guide.html">Style Guide</a></li>
+</ul>
+<h2 id="twine-2-documentation">Twine 2 Documentation<a class="headerlink" href="#twine-2-documentation" title="Permanent link">&para;</a></h2>
+<ul>
+<li>Twine 2 Documentation</li>
+<li><a href="introduction/twine2_editor.html">Twine 2 Editor</a></li>
+<li><a href="introduction/twine2_story_listing.html">Story Listing</a></li>
+<li><a href="introduction/twine2_passages_view.html">Passages View</a></li>
+<li><a href="introduction/passages.html">Passages</a></li>
+<li><a href="introduction/story_formats.html">Story Formats</a></li>
+</ul>
+<h2 id="terms">Terms<a class="headerlink" href="#terms" title="Permanent link">&para;</a></h2>
+<ul>
+<li>Common Terms</li>
+<li><a href="terms/terms_twine.html">Twine</a></li>
+<li><a href="terms/terms_cookbook.html">Cookbook</a></li>
+<li><a href="terms/terms_stories.html">Stories</a></li>
+<li><a href="terms/terms_passages.html">Passages</a></li>
+<li><a href="terms/terms_variables.html">Variables</a></li>
+<li><a href="terms/terms_markdown_and_markup.html">Markdown / Markup</a></li>
+<li><a href="terms/terms_macros.html">Macros</a></li>
+<li><a href="terms/terms_storyformats.html">Story Formats</a></li>
+<li><a href="terms/terms_css.html">CSS</a></li>
+<li><a href="terms/terms_javascript.html">JavaScript</a></li>
+<li><a href="terms/terms_twee.html">Twee</a></li>
+<li><a href="terms/terms_html.html">HTML</a></li>
+</ul>
+<h2 id="adding-functionality">Adding Functionality<a class="headerlink" href="#adding-functionality" title="Permanent link">&para;</a></h2>
+<ul>
+<li>Adding Functionality</li>
+<li><a href="addingfunctionality/chapbook/chapbook_adding_functionality.html">Chapbook</a></li>
+<li><a href="addingfunctionality/sugarcube/sugarcube_adding_functionality.html">SugarCube</a></li>
+<li><a href="addingfunctionality/snowman/snowman_adding_functionality.html">Snowman</a></li>
+</ul>
+<h2 id="arrays">Arrays<a class="headerlink" href="#arrays" title="Permanent link">&para;</a></h2>
+<ul>
+<li>Arrays</li>
+<li><a href="arrays/chapbook/chapbook_arrays.html">Chapbook</a></li>
+<li><a href="arrays/harlowe/harlowe_arrays.html">Harlowe</a></li>
+<li><a href="arrays/sugarcube/sugarcube_arrays.html">SugarCube</a></li>
+<li><a href="arrays/snowman/snowman_arrays.html">Snowman</a></li>
+</ul>
+<h2 id="audio">Audio<a class="headerlink" href="#audio" title="Permanent link">&para;</a></h2>
+<ul>
+<li>Audio</li>
+<li><a href="audio/chapbook/chapbook_audio.html">Chapbook</a></li>
+<li><a href="audio/harlowe/harlowe_audio.html">Harlowe</a></li>
+<li><a href="audio/sugarcube/sugarcube_audio.html">SugarCube</a></li>
+<li><a href="audio/snowman/snowman_audio.html">Snowman</a></li>
+</ul>
+<h2 id="conditional-statements">Conditional Statements<a class="headerlink" href="#conditional-statements" title="Permanent link">&para;</a></h2>
+<ul>
+<li>Conditional Statements</li>
+<li><a href="conditionalstatements/chapbook/chapbook_conditionalstatements.html">Chapbook</a></li>
+<li><a href="conditionalstatements/harlowe/harlowe_conditionalstatements.html">Harlowe</a></li>
+<li><a href="conditionalstatements/sugarcube/sugarcube_conditionalstatements.html">SugarCube</a></li>
+<li><a href="conditionalstatements/snowman/snowman_conditionalstatements.html">Snowman</a></li>
+</ul>
+<h2 id="css-selectors">CSS Selectors<a class="headerlink" href="#css-selectors" title="Permanent link">&para;</a></h2>
+<ul>
+<li>CSS Selectors</li>
+<li><a href="cssselectors/chapbook/chapbook_cssselectors.html">Chapbook</a></li>
+<li><a href="cssselectors/harlowe/harlowe_cssselectors.html">Harlowe</a></li>
+<li><a href="cssselectors/sugarcube/sugarcube_cssselectors.html">SugarCube</a></li>
+<li><a href="cssselectors/snowman/snowman_cssselectors.html">Snowman</a></li>
+<li><a href="cssselectors/snowman_2/snowman_cssselectors.html">Snowman (v2.0 and later)</a></li>
+</ul>
+<h2 id="css-and-passage-tags">CSS and Passage Tags<a class="headerlink" href="#css-and-passage-tags" title="Permanent link">&para;</a></h2>
+<ul>
+<li>CSS and Passage Tags</li>
+<li><a href="passagetags/chapbook/chapbook_passagetags.html">Chapbook</a></li>
+<li><a href="passagetags/harlowe/harlowe_passagetags.html">Harlowe</a></li>
+<li><a href="passagetags/sugarcube/sugarcube_passagetags.html">SugarCube</a></li>
+<li><a href="passagetags/snowman/snowman_passagetags.html">Snowman</a></li>
+<li><a href="passagetags/sugarcane/sugarcane_passagetags.html">Sugarcane (1.4.2)</a></li>
+</ul>
+<h2 id="cycling-choices">Cycling Choices<a class="headerlink" href="#cycling-choices" title="Permanent link">&para;</a></h2>
+<ul>
+<li>Cycling Choices</li>
+<li><a href="cycling/chapbook/chapbook_cycling.html">Chapbook</a></li>
+<li><a href="cycling/harlowe/harlowe_cycling.html">Harlowe</a></li>
+<li><a href="cycling/harlowe_3/harlowe_cycling.html">Harlowe (v3.0.1 or later)</a></li>
+<li><a href="cycling/sugarcube/sugarcube_cycling.html">SugarCube</a></li>
+<li><a href="cycling/snowman/snowman_cycling.html">Snowman</a></li>
+</ul>
+<h2 id="date-and-time">Date and Time<a class="headerlink" href="#date-and-time" title="Permanent link">&para;</a></h2>
+<ul>
+<li>Date and Time</li>
+<li><a href="dateandtime/chapbook/chapbook_dateandtime.html">Chapbook</a></li>
+<li><a href="dateandtime/harlowe/harlowe_dateandtime.html">Harlowe</a></li>
+<li><a href="dateandtime/sugarcube/sugarcube_dateandtime.html">SugarCube</a></li>
+<li><a href="dateandtime/snowman/snowman_dateandtime.html">Snowman</a></li>
+</ul>
+<h2 id="delayed-text">Delayed Text<a class="headerlink" href="#delayed-text" title="Permanent link">&para;</a></h2>
+<ul>
+<li>Delayed Text</li>
+<li><a href="delayedtext/chapbook/chapbook_delayedtext.html">Chapbook</a></li>
+<li><a href="delayedtext/harlowe/harlowe_delayedtext.html">Harlowe</a></li>
+<li><a href="delayedtext/sugarcube/sugarcube_delayedtext.html">SugarCube</a></li>
+<li><a href="delayedtext/snowman/snowman_delayedtext.html">Snowman</a></li>
+</ul>
+<h2 id="deleting-variables">Deleting Variables<a class="headerlink" href="#deleting-variables" title="Permanent link">&para;</a></h2>
+<ul>
+<li>Deleting Variables</li>
+<li><a href="deletingvariables/chapbook/chapbook_deletingvariables.html">Chapbook</a></li>
+<li><a href="deletingvariables/sugarcube/sugarcube_deletingvariables.html">SugarCube</a></li>
+<li><a href="deletingvariables/snowman/snowman_deletingvariables.html">Snowman</a></li>
+</ul>
+<h2 id="dice-rolling">Dice Rolling<a class="headerlink" href="#dice-rolling" title="Permanent link">&para;</a></h2>
+<ul>
+<li>Dice Rolling</li>
+<li><a href="dicerolling/chapbook/chapbook_dicerolling.html">Chapbook</a></li>
+<li><a href="dicerolling/harlowe/harlowe_dicerolling.html">Harlowe</a></li>
+<li><a href="dicerolling/sugarcube/sugarcube_dicerolling.html">SugarCube</a></li>
+<li><a href="dicerolling/snowman/snowman_dicerolling.html">Snowman</a></li>
+</ul>
+<h2 id="dropdown">Dropdown<a class="headerlink" href="#dropdown" title="Permanent link">&para;</a></h2>
+<ul>
+<li>Dropdown</li>
+<li><a href="dropdown/chapbook/chapbook_dropdown.html">Chapbook</a></li>
+<li><a href="dropdown/harlowe/harlowe_dropdown.html">Harlowe (v3.0.1 or later)</a></li>
+</ul>
+<h2 id="fairmath-system">Fairmath System<a class="headerlink" href="#fairmath-system" title="Permanent link">&para;</a></h2>
+<ul>
+<li>Fairmath System</li>
+<li><a href="fairmath/chapbook/chapbook_fairmath.html">Chapbook</a></li>
+<li><a href="fairmath/harlowe/harlowe_fairmath.html">Harlowe</a></li>
+<li><a href="fairmath/sugarcube/sugarcube_fairmath.html">SugarCube</a></li>
+<li><a href="fairmath/snowman/snowman_fairmath.html">Snowman</a></li>
+</ul>
+<h2 id="geolocation">Geolocation<a class="headerlink" href="#geolocation" title="Permanent link">&para;</a></h2>
+<ul>
+<li>Geolocation</li>
+<li><a href="geolocation/chapbook/chapbook_geolocation.html">Chapbook</a></li>
+<li><a href="geolocation/harlowe/harlowe_geolocation.html">Harlowe</a></li>
+<li><a href="geolocation/sugarcube/sugarcube_geolocation.html">SugarCube</a></li>
+<li><a href="geolocation/snowman/snowman_geolocation.html">Snowman</a></li>
+</ul>
+<h2 id="google-fonts">Google Fonts<a class="headerlink" href="#google-fonts" title="Permanent link">&para;</a></h2>
+<ul>
+<li>Google Fonts</li>
+<li><a href="googlefonts/chapbook/chapbook_googlefonts.html">Chapbook</a></li>
+<li><a href="googlefonts/harlowe/harlowe_googlefonts.html">Harlowe</a></li>
+<li><a href="googlefonts/sugarcube/sugarcube_googlefonts.html">SugarCube</a></li>
+<li><a href="googlefonts/snowman/snowman_googlefonts.html">Snowman</a></li>
+<li><a href="googlefonts/sugarcane/sugarcane_googlefonts.html">Sugarcane (1.4.2)</a></li>
+</ul>
+<h2 id="headers-and-footers">Headers and Footers<a class="headerlink" href="#headers-and-footers" title="Permanent link">&para;</a></h2>
+<ul>
+<li>Headers and Footers</li>
+<li><a href="headersandfooters/chapbook/chapbook_headersandfooters.html">Chapbook</a></li>
+<li><a href="headersandfooters/harlowe/harlowe_headersandfooters.html">Harlowe</a></li>
+<li><a href="headersandfooters/sugarcube/sugarcube_headersandfooters.html">SugarCube</a></li>
+<li><a href="headersandfooters/snowman/snowman_headersandfooters.html">Snowman</a></li>
+</ul>
+<h2 id="hidden-link">Hidden Link<a class="headerlink" href="#hidden-link" title="Permanent link">&para;</a></h2>
+<ul>
+<li>Hidden Link</li>
+<li><a href="hiddenlink/harlowe/harlowe_hiddenlink.html">Harlowe</a></li>
+<li><a href="hiddenlink/sugarcube/sugarcube_hiddenlink.html">SugarCube</a></li>
+<li><a href="hiddenlink/snowman/snowman_hiddenlink.html">Snowman</a></li>
+</ul>
+<h2 id="images">Images<a class="headerlink" href="#images" title="Permanent link">&para;</a></h2>
+<ul>
+<li>Images</li>
+<li><a href="images/chapbook/chapbook_images.html">Chapbook</a></li>
+<li><a href="images/harlowe/harlowe_images.html">Harlowe</a></li>
+<li><a href="images/sugarcube/sugarcube_images.html">SugarCube</a></li>
+<li><a href="images/snowman/snowman_images.html">Snowman</a></li>
+</ul>
+<h2 id="importing-external-javascript">Importing External JavaScript<a class="headerlink" href="#importing-external-javascript" title="Permanent link">&para;</a></h2>
+<ul>
+<li>Importing External JavaScript</li>
+<li><a href="importexternaljs/chapbook/chapbook_importexternaljs.html">Chapbook</a></li>
+<li><a href="importexternaljs/harlowe/harlowe_importexternaljs.html">Harlowe</a></li>
+<li><a href="importexternaljs/sugarcube/sugarcube_importexternaljs.html">SugarCube</a></li>
+<li><a href="importexternaljs/snowman/snowman_importexternaljs.html">Snowman</a></li>
+</ul>
+<h2 id="keyboard-events">Keyboard Events<a class="headerlink" href="#keyboard-events" title="Permanent link">&para;</a></h2>
+<ul>
+<li>Keyboard Events</li>
+<li><a href="keyboard/chapbook/chapbook_keyboard.html">Chapbook</a></li>
+<li><a href="keyboard/harlowe/harlowe_keyboard.html">Harlowe</a></li>
+<li><a href="keyboard/sugarcube/sugarcube_keyboard.html">SugarCube</a></li>
+<li><a href="keyboard/snowman/snowman_keyboard.html">Snowman</a></li>
+</ul>
+<h2 id="left-sidebar">Left Sidebar<a class="headerlink" href="#left-sidebar" title="Permanent link">&para;</a></h2>
+<ul>
+<li>Left Sidebar</li>
+<li><a href="sidebar_left/harlowe/harlowe_sidebar_left.html">Harlowe (both v1.x and v2.x series)</a></li>
+<li><a href="sidebar_left/harlowe_2/harlowe_sidebar_left.html">Harlowe (v2.1.0 or later)</a></li>
+<li><a href="sidebar_left/sugarcube/sugarcube_sidebar_left.html">SugarCube</a></li>
+<li><a href="sidebar_left/snowman/snowman_sidebar_left.html">Snowman</a></li>
+</ul>
+<h2 id="limiting-the-range-of-a-number">Limiting the Range of a Number<a class="headerlink" href="#limiting-the-range-of-a-number" title="Permanent link">&para;</a></h2>
+<ul>
+<li>Limiting the range of a number</li>
+<li><a href="clamping_numbers/chapbook/chapbook_clamping_numbers.html">Chapbook</a></li>
+<li><a href="clamping_numbers/harlowe/harlowe_clamping_numbers.html">Harlowe</a></li>
+<li><a href="clamping_numbers/sugarcube/sugarcube_clamping_numbers.html">SugarCube</a></li>
+<li><a href="clamping_numbers/snowman/snowman_clamping_numbers.html">Snowman</a></li>
+</ul>
+<h2 id="loading-screen">Loading Screen<a class="headerlink" href="#loading-screen" title="Permanent link">&para;</a></h2>
+<ul>
+<li>Loading Screen</li>
+<li><a href="loadscreen/sugarcube/sugarcube_loadscreen.html">SugarCube</a></li>
+</ul>
+<h2 id="lock-and-key-variable">Lock and Key: Variable<a class="headerlink" href="#lock-and-key-variable" title="Permanent link">&para;</a></h2>
+<ul>
+<li>Lock and Key: Variable</li>
+<li><a href="lockandkey_variable/chapbook/chapbook_lockandkey_variable.html">Chapbook</a></li>
+<li><a href="lockandkey_variable/harlowe/harlowe_lockandkey_variable.html">Harlowe</a></li>
+<li><a href="lockandkey_variable/sugarcube/sugarcube_lockandkey_variable.html">SugarCube</a></li>
+<li><a href="lockandkey_variable/snowman/snowman_lockandkey_variable.html">Snowman</a></li>
+</ul>
+<h2 id="looping">Looping<a class="headerlink" href="#looping" title="Permanent link">&para;</a></h2>
+<ul>
+<li>Looping</li>
+<li><a href="looping/chapbook/chapbook_looping.html">Chapbook</a></li>
+<li><a href="looping/harlowe/harlowe_looping.html">Harlowe</a></li>
+<li><a href="looping/sugarcube/sugarcube_looping.html">SugarCube</a></li>
+<li><a href="looping/snowman/snowman_looping.html">Snowman</a></li>
+</ul>
+<h2 id="modal-pop-up-window">Modal (Pop-up Window)<a class="headerlink" href="#modal-pop-up-window" title="Permanent link">&para;</a></h2>
+<ul>
+<li>Modal (Pop-up Window)</li>
+<li><a href="modal/harlowe/harlowe_modal.html">Harlowe</a></li>
+<li><a href="modal/sugarcube/sugarcube_modal.html">SugarCube</a></li>
+<li><a href="modal/snowman/snowman_modal.html">Snowman</a></li>
+</ul>
+<h2 id="modularity">Modularity<a class="headerlink" href="#modularity" title="Permanent link">&para;</a></h2>
+<ul>
+<li>Modularity</li>
+<li><a href="modularity/harlowe/harlowe_modularity.html">Harlowe</a></li>
+<li><a href="modularity/sugarcube/sugarcube_modularity.html">SugarCube</a></li>
+<li><a href="modularity/snowman/snowman_modularity.html">Snowman</a></li>
+</ul>
+<h2 id="moving-through-a-dungeon">Moving through a 'dungeon'<a class="headerlink" href="#moving-through-a-dungeon" title="Permanent link">&para;</a></h2>
+<ul>
+<li>Moving through a 'dungeon'</li>
+<li><a href="dungeonmoving/harlowe/harlowe_dungeonmoving.html">Harlowe</a></li>
+<li><a href="dungeonmoving/sugarcube/sugarcube_dungeonmoving.html">SugarCube</a></li>
+<li><a href="dungeonmoving/snowman/snowman_dungeonmoving.html">Snowman</a></li>
+<li><a href="dungeonmoving/sugarcane/sugarcane_dungeonmoving.html">Sugarcane (1.4.2)</a></li>
+</ul>
+<h2 id="passage-events">Passage Events<a class="headerlink" href="#passage-events" title="Permanent link">&para;</a></h2>
+<ul>
+<li>Passage Events</li>
+<li><a href="passageevents/sugarcube/sugarcube_passage_events.html">SugarCube</a></li>
+<li><a href="passageevents/snowman/snowman_passage_events.html">Snowman</a></li>
+<li><a href="passageevents/snowman_2/snowman_passage_events.html">Snowman (v2.0.2 or later)</a></li>
+</ul>
+<h2 id="passages-in-passages">Passages in Passages<a class="headerlink" href="#passages-in-passages" title="Permanent link">&para;</a></h2>
+<ul>
+<li>Passages in Passages</li>
+<li><a href="passagesinpassages/chapbook/chapbook_passagesinpassages.html">Chapbook</a></li>
+<li><a href="passagesinpassages/harlowe/harlowe_passagesinpassages.html">Harlowe</a></li>
+<li><a href="passagesinpassages/sugarcube/sugarcube_passagesinpassages.html">SugarCube</a></li>
+<li><a href="passagesinpassages/snowman/snowman_passagesinpassages.html">Snowman</a></li>
+</ul>
+<h2 id="passage-transitions">Passage Transitions<a class="headerlink" href="#passage-transitions" title="Permanent link">&para;</a></h2>
+<ul>
+<li>Passage Transitions</li>
+<li><a href="passagetransitions/harlowe/harlowe_passagetransitions.html">Harlowe (v3.0.1 or later)</a></li>
+<li><a href="passagetransitions/sugarcube/sugarcube_passagetransitions.html">SugarCube</a></li>
+<li><a href="passagetransitions/snowman/snowman_passagetransitions.html">Snowman</a></li>
+<li><a href="passagetransitions/snowman_2/snowman_2_passagetransitions.html">Snowman (v2.0 and later)</a></li>
+</ul>
+<h2 id="passage-visits">Passage Visits<a class="headerlink" href="#passage-visits" title="Permanent link">&para;</a></h2>
+<ul>
+<li>Passage Visits</li>
+<li><a href="passagevisits/chapbook/chapbook_passagevisits.html">Chapbook</a></li>
+<li><a href="passagevisits/harlowe/harlowe_passagevisits.html">Harlowe</a></li>
+<li><a href="passagevisits/sugarcube/sugarcube_passagevisits.html">SugarCube</a></li>
+<li><a href="passagevisits/snowman/snowman_passagevisits.html">Snowman (v2.0.2 and later)</a></li>
+</ul>
+<h2 id="player-statistics">Player Statistics<a class="headerlink" href="#player-statistics" title="Permanent link">&para;</a></h2>
+<ul>
+<li>Player Statistics</li>
+<li><a href="playerstatistics/chapbook/chapbook_player_statistics.html">Chapbook</a></li>
+<li><a href="playerstatistics/harlowe/harlowe_player_statistics.html">Harlowe</a></li>
+<li><a href="playerstatistics/sugarcube/sugarcube_player_statistics.html">SugarCube</a></li>
+<li><a href="playerstatistics/snowman/snowman_player_statistics.html">Snowman</a></li>
+</ul>
+<h2 id="programmatic-undo">Programmatic Undo<a class="headerlink" href="#programmatic-undo" title="Permanent link">&para;</a></h2>
+<ul>
+<li>Programmatic Undo</li>
+<li><a href="programmaticundo/harlowe/harlowe_programmaticundo.html">Harlowe</a></li>
+<li><a href="programmaticundo/sugarcube/sugarcube_programmaticundo.html">SugarCube</a></li>
+<li><a href="programmaticundo/snowman/snowman_programmaticundo.html">Snowman</a></li>
+</ul>
+<h2 id="render-passage-to-element">Render Passage to Element<a class="headerlink" href="#render-passage-to-element" title="Permanent link">&para;</a></h2>
+<ul>
+<li>Render Passage to Element</li>
+<li><a href="passagetoelement/sugarcube/sugarcube_passagetoelement.html">SugarCube</a></li>
+<li><a href="passagetoelement/snowman/snowman_passagetoelement.html">Snowman (2.0 or later)</a></li>
+</ul>
+<h2 id="saving-games">Saving Games<a class="headerlink" href="#saving-games" title="Permanent link">&para;</a></h2>
+<ul>
+<li>Saving Games</li>
+<li><a href="savinggames/harlowe/harlowe_savinggames.html">Harlowe</a></li>
+<li><a href="savinggames/sugarcube/sugarcube_savinggames.html">SugarCube</a></li>
+<li><a href="savinggames/snowman/snowman_savinggames.html">Snowman</a></li>
+</ul>
+<h2 id="setting-and-showing-variables">Setting and Showing Variables<a class="headerlink" href="#setting-and-showing-variables" title="Permanent link">&para;</a></h2>
+<ul>
+<li>Setting and Showing Variables</li>
+<li><a href="settingandshowing/chapbook/chapbook_settingandshowing.html">Chapbook</a></li>
+<li><a href="settingandshowing/harlowe/harlowe_settingandshowing.html">Harlowe</a></li>
+<li><a href="settingandshowing/sugarcube/sugarcube_settingandshowing.html">SugarCube</a></li>
+<li><a href="settingandshowing/snowman/snowman_settingandshowing.html">Snowman</a></li>
+</ul>
+<h2 id="space-exploration">Space Exploration<a class="headerlink" href="#space-exploration" title="Permanent link">&para;</a></h2>
+<ul>
+<li>Space Exploration</li>
+<li><a href="spaceexploration/chapbook/chapbook_space_exploration.html">Chapbook</a></li>
+<li><a href="spaceexploration/harlowe/harlowe_space_exploration.html">Harlowe</a></li>
+<li><a href="spaceexploration/sugarcube/sugarcube_space_exploration.html">SugarCube</a></li>
+<li><a href="spaceexploration/snowman/snowman_space_exploration.html">Snowman</a></li>
+</ul>
+<h2 id="static-healthbars">Static Healthbars<a class="headerlink" href="#static-healthbars" title="Permanent link">&para;</a></h2>
+<ul>
+<li>Static Healthbars</li>
+<li><a href="statichealthbars/chapbook/chapbook_statichealthbars.html">Chapbook</a></li>
+<li><a href="statichealthbars/harlowe/harlowe_statichealthbars.html">Harlowe</a></li>
+<li><a href="statichealthbars/sugarcube/sugarcube_statichealthbars.html">SugarCube</a></li>
+<li><a href="statichealthbars/snowman/snowman_statichealthbars.html">Snowman</a></li>
+</ul>
+<h2 id="story-and-passage-api">Story and Passage API<a class="headerlink" href="#story-and-passage-api" title="Permanent link">&para;</a></h2>
+<ul>
+<li>Story and Passage API</li>
+<li><a href="storyandpassage/chapbook/chapbook_storyandpassage.html">Chapbook</a></li>
+<li><a href="storyandpassage/sugarcube/sugarcube_storyandpassage.html">SugarCube</a></li>
+<li><a href="storyandpassage/snowman/snowman_storyandpassage.html">Snowman</a></li>
+</ul>
+<h2 id="style-markup">Style Markup<a class="headerlink" href="#style-markup" title="Permanent link">&para;</a></h2>
+<ul>
+<li>Style Markup</li>
+<li><a href="markup/chapbook/chapbook_markup.html">Chapbook</a></li>
+<li><a href="markup/harlowe/harlowe_markup.html">Harlowe</a></li>
+<li><a href="markup/sugarcube/sugarcube_markup.html">SugarCube</a></li>
+<li><a href="markup/snowman/snowman_markup.html">Snowman</a></li>
+<li><a href="markup/sugarcane/sugarcane_markup.html">Sugarcane (1.4.2)</a></li>
+</ul>
+<h2 id="timed-passages">Timed Passages<a class="headerlink" href="#timed-passages" title="Permanent link">&para;</a></h2>
+<ul>
+<li>Timed Passages</li>
+<li><a href="timedpassages/chapbook/chapbook_timedpassages.html">Chapbook</a></li>
+<li><a href="timedpassages/harlowe/harlowe_timedpassages.html">Harlowe</a></li>
+<li><a href="timedpassages/sugarcube/sugarcube_timedpassages.html">SugarCube</a></li>
+<li><a href="timedpassages/snowman/snowman_timedpassages.html">Snowman</a></li>
+</ul>
+<h2 id="timed-progress-bars">Timed Progress Bars<a class="headerlink" href="#timed-progress-bars" title="Permanent link">&para;</a></h2>
+<ul>
+<li>Timed Progress Bars</li>
+<li><a href="timedprogressbars/sugarcube/sugarcube_timed_progress_bars.html">SugarCube</a></li>
+<li><a href="timedprogressbars/snowman/snowman_timed_progress_bars.html">Snowman</a></li>
+</ul>
+<h2 id="turn-counter">Turn Counter<a class="headerlink" href="#turn-counter" title="Permanent link">&para;</a></h2>
+<ul>
+<li>Turn Counter</li>
+<li><a href="turncounter/chapbook/chapbook_turncounter.html">Chapbook</a></li>
+<li><a href="turncounter/harlowe/harlowe_turncounter.html">Harlowe</a></li>
+<li><a href="turncounter/sugarcube/sugarcube_turncounter.html">SugarCube</a></li>
+<li><a href="turncounter/snowman/snowman_turncounter.html">Snowman</a></li>
+</ul>
+<h2 id="typewriter-effect">Typewriter Effect<a class="headerlink" href="#typewriter-effect" title="Permanent link">&para;</a></h2>
+<ul>
+<li>Typewriter Effect</li>
+<li><a href="typewriter/chapbook/chapbook_typewriter.html">Chapbook</a></li>
+<li><a href="typewriter/harlowe/harlowe_typewriter.html">Harlowe</a></li>
+<li><a href="typewriter/sugarcube/sugarcube_typewriter.html">SugarCube</a></li>
+<li><a href="typewriter/snowman/snowman_typewriter.html">Snowman</a></li>
+</ul>
+<h2 id="variable-style-styling">Variable Style Styling<a class="headerlink" href="#variable-style-styling" title="Permanent link">&para;</a></h2>
+<ul>
+<li>Variable Style Styling</li>
+<li><a href="storystyling/chapbook/chapbook_storystyling.html">Chapbook</a></li>
+<li><a href="storystyling/harlowe/harlowe_storystyling.html">Harlowe</a></li>
+<li><a href="storystyling/sugarcube/sugarcube_storystyling.html">SugarCube</a></li>
+<li><a href="storystyling/snowman/snowman_storystyling.html">Snowman</a></li>
+</ul>
+<h2 id="using-add-ons">Using Add-ons<a class="headerlink" href="#using-add-ons" title="Permanent link">&para;</a></h2>
+<ul>
+<li>Using Add-ons</li>
+<li><a href="usingaddons/sugarcube/sugarcube_usingaddons.html">SugarCube</a></li>
+</ul>
+                
+              
+              
+                
+
+
+              
+            </article>
+          </div>
+        </div>
+      </main>
+      
+        
+<footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-footer-copyright">
+        
+        Made with
+        <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+          Material for MkDocs
+        </a>
+      </div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    
+      <script src="assets/javascripts/vendor.f81b9e8b.min.js"></script>
+      <script src="assets/javascripts/bundle.23546af0.min.js"></script><script id="__lang" type="application/json">{"clipboard.copy": "Copy to clipboard", "clipboard.copied": "Copied to clipboard", "search.config.lang": "en", "search.config.pipeline": "trimmer, stopWordFilter", "search.config.separator": "[\\s\\-]+", "search.result.placeholder": "Type to start searching", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents"}</script>
+      
+      <script>
+        app = initialize({
+          base: ".",
+          features: ["instant"],
+          search: Object.assign({
+            worker: "assets/javascripts/worker/search.58d22e8e.min.js"
+          }, typeof search !== "undefined" && search)
+        })
+      </script>
+      
+    
+  </body>
+</html>

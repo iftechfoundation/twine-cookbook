@@ -1,0 +1,575 @@
+
+
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+      <link rel="shortcut icon" href="../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.1, mkdocs-material-5.1.3">
+    
+    
+      
+        <title>Twee - Twine Cookbook</title>
+      
+    
+    
+      <link rel="stylesheet" href="../assets/stylesheets/main.62d34fff.min.css">
+      
+        <link rel="stylesheet" href="../assets/stylesheets/palette.c8acc6db.min.css">
+      
+      
+        
+        
+        <meta name="theme-color" content="#2196f3">
+      
+    
+    
+    
+      
+        <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,400i,700%7CRoboto+Mono&display=fallback">
+        <style>body,input{font-family:"Roboto",-apple-system,BlinkMacSystemFont,Helvetica,Arial,sans-serif}code,kbd,pre{font-family:"Roboto Mono",SFMono-Regular,Consolas,Menlo,monospace}</style>
+      
+    
+    
+    
+    
+      
+    
+    
+  </head>
+  
+  
+    
+    
+    <body dir="ltr" data-md-color-primary="blue" data-md-color-accent="lightblue">
+  
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#twee" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+      <header class="md-header" data-md-component="header">
+  <nav class="md-header-nav md-grid" aria-label="Header">
+    <a href=".." title="Twine Cookbook" class="md-header-nav__button md-logo" aria-label="Twine Cookbook">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12,8A3,3 0 0,0 15,5A3,3 0 0,0 12,2A3,3 0 0,0 9,5A3,3 0 0,0 12,8M12,11.54C9.64,9.35 6.5,8 3,8V19C6.5,19 9.64,20.35 12,22.54C14.36,20.35 17.5,19 21,19V8C17.5,8 14.36,9.35 12,11.54Z" /></svg>
+
+    </a>
+    <label class="md-header-nav__button md-icon" for="__drawer">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3,6H21V8H3V6M3,11H21V13H3V11M3,16H21V18H3V16Z" /></svg>
+    </label>
+    <div class="md-header-nav__title" data-md-component="header-title">
+      
+        <div class="md-header-nav__ellipsis">
+          <span class="md-header-nav__topic md-ellipsis">
+            Twine Cookbook
+          </span>
+          <span class="md-header-nav__topic md-ellipsis">
+            
+              Twee
+            
+          </span>
+        </div>
+      
+    </div>
+    
+      <label class="md-header-nav__button md-icon" for="__search">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5,3A6.5,6.5 0 0,1 16,9.5C16,11.11 15.41,12.59 14.44,13.73L14.71,14H15.5L20.5,19L19,20.5L14,15.5V14.71L13.73,14.44C12.59,15.41 11.11,16 9.5,16A6.5,6.5 0 0,1 3,9.5A6.5,6.5 0 0,1 9.5,3M9.5,5C7,5 5,7 5,9.5C5,12 7,14 9.5,14C12,14 14,12 14,9.5C14,7 12,5 9.5,5Z" /></svg>
+      </label>
+      
+<div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" data-md-state="active">
+      <label class="md-search__icon md-icon" for="__search">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5,3A6.5,6.5 0 0,1 16,9.5C16,11.11 15.41,12.59 14.44,13.73L14.71,14H15.5L20.5,19L19,20.5L14,15.5V14.71L13.73,14.44C12.59,15.41 11.11,16 9.5,16A6.5,6.5 0 0,1 3,9.5A6.5,6.5 0 0,1 9.5,3M9.5,5C7,5 5,7 5,9.5C5,12 7,14 9.5,14C12,14 14,12 14,9.5C14,7 12,5 9.5,5Z" /></svg>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20,11V13H8L13.5,18.5L12.08,19.92L4.16,12L12.08,4.08L13.5,5.5L8,11H20Z" /></svg>
+      </label>
+      <button type="reset" class="md-search__icon md-icon" aria-label="Clear" data-md-component="search-reset" tabindex="-1">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19,6.41L17.59,5L12,10.59L6.41,5L5,6.41L10.59,12L5,17.59L6.41,19L12,13.41L17.59,19L19,17.59L13.41,12L19,6.41Z" /></svg>
+      </button>
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+    
+    
+  </nav>
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+        
+      
+      
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              <div class="md-sidebar md-sidebar--primary" data-md-component="navigation">
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    <nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href=".." title="Twine Cookbook" class="md-nav__button md-logo" aria-label="Twine Cookbook">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12,8A3,3 0 0,0 15,5A3,3 0 0,0 12,2A3,3 0 0,0 9,5A3,3 0 0,0 12,8M12,11.54C9.64,9.35 6.5,8 3,8V19C6.5,19 9.64,20.35 12,22.54C14.36,20.35 17.5,19 21,19V8C17.5,8 14.36,9.35 12,11.54Z" /></svg>
+
+    </a>
+    Twine Cookbook
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+      
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-nav__toggle md-toggle" data-md-toggle="nav-1" type="checkbox" id="nav-1">
+    
+    <label class="md-nav__link" for="nav-1">
+      Common Questions
+      <span class="md-nav__icon md-icon">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M8.59,16.58L13.17,12L8.59,7.41L10,6L16,12L10,18L8.59,16.58Z" /></svg>
+      </span>
+    </label>
+    <nav class="md-nav" aria-label="Common Questions" data-md-level="1">
+      <label class="md-nav__title" for="nav-1">
+        <span class="md-nav__icon md-icon">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20,11V13H8L13.5,18.5L12.08,19.92L4.16,12L12.08,4.08L13.5,5.5L8,11H20Z" /></svg>
+        </span>
+        Common Questions
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../questions/making.html" title="What can I make with Twine?" class="md-nav__link">
+      What can I make with Twine?
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../questions/getting_started.html" title="How do I get started?" class="md-nav__link">
+      How do I get started?
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../questions/links.html" title="How do I make links?" class="md-nav__link">
+      How do I make links?
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../questions/style_text.html" title="How do I style text?" class="md-nav__link">
+      How do I style text?
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../questions/stories_saved.html" title="Where are my stories saved?" class="md-nav__link">
+      Where are my stories saved?
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../questions/need_to_know.html" title="What do I need to know?" class="md-nav__link">
+      What do I need to know?
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="toc">
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20,11V13H8L13.5,18.5L12.08,19.92L4.16,12L12.08,4.08L13.5,5.5L8,11H20Z" /></svg>
+      </span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#notation" class="md-nav__link">
+    Notation
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#special-passage-names" class="md-nav__link">
+    Special Passage Names
+  </a>
+  
+    <nav class="md-nav" aria-label="Special Passage Names">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#start-twine-1-and-twee-3" class="md-nav__link">
+    Start (Twine 1 and Twee 3)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#storytitle-twine-1-and-twee-3" class="md-nav__link">
+    StoryTitle (Twine 1 and Twee 3)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#storysubtitle-twine-1" class="md-nav__link">
+    StorySubtitle (Twine 1)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#storyauthor-twine-1" class="md-nav__link">
+    StoryAuthor (Twine 1)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#storymenu-twine-1" class="md-nav__link">
+    StoryMenu (Twine 1)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#storysettings-twine-1" class="md-nav__link">
+    StorySettings (Twine 1)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#storyincludes-twine-1" class="md-nav__link">
+    StoryIncludes (Twine 1)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#storydata-twee-3" class="md-nav__link">
+    StoryData (Twee 3)
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#special-tag-names" class="md-nav__link">
+    Special Tag Names
+  </a>
+  
+    <nav class="md-nav" aria-label="Special Tag Names">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#stylesheet" class="md-nav__link">
+    Stylesheet
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#script" class="md-nav__link">
+    Script
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          <div class="md-content">
+            <article class="md-content__inner md-typeset">
+              
+                
+                
+                  
+                
+                
+                <h1 id="twee">Twee<a class="headerlink" href="#twee" title="Permanent link">&para;</a></h1>
+<p>Twee is the source code of a Twine <a href="terms_stories.html">story</a>. In Twine 1, stories could be exported into its source, changed, and imported again. Twine 2 has moved away from this functionality, but has been heavily influenced through having sections (passages in Twine 1) where the user can add <a href="terms_css.html">CSS</a> (Story Stylesheet) and <a href="terms_javascript.html">JavaScript</a> (Story JavaScript).</p>
+<h2 id="notation">Notation<a class="headerlink" href="#notation" title="Permanent link">&para;</a></h2>
+<p>Starting with Twee 3, there is <a href="https://github.com/iftechfoundation/twine-specs/blob/master/twee-3-specification.md">a standard for reading and writing Twee</a> when working with Twine 2 passages.</p>
+<p>Twee 3 notation is written as a series of four parts for the header of each passage:</p>
+<ul>
+<li>Sigil: (Required) Two colons (":") followed by a space</li>
+<li>Passage Name: (Required) The name of the passage</li>
+<li>Tags: (Optional) Optional tags</li>
+<li>Metadata: (Optional) Information about the passage</li>
+</ul>
+<p>The content of a passage continues until the next header of a passage is found or the input ends with at least a single empty line between passage headers.</p>
+<p><strong>Example Twee Notation:</strong></p>
+<div class="codehilite"><pre><span></span><code>:: Snoopy [dog peanuts]
+Snoopy is a dog in the comic Peanuts.
+
+:: Charlie Brown [person peanuts] {&quot;position&quot;:&quot;600,400&quot;,&quot;size&quot;:&quot;100,200&quot;}
+Charlie Brown is a person in the comic Peanuts
+</code></pre></div>
+
+
+<h2 id="special-passage-names">Special Passage Names<a class="headerlink" href="#special-passage-names" title="Permanent link">&para;</a></h2>
+<p>Some compilers understand and process certain keywords differently. The following is a common set of case-sensitive reserved passage names across Twine 1 and Twee 3.</p>
+<h3 id="start-twine-1-and-twee-3">Start (Twine 1 and Twee 3)<a class="headerlink" href="#start-twine-1-and-twee-3" title="Permanent link">&para;</a></h3>
+<p>The first passage.</p>
+<div class="codehilite"><pre><span></span><code>:: Start
+A beginning!
+</code></pre></div>
+
+
+<h3 id="storytitle-twine-1-and-twee-3">StoryTitle (Twine 1 and Twee 3)<a class="headerlink" href="#storytitle-twine-1-and-twee-3" title="Permanent link">&para;</a></h3>
+<p>The title of the story.</p>
+<div class="codehilite"><pre><span></span><code>:: StoryTitle
+A Named Story
+</code></pre></div>
+
+
+<h3 id="storysubtitle-twine-1">StorySubtitle (Twine 1)<a class="headerlink" href="#storysubtitle-twine-1" title="Permanent link">&para;</a></h3>
+<p>The subtitle of the story.</p>
+<div class="codehilite"><pre><span></span><code>:: StorySubtitle
+The subtitle of this story
+</code></pre></div>
+
+
+<h3 id="storyauthor-twine-1">StoryAuthor (Twine 1)<a class="headerlink" href="#storyauthor-twine-1" title="Permanent link">&para;</a></h3>
+<p>The author of the story.</p>
+<div class="codehilite"><pre><span></span><code>:: StoryAuthor
+John Smith
+</code></pre></div>
+
+
+<h3 id="storymenu-twine-1">StoryMenu (Twine 1)<a class="headerlink" href="#storymenu-twine-1" title="Permanent link">&para;</a></h3>
+<p>Corresponds to the menu that hovers in the upper-right corner of the page in the Jonah story format, or on the left side of the page in the Sugarcane story format.</p>
+<div class="codehilite"><pre><span></span><code>:: StoryMenu
+Content of the story menu!
+</code></pre></div>
+
+
+<h3 id="storysettings-twine-1">StorySettings (Twine 1)<a class="headerlink" href="#storysettings-twine-1" title="Permanent link">&para;</a></h3>
+<p>Used to specify certain options and settings.</p>
+<ul>
+<li>Undo: enables the player to "undo moves." In Sugarcane, this means being able to use the Back button in the browser. In Jonah, this means being able to use the “Rewind to here” link, and being able to click links in previous passages.</li>
+<li>Bookmark: enables the player to use the “Bookmark” link in Sugarcane and Jonah. On by default.</li>
+<li>Hash updates: this causes the current passage's bookmark URL to be automatically placed in the player's browser address bar whenever they change passages. This is off by default because the URLs can become very long and ugly quickly.</li>
+<li>Prompt before closing: If the player tries to reload or close the page, the browser will prompt for confirmation. This is useful for long games - it would be unfortunate if the player lost a lot of progress due to an idle key-press.</li>
+<li>Don't use default CSS: This removes most of the CSS used by the story format, allowing CSS programmers to write their own stylesheet redesigns more easily. Off by default - but including the text “blank stylesheet” in a stylesheet will set it on automatically.</li>
+<li>ROT13: obfuscates the story's HTML source to dissuade people from spoiling themselves by reading it. Off by default.</li>
+<li>jQuery: include the library or not</li>
+<li>Modernizr: include the the library or not</li>
+</ul>
+<div class="codehilite"><pre><span></span><code>:: StorySettings
+undo:on
+bookmark:on
+hash:on
+exitprompt:on
+blankcss:on
+obfuscate:rot13
+jquery:on
+modernizr:on
+</code></pre></div>
+
+
+<h3 id="storyincludes-twine-1">StoryIncludes (Twine 1)<a class="headerlink" href="#storyincludes-twine-1" title="Permanent link">&para;</a></h3>
+<p>Includes, "imports", other local or remote files during the HTML compilation process. In Twine 1.4.2, both Twine Story (.tws) and Twine Source (.twee) files can be used.</p>
+<div class="codehilite"><pre><span></span><code>:: StoryIncludes
+localfile.tws
+</code></pre></div>
+
+
+<h3 id="storydata-twee-3">StoryData (Twee 3)<a class="headerlink" href="#storydata-twee-3" title="Permanent link">&para;</a></h3>
+<p>A JSON chunk encapsulating various Twine 2-compatible details about the story.</p>
+<ul>
+<li>ifid: (Required) IFID of the story</li>
+<li>format: (Optional) Story format</li>
+<li>format-version: (Optional) Story format version</li>
+<li>start: (Optional) PID of starting passage</li>
+<li>tag-colors: (Optional) Pairs of tags and colors</li>
+<li>zoom: (Optional) Decimal zoom level</li>
+</ul>
+<div class="codehilite"><pre><span></span><code>:: StoryData
+{
+    &quot;ifid&quot;: &quot;D674C58C-DEFA-4F70-B7A2-27742230C0FC&quot;,
+    &quot;format&quot;: &quot;SugarCube&quot;,
+    &quot;format-version&quot;: &quot;2.28.2&quot;,
+    &quot;start&quot;: &quot;My Starting Passage&quot;,
+    &quot;tag-colors&quot;: {
+        &quot;bar&quot;: &quot;green&quot;,
+        &quot;foo&quot;: &quot;red&quot;,
+        &quot;qaz&quot;: &quot;blue&quot;
+    },
+    &quot;zoom&quot;: 0.25
+}
+</code></pre></div>
+
+
+<h2 id="special-tag-names">Special Tag Names<a class="headerlink" href="#special-tag-names" title="Permanent link">&para;</a></h2>
+<p>Twee 3 defines two special case-sensitive lowercase passage tags: <code>stylesheet</code> and <code>script</code>.</p>
+<p>(Passages are also loaded according to alphabetical order if others exist with the same special passage tags.)</p>
+<h3 id="stylesheet">Stylesheet<a class="headerlink" href="#stylesheet" title="Permanent link">&para;</a></h3>
+<p>Any additional or overriding CSS rules for the story.</p>
+<div class="codehilite"><pre><span></span><code>:: UserStylesheet[stylesheet]
+</code></pre></div>
+
+
+<h3 id="script">Script<a class="headerlink" href="#script" title="Permanent link">&para;</a></h3>
+<p>Any additional or overriding JavaScript code for the story.</p>
+<div class="codehilite"><pre><span></span><code>:: UserScript[script]
+</code></pre></div>
+                
+              
+              
+                
+
+
+              
+            </article>
+          </div>
+        </div>
+      </main>
+      
+        
+<footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-footer-copyright">
+        
+        Made with
+        <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+          Material for MkDocs
+        </a>
+      </div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    
+      <script src="../assets/javascripts/vendor.f81b9e8b.min.js"></script>
+      <script src="../assets/javascripts/bundle.23546af0.min.js"></script><script id="__lang" type="application/json">{"clipboard.copy": "Copy to clipboard", "clipboard.copied": "Copied to clipboard", "search.config.lang": "en", "search.config.pipeline": "trimmer, stopWordFilter", "search.config.separator": "[\\s\\-]+", "search.result.placeholder": "Type to start searching", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents"}</script>
+      
+      <script>
+        app = initialize({
+          base: "..",
+          features: ["instant"],
+          search: Object.assign({
+            worker: "../assets/javascripts/worker/search.58d22e8e.min.js"
+          }, typeof search !== "undefined" && search)
+        })
+      </script>
+      
+    
+  </body>
+</html>
