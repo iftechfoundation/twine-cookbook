@@ -1,7 +1,17 @@
 site_name: Twine Cookbook
 
+docs_dir: 'pages'
+
+site_dir: 'docs'
+
+use_directory_urls: false
+
 nav:
   - 'Home': 'index.md'
+  - Cookbook Introduction:
+    - 'Using the Cookbook': 'using_cookbook.md'
+    - 'Example Formatting': 'formatting.md'
+    - 'Style Guide': 'style_guide.md'
   - Common Questions:
     - 'What can I make with Twine?': 'questions/making.md'
     - 'How do I get started?': 'questions/getting_started.md'
@@ -9,17 +19,13 @@ nav:
     - 'How do I style text?': 'questions/style_text.md'
     - 'Where are my stories saved?': 'questions/stories_saved.md'
     - 'What do I need to know?': 'questions/need_to_know.md'
-  - Cookbook Introduction:
-    - 'Using the Cookbook': 'using_cookbook.md'
-    - 'Example Formatting': 'formatting.md'
-    - 'Style Guide': 'style_guide.md'
   - Twine 2 Documentation:
     - 'Twine 2 Editor': 'introduction/twine2_editor.md'
     - 'Story Listing': 'introduction/twine2_story_listing.md'
     - 'Passages View': 'introduction/twine2_passages_view.md'
     - 'Passages': 'introduction/passages.md'
     - 'Story Formats': 'introduction/story_formats.md'
-  - Terms:
+  - Twine 2 Terms:
     - 'Twine': 'terms/terms_twine.md'
     - 'Cookbook': 'terms/terms_cookbook.md'
     - 'Stories': 'terms/terms_stories.md'
@@ -32,7 +38,7 @@ nav:
     - 'JavaScript': 'terms/terms_javascript.md'
     - 'Twee': 'terms/terms_twee.md'
     - 'HTML': 'terms/terms_html.md'
-  - Examples:
+  - Twine 2 Examples:
     - Adding Functionality:
       - 'Chapbook': 'addingfunctionality/chapbook/chapbook_adding_functionality.md'
       - 'SugarCube': 'addingfunctionality/sugarcube/sugarcube_adding_functionality.md'
@@ -252,11 +258,57 @@ nav:
       - 'Snowman': 'storystyling/snowman/snowman_storystyling.md'
     - Using Add-ons:
       - 'SugarCube': 'usingaddons/sugarcube/sugarcube_usingaddons.md'
+  - Twine 2 CSS:
+      - 'Reviewing CSS Selectors': 'twine2css\selectors.md'
+      - Story Formats:
+        - 'Chapbook': 'twine2css\storyformats\chapbook.md'
+        - 'Harlowe': 'twine2css\storyformats\harlowe.md'
+        - 'SugarCube': 'twine2css\storyformats\sugarcube.md'
+        - 'Snowman': 'twine2css\storyformats\snowman.md'
   - Twine 1 Documentation:
       - 'Passages': 'twine1documentation/passages.md'
       - 'Links': 'twine1documentation/links.md'
       - 'Formatting': 'twine1documentation/formatting.md'
       - 'Tags': 'twine1documentation/tags.md'
+      - 'Story Formats': 'twine1documentation\storyformats.md'
+      - 'Special Passages': 'twine1documentation\specialpassages.md'
+      - Twine 1 Macros:
+        - 'back': 'twine1documentation/macros/back.md'
+        - 'button': 'twine1documentation/macros/button.md'
+        - 'checkbox': 'twine1documentation/macros/checkbox.md'
+        - 'choice': 'twine1documentation/macros/choice.md'
+        - 'display': 'twine1documentation/macros/display.md'
+        - 'else': 'twine1documentation/macros/else.md'
+        - 'endif': 'twine1documentation/macros/endif.md'
+        - 'endsilently': 'twine1documentation/macros/endsilently.md'
+        - 'forget': 'twine1documentation/macros/forget.md'
+        - 'if': 'twine1documentation/macros/if.md'
+        - 'nobr': 'twine1documentation/macros/nobr.md'
+        - 'print': 'twine1documentation/macros/print.md'
+        - 'radio': 'twine1documentation/macros/radio.md'
+        - 'remember': 'twine1documentation/macros/remember.md'
+        - 'return': 'twine1documentation/macros/return.md'
+        - 'set': 'twine1documentation/macros/set.md'
+        - 'silently': 'twine1documentation/macros/silently.md'
+        - 'textinput': 'twine1documentation/macros/textinput.md'
+      - Twine 1 Functions:
+        - 'alert': 'twine1documentation/functions/alert.md'
+        - 'confirm': 'twine1documentation/functions/confirm.md'
+        - 'either': 'twine1documentation/functions/either.md'
+        - 'open': 'twine1documentation/functions/open.md'
+        - 'parameter': 'twine1documentation/functions/parameter.md'
+        - 'passage': 'twine1documentation/functions/passage.md'
+        - 'previous': 'twine1documentation/functions/previous.md'
+        - 'prompt': 'twine1documentation/functions/prompt.md'
+        - 'random': 'twine1documentation/functions/random.md'
+        - 'rot13': 'twine1documentation/functions/rot13.md'
+        - 'tags': 'twine1documentation/functions/tags.md'
+        - 'turns': 'twine1documentation/functions/turns.md'
+        - 'visited': 'twine1documentation/functions/visited.md'
+        - 'visitedtag': 'twine1documentation/functions/visitedtag.md'
+      - Twine 1 Story Formats:
+        - 'Jonah': 'twine1documentation/storyformats/jonah.md'
+        - 'Sugarcane': 'twine1documentation/storyformats/sugarcane.md'
 
 theme:
   name: material
