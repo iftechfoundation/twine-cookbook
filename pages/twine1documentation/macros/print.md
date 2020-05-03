@@ -1,5 +1,8 @@
 # `<<print>>`
 
+!!! Warning
+    You are reading documentation for Twine 1. This is maintained for archival purposes only.
+
 The `<<print>>` macro lets you print expressions, pure and simple.
 
 Usage:

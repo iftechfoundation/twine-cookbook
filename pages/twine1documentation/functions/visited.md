@@ -1,5 +1,8 @@
 # *visited(string, string...)*
 
+!!! Warning
+    You are reading documentation for Twine 1. This is maintained for archival purposes only.
+
 Has a value equal to the number of times you've visited the named passage. It's fairly useful - this can eliminate or greatly reduce the need to use "counter variables" to keep track of the player's actions. If the passage name is omitted, as in *visited()*, then its value is for the current passage.
 
 If multiple strings are supplied to it, then it will return the value for the passage that was visited the least.

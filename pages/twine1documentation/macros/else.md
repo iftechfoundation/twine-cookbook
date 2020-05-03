@@ -1,5 +1,8 @@
 # `<<else>>`
 
+!!! Warning
+    You are reading documentation for Twine 1. This is maintained for archival purposes only.
+
 `<<else>>` is a macro that is used to indicate text that should be displayed if the condition is false. It is paired with `<<if>>` or `<<endif>>`.
 
 ```twee

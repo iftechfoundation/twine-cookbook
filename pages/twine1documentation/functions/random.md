@@ -1,5 +1,8 @@
 # *random(value, value)*
 
+!!! Warning
+    You are reading documentation for Twine 1. This is maintained for archival purposes only.
+
 When given two positive numbers, this produces a positive whole number randomly selected between the two, inclusive. This function can (and should only) be used to generate random numbers within a wide range - such as 1 to 100.
 
 Prior to version 1.4.2, you had to use the cumbersome `Math.random(value)*value` idiom to do this, which wasn't that memorable or succinct.

@@ -1,5 +1,8 @@
 # `<<endif>>`
 
+!!! Warning
+    You are reading documentation for Twine 1. This is maintained for archival purposes only.
+
 `<<endif>>` closes the usage of the `<<if>>` macro.
 
 ## Usage

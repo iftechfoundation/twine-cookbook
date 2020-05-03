@@ -1,5 +1,8 @@
 # Special Passages
 
+!!! Warning
+    You are reading documentation for Twine 1. This is maintained for archival purposes only.
+
 There are certain passage names that have special meaning, and let you make your stories look more polished. The most important is Start. It is the first passage displayed when your story is first loaded by a reader.
 
 ## StoryTitle, StorySubtitle, StoryAuthor

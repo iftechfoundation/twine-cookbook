@@ -1,5 +1,8 @@
 # *visitedTag(string, string...)*
 
+!!! Warning
+    You are reading documentation for Twine 1. This is maintained for archival purposes only.
+
 Has a value equal to the number of times you've visited passages with the given tags. If you use tags to delineate parts of your story, this can be a useful variant of *visited()*.
 
 ```twee

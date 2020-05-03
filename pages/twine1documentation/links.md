@@ -1,7 +1,7 @@
 # Links
 
 !!! Warning
-    You are reading documentation for Twine 1. The latest version is Twine 2, and very little functionality is backwards compatible.
+    You are reading documentation for Twine 1. This is maintained for archival purposes only.
 
 Links are the player's means of moving between passages and affecting the story. They are the equivalent of being told to turn to another page in a nonlinear book; in gamebooks, for example, you do this to make decisions for the main character. But this isn't the only possible kind of link.
 

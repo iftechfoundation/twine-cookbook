@@ -1,5 +1,8 @@
 # Story Formats
 
+!!! Warning
+    You are reading documentation for Twine 1. This is maintained for archival purposes only.
+
 When you publish your story to an HTML file, you can choose between story formats. These story formats control both the basic appearance and behavior of your story, though you can customize both of these via individual changes you make to your story.
 
 There are two main story formats to choose from: Sugarcane and Jonah.

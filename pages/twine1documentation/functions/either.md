@@ -1,5 +1,8 @@
 # *either(value, value, ...)*
 
+!!! Warning
+    You are reading documentation for Twine 1. This is maintained for archival purposes only.
+
 Give the *either()* function several string or number values, separated by commas, and it will pick one of them randomly. This allows a good degree of randomness to be inserted into the story, while still being fairly readable.
 
 You can use *either()* with `<<print>>` to print a random message or phrase...

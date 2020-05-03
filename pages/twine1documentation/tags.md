@@ -1,7 +1,7 @@
 # Tags
 
 !!! Warning
-    You are reading documentation for Twine 1. The latest version is Twine 2, and very little functionality is backwards compatible.
+    You are reading documentation for Twine 1. This is maintained for archival purposes only.
 
 Sometimes, it can be useful to add information about a passage that isn't visible to readers. Tags are a way to do this – they function as labels stuck on the side of a passage, visible to you while you are writing your story, but they cannot be seen in the published version of your story.
 

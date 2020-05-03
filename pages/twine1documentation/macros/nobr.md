@@ -1,5 +1,8 @@
 # `<<nobr>>`
 
+!!! Warning
+    You are reading documentation for Twine 1. This is maintained for archival purposes only.
+
 The `<<nobr>>` macro removes all of the line breaks in the enclosed text.
 
 ## Usage

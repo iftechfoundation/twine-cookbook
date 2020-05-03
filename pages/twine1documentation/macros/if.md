@@ -1,5 +1,8 @@
 # `<<if>>`
 
+!!! Warning
+    You are reading documentation for Twine 1. This is maintained for archival purposes only.
+
 The `<<if>>` macro is used to control what text the player sees when they visit a passage, or what macros are run when the passage loads.
 
 ## Usage

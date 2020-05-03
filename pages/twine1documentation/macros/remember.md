@@ -1,5 +1,8 @@
 # `<<remember>>`
 
+!!! Warning
+    You are reading documentation for Twine 1. This is maintained for archival purposes only.
+
 Variables are reset every time the reader restarts a story. If you'd like to remember the value of a variable after the game, use the `<<remember>>` macro. It works exactly the same way as `<<set>>`, except it stores the variable in browser storage that remains between sessions.
 
 ```twee

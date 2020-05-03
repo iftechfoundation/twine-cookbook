@@ -1,5 +1,8 @@
 # Sugarcane
 
+!!! Warning
+    You are reading documentation for Twine 1. This is maintained for archival purposes only.
+
 This displays your story with white text on a black background. Players can only see one passage at a time, though they can, if you permit, use their browsers' back buttons to return to a previous passage.
 
 Sugarcane has a sidebar menu that may contain these entries:

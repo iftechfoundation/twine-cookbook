@@ -1,5 +1,8 @@
 # *parameter(number)*
 
+!!! Warning
+    You are reading documentation for Twine 1. This is maintained for archival purposes only.
+
 This is an interesting one. Suppose you're `<<display>>`ing a passage using the shorthand, and you include some extra values at the end of the tag:
 
 `<<CaramelCanoe "oars" "satchel">>`

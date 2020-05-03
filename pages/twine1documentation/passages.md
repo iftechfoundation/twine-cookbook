@@ -1,7 +1,7 @@
 # Passages
 
 !!! Warning
-    You are reading documentation for Twine 1. The latest version is Twine 2, and very little functionality is backwards compatible.
+    You are reading documentation for Twine 1. This is maintained for archival purposes only.
 
 ## Introduction
 

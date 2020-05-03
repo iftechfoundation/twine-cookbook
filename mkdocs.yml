@@ -32,8 +32,7 @@ nav:
     - 'JavaScript': 'terms/terms_javascript.md'
     - 'Twee': 'terms/terms_twee.md'
     - 'HTML': 'terms/terms_html.md'
-  - Documentation:
-    - 'Twine 2 Editor': 'introduction/twine2_editor.md'
+  - Twine 2 Editor:
     - 'Story Listing': 'introduction/twine2_story_listing.md'
     - 'Passages View': 'introduction/twine2_passages_view.md'
     - 'Passages': 'introduction/passages.md'

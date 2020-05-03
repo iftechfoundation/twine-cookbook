@@ -1,5 +1,8 @@
 # `<<textinput>>`
 
+!!! Warning
+    You are reading documentation for Twine 1. This is maintained for archival purposes only.
+
 The `<<textinput>>` macro creates a standard HTML text box that allows the player to enter text. The text will be set to a variable once a `<<button>>` macro is clicked.
 
 ## Usage

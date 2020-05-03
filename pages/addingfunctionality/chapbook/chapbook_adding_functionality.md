@@ -6,13 +6,9 @@ Chapbook allows for creation of [custom inserts and modifiers](https://klembot.g
 
 The example below adds an insert that displays a 😀 emoji.
 
-## Live Example
+## Example
 
-<section>
-<iframe src="chapbook_adding_functionality_example.html" height=400 width=90%></iframe>
-
-Download: <a href="chapbook_adding_functionality_example.html" target="_blank">Live Example</a>
-</section>
+[Download Example](chapbook_adding_functionality_example.html)
 
 ## Twee Code
 
@@ -33,4 +29,4 @@ Hello there {smiley face}
 
 ```
 
-Download: <a href="chapbook_adding_functionality_twee.txt" target="_blank">Twee Code</a>
+[Download Twee Code](chapbook_adding_functionality_twee.txt)

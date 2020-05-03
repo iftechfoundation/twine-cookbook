@@ -1,5 +1,8 @@
 # `<<button>>`
 
+!!! Warning
+    You are reading documentation for Twine 1. This is maintained for archival purposes only.
+
 The `<<button>>` macro creates a button, a special type of link that, when clicked, sets the data entered into other form macros in the passage ( `<<textinput>>`, `<<radio>>`, `<<checkbox>>`), and moves to another passage.
 
 ## Usage

@@ -1,8 +1,10 @@
 # Example Formatting
 
-<div class="alertbox warning"><strong>Note:</strong> Some examples for specific versions (like those designed for Twine 1.4.2) contain this warning.</div>
+!!! Warning
+    Warnings appear in blocks like this.
 
-<div class="alertbox information"><strong>Note:</strong> Other examples contain additional important information.</div>
+!!! Information
+    Informational sections appear like this.
 
 ## Summary
 

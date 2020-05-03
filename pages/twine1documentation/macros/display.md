@@ -1,5 +1,8 @@
 # `<<display>>`
 
+!!! Warning
+    You are reading documentation for Twine 1. This is maintained for archival purposes only.
+
 The `<<display>>` macro lets you display the full contents of a passage inside another passage.
 
 ## Usage

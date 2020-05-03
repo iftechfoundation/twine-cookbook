@@ -1,5 +1,8 @@
 # `<<radio>>`
 
+!!! Warning
+    You are reading documentation for Twine 1. This is maintained for archival purposes only.
+
 The `<<radio>>` macro lets you offer your reader with a familiar radio button input. While a `<<checkbox>>` set lets the reader make multiple choices, radio buttons are mutually exclusive–your reader can choose only one option.
 
 Note that, in order for the value to be stored, there must be a `<<button>>` in the passage, and the user must click it.

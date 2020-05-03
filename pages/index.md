@@ -34,6 +34,7 @@ Include as much as possible of the following in an [issue](https://github.com/if
 * [@shawngraham](https://github.com/shawngraham) (Shawn Graham)
 * [@Akjosch](https://github.com/Akjosch) (Akjosch)
 * [@ChapelR](https://github.com/ChapelR) (Chapel)
+* [G.C. "Grim" Baccaris](https://grimoirtua.itch.io)
 
 ## License
 
