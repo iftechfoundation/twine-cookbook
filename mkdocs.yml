@@ -19,13 +19,7 @@ nav:
     - 'How do I style text?': 'questions/style_text.md'
     - 'Where are my stories saved?': 'questions/stories_saved.md'
     - 'What do I need to know?': 'questions/need_to_know.md'
-  - Twine 2 Documentation:
-    - 'Twine 2 Editor': 'introduction/twine2_editor.md'
-    - 'Story Listing': 'introduction/twine2_story_listing.md'
-    - 'Passages View': 'introduction/twine2_passages_view.md'
-    - 'Passages': 'introduction/passages.md'
-    - 'Story Formats': 'introduction/story_formats.md'
-  - Twine 2 Terms:
+  - Common Terms:
     - 'Twine': 'terms/terms_twine.md'
     - 'Cookbook': 'terms/terms_cookbook.md'
     - 'Stories': 'terms/terms_stories.md'
@@ -38,7 +32,17 @@ nav:
     - 'JavaScript': 'terms/terms_javascript.md'
     - 'Twee': 'terms/terms_twee.md'
     - 'HTML': 'terms/terms_html.md'
-  - Twine 2 Examples:
+  - Documentation:
+    - 'Twine 2 Editor': 'introduction/twine2_editor.md'
+    - 'Story Listing': 'introduction/twine2_story_listing.md'
+    - 'Passages View': 'introduction/twine2_passages_view.md'
+    - 'Passages': 'introduction/passages.md'
+    - 'Story Formats': 'introduction/story_formats.md'
+  - Getting Started:
+    - 'How to Create Your First Story': 'starting/twine2/firststory.md'
+    - 'How to Choose a Story Format': 'starting/twine2/storyformat.md'
+    - 'How to Review Your Story': 'starting/twine2/review.md'
+  - Examples:
     - Adding Functionality:
       - 'Chapbook': 'addingfunctionality/chapbook/chapbook_adding_functionality.md'
       - 'SugarCube': 'addingfunctionality/sugarcube/sugarcube_adding_functionality.md'
@@ -258,20 +262,23 @@ nav:
       - 'Snowman': 'storystyling/snowman/snowman_storystyling.md'
     - Using Add-ons:
       - 'SugarCube': 'usingaddons/sugarcube/sugarcube_usingaddons.md'
-  - Twine 2 CSS:
+  - Working with CSS:
       - 'Reviewing CSS Selectors': 'twine2css\selectors.md'
       - Story Formats:
         - 'Chapbook': 'twine2css\storyformats\chapbook.md'
         - 'Harlowe': 'twine2css\storyformats\harlowe.md'
         - 'SugarCube': 'twine2css\storyformats\sugarcube.md'
         - 'Snowman': 'twine2css\storyformats\snowman.md'
-  - Twine 1 Documentation:
-      - 'Passages': 'twine1documentation/passages.md'
-      - 'Links': 'twine1documentation/links.md'
-      - 'Formatting': 'twine1documentation/formatting.md'
-      - 'Tags': 'twine1documentation/tags.md'
-      - 'Story Formats': 'twine1documentation\storyformats.md'
-      - 'Special Passages': 'twine1documentation\specialpassages.md'
+  - Twine 1:
+      - Common Terms:
+        - 'Passages': 'twine1documentation/passages.md'
+        - 'Links': 'twine1documentation/links.md'
+        - 'Formatting': 'twine1documentation/formatting.md'
+        - 'Tags': 'twine1documentation/tags.md'
+        - 'Story Formats': 'twine1documentation\storyformats.md'
+        - 'Special Passages': 'twine1documentation\specialpassages.md'
+      - Getting Started:
+        - 'Installing': 'starting/twine1/installing.md'
       - Twine 1 Macros:
         - 'back': 'twine1documentation/macros/back.md'
         - 'button': 'twine1documentation/macros/button.md'
@@ -309,6 +316,37 @@ nav:
       - Twine 1 Story Formats:
         - 'Jonah': 'twine1documentation/storyformats/jonah.md'
         - 'Sugarcane': 'twine1documentation/storyformats/sugarcane.md'
+  - Release Notes Archive:
+      - Twine 2:
+        - '2.3.7': 'releasenotes\twine2\2.3.7.md'
+        - '2.3.5': 'releasenotes\twine2\2.3.5.md'
+        - '2.3.4': 'releasenotes\twine2\2.3.4.md'
+        - '2.3.3': 'releasenotes\twine2\2.3.3.md'
+        - '2.3.2': 'releasenotes\twine2\2.3.2.md'
+        - '2.3.1': 'releasenotes\twine2\2.3.1.md'
+        - '2.3.0': 'releasenotes\twine2\2.3.0.md'
+        - '2.2.1': 'releasenotes\twine2\2.2.1.md'
+        - '2.2.0': 'releasenotes\twine2\2.2.0.md'
+        - '2.1.3': 'releasenotes\twine2\2.1.3.md'
+        - '2.1.2': 'releasenotes\twine2\2.1.2.md'
+        - '2.1.1': 'releasenotes\twine2\2.1.1.md'
+        - '2.1.0': 'releasenotes\twine2\2.1.0.md'
+        - '2.0.11': 'releasenotes\twine2\2.0.11.md'
+        - '2.0.10': 'releasenotes\twine2\2.0.10.md'
+        - '2.0.9': 'releasenotes\twine2\2.0.9.md'
+        - '2.0.8': 'releasenotes\twine2\2.0.8.md'
+        - '2.0.7': 'releasenotes\twine2\2.0.7.md'
+        - '2.0.6': 'releasenotes\twine2\2.0.6.md'
+        - '2.0.5': 'releasenotes\twine2\2.0.5.md'
+        - '2.0.4': 'releasenotes\twine2\2.0.4.md'
+        - '2.0.3': 'releasenotes\twine2\2.0.3.md'
+        - '2.0.2': 'releasenotes\twine2\2.0.2.md'
+        - '2.0.1': 'releasenotes\twine2\2.0.1.md'       
+      - Twine 1:
+        - '1.4.3': 'releasenotes\twine1\1.4.3.md'
+        - '1.4.2': 'releasenotes\twine1\1.4.2.md'
+        - '1.4.1': 'releasenotes\twine1\1.4.1.md'
+        - '1.4': 'releasenotes\twine1\1.4.md'
 
 theme:
   name: material
