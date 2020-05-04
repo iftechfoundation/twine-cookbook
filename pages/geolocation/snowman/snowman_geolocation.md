@@ -8,13 +8,9 @@ Functionality availability and their results should always be tested against oth
 
 This example uses [Underscore template functionality](http://underscorejs.org/#template) to test for and show the values of properties storied in the *s* global variable in Snowman.
 
-## Live Example
+## Example
 
-<section>
-<iframe src="snowman_geolocation_example.html" height=400 width=90%></iframe>
-
-Download: <a href="snowman_geolocation_example.html" target="_blank">Live Example</a>
-</section>
+[Download](snowman_geolocation_example.html)
 
 ## Twee Code
 
@@ -25,63 +21,63 @@ Geolocation in Snowman
 :: UserScript[script]
 (function () {
 
-	window.geolocation = {
+  window.geolocation = {
 
-		available: function() {
-			return ("geolocation" in navigator 
-				&& typeof navigator.geolocation.getCurrentPosition === "function");
-		},
-		getLocation: function() {
+    available: function() {
+      return ("geolocation" in navigator
+        && typeof navigator.geolocation.getCurrentPosition === "function");
+    },
+    getLocation: function() {
 
-			// Create initial values
-			var location = { latitude : 0, longitude : 0 };
-			
-			// Create success callback to store values
-			var	positionSuccess = function (position) {
-				
-				location.latitude = position.coords.latitude;
-				location.longitude = position.coords.longitude;
+      // Create initial values
+      var location = { latitude : 0, longitude : 0 };
 
-			};
-			
-			// Create error callback
-			var positionError = function (error) {
-				/* Code that handles errors */
-			};
-			
-			// Create initial options
-			var positionOptions = {
-				timeout: 31000, 
-				enableHighAccuracy: true,
-				maximumAge : 120000
-			};
-			
+      // Create success callback to store values
+      var  positionSuccess = function (position) {
 
-			// Ask for location based on callbacks and options
-			navigator.geolocation.getCurrentPosition(
-				positionSuccess,
-				positionError,
-				positionOptions
-			);
+        location.latitude = position.coords.latitude;
+        location.longitude = position.coords.longitude;
 
-			// Return location found
-			// If not location, will return initial (0,0) values
-			return location;
+      };
 
-		},
-		approximateLocation: function (a, b, allowedDiff) { 
-		    // allowedDiff must always be > 0
-			if (a === b) { // handles various "exact" edge cases
-				return true;
-			}
+      // Create error callback
+      var positionError = function (error) {
+        /* Code that handles errors */
+      };
 
-			allowedDiff = allowedDiff || 0.0005;
-			
-			return Math.abs(a - b) < allowedDiff;
-		}
+      // Create initial options
+      var positionOptions = {
+        timeout: 31000,
+        enableHighAccuracy: true,
+        maximumAge : 120000
+      };
 
-	};
-	
+
+      // Ask for location based on callbacks and options
+      navigator.geolocation.getCurrentPosition(
+        positionSuccess,
+        positionError,
+        positionOptions
+      );
+
+      // Return location found
+      // If not location, will return initial (0,0) values
+      return location;
+
+    },
+    approximateLocation: function (a, b, allowedDiff) {
+        // allowedDiff must always be > 0
+      if (a === b) { // handles various "exact" edge cases
+        return true;
+      }
+
+      allowedDiff = allowedDiff || 0.0005;
+
+      return Math.abs(a - b) < allowedDiff;
+    }
+
+  };
+  
 }());
 
 :: Start
@@ -90,9 +86,9 @@ Geolocation in Snowman
 :: Show results
 Is geolocation available? <%= window.geolocation.available() %>
 <%
-	if(window.geolocation.available()) {
-		s.location = window.geolocation.getLocation();
-	}
+  if(window.geolocation.available()) {
+    s.location = window.geolocation.getLocation();
+  }
 %>
 
 If so, what is the current location?
@@ -109,12 +105,12 @@ Longitude: <%= window.geolocation.approximateLocation(s.location.longitude, -1.8
 
 :: Ask for permission
 <%
-	if(window.geolocation.available()) {
-		s.location = window.geolocation.getLocation();
-	}
+  if(window.geolocation.available()) {
+    s.location = window.geolocation.getLocation();
+  }
 %>
 [[Show results]]
 
 ```
 
-Download: <a href="snowman_geolocation_twee.txt" target="_blank">Twee Code</a>
+[Twee Download](snowman_geolocation_twee.txt)

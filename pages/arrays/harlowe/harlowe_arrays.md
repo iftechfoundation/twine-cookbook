@@ -6,13 +6,9 @@
 
 Specific elements in an array can be accessed by following its variable name with a possessive `'s` and an ordinal number referencing the index to check, (`$myArray's 2nd`); the final entry, `$myArray's last`, points to the final element. Its contents can be tested using the `contains` operator (e.g. `(if: $myArray contains 'something')[...]`), add new items using the `+` operator (e.g. `(set: $myArray to + (a: 'something'))`), and remove items using the `-` operator. All elements in an array can be passed to macros as separate arguments with the spread operator (`...`).
 
-## Live Example
+## Example
 
-<section>
-<iframe src="harlowe_arrays_example.html" height=400 width=90%></iframe>
-
-Download: <a href="harlowe_arrays_example.html" target="_blank">Live Example</a>
-</section>
+[Download](harlowe_arrays_example.html)
 
 ## Twee Code
 
@@ -83,4 +79,4 @@ Several darts shoot out of a wall at you!
 ]
 ```
 
-Download: <a href="harlowe_arrays_twee.txt" target="_blank">Twee Code</a>
+[Twee Download](harlowe_arrays_twee.txt)

@@ -4,13 +4,9 @@
 
 In SugarCube, [`<<unset>>`](http://www.motoslave.net/sugarcube/2/docs/#macros-macro-unset) works as a "reverse" to `<<set>>`. Instead of setting a value, it deletes it. `<<unset>>` works on both temporary and story variables.
 
-## Live Example
+## Example
 
-<section>
-<iframe src="sugarcube_deletingvariables_example.html" height=400 width=90%></iframe>
-
-Download: <a href="sugarcube_deletingvariables_example.html" target="_blank">Live Example</a>
-</section>
+[Download](sugarcube_deletingvariables_example.html)
 
 ## Twee Code
 
@@ -33,7 +29,7 @@ You present the $proof to the sheriff, not realizing the rain has washed away th
 
 ```
 
-Download: <a href="sugarcube_deletingvariables_twee.txt" target="_blank">Twee Code</a>
+[Twee Download](sugarcube_deletingvariables_twee.txt)
 
 ## See Also
 

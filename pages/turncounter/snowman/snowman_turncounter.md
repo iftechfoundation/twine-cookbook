@@ -8,13 +8,9 @@ In this example, the *length* of the array *[window.story.history](https://videl
 
 By visiting other passages, the turn count is increased and the hour reaches 23 before being reset back to 0 before increasing again.
 
-## Live Example
+## Example
 
-<section>
-<iframe src="snowman_turncounter_example.html" height=400 width=90%></iframe>
-
-Download: <a href="snowman_turncounter_example.html" target="_blank">Live Example</a>
-</section>
+[Download](snowman_turncounter_example.html)
 
 ## Twee Code
 
@@ -23,7 +19,7 @@ Download: <a href="snowman_turncounter_example.html" target="_blank">Live Exampl
 Turn Counter in Snowman
 
 :: Start
-<%=	window.story.render("Turn Counter") %>
+<%=  window.story.render("Turn Counter") %>
 Rooms:
 
 [[Back Room]]
@@ -33,7 +29,7 @@ Rooms:
 [[Right Room]]
 
 :: Back Room
-<%=	window.story.render("Turn Counter") %>
+<%=  window.story.render("Turn Counter") %>
 Rooms:
 
 [[Left Room]]
@@ -43,7 +39,7 @@ Rooms:
 [[Front Room|Start]]
 
 :: Left Room
-<%=	window.story.render("Turn Counter") %>
+<%=  window.story.render("Turn Counter") %>
 Rooms:
 
 [[Right Room]]
@@ -54,7 +50,7 @@ Rooms:
 
 
 :: Right Room
-<%=	window.story.render("Turn Counter") %>
+<%=  window.story.render("Turn Counter") %>
 Rooms:
 
 [[Left Room]]
@@ -66,22 +62,22 @@ Rooms:
 
 :: Turn Counter
 <%
-	var hour = window.story.history.length % 24;
+  var hour = window.story.history.length % 24;
 
-	if(hour <= 8){%>
-		It is morning.
-	<%}
-	if(hour > 8 && hour <= 12){%>
-		It is mid-morning.
-	<%}
-	if(hour > 12 && hour <= 16){%>
-		It is afternoon.
-	<%}
-	if(hour > 16){%>
-		It is night.
-	<%}
+  if(hour <= 8){%>
+    It is morning.
+  <%}
+  if(hour > 8 && hour <= 12){%>
+    It is mid-morning.
+  <%}
+  if(hour > 12 && hour <= 16){%>
+    It is afternoon.
+  <%}
+  if(hour > 16){%>
+    It is night.
+  <%}
 %>
 
 ```
 
-Download: <a href="snowman_turncounter_twee.txt" target="_blank">Twee Code</a>
+[Twee Download](snowman_turncounter_twee.txt)

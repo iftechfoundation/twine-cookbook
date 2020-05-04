@@ -1,6 +1,7 @@
 # "Lock and Key: Variable": SugarCube (v2.18)
 
-<div class="alert information"><strong>Note: </strong>This recipe is affected by history changes in the story. Undoing or re-doing back to a passage containing this recipe has the potential to change its saved values.</div>
+!!! Information
+    This example is affected by history changes in the story. Undoing or re-doing back to a passage containing this recipe has the potential to change its saved values.
 
 ## Summary
 
@@ -8,13 +9,9 @@
 
 When the link (created using a [`<<linkreplace>>`](https://www.motoslave.net/sugarcube/2/docs/#macros-macro-linkreplace) macro) "Pick up the key" is clicked, *$key* is changed to the value *true* and the door link changes from its initial response of "Locked Door" to a link to the passage Exit.
 
-## Live Example
+## Example
 
-<section>
-<iframe src="sugarcube_lockandkey_variable_example.html" height=400 width=90%></iframe>
-
-Download: <a href="sugarcube_lockandkey_variable_example.html" target="_blank">Live Example</a>
-</section>
+[Download](sugarcube_lockandkey_variable_example.html)
 
 ## Twee Code
 
@@ -55,7 +52,7 @@ You found the key and went through the door!
 
 ```
 
-Download: <a href="sugarcube_lockandkey_variable_twee.txt" target="_blank">Twee Code</a>
+[Twee Download](sugarcube_lockandkey_variable_twee.txt)
 
 ## See Also
 

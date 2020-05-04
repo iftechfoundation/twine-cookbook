@@ -8,13 +8,9 @@ When using an image element, its source is either absolutely or relatively locat
 
 Because images are external resources, they need to be included with the webpage as Base64-encoded or in another location. While Base64-encoded images can be embedded in a webpage, it also increases its overall size. External images require additional hosting and are included through their reference in CSS (URL) data type or image (SRC) attribute.
 
-## Live Example
+## Example
 
-<section>
-<iframe src="snowman_images_example.html" height=400 width=90%></iframe>
-
-Download: <a href="snowman_images_example.html" target="_blank">Live Example</a>
-</section>
+[Download](snowman_images_example.html)
 
 ## Twee Code
 
@@ -42,4 +38,4 @@ This is a Base64-encoded CSS image background:
 
 ```
 
-Download: <a href="snowman_images_twee.txt" target="_blank">Twee Code</a>
+[Twee Download](snowman_images_twee.txt)

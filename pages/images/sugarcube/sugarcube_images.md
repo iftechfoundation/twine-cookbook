@@ -8,15 +8,11 @@ When using an image element, its source is either absolutely or relatively locat
 
 Because images are external resources, they need to be included with the webpage as Base64-encoded or in another location. While Base64-encoded images can be embedded in a webpage, it also increases its overall size. External images require additional hosting and are included through their reference in CSS (URL) data type or image (SRC) attribute.
 
-Many macros also support [using images](http://www.motoslave.net/sugarcube/2/docs/markup.html#images) in Sugarcube and their location can be used within wiki syntax. Base64-encoded images are not supported in wiki image syntax.
+Many macros also support [using images](http://www.motoslave.net/sugarcube/2/docs/markup.html#images) in SugarCube and their location can be used within wiki syntax. Base64-encoded images are not supported in wiki image syntax.
 
-## Live Example
+## Example
 
-<section>
-<iframe src="sugarcube_images_example.html" height=400 width=90%></iframe>
-
-Download: <a href="sugarcube_images_example.html" target="_blank">Live Example</a>
-</section>
+[Download](sugarcube_images_example.html)
 
 ## Twee Code
 
@@ -44,4 +40,4 @@ This is a Base64-encoded CSS image background:
 
 ```
 
-Download: <a href="sugarcube_images_twee.txt" target="_blank">Twee Code</a>
+[Twee Download](sugarcube_images_twee.txt)

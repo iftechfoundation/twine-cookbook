@@ -8,13 +8,9 @@ Variables, symbols starting with `$` (for story-wide) or `_` (for temporary), ca
 
 In Harlowe, the keyword **it** can also be used as a shortcut for changing and saving a value in reference to itself. The **it** refers to the first variable named in the macro.
 
-## Live Example
+## Example
 
-<section>
-<iframe src="harlowe_settingandshowing_example.html" height=400 width=90%></iframe>
-
-Download: <a href="harlowe_settingandshowing_example.html" target="_blank">Live Example</a>
-</section>
+[Download](harlowe_settingandshowing_example.html)
 
 ## Twee Code
 
@@ -34,4 +30,4 @@ _textVariable are $numberVariable and $textVariable.
 _textVariable are $numberVariable and $textVariable.
 ```
 
-Download: <a href="harlowe_settingandshowing_twee.txt" target="_blank">Twee Code</a>
+[Twee Download](harlowe_settingandshowing_twee.txt)

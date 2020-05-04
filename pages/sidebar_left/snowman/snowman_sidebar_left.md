@@ -8,13 +8,9 @@ The **[createElement()](https://developer.mozilla.org/en-US/docs/Web/API/Documen
 
 Snowman triggers a "showpassage:after" event after each passage is shown. The **[on()](http://api.jquery.com/on/)** function can be used to monitor for this event. Once it has occurred, a combination of the **[html()](http://api.jquery.com/html/)** and **[window.story.render()](https://twinery.org/wiki/snowman:window-story:render)** functions can be used to display the dynamic contents of the Sidebar passage within the "sidebar" DIV element.
 
-## Live Example
+## Example
 
-<section>
-<iframe src="snowman_sidebar_left_example.html" height=400 width=90%></iframe>
-
-Download: <a href="snowman_sidebar_left_example.html" target="_blank">Live Example</a>
-</section>
+[Download](snowman_sidebar_left_example.html)
 
 ## Twee Code
 
@@ -25,34 +21,34 @@ Left Sidebar in Snowman
 
 :: UserScript [script]
 /*
-	Create the element to display the contents of the Sidebar passage in.
+  Create the element to display the contents of the Sidebar passage in.
 */
 $(document.createElement('div'))
-	.attr('id', 'sidebar')
-	.insertBefore('#passage');
+  .attr('id', 'sidebar')
+  .insertBefore('#passage');
 
 /*
-	Monitor for the event that is triggered after the current Passage has been shown.
+  Monitor for the event that is triggered after the current Passage has been shown.
 */
 $(window).on('showpassage:after', function () {
-	$('#sidebar').html(window.story.render("Sidebar"));
+  $('#sidebar').html(window.story.render("Sidebar"));
 });
 
 
 :: UserStylesheet[stylesheet]
 #passage {
-	margin-left: 20%;
+  margin-left: 20%;
 }
 
 #sidebar {
-	position: fixed;
-	top: 0;
-	left: 0;
-	width: 18%;
-	height: 100%;
-	margin: 0;
-	padding: 0.5em; 
-	background-color: black;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 18%;
+  height: 100%;
+  margin: 0;
+  padding: 0.5em;
+  background-color: black;
     color: white;
 }
 
@@ -72,4 +68,4 @@ Location: <%= s.location %>
 [[Start]]
 ```
 
-Download: <a href="snowman_sidebar_left_twee.txt" target="_blank">Twee Code</a>
+[Twee Download](snowman_sidebar_left_twee.txt)

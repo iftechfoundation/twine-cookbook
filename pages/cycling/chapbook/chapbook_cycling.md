@@ -4,13 +4,9 @@
 
 Chapbook provides the [`{cycling link}`](https://klembot.github.io/chapbook/guide/player-input/dropdown-menus-cycling-links.html) modifier for creating a cycling link effect.
 
-## Live Example
+## Example
 
-<section>
-<iframe src="chapbook_cycling_example.html" height=400 width=90%></iframe>
-
-Download: <a href="chapbook_cycling_example.html" target="_blank">Live Example</a>
-</section>
+[Download](chapbook_cycling_example.html)
 
 ## Twee Code
 
@@ -27,4 +23,4 @@ This cycling-link example will disappear (show empty string) on its last choice:
 
 ```
 
-Download: <a href="chapbook_cycling_twee.txt" target="_blank">Twee Code</a>
+[Twee Download](chapbook_cycling_twee.txt)

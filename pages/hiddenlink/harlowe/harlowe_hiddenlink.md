@@ -10,13 +10,9 @@ The use of a "footer" special Passage is also used to run the required JavaScrip
 
 Harlowe supports a number of different techniques for creating links and the resulting HTML elements generated is different for each of these techniques. The generated HTML falls into two main groups: those that include a `<<tw-link>>` element, and those that include a ".enchantment-link" classed element. This example supports both groups.
 
-## Live Example
+## Example
 
-<section>
-<iframe src="harlowe_hiddenlink_example.html" height=400 width=90%></iframe>
-
-Download: <a href="harlowe_hiddenlink_example.html" target="_blank">Live Example</a>
-</section>
+[Download](harlowe_hiddenlink_example.html)
 
 ## Twee Code
 
@@ -37,35 +33,35 @@ tw-include[title="Hidden Link Setup"] {
 
 :: Hidden Link Setup [footer]
 <script>
-	/*
-		Hidden links that are always hidden:
-			<span class="hidden">[[A hidden link]]</span>
-	*/
-	$('.hidden')
-		.addClass('hidden');
+  /*
+    Hidden links that are always hidden:
+      <span class="hidden">[[A hidden link]]</span>
+  */
+  $('.hidden')
+    .addClass('hidden');
 
-	/*
-		Hidden links that hide unless you're hovering over them:
-			<span class="hides">[[A hidden link]]</span>
-	*/
-	$('.hides')
-		.addClass('hidden')
-		.on('mouseenter', function () {
-			$(this).removeClass('hidden');
-		})
-		.on('mouseleave', function () {
-			$(this).addClass('hidden');
-		});
+  /*
+    Hidden links that hide unless you're hovering over them:
+      <span class="hides">[[A hidden link]]</span>
+  */
+  $('.hides')
+    .addClass('hidden')
+    .on('mouseenter', function () {
+      $(this).removeClass('hidden');
+    })
+    .on('mouseleave', function () {
+      $(this).addClass('hidden');
+    });
 
-	/*
-		Hidden links that reveal themselves when you hover over them:
-			<span class="reveals">[[A hidden link]]</span>
-	*/
-	$('.reveals')
-		.addClass('hidden')
-		.one('mouseenter', function () {
-			$(this).removeClass('hidden');
-		});
+  /*
+    Hidden links that reveal themselves when you hover over them:
+      <span class="reveals">[[A hidden link]]</span>
+  */
+  $('.reveals')
+    .addClass('hidden')
+    .one('mouseenter', function () {
+      $(this).removeClass('hidden');
+    });
 </script>
 
 
@@ -96,4 +92,4 @@ You found it!
 
 ```
 
-Download: <a href="harlowe_hiddenlink_twee.txt" target="_blank">Twee Code</a>
+[Twee Download](harlowe_hiddenlink_twee.txt)

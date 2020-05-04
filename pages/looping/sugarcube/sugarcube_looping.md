@@ -6,13 +6,9 @@ In programming terminology, a "loop" is a common technique for iterating, moving
 
 In this example, the array *arrayInventory* is set to the series of strings "Bread", "Pan", and "Book". Using the `<<for>>` macro, a temporary variable is set to 0 and increased for each loop until its value is no longer less than the [length](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/length) (number of entries) in the array. Inside the macro, the text is shown each time with the value of the entry matching the position of the value of *_i* in the array substituted.
 
-## Live Example
+## Example
 
-<section>
-<iframe src="sugarcube_looping_example.html" height=400 width=90%></iframe>
-
-Download: <a href="sugarcube_looping_example.html" target="_blank">Live Example</a>
-</section>
+[Download](sugarcube_looping_example.html)
 
 ## Twee Code
 
@@ -31,4 +27,4 @@ You have $arrayInventory[_i]
 
 ```
 
-Download: <a href="sugarcube_looping_twee.txt" target="_blank">Twee Code</a>
+[Twee Download](sugarcube_looping_twee.txt)

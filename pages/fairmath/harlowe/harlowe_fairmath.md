@@ -6,13 +6,9 @@
 
 This example uses the [`(display:)`](https://twine2.neocities.org/#macro_display) macro in Harlowe to separate operations for increasing and decreasing. Through setting values to adjust, either passage can be included and the *$resultValue* used to track and store changes.
 
-## Live Example
+## Example
 
-<section>
-<iframe src="harlowe_fairmath_example.html" height=400 width=90%></iframe>
-
-Download: <a href="harlowe_fairmath_example.html" target="_blank">Live Example</a>
-</section>
+[Download](harlowe_fairmath_example.html)
 
 ## Twee Code
 
@@ -55,4 +51,4 @@ The adjusted value is $resultValue.
 
 ```
 
-Download: <a href="harlowe_fairmath_twee.txt" target="_blank">Twee Code</a>
+[Twee Download](harlowe_fairmath_twee.txt)

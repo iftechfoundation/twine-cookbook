@@ -24,13 +24,9 @@ This example shows how to use [CSS](../../terms/terms_css.md) selectors to style
 </div>
 ```
 
-## Live Example
+## Example
 
-<section>
-<iframe src="chapbook_cssselectors_example.html" height=400 width=90%></iframe>
-
-Download: <a href="chapbook_cssselectors_example.html" target="_blank">Live Example</a>
-</section>
+[Download](chapbook_cssselectors_example.html)
 
 ## Twee Code
 
@@ -61,4 +57,4 @@ This passage also has a blue border.
 
 ```
 
-Download: <a href="chapbook_cssselectors_twee.txt" target="_blank">Twee Code</a>
+[Twee Download](chapbook_cssselectors_twee.txt)

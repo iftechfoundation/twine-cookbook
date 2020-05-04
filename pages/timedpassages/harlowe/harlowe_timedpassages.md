@@ -4,13 +4,9 @@
 
 Made famous in [*Queers in Love at the End of the World*](https://w.itch.io/end-of-the-world) (2013), "Timed Passages" uses the the [`(live:)`](https://twine2.neocities.org/#macro_live) macro to count seconds while checking if the timer has reached zero. If so, the [`(goto:)`](https://twine2.neocities.org/#macro_go-to) macro will immediately go to another passage.
 
-## Live Example
+## Example
 
-<section>
-<iframe src="harlowe_timedpassages_example.html" height=400 width=90%></iframe>
-
-Download: <a href="harlowe_timedpassages_example.html" target="_blank">Live Example</a>
-</section>
+[Download](harlowe_timedpassages_example.html)
 
 ## Twee Code
 
@@ -20,10 +16,10 @@ Harlowe: Timed Passages
 
 :: StoryStylesheet[stylesheet]
 tw-include[type="startup"]{
-	display: none;
+  display: none;
 }
 tw-sidebar {
-  	display:none;
+    display:none;
 }
 
 
@@ -40,16 +36,16 @@ The world ended.
 
 :: Timer
 {
-	(live: 1s)[
-    	(if: $timer is 0)[
-			(stop:)
-			(goto: "World End")
-		]
-    	(else: )[
-			(set: $timer to it - 1)
-			The world will end in $timer seconds
-		]
-	]
+  (live: 1s)[
+      (if: $timer is 0)[
+      (stop:)
+      (goto: "World End")
+    ]
+      (else: )[
+      (set: $timer to it - 1)
+      The world will end in $timer seconds
+    ]
+  ]
 }
 
 :: Second Passage
@@ -62,7 +58,7 @@ The world ended.
 
 ```
 
-Download: <a href="harlowe_timedpassages_twee.txt" target="_blank">Twee Code</a>
+[Twee Download](harlowe_timedpassages_twee.txt)
 
 ## See Also
 

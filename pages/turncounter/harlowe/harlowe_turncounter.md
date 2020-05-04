@@ -8,13 +8,9 @@ In this example, the *length* of the array returned by using the `(history:)` ma
 
 By visiting other passages, the turn count is increased and the hour reaches 23 before being reset back to 0 before increasing again.
 
-## Live Example
+## Example
 
-<section>
-<iframe src="harlowe_turncounter_example.html" height=400 width=90%></iframe>
-
-Download: <a href="harlowe_turncounter_example.html" target="_blank">Live Example</a>
-</section>
+[Download](harlowe_turncounter_example.html)
 
 ## Twee Code
 
@@ -30,11 +26,11 @@ Rooms:
 
 :: Turn Counter[header]
 {
-	(set: $hour to (history:)'s length % 24 )
-	(if: $hour <= 8)[It is morning.]
-	(if: $hour > 8 and $hour <= 12)[It is mid-morning.]
-	(if: $hour > 12 and $hour <= 16)[It is afternoon.]
-	(if: $hour > 16)[It is night.]
+  (set: $hour to (history:)'s length % 24 )
+  (if: $hour <= 8)[It is morning.]
+  (if: $hour > 8 and $hour <= 12)[It is mid-morning.]
+  (if: $hour > 12 and $hour <= 16)[It is afternoon.]
+  (if: $hour > 16)[It is night.]
 }
 
 
@@ -59,4 +55,4 @@ Rooms:
 
 ```
 
-Download: <a href="harlowe_turncounter_twee.txt" target="_blank">Twee Code</a>
+[Twee Download](harlowe_turncounter_twee.txt)

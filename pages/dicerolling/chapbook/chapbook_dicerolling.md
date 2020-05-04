@@ -6,13 +6,9 @@ This example demonstrates how to create the same effects of rolling various phys
 
 [Inserts](https://klembot.github.io/chapbook/guide/modifiers-and-inserts/) are used to display the use of *random* in the passage. For calculations, a [var section](https://klembot.github.io/chapbook/guide/state/the-vars-section.html) and temporary variables are used because expressions cannot be used within inserts.
 
-## Live Example
+## Example
 
-<section>
-<iframe src="chapbook_dicerolling_example.html" height=400 width=90%></iframe>
-
-Download: <a href="chapbook_dicerolling_example.html" target="_blank">Live Example</a>
-</section>
+[Download](chapbook_dicerolling_example.html)
 
 ## Twee Code
 
@@ -48,4 +44,4 @@ Rolling a 2d6 + 10: {_example3}
 
 ```
 
-Download: <a href="chapbook_dicerolling_twee.txt" target="_blank">Twee Code</a>
+[Twee Download](chapbook_dicerolling_twee.txt)

@@ -6,13 +6,9 @@ SugarCube triggers different [events as they happen to passages](http://www.moto
 
 In this example, the "passagestart" and "passagerender" events are shown. In the event progression, the 'passagestart' event occurs before the [PassageHeader](http://www.motoslave.net/sugarcube/2/docs/special-names.html#special-passages-passageheader) prepending its content and the 'passagerender' happens after the [PassageFooter](http://www.motoslave.net/sugarcube/2/docs/special-names.html#special-passages-passagefooter). Through using event handling, content is added before the PassageHeader and after the PassageFooter as an example of when events occur in presenting passages.
 
-## Live Example
+## Example
 
-<section>
-<iframe src="sugarcube_passage_events_example.html" height=400 width=90%></iframe>
-
-Download: <a href="sugarcube_passage_events_example.html" target="_blank">Live Example</a>
-</section>
+[Download](sugarcube_passage_events_example.html)
 
 ## Twee Code
 
@@ -23,23 +19,23 @@ Passage Events in SugarCube
 :: UserScript[script]
 /*
     Prepend the content of the passage "New Header" to every passage.
-		
-		This demonstrates that the 'passagestart' event comes before
-		 the PassageHeader prepending.
+
+    This demonstrates that the 'passagestart' event comes before
+     the PassageHeader prepending.
 */
 $(document).on(':passagestart', function (eventObject) {
-	  var headerContent = Story.get("New Header").processText(); 
+    var headerContent = Story.get("New Header").processText();
     $(eventObject.content).wiki(headerContent);
 });
 
 /*
     Append the content of the passage "New Footer" to every passage.
-		
-		This demonstrates that the 'passagerender' event comes after
-		 the PassageFooter appending.
+
+    This demonstrates that the 'passagerender' event comes after
+     the PassageFooter appending.
 */
 $(document).on(':passagerender', function (eventObject) {
-	  var footerContent = Story.get("New Footer").processText(); 
+    var footerContent = Story.get("New Footer").processText();
     $(eventObject.content).wiki(footerContent);
 });
 
@@ -56,20 +52,16 @@ This is added before the PassageHeader!
 :: PassageHeader
 This is the PassageHeader.
 
-
 :: PassageFooter
 
 This is the PassageFooter!
 
-
 :: New Footer
 This is added after the PassageFooter!
 
-
-
 ```
 
-Download: <a href="sugarcube_passage_events_twee.txt" target="_blank">Twee Code</a>
+[Twee Download](sugarcube_passage_events_twee.txt)
 
 ## See Also
 

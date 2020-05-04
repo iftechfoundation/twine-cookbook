@@ -6,13 +6,9 @@
 
 When the link "Pick up key" is clicked in the "Back Room" passage, *key* is changed to the value "true" via embedding the passage "Key". When the passage is visited and *key* is set to the value of "true", door link changes from its initial response of "Locked Door" to "Unlock the door".
 
-## Live Example
+## Example
 
-<section>
-<iframe src="chapbook_lockandkey_variable_example.html" height=400 width=90%></iframe>
-
-Download: <a href="chapbook_lockandkey_variable_example.html" target="_blank">Live Example</a>
-</section>
+[Download](chapbook_lockandkey_variable_example.html)
 
 ## Twee Code
 
@@ -33,9 +29,9 @@ Rooms:
 
 :: Front Room
 [if key == true]
-	[[Unlock the door->Exit]]
+  [[Unlock the door->Exit]]
 [else]
-	*Locked Door*
+  *Locked Door*
 [continued]
 
 Rooms:
@@ -45,10 +41,10 @@ Rooms:
 
 :: Back Room
 [if key == false]
-	Items:
-	{reveal link: 'Pick up key', passage: 'Key'}
+  Items:
+  {reveal link: 'Pick up key', passage: 'Key'}
 [else]
-	There is nothing here.
+  There is nothing here.
 [continued]
 
 Rooms:
@@ -65,4 +61,4 @@ You picked up the key!
 
 ```
 
-Download: <a href="chapbook_lockandkey_variable_twee.txt" target="_blank">Twee Code</a>
+[Twee Download](chapbook_lockandkey_variable_twee.txt)

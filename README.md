@@ -26,7 +26,7 @@ Include as much as possible of the following in an [issue](https://github.com/if
 
 ## Contributors
 
-* [@videlais](https://github.com/videlais) (Dan Cox)
+* [@videlais](https://github.com/videlais) (Dan Cox) [Editor]
 * [@klembot](https://github.com/klembot) (Chris Klimas)
 * [@tmedwards](https://github.com/tmedwards) (Thomas Michael Edwards)
 * [@greyelf](https://github.com/greyelf) (David Tarrant)
@@ -34,7 +34,7 @@ Include as much as possible of the following in an [issue](https://github.com/if
 * [@shawngraham](https://github.com/shawngraham) (Shawn Graham)
 * [@Akjosch](https://github.com/Akjosch) (Akjosch)
 * [@ChapelR](https://github.com/ChapelR) (Chapel)
-* [G.C. "Grim" Baccaris](grimoirtua.itch.io)
+* [G.C. "Grim" Baccaris](https://grimoirtua.itch.io)
 
 ## License
 

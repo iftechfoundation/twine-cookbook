@@ -4,13 +4,9 @@
 
 Through using the [Underscore template library](https://underscorejs.org/#template) available in Snowman, JavaScript can be used within passages without a `<script>` tag. The **[delete](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/delete)** operator can be used in JavaScript to remove a variable.
 
-## Live Example
+## Example
 
-<section>
-<iframe src="snowman_deletingvariables_example.html" height=400 width=90%></iframe>
-
-Download: <a href="snowman_deletingvariables_example.html" target="_blank">Live Example</a>
-</section>
+[Download](snowman_deletingvariables_example.html)
 
 ## Twee Code
 
@@ -43,4 +39,4 @@ Does "example" still exist as part of the object window.story? <%= window.story.
 
 ```
 
-Download: <a href="snowman_deletingvariables_twee.txt" target="_blank">Twee Code</a>
+[Twee Download](snowman_deletingvariables_twee.txt)

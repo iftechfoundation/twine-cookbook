@@ -10,77 +10,72 @@ When triggered, the global values of "choices" and "selection" for the element a
 
 Finally, the global variables are updated according to the element's *id* for later access and to prevent changes to the history of the story potentially affecting saved values.
 
-## Live Example
+## Example
 
-<section>
-<iframe src="snowman_cycling_example.html" height=400 width=90%></iframe>
-
-
-Download: <a href="snowman_cycling_example.html" target="_blank">Live Example</a>
-</section>
+[Download](snowman_cycling_example.html)
 
 ## Twee Code
 
-```
+```twee
 :: StoryTitle
 Cycling Choices in Snowman
 
 :: UserScript[script]
 $(function() {
-	
-	// Create a global object
-	window.setup = window.setup || {};
-	
-	// Iterate through all elements with the class 'cycle'
-	//  For each, save the current 'choices' and 'selection'
-	//  (This sets all the 'default' values.)
-	$('.cycle').each(function() {
-		
-		// Create a global object for each 'id'
-		var id = $(this).attr('id');
-		setup[id] = {};
-		
-		// Save the current 'choices' for each
-		var choices = JSON.parse($(this).attr("data-cycling-choices"));
-		setup[id].choices = choices;
-		
-		// Save the current 'selection' for each
-		var selection = $(this).attr("data-cycling-selection");
-		setup[id].selection = selection;
-  		
-	});
-	
-	$('.cycle').click(function(){
-		
-		// Save the 'id'
-		var id = $(this).attr('id');
-		
-		// Retrieve the global 'choices'
-		var choices = setup[id].choices;
-		
-		// Retrieve the global 'selection'
-		var selection = setup[id].selection;
-		
-		// Update the 'selection' number
-		selection++;
-		
-		// Check if 'selection' is greater than length of choices
-		if(selection >= choices.length) {
-			selection = 0;
-		}
-		
-		// Update the 'selection' on the element
-		$(this).attr("data-cycling-selection", selection);
-		
-		// Update the text of the element with the choice
-		$(this).text(choices[selection]);
-	
-		// Update the global values of 'choices' and 'selection'
-		setup[id].choices = choices; 
-		setup[id].selection = selection;
-	
-	});
-	
+  
+  // Create a global object
+  window.setup = window.setup || {};
+  
+  // Iterate through all elements with the class 'cycle'
+  //  For each, save the current 'choices' and 'selection'
+  //  (This sets all the 'default' values.)
+  $('.cycle').each(function() {
+
+    // Create a global object for each 'id'
+    var id = $(this).attr('id');
+    setup[id] = {};
+
+    // Save the current 'choices' for each
+    var choices = JSON.parse($(this).attr("data-cycling-choices"));
+    setup[id].choices = choices;
+
+    // Save the current 'selection' for each
+    var selection = $(this).attr("data-cycling-selection");
+    setup[id].selection = selection;
+
+  });
+  
+  $('.cycle').click(function(){
+
+    // Save the 'id'
+    var id = $(this).attr('id');
+
+    // Retrieve the global 'choices'
+    var choices = setup[id].choices;
+
+    // Retrieve the global 'selection'
+    var selection = setup[id].selection;
+
+    // Update the 'selection' number
+    selection++;
+
+    // Check if 'selection' is greater than length of choices
+    if(selection >= choices.length) {
+      selection = 0;
+    }
+
+    // Update the 'selection' on the element
+    $(this).attr("data-cycling-selection", selection);
+
+    // Update the text of the element with the choice
+    $(this).text(choices[selection]);
+  
+    // Update the global values of 'choices' and 'selection'
+    setup[id].choices = choices;
+    setup[id].selection = selection;
+  
+  });
+  
 });
 
 :: Start
@@ -93,7 +88,7 @@ $(function() {
 
 ```
 
-Download: <a href="snowman_cycling_twee.txt" target="_blank">Twee Code</a>
+[Twee Download](snowman_cycling_twee.txt)
 
 ## See Also
 

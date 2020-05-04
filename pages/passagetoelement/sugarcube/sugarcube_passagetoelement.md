@@ -6,13 +6,9 @@ In SugarCube, the function **[setPageElement()](http://www.motoslave.net/sugarcu
 
 The event ":passagedisplay" is used in this example to guarantee that the passage has been rendered before acting. Calling the function **setPageElement()** inside the [jQuery event listener](https://api.jquery.com/on/) then renders another passage into an existing element.
 
-## Live Example
+## Example
 
-<section>
-<iframe src="sugarcube_passagetoelement_example.html" height=400 width=90%></iframe>
-
-Download: <a href="sugarcube_passagetoelement_example.html" target="_blank">Live Example</a>
-</section>
+[Download](sugarcube_passagetoelement_example.html)
 
 ## Twee Code
 
@@ -23,11 +19,11 @@ SugarCube: Render Passage to Element
 :: Start
 <div id="hudID"></div>
 <<script>>
-	// Wait for the passage to be displayed
-	$(document).one(':passagedisplay', function (ev) {
-		// Render the passage named HUD into the element with id of "hudID"
-		setPageElement("hudID", "HUD");
-	});
+  // Wait for the passage to be displayed
+  $(document).one(':passagedisplay', function (ev) {
+    // Render the passage named HUD into the element with id of "hudID"
+    setPageElement("hudID", "HUD");
+  });
 <</script>>
 
 :: HUD
@@ -35,4 +31,4 @@ SugarCube: Render Passage to Element
 
 ```
 
-Download: <a href="sugarcube_passagetoelement_twee.txt" target="_blank">Twee Code</a>
+[Twee Download](sugarcube_passagetoelement_twee.txt)

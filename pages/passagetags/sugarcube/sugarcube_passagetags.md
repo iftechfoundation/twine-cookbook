@@ -6,13 +6,9 @@ This example shows how to use CSS selectors to style different passages based on
 
 SugarCube 2.x and later also applies a "data-tags" attribute to the `<html>`, `<body>`, and elements with the class ".passage". These can also be used to style the page at different levels.
 
-## Live Example
+## Example
 
-<section>
-<iframe src="sugarcube_passagetags_example.html" height=400 width=90%></iframe>
-
-Download: <a href="sugarcube_passagetags_example.html" target="_blank">Live Example</a>
-</section>
+[Download](sugarcube_passagetags_example.html)
 
 ## Twee Code
 
@@ -46,4 +42,4 @@ This passage has a yellow background and black text.
 
 ```
 
-Download: <a href="sugarcube_passagetags_twee.txt" target="_blank">Twee Code</a>
+[Twee Download](sugarcube_passagetags_twee.txt)

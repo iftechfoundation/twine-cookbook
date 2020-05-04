@@ -9,13 +9,9 @@ The example uses **[addEventListener()](https://developer.mozilla.org/en-US/docs
 * The *keyCode* property: the numerical value representing the key presented in its [decimal ASCII code](http://www.asciichart.com/) supported by effectively all browsers.
 * The *key* property: the string value of the key presented supported by most modern web-browsers.
 
-## Live Example
+## Example
 
-<section>
-<iframe src="chapbook_keyboard_example.html" height=400 width=90%></iframe>
-
-Download: <a href="chapbook_keyboard_example.html" target="_blank">Live Example</a>
-</section>
+[Download](chapbook_keyboard_example.html)
 
 ## Twee Code
 
@@ -25,19 +21,19 @@ Chapbook: Keyboard
 
 :: UserScript[script]
 (function () {
-	document.addEventListener('keyup', function (ev) {
-		/* the ev variable contains a keyup event object.
-		 *
-		 * ev.keyCode - contains the ASCII code of the key that was released, this property is supported in effectively all browsers.
-		 * ev.key     - contains the key value of the key that was released, this property is supported by most modern browsers.
-		 *
-		 */
+  document.addEventListener('keyup', function (ev) {
+    /* the ev variable contains a keyup event object.
+     *
+     * ev.keyCode - contains the ASCII code of the key that was released, this property is supported in effectively all browsers.
+     * ev.key     - contains the key value of the key that was released, this property is supported by most modern browsers.
+     *
+     */
 
-		/* the following shows an alert when the 'a' key is released. */
-		if (ev.key === 'a') {
-			alert("the 'a' key was released.");
-		}
-	});
+    /* the following shows an alert when the 'a' key is released. */
+    if (ev.key === 'a') {
+      alert("the 'a' key was released.");
+    }
+  });
 }());
 
 
@@ -46,4 +42,4 @@ Press and release the ''a'' key to show an Alert dialog.
 
 ```
 
-Download: <a href="chapbook_keyboard_twee.txt" target="_blank">Twee Code</a>
+[Twee Download](chapbook_keyboard_twee.txt)

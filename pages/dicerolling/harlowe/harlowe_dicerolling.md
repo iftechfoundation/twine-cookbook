@@ -4,13 +4,9 @@
 
 "Dice Rolling" demonstrates how to create the same effects of rolling various physical dice through using the [`(random:)`](https://twine2.neocities.org/#macro_random) macro and adding or subtracting numbers.
 
-## Live Example
+## Example
 
-<section>
-<iframe src="harlowe_dicerolling_example.html" height=400 width=90%></iframe>
-
-Download: <a href="harlowe_dicerolling_example.html" target="_blank">Live Example</a>
-</section>
+[Download](harlowe_dicerolling_example.html)
 
 ## Twee Code
 
@@ -31,4 +27,4 @@ Rolling a 1d6 - 2: (text: (random: 1, 6) - 2)
 Rolling a 2d6 + 10: (text: (random: 1, 6) + (random: 1, 6) + 10)
 ```
 
-Download: <a href="harlowe_dicerolling_twee.txt" target="_blank">Twee Code</a>
+[Twee Download](harlowe_dicerolling_twee.txt)

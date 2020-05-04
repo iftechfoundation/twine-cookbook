@@ -15,13 +15,9 @@ This example shows how to use [CSS](../../terms/terms_css.md) selectors to style
 </body>
 ```
 
-## Live Example
+## Example
 
-<section>
-<iframe src="sugarcube_cssselectors_example.html" height=400 width=90%></iframe>
-
-Download: <a href="sugarcube_cssselectors_example.html" target="_blank">Live Example</a>
-</section>
+[Download](sugarcube_cssselectors_example.html)
 
 ## Twee Code
 
@@ -50,12 +46,8 @@ The page has a green background; it contains this passage (red border) and the s
 This passage also has a red border.
 ```
 
-Download: <a href="sugarcube_cssselectors_twee.txt" target="_blank">Twee Code</a>
+[Twee Download](sugarcube_cssselectors_twee.txt)
 
 ## See Also
 
-See the [SugarCube images recipe](../../images/sugarcube/sugarcube_images.md) for an example of using a single [*class* CSS selector](https://developer.mozilla.org/en-US/docs/Web/CSS/Class_selectors) to style a different element. See [styling passages by tag](../../passagetags/sugarcube/sugarcube_passagetags.md) for an example of using two classes to style a single element.
-
-### Bleached
-
-[Bleached](https://www.motoslave.net/sugarcube/2/#downloads) is an alternate, light-colored stylesheet for SugarCube, and a good example of how to change SugarCube's default colors using CSS.
+See the [SugarCube images](../../images/sugarcube/sugarcube_images.md) for an example of using a single [*class* CSS selector](https://developer.mozilla.org/en-US/docs/Web/CSS/Class_selectors) to style a different element. See [styling passages by tag](../../passagetags/sugarcube/sugarcube_passagetags.md) for an example of using two classes to style a single element.

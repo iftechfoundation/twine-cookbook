@@ -6,13 +6,9 @@ Using the [Vars Section](https://klembot.github.io/chapbook/guide/state/the-vars
 
 While Chapbook cannot show an array or its value by position, a new variable can be set and then shown. This following example shows how to do this approach.
 
-## Live Example
+## Example
 
-<section>
-<iframe src="chapbook_arrays_example.html" height=400 width=90%></iframe>
-
-Download: <a href="chapbook_arrays_example.html" target="_blank">Live Example</a>
-</section>
+[Download](chapbook_arrays_example.html)
 
 ## Twee Code
 
@@ -30,4 +26,4 @@ Here is an {exampleValue}.
 
 ```
 
-Download: <a href="chapbook_arrays_twee.txt" target="_blank">Twee Code</a>
+[Twee Download](chapbook_arrays_twee.txt)

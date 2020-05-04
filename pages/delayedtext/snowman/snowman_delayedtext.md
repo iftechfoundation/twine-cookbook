@@ -4,13 +4,9 @@
 
 "Delayed Text" uses the **[delay()](http://underscorejs.org/#delay)** function in Underscore combined with a [jQuery selector](https://api.jquery.com/category/selectors/) to target an element with the ID of "results" to change its internal text after five seconds.
 
-## Live Example
+## Example
 
-<section>
-<iframe src="snowman_delayedtext_example.html" height=400 width=90%></iframe>
-
-Download: <a href="snowman_delayedtext_example.html" target="_blank">Live Example</a>
-</section>
+[Download](snowman_delayedtext_example.html)
 
 ## Twee Code
 
@@ -29,7 +25,7 @@ Delayed Text in Snowman
 %>
 ```
 
-Download: <a href="snowman_delayedtext_twee.txt" target="_blank">Twee Code</a>
+[Twee Download](snowman_delayedtext_twee.txt)
 
 ## See Also
 

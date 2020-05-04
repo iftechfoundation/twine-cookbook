@@ -6,13 +6,9 @@ Harlowe provides macros like [`(save-game:)`](https://twine2.neocities.org/#macr
 
 Game saves are stored as cookies in the user's browser. If cookies cannot be stored for some reason, game saves will fail. It is recommended to always check if the game save was stored before trying to retrieve it later.
 
-## Live Example
+## Example
 
-<section>
-<iframe src="harlowe_savinggames_example.html" height=400 width=90%></iframe>
-
-Download: <a href="harlowe_savinggames_example.html" target="_blank">Live Example</a>
-</section>
+[Download](harlowe_savinggames_example.html)
 
 ## Twee Code
 
@@ -23,16 +19,16 @@ Saving Games in Harlowe
 :: Start
 (link:"Save game?")[
   (if:(save-game:"Slot A"))[
-	(if: (saved-games:) contains "Slot A")[
-		Slot A is in the saved-games datamap!
-	]
-	(link: "Load Slot A?" )[
-  		(load-game: "Slot A")
-	]
+  (if: (saved-games:) contains "Slot A")[
+    Slot A is in the saved-games datamap!
+  ]
+  (link: "Load Slot A?" )[
+      (load-game: "Slot A")
+  ]
   ](else: )[
     Sorry, I couldn't save your game.
   ]
 ]
 ```
 
-Download: <a href="harlowe_savinggames_twee.txt" target="_blank">Twee Code</a>
+[Twee Download](harlowe_savinggames_twee.txt)

@@ -6,13 +6,9 @@
 
 Other Google Fonts could be imported and applied using the same method, creating new class or ID style rules to be applied for and across different HTML elements in the same way.
 
-## Live Example
+## Example
 
-<section>
-<iframe src="snowman_googlefonts_example.html" height=400 width=90%></iframe>
-
-Download: <a href="snowman_googlefonts_example.html" target="_blank">Live Example</a>
-</section>
+[Download](snowman_googlefonts_example.html)
 
 ## Twee Code
 
@@ -32,4 +28,4 @@ Snowman: Google Fonts
 
 ```
 
-Download: <a href="snowman_googlefonts_twee.txt" target="_blank">Twee Code</a>
+[Twee Download](snowman_googlefonts_twee.txt)

@@ -4,13 +4,9 @@
 
 This example uses the jQuery **[click()](https://api.jquery.com/click/)** and **[show()/hide()](http://api.jquery.com/show/)** functions to watch for the user clicking on a button (to open) or "X" (to close). Additional CSS rules are used to create the effect of having the content 'behind' the [modal window](https://en.wikipedia.org/wiki/Modal_window) be darkened and unusable until the modal itself is closed.
 
-## Live Example
+## Example
 
-<section>
-<iframe src="snowman_modal_example.html" height=400 width=90%></iframe>
-
-Download: <a href="snowman_modal_example.html" target="_blank">Live Example</a>
-</section>
+[Download](snowman_modal_example.html)
 
 ## Twee Code
 
@@ -21,7 +17,7 @@ Snowman: Modal
 :: UserScript[script]
 $(function(){
 
-        // When the user clicks the button, open the modal 
+        // When the user clicks the button, open the modal
         $("#myBtn").click(function() {
               $("#myModal").show();
         });
@@ -87,4 +83,4 @@ $(function(){
 
 ```
 
-Download: <a href="snowman_modal_twee.txt" target="_blank">Twee Code</a>
+[Twee Download](snowman_modal_twee.txt)

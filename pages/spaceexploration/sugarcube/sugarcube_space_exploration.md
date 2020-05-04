@@ -8,13 +8,9 @@ Heavily inspired by *[FTL: Faster Than Light](https://en.wikipedia.org/wiki/FTL:
 
 To cleanly present the text, this example also uses both the [`<<silently>>`](http://www.motoslave.net/sugarcube/2/docs/macros.html#macros-silently) macro, to disregard all output, and [`<<nobr>>`](http://www.motoslave.net/sugarcube/2/docs/macros.html#macros-nobr) macro, to collapse the whitespace.
 
-## Live Example
+## Example
 
-<section>
-<iframe src="sugarcube_space_exploration_example.html" height=400 width=90%></iframe>
-
-Download: <a href="sugarcube_space_exploration_example.html" target="_blank">Live Example</a>
-</section>
+[Download](sugarcube_space_exploration_example.html)
 
 ## Twee Code
 
@@ -33,13 +29,13 @@ Space Exploration in SugarCube
 
 :: Explore Space 1
 <<link "Hyperjump">>
-	<<set $fuel to $fuel - 1>>
-	<<set $numberOfJumpsLeft to $numberOfJumpsLeft - 1>>
-	<<goto "Explore Space 2">>
+  <<set $fuel to $fuel - 1>>
+  <<set $numberOfJumpsLeft to $numberOfJumpsLeft - 1>>
+  <<goto "Explore Space 2">>
 <</link>>
 
 <div id="HUD">
-	<<include "HUD">>
+  <<include "HUD">>
 </div>
 
 <<include "Generate System">>
@@ -47,13 +43,13 @@ Space Exploration in SugarCube
 
 :: Explore Space 2
 <<link "Hyperjump">>
-	<<set $fuel to $fuel - 1>>
-	<<set $numberOfJumpsLeft to $numberOfJumpsLeft - 1>>
-	<<goto "Explore Space 1">>
+  <<set $fuel to $fuel - 1>>
+  <<set $numberOfJumpsLeft to $numberOfJumpsLeft - 1>>
+  <<goto "Explore Space 1">>
 <</link>>
 
 <div id="HUD">
-	<<include "HUD">>
+  <<include "HUD">>
 </div>
 
 <<include "Generate System">>
@@ -61,12 +57,12 @@ Space Exploration in SugarCube
 
 :: Generate System
 <<silently>>
-	<<set _planets to random(1, 4) >>
+  <<set _planets to random(1, 4) >>
 
-	<<set $system to new Array(_planets) >>
+  <<set $system to new Array(_planets) >>
 
   <<for _i to 0; _i lt _planets; _i++>>
-	  <<set $system[_i] to either("RED", "GREEN") >>
+    <<set $system[_i] to either("RED", "GREEN") >>
   <</for>>
 
 <</silently>>
@@ -74,17 +70,17 @@ Space Exploration in SugarCube
 :: Display System
 <<nobr>>
   <<for _i to 0; _i lt $system.length; _i++>>
-	  <<if $system[_i] eq "RED">>
-		   <<linkreplace $system[_i]>>
-			   <<include "Show Outcome - Red">>
-		   <</linkreplace>>
-	  <</if>>
-	  <<if $system[_i] eq "GREEN">>
-		   <<linkreplace $system[_i]>>
-			   <<include "Show Outcome - Green">>
-		   <</linkreplace>>
-	  <</if>>
-	  <br>
+    <<if $system[_i] eq "RED">>
+       <<linkreplace $system[_i]>>
+         <<include "Show Outcome - Red">>
+       <</linkreplace>>
+    <</if>>
+    <<if $system[_i] eq "GREEN">>
+       <<linkreplace $system[_i]>>
+         <<include "Show Outcome - Green">>
+       <</linkreplace>>
+    <</if>>
+    <br>
   <</for>>
 <</nobr>>
 
@@ -94,28 +90,28 @@ Space Exploration in SugarCube
 
   <<if _percentage gte 6>>
 
-	  <<set _foundHealth to random( 1, 5) >>
-	  <<set _foundFuel to random( 1, 3) >>
+    <<set _foundHealth to random( 1, 5) >>
+    <<set _foundFuel to random( 1, 3) >>
 
-	  The hostile environment damaged the ship, but extra fuel was found. (-_foundHealth to health and +_foundFuel to fuel)
+    The hostile environment damaged the ship, but extra fuel was found. (-_foundHealth to health and +_foundFuel to fuel)
 
-	  <<set $health to $health - _foundHealth >>
-	  <<set $fuel to $fuel + _foundFuel >>
+    <<set $health to $health - _foundHealth >>
+    <<set $fuel to $fuel + _foundFuel >>
 
   <<elseif _percentage lte 3>>
 
-	  <<set _foundHealth to random(2, 7) >>
+    <<set _foundHealth to random(2, 7) >>
 
-	  A hostile ship attacked. (-_foundHealth to health)
+    A hostile ship attacked. (-_foundHealth to health)
 
-	  <<set $health to $health - _foundHealth >>
+    <<set $health to $health - _foundHealth >>
 
   <<else>>
-	  Nothing happened.
+    Nothing happened.
   <</if>>
 
   <<replace "#HUD">>
-	  <<include "HUD">>
+    <<include "HUD">>
   <</replace>>
 
 <</nobr>>
@@ -126,26 +122,26 @@ Space Exploration in SugarCube
 
   <<if _percentage eq 1>>
 
-	  <<set _foundFuel to random( 1, 2)>>
+    <<set _foundFuel to random( 1, 2)>>
 
-	  Fuel was found in some wreckage. (+_foundFuel to fuel)
+    Fuel was found in some wreckage. (+_foundFuel to fuel)
 
-	  <<set $fuel to $fuel + _foundFuel>>
+    <<set $fuel to $fuel + _foundFuel>>
 
   <<elseif _percentage gte 6>>
 
-	  <<set _foundHealth to random( 1, 3) >>
+    <<set _foundHealth to random( 1, 3) >>
 
-	  During a brief pause, the ship was able to be repaired. (+_foundHealth to health)
+    During a brief pause, the ship was able to be repaired. (+_foundHealth to health)
 
-	  <<set $health to $health + _foundHealth>>
+    <<set $health to $health + _foundHealth>>
 
   <<else>>
-	  Nothing happened.
+    Nothing happened.
   <</if>>
 
   <<replace "#HUD">>
-	  <<include "HUD">>
+    <<include "HUD">>
   <</replace>>
 
 <</nobr>>
@@ -173,17 +169,17 @@ After 10 hyperjumps, the ship left the hazardous area and called for help.
 
 :: Check Status
 <<nobr>>
-	<<if $health lte 0>>
-		<<goto "Destroyed">>
-	<</if>>
-	<<if $fuel lte 0>>
-		<<goto "Lost in space">>
-	<</if>>
-	<<if $numberOfJumpsLeft lte 0>>
-		<<goto "Safe">>
-	<</if>>
+  <<if $health lte 0>>
+    <<goto "Destroyed">>
+  <</if>>
+  <<if $fuel lte 0>>
+    <<goto "Lost in space">>
+  <</if>>
+  <<if $numberOfJumpsLeft lte 0>>
+    <<goto "Safe">>
+  <</if>>
 <</nobr>>
 
 ```
 
-Download: <a href="sugarcube_space_exploration_twee.txt" target="_blank">Twee Code</a>
+[Twee Download](sugarcube_space_exploration_twee.txt)

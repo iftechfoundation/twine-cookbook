@@ -1,6 +1,7 @@
 # "Cycling Choices": Harlowe (v2.0)
 
-<div class="alert information"><strong>Note: </strong>This example is affected by history changes in the story. Undoing or re-doing back to a passage containing this recipe has the potential to change its saved values.</div>
+!!! Information
+    This example is affected by history changes in the story. Undoing or re-doing back to a passage containing this recipe has the potential to change its saved values.
 
 ## Summary
 
@@ -12,13 +13,9 @@ If the user clicks on the link (created through using the [`(link:)`](https://tw
 
 At the end of every cycle, the currently selected value is always the 1st element in the *$choices* array.
 
-## Live Example
+## Example
 
-<section>
-<iframe src="harlowe_cycling_example.html" height=400 width=90%></iframe>
-
-Download: <a href="harlowe_cycling_example.html" target="_blank">Live Example</a>
-</section>
+[Download](harlowe_cycling_example.html)
 
 ## Twee Code
 
@@ -33,17 +30,17 @@ Click options to cycle: [(display: "Cycling")]<choice|
 
 :: Cycling
 {
-	(link: (text: $choices's 1st) )[
-		(set: $choices to (rotated: -1, ...$choices))
-		(replace: ?choice)[(display: "Cycling")]
-	]
+  (link: (text: $choices's 1st) )[
+    (set: $choices to (rotated: -1, ...$choices))
+    (replace: ?choice)[(display: "Cycling")]
+  ]
 }
 
 :: Results
 Selected choice: (print: $choices's 1st)
 ```
 
-Download: <a href="harlowe_cycling_twee.txt" target="_blank">Twee Code</a>
+[Twee Download](harlowe_cycling_twee.txt)
 
 ## See Also
 

@@ -6,13 +6,9 @@ Arrays are a collection of values. Each value in an array is assigned an *index*
 
 [Specific elements](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array#Accessing_array_elements) can be accessed in an array by following its variable name with a pair of brackets containing the index to check. Testing whether an array contains an element can be done using the **[Array#includes()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/includes)**  function; adding new items can be done using the **[Array#push()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/push)** function.
 
-## Live Example
+## Example
 
-<section>
-<iframe src="sugarcube_arrays_example.html" height=400 width=90%></iframe>
-
-Download: <a href="sugarcube_arrays_example.html" target="_blank">Live Example</a>
-</section>
+[Download](sugarcube_arrays_example.html)
 
 ## Twee Code
 
@@ -76,4 +72,4 @@ Several darts shoot out of a wall at you!
 <</if>>
 ```
 
-Download: <a href="sugarcube_arrays_twee.txt" target="_blank">Twee Code</a>
+[Twee Download](sugarcube_arrays_twee.txt)

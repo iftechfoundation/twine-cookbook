@@ -8,11 +8,7 @@ In this example, the *s* global shortcut to the *[window.story.state](https://vi
 
 ## Live Example
 
-<section>
-<iframe src="snowman_looping_example.html" height=400 width=90%></iframe>
-
-Download: <a href="snowman_looping_example.html" target="_blank">Live Example</a>
-</section>
+[Download](snowman_looping_example.html)
 
 ## Twee Code
 
@@ -50,4 +46,4 @@ jQuery.each(s.arrayInventory, function( index, value ) {
 
 ```
 
-Download: <a href="snowman_looping_twee.txt" target="_blank">Twee Code</a>
+[Twee Download](snowman_looping_twee.txt)

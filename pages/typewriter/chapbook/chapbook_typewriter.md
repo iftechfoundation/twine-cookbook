@@ -6,13 +6,9 @@
 
 The `[typewriter]` modifier creates a series of `<span>` elements for each character found within the output of the modifier and sets an **[animation-delay](https://developer.mozilla.org/en-US/docs/Web/CSS/animation-delay)** equal to the time given to the modifier multiplied by the position of the character within the total length of the text output. When used, each character will appear within the passage as if "typed" based on the time given to the modifier.
 
-## Live Example
+## Example
 
-<section>
-<iframe src="chapbook_typewriter_example.html" height=400 width=90%></iframe>
-
-Download: <a href="chapbook_typewriter_example.html" target="_blank">Live Example</a>
-</section>
+[Download](chapbook_typewriter_example.html)
 
 ## Twee Code
 
@@ -42,7 +38,7 @@ engine.extend('1.0.0', () => {
       output.text = "";
 
       // Loop through the text
-      //  -- Add a new <span> for each chracter
+      //  -- Add a new <span> for each character
       //  -- Set the class "fade-in"
       //  -- Set the delay as equal to time multiplied position
       for(let i = 0; i < length; i++) {
@@ -53,13 +49,13 @@ engine.extend('1.0.0', () => {
     }, ...config.template.modifiers];
 });
 [continued]
-[[Start TyperWriter]]
+[[Start TypeWriter]]
 
-:: Start TyperWriter
+:: Start TypeWriter
 [typewriter 1000]
 Hello, world!
 [continued]
 
 ```
 
-Download: <a href="chapbook_typewriter_twee.txt" target="_blank">Twee Code</a>
+[Twee Download](chapbook_typewriter_twee.txt)

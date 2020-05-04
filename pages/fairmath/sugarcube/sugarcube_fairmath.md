@@ -6,13 +6,9 @@
 
 This example uses the [`<<widget>>`](http://www.motoslave.net/sugarcube/2/docs/macros.html#macros-widget) macro in SugarCube to separate operations for increasing and decreasing.
 
-## Live Example
+## Example
 
-<section>
-<iframe src="sugarcube_fairmath_example.html" height=400 width=90%></iframe>
-
-Download: <a href="sugarcube_fairmath_example.html" target="_blank">Live Example</a>
-</section>
+[Download](sugarcube_fairmath_example.html)
 
 ## Twee Code
 
@@ -47,4 +43,4 @@ The adjusted value is $resultValue.
 
 ```
 
-Download: <a href="sugarcube_fairmath_twee.txt" target="_blank">Twee Code</a>
+[Twee Download](sugarcube_fairmath_twee.txt)

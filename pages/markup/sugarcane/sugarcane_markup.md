@@ -1,18 +1,15 @@
 # "Style Markup": Sugarcane (v1.4.2)
 
-<div class="alertbox warning"><strong>Note:</strong> The following example is designed for Twine 1.4.2.</div>
+!!! Warning
+    The following example is designed for Twine 1.4.2.
 
 ## Summary
 
-[Style formatting in Twine 1.4.2](https://twinery.org/wiki/twine1:syntax) is supported across all story formats and includes both more basic markup such as italics and bolds and the more advanced construction of HTML tables.
+[Style formatting in Twine 1.4.2](https://twinery.org/wiki/twine1:syntax) is supported across all story formats and includes both more basic markup such as emphasis and strong emphasis and the more advanced construction of HTML tables.
 
-## Live Example
+## Example
 
-<section>
-<iframe src="sugarcane_markup_example.html" height=400 width=90%></iframe>
-
-Download: <a href="sugarcane_markup_example.html" target="_blank">Live Example</a>
-</section>
+[Download](sugarcane_markup_example.html)
 
 ## Twee Code
 
@@ -27,11 +24,11 @@ Superscript: meters/second^^2^^
 Comment: /%a comment%/
 Error: @@error@@
 Inline styling: @@font-weight:bold;text@@
-Bulleted list:	
-* one 
+Bulleted list:  
+* one
 * two
-Numbered list:	
-# one 
+Numbered list:  
+# one
 # two
 !Heading 1
 !!Heading 2
@@ -51,15 +48,12 @@ Numbered list:
 |~|row 9|row 9|
 |table caption|c
 
-
 :: StoryTitle
 Style Markup
-
 
 :: StoryAuthor
 Videlais
 
-
 ```
 
-Download: <a href="sugarcane_markup_twee.txt" target="_blank">Twee Code</a>
+[Twee Download](sugarcane_markup_twee.txt)

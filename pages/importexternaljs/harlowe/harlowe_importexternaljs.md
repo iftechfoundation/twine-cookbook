@@ -1,20 +1,17 @@
 # "Importing External JavaScript": Harlowe (v2.0)
 
+!!! Information
+    The successful loading of an external JavaScript file or library commonly produces no visual output. The code within the example passage is not required for the successful loading of an external file or library.
+
 ## Summary
 
 "Importing External JavaScript" demonstrates how to import an externally stored JavaScript library, [jQuery UI](https://jqueryui.com/).
 
 This example uses the built-in jQuery **[$.getScript()](https://api.jquery.com/jquery.getscript/)** function to load the library and demonstrates a short example of how to use it.
 
-<div class="alertbox information"><strong>Note:</strong> The successful loading of an external JavaScript file or library commonly produces no visual output. The code within the example passage is not required for the successful loading of an external file or library.</div>
+## Example
 
-## Live Example
-
-<section>
-<iframe src="harlowe_importexternaljs_example.html" height=400 width=90%></iframe>
-
-Download: <a href="harlowe_importexternaljs_example.html" target="_blank">Live Example</a>
-</section>
+[Download](harlowe_importexternaljs_example.html)
 
 ## Twee Code
 
@@ -26,11 +23,11 @@ Harlowe: Importing External JavaScript
 :: UserScript [script]
 /* import jQuery UI library. */
 $(function () {
-	$.getScript("https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js",
-		function (data, textStatus, jqxhr) {
-			console.log('jquery ui file loaded');
-		}
-	);
+  $.getScript("https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js",
+    function (data, textStatus, jqxhr) {
+      console.log('jquery ui file loaded');
+    }
+  );
 });
 
 
@@ -47,4 +44,4 @@ $("#box").click(function () {
 
 ```
 
-Download: <a href="harlowe_importexternaljs_twee.txt" target="_blank">Twee Code</a>
+[Twee Download](harlowe_importexternaljs_twee.txt)

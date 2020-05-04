@@ -1,5 +1,8 @@
 # "Audio": Snowman (v1.3.0)
 
+!!! Information
+    This examples uses two additional files, [testpattern.ogg](testpattern.ogg) and [testpattern.wav](testpattern.wav). Both files need to be downloaded and placed in the same folder as the HTML file in order to work as designed.
+
 ## Summary
 
 Snowman does not have direct macro support for audio resources. However, additional JavaScript can be added to work with [audio elements](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/audio) within a story.
@@ -8,15 +11,9 @@ Audio elements rely on sources either absolutely or relatively located. An absol
 
 Due to browser differences in licensing, some audio formats are not universally supported. For best results in using audio in Twine, it is recommended to use multiple formats, allowing the browser to choose which one is best supported when first loaded.
 
-<div class="alertbox information"><strong>Note:</strong> This examples uses two additional files, <a href="testpattern.ogg">testpattern.ogg</a> and <a href="testpattern.wav">testpattern.wav</a>. Both files need to be downloaded and placed in the same folder as the HTML file in order to work as designed.</div>
+## Example
 
-## Live Example
-
-<section>
-<iframe src="snowman_audio_example.html" height=400 width=90%></iframe>
-
-Download: <a href="snowman_audio_example.html" target="_blank">Live Example</a>
-</section>
+[Download](snowman_audio_example.html)
 
 ## Twee Code
 
@@ -33,4 +30,4 @@ Your browser does not support the audio element.
 
 ```
 
-Download: <a href="snowman_audio_twee.txt" target="_blank">Twee Code</a>
+[Twee Download](snowman_audio_twee.txt)

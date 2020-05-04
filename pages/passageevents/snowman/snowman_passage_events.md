@@ -6,13 +6,9 @@ Snowman triggers different events [as they happen to passages](https://videlais.
 
 In this example, a header and footer is created by listening for the 'shown.sm.passage' event with a [jQuery event handle](http://api.jquery.com/category/events/event-handler-attachment/) and then prepending the content of the passage "Header" and appending the content of the passage "Footer" to the current passage after it has been initially rendered.
 
-## Live Example
+## Example
 
-<section>
-<iframe src="snowman_passage_events_example.html" height=400 width=90%></iframe>
-
-Download: <a href="snowman_passage_events_example.html" target="_blank">Live Example</a>
-</section>
+[Download](snowman_passage_events_example.html)
 
 ## Twee Code
 
@@ -23,14 +19,14 @@ Snowman: Passage Events
 :: UserScript[script]
 /*
     Prepend the content of the passage "Header" to every passage.
-		Append the content of the passage "Footer" to every passage.
+    Append the content of the passage "Footer" to every passage.
 */
 $(window).on('shown.sm.passage', function (eventObject, passageObject) {
-		var headerContent = window.story.render("Header");
-		var currentContent = passageObject.passage.render();
-		var footerContent = window.story.render("Footer");
+    var headerContent = window.story.render("Header");
+    var currentContent = passageObject.passage.render();
+    var footerContent = window.story.render("Footer");
 
-		$('#main').html(headerContent + currentContent + footerContent);
+    $('#main').html(headerContent + currentContent + footerContent);
 });
 
 :: Start
@@ -47,7 +43,7 @@ This is the footer!
 
 ```
 
-Download: <a href="snowman_passage_events_twee.txt" target="_blank">Twee Code</a>
+[Twee Download](snowman_passage_events_twee.txt)
 
 ## See Also
 

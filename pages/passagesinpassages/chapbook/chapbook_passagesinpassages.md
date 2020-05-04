@@ -4,13 +4,9 @@
 
 Using the insert [`{embed passage: }`](https://klembot.github.io/chapbook/guide/references/inserts.html), Chapbook can include one passage in another.
 
-## Live Example
+## Example
 
-<section>
-<iframe src="chapbook_passagesinpassages_example.html" height=400 width=90%></iframe>
-
-Download: <a href="chapbook_passagesinpassages_example.html" target="_blank">Live Example</a>
-</section>
+[Download](chapbook_passagesinpassages_example.html)
 
 ## Twee Code
 
@@ -27,4 +23,4 @@ And this is another passage!
 
 ```
 
-Download: <a href="chapbook_passagesinpassages_twee.txt" target="_blank">Twee Code</a>
+[Twee Download](chapbook_passagesinpassages_twee.txt)

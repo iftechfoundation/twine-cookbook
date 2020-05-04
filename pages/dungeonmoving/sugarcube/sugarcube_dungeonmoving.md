@@ -4,13 +4,9 @@
 
 "Moving through a 'dungeon'" uses a two-dimensional array for the "map" and two variables, X and Y, to track movement through the space. The 'Map System' passage checks the positions of X and Y relative to the "map" and writes the available directional movement options. Once a direction is clicked, the X and Y values are added or subtracted corresponding to the direction and the map is re-drawn again. Symbols are then placed on the map matching the walls, movement space, and player.
 
-## Live Example
+## Example
 
-<section>
-<iframe src="sugarcube_dungeonmoving_example.html" height=400 width=90%></iframe>
-
-Download: <a href="sugarcube_dungeonmoving_example.html" target="_blank">Live Example</a>
-</section>
+[Download](sugarcube_dungeonmoving_example.html)
 
 ## Twee Code
 
@@ -24,7 +20,7 @@ SugarCube: Moving through a Dungeon
 }
 
 :: StoryInit
-<<set $mapArray to 
+<<set $mapArray to
 [[0,0,0,0,0,0,0,0,0,0,0],
 [0,1,1,1,0,1,1,1,1,1,0],
 [0,0,0,1,0,0,0,0,0,1,0],
@@ -80,24 +76,24 @@ SugarCube: Moving through a Dungeon
 <<include "Location">>
 <<nobr>>
 <<if $mapArray[$positionY-1][$positionX] eq 1>>
-[[North]] | 
+[[North]] |
 <<elseif $mapArray[$positionY-1][$positionX] eq 2>>
-[[Exit]] | 
+[[Exit]] |
 <</if>>
 <<if $mapArray[$positionY][$positionX+1] eq 1>>
-[[East]] | 
+[[East]] |
 <<elseif $mapArray[$positionY][$positionX+1] eq 2>>
-[[Exit]] | 
+[[Exit]] |
 <</if>>
 <<if $mapArray[$positionY+1][$positionX] eq 1>>
-[[South]] | 
+[[South]] |
 <<elseif $mapArray[$positionY+1][$positionX] eq 2>>
-[[Exit]] | 
+[[Exit]] |
 <</if>>
 <<if $mapArray[$positionY][$positionX-1] eq 1>>
-[[West]] | 
+[[West]] |
 <<elseif $mapArray[$positionY][$positionX-1] eq 2>>
-[[Exit]] | 
+[[Exit]] |
 <</if>>
 <</nobr>>
 
@@ -106,9 +102,9 @@ Double-click this passage to edit it.
 
 ```
 
-Download: <a href="sugarcube_dungeonmoving_twee.txt" target="_blank">Twee Code</a>
+[Twee Download](sugarcube_dungeonmoving_twee.txt)
 
 ## See Also
 
-[Setting and Showing Variables](../../settingandshowing/sugarcube/sugarcube_settingandshowing.md), 
+[Setting and Showing Variables](../../settingandshowing/sugarcube/sugarcube_settingandshowing.md),
 [Conditional Statements](../../conditionalstatements/sugarcube/sugarcube_conditionalstatements.md), [Modularity](../../modularity/sugarcube/sugarcube_modularity.md)

@@ -1,18 +1,15 @@
 # "Moving through a 'dungeon'": Sugarcane (v2.0)
 
-<div class="alertbox warning"><strong>Note:</strong> The following example is designed for Twine 1.4.2.</div>
+!!! Warning
+    The following example is designed for Twine 1.4.2.
 
 ## Summary
 
 "Moving through a 'dungeon'" uses an array of arrays to track positions 'moved' through using X and Y variables. It also creates a `<<navigate>>` macro that handles the showing of directions.
 
-## Live Example
+## Example
 
-<section>
-<iframe src="sugarcane_dungeonmoving_example.html" height=400 width=90%></iframe>
-
-Download: <a href="sugarcane_dungeonmoving_example.html" target="_blank">Live Example</a>
-</section>
+[Download](sugarcane_dungeonmoving_example.html)
 
 ## Twee Code
 
@@ -64,7 +61,7 @@ function()
 [0,1,0,1,0,0,0,1,0,0,0],
 [0,1,1,1,0,1,1,1,1,2,0],
 [0,0,0,0,0,0,0,0,0,0,0]];
-   
+
   var x = 1;
   var y = 1;
   
@@ -72,33 +69,33 @@ function()
   $posy = 1;
   
   macros['navigate'] =
-	{
-		handler: function(obj, fnc, val)
-		{
-			x = $posx; y = $posy;
+  {
+    handler: function(obj, fnc, val)
+    {
+      x = $posx; y = $posy;
          if(maze[y-1][x] eq 1)
          { $North = 1; }
          else if(maze[x][y+1] eq 2) {$Exit = 1;}
          else {$North = 0;}
-         
+
          if(maze[y+1][x] eq 1)
          { $South = 1; }
          else if(maze[x][y-1] eq 2) {$Exit = 1;}
          else {$South = 0;}
-         
+
          if(maze[y][x-1] eq 1)
          { $West = 1; }
          else if(maze[x-1][y] eq 2) {$Exit = 1;}
          else {$West = 0;}
-         
+
          if(maze[y][x+1] eq 1)
          { $East = 1; }
          else if(maze[x+1][y] eq 2) {$Exit = 1;}
          else {$East = 0;}
-		}
-	}
-   
-   
+    }
+  }
+
+
 }
 >>
 <<print $MazeAddon()>>
@@ -189,4 +186,4 @@ function()
 
 ```
 
-Download: <a href="sugarcane_dungeonmoving_twee.txt" target="_blank">Twee Code</a>
+[Twee Download](sugarcane_dungeonmoving_twee.txt)

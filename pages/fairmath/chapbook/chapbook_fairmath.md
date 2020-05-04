@@ -6,13 +6,9 @@
 
 This example defines functions in the Story JavaScript, which are then used in the [Vars Section](https://klembot.github.io/chapbook/guide/state/the-vars-section.html) of a passage to set values. These are shown using [expressions](https://klembot.github.io/chapbook/guide/state/displaying-variables.html) within the text of the passage itself.
 
-## Live Example
+## Example
 
-<section>
-<iframe src="chapbook_fairmath_example.html" height=400 width=90%></iframe>
-
-Download: <a href="chapbook_fairmath_example.html" target="_blank">Live Example</a>
-</section>
+[Download](chapbook_fairmath_example.html)
 
 ## Twee Code
 
@@ -51,4 +47,4 @@ Increase Example: {increaseExample}
 
 ```
 
-Download: <a href="chapbook_fairmath_twee.txt" target="_blank">Twee Code</a>
+[Twee Download](chapbook_fairmath_twee.txt)

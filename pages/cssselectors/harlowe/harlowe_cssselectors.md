@@ -1,6 +1,7 @@
 # "CSS Selectors": Harlowe (v2.0)
 
-<div class="alertbox warning"><strong>Note:</strong> The following example is designed for use in Harlowe 2.x and later</div>
+!!! Warning
+    The following example is designed for use in Harlowe 2.x and later
 
 ## Summary
 
@@ -8,20 +9,16 @@ This example shows how to use [CSS](../../terms/terms_css.md) selectors to style
 
 ```twee
 <tw-story>
-	<tw-passage>
-		<tw-sidebar>...</tw-sidebar>
-		...
-	</tw-passage>
+  <tw-passage>
+    <tw-sidebar>...</tw-sidebar>
+    ...
+  </tw-passage>
 </tw-story>
 ```
 
-## Live Example
+## Example
 
-<section>
-<iframe src="harlowe_cssselectors_example.html" height=400 width=90%></iframe>
-
-Download: <a href="harlowe_cssselectors_example.html" target="_blank">Live Example</a>
-</section>
+[Download](harlowe_cssselectors_example.html)
 
 ## Twee Code
 
@@ -51,8 +48,8 @@ This passage also has a red border.
 
 ```
 
-Download: <a href="harlowe_cssselectors_twee.txt" target="_blank">Twee Code</a>
+[Twee Download](harlowe_cssselectors_twee.txt)
 
 ## See Also
 
-See the [left sidebar recipe](../../sidebar_left/harlowe_2/harlowe_sidebar_left.md) for another example of stylying custom elements like `<tw-sidebar>`. Harlowe also supports [styling passages by tag](../../passagetags/harlowe/harlowe_passagetags.md) using its custom 'tags' attribute.
+See the [left sidebar](../../sidebar_left/harlowe_2/harlowe_sidebar_left.md) for another example of styling custom elements like `<tw-sidebar>`. Harlowe also supports [styling passages by tag](../../passagetags/harlowe/harlowe_passagetags.md) using its custom 'tags' attribute.

@@ -6,13 +6,9 @@ Variables, symbols starting with `$` (for normal) or `_` (for temporary), can be
 
 `$` is used for storing data throughout the story, and `_` should be used for data only needed in the current passage. Using `_` is useful for not wanting to accidentally overwrite variables elsewhere in the story. They can also help with debugging through not cluttering up the variables list of future passages.
 
-## Live Example
+## Example
 
-<section>
-<iframe src="sugarcube_settingandshowing_example.html" height=400 width=90%></iframe>
-
-Download: <a href="sugarcube_settingandshowing_example.html" target="_blank">Live Example</a>
-</section>
+[Download](sugarcube_settingandshowing_example.html)
 
 ## Twee Code
 
@@ -33,4 +29,4 @@ $phraseVariable is $numberVariable and $wordVariable.
 
 ```
 
-Download: <a href="sugarcube_settingandshowing_twee.txt" target="_blank">Twee Code</a>
+[Twee Download](sugarcube_settingandshowing_twee.txt)

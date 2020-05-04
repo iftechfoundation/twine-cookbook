@@ -4,13 +4,9 @@
 
 Through using the *s* global variable and the built-in [Underscore template functionality](http://underscorejs.org/#template), JavaScript conditional statements can be run to show content in Snowman.
 
-## Live Example
+## Example
 
-<section>
-<iframe src="snowman_conditionalstatements_example.html" height=400 width=90%></iframe>
-
-Download: <a href="snowman_conditionalstatements_example.html" target="_blank">Live Example</a>
-</section>
+[Download](snowman_conditionalstatements_example.html)
 
 ## Twee Code
 
@@ -20,7 +16,7 @@ Conditional Statements in Snowman
 
 :: Start
 <%
-	s.animal = "horse";
+  s.animal = "horse";
 %>
 
 <% if(s.animal == "dog"){ %>
@@ -30,7 +26,7 @@ It's a horse!
 <% } %>
 ```
 
-Download: <a href="snowman_conditionalstatements_twee.txt" target="_blank">Twee Code</a>
+[Twee Download](snowman_conditionalstatements_twee.txt)
 
 ## See Also
 

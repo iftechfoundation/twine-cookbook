@@ -8,13 +8,9 @@ Functionality availability and their results should always be tested against oth
 
 This example uses [`<<linkreplace>>`](http://www.motoslave.net/sugarcube/2/docs/macros.html#macros-linkreplace) and [`<<script>>`](http://www.motoslave.net/sugarcube/2/docs/macros.html#macros-script) macros to run JavaScript in passages in SugarCube. The *[State.variables](http://www.motoslave.net/sugarcube/2/docs/api-state.html#state-api-getter-variables)* object is used to store the results of running JavaScript functions and using those values in TwineScript.
 
-## Live Example
+## Example
 
-<section>
-<iframe src="sugarcube_geolocation_example.html" height=400 width=90%></iframe>
-
-Download: <a href="sugarcube_geolocation_example.html" target="_blank">Live Example</a>
-</section>
+[Download](sugarcube_geolocation_example.html)
 
 ## Twee Code
 
@@ -25,63 +21,63 @@ Geolocation in SugarCube
 :: UserScript[script]
 (function () {
 
-	window.geolocation = {
+  window.geolocation = {
 
-		available: function() {
-			return ("geolocation" in navigator 
-				&& typeof navigator.geolocation.getCurrentPosition === "function");
-		},
-		getLocation: function() {
+    available: function() {
+      return ("geolocation" in navigator
+        && typeof navigator.geolocation.getCurrentPosition === "function");
+    },
+    getLocation: function() {
 
-			// Create initial values
-			var location = { latitude : 0, longitude : 0 };
-			
-			// Create success callback to store values
-			var	positionSuccess = function (position) {
-				
-				location.latitude = position.coords.latitude;
-				location.longitude = position.coords.longitude;
+      // Create initial values
+      var location = { latitude : 0, longitude : 0 };
 
-			};
-			
-			// Create error callback
-			var positionError = function (error) {
-				/* Code that handles errors */
-			};
-			
-			// Create initial options
-			var positionOptions = {
-				timeout: 31000, 
-				enableHighAccuracy: true,
-				maximumAge : 120000
-			};
-			
+      // Create success callback to store values
+      var  positionSuccess = function (position) {
 
-			// Ask for location based on callbacks and options
-			navigator.geolocation.getCurrentPosition(
-				positionSuccess,
-				positionError,
-				positionOptions
-			);
+        location.latitude = position.coords.latitude;
+        location.longitude = position.coords.longitude;
 
-			// Return location found
-			// If not location, will return initial (0,0) values
-			return location;
+      };
 
-		},
-		approximateLocation: function (a, b, allowedDiff) { 
-		    // allowedDiff must always be > 0
-			if (a === b) { // handles various "exact" edge cases
-				return true;
-			}
+      // Create error callback
+      var positionError = function (error) {
+        /* Code that handles errors */
+      };
 
-			allowedDiff = allowedDiff || 0.0005;
-			
-			return Math.abs(a - b) < allowedDiff;
-		}
+      // Create initial options
+      var positionOptions = {
+        timeout: 31000,
+        enableHighAccuracy: true,
+        maximumAge : 120000
+      };
 
-	};
-	
+
+      // Ask for location based on callbacks and options
+      navigator.geolocation.getCurrentPosition(
+        positionSuccess,
+        positionError,
+        positionOptions
+      );
+
+      // Return location found
+      // If not location, will return initial (0,0) values
+      return location;
+
+    },
+    approximateLocation: function (a, b, allowedDiff) {
+        // allowedDiff must always be > 0
+      if (a === b) { // handles various "exact" edge cases
+        return true;
+      }
+
+      allowedDiff = allowedDiff || 0.0005;
+
+      return Math.abs(a - b) < allowedDiff;
+    }
+
+  };
+  
 }());
 
 :: Start
@@ -91,7 +87,7 @@ Geolocation in SugarCube
   State.variables.geoLocationAvailable = window.geolocation.available();
   
   if(window.geolocation.available()) {
-	  State.variables.location = window.geolocation.getLocation();
+    State.variables.location = window.geolocation.getLocation();
   }
   <</script>>
   [[Show results]]
@@ -104,7 +100,7 @@ Geolocation in SugarCube
   State.variables.geoLocationAvailable = window.geolocation.available();
   
   if(window.geolocation.available()) {
-	  State.variables.location = window.geolocation.getLocation();
+    State.variables.location = window.geolocation.getLocation();
   }
 <</script>>
 
@@ -127,4 +123,4 @@ Longitude: $approxLong
 
 ```
 
-Download: <a href="sugarcube_geolocation_twee.txt" target="_blank">Twee Code</a>
+[Twee Download](sugarcube_geolocation_twee.txt)

@@ -1,4 +1,5 @@
 # How to Create Your First Story
+
 Before you create your first story using Twine 2, please read Where Your Stories Are Saved!
 
 This page will step you through creating a very simple branching story with Twine. We'll start with the premise that you play an astronaut exploring the far reaches of space. You've found a planet that seems just like Earth, only there are strange creatures living on it instead of humans!

@@ -6,13 +6,9 @@ One of the most popular mechanics of table-top role-playing games are those wher
 
 In Chapbook, the values of variables can only be changed as part of the [Vars Section](https://klembot.github.io/chapbook/guide/state/the-vars-section.html) or using [JavaScript](https://klembot.github.io/chapbook/guide/advanced/using-javascript-in-passages.html). This example combines the two and uses the [`{embed passage}`](https://klembot.github.io/chapbook/guide/references/modifiers.html) modifier to use different passages as sections of code and adjust values based on user interactions.
 
-## Live Example
+## Example
 
-<section>
-<iframe src="chapbook_player_statistics_example.html" height=400 width=90%></iframe>
-
-Download: <a href="chapbook_player_statistics_example.html" target="_blank">Live Example</a>
-</section>
+[Download](chapbook_player_statistics_example.html)
 
 ## Twee Code
 
@@ -77,20 +73,20 @@ Remaining Points: {points}
 
 :: CheckValues
 [JavaScript]
-	let empathy = engine.state.get('empathy');
-	let intelligence = engine.state.get('intelligence');
-	let points = engine.state.get('points');
-	
-	if(empathy > 20){empathy = 20;}
-	if(intelligence > 20){intelligence = 20;}
-	if(points < 0){points = 0;}
-	if(points > 25){points = 25;}
-	
-	engine.state.set('empathy', empathy);
-	engine.state.set('intelligence', intelligence);
-	engine.state.set('points', points);
+  let empathy = engine.state.get('empathy');
+  let intelligence = engine.state.get('intelligence');
+  let points = engine.state.get('points');
+  
+  if(empathy > 20){empathy = 20;}
+  if(intelligence > 20){intelligence = 20;}
+  if(points < 0){points = 0;}
+  if(points > 25){points = 25;}
+  
+  engine.state.set('empathy', empathy);
+  engine.state.set('intelligence', intelligence);
+  engine.state.set('points', points);
 
 
 ```
 
-Download: <a href="chapbook_player_statistics_twee.txt" target="_blank">Twee Code</a>
+[Twee Download](chapbook_player_statistics_twee.txt)

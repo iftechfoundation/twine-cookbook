@@ -6,13 +6,9 @@ In Chapbook all variables are initialised and updated within the [Vars Section](
 
 The Vars Section is separated from the passage's normal text by two dashes (`--`); The value of a variable can be [displayed](https://klembot.github.io/chapbook/guide/state/displaying-variables.html) using the `{insert}` insert.
 
-## Live Example
+## Example
 
-<section>
-<iframe src="chapbook_settingandshowing_example.html" height=400 width=90%></iframe>
-
-Download: <a href="chapbook_settingandshowing_example.html" target="_blank">Live Example</a>
-</section>
+[Download](chapbook_settingandshowing_example.html)
 
 ## Twee Code
 
@@ -38,4 +34,4 @@ numberVariable: numberVariable + 1
 
 ```
 
-Download: <a href="chapbook_settingandshowing_twee.txt" target="_blank">Twee Code</a>
+[Twee Download](chapbook_settingandshowing_twee.txt)

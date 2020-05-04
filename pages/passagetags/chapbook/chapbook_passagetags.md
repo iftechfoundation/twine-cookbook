@@ -4,13 +4,9 @@
 
 Using the built-in global variable *config*, [text colors and other CSS properties](https://klembot.github.io/chapbook/guide/customization/fonts-and-colors.html) can be programmatically adjusted using the [`[JavaScript]`](https://klembot.github.io/chapbook/guide/advanced/using-javascript-in-passages.html) modifier in Chapbook.
 
-## Live Example
+## Example
 
-<section>
-<iframe src="chapbook_passagetags_example.html" height=400 width=90%></iframe>
-
-Download: <a href="chapbook_passagetags_example.html" target="_blank">Live Example</a>
-</section>
+[Download](chapbook_passagetags_example.html)
 
 ## Twee Code
 
@@ -31,4 +27,4 @@ And this is the same color!
 
 ```
 
-Download: <a href="chapbook_passagetags_twee.txt" target="_blank">Twee Code</a>
+[Twee Download](chapbook_passagetags_twee.txt)

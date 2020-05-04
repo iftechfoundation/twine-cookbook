@@ -4,13 +4,9 @@
 
 Snowman uses a sub-set of [markdown](https://marked.js.org/#/README.md) for in-line styling. Snowman does not support multi-line markdown variations.
 
-## Live Example
+## Example
 
-<section>
-<iframe src="snowman_markup_example.html" height=400 width=90%></iframe>
-
-Download: <a href="snowman_markup_example.html" target="_blank">Live Example</a>
-</section>
+[Download](snowman_markup_example.html)
 
 ## Twee Code
 
@@ -50,4 +46,4 @@ Another line of code.
 
 ```
 
-Download: <a href="snowman_markup_twee.txt" target="_blank">Twee Code</a>
+[Twee Download](snowman_markup_twee.txt)

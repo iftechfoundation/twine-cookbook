@@ -6,13 +6,9 @@ In programming terminology, a "loop" is a common technique for iterating, moving
 
 In this example, the variable *arrayInventory* is set to the value of an array containing the strings "Bread", "Pan", and "Book". The `(for:)` macro is used with the keyword `each` to set the values contained in the array to the temporary variable *_temp* for each value of the [spread out](https://twine2.neocities.org/#type_array) array. The text contained in the associated hook to the `(for:)` macro is shown each loop with the value of *_temp* changed for each value in the array.
 
-## Live Example
+## Example
 
-<section>
-<iframe src="harlowe_looping_example.html" height=400 width=90%></iframe>
-
-Download: <a href="harlowe_looping_example.html" target="_blank">Live Example</a>
-</section>
+[Download](harlowe_looping_example.html)
 
 ## Twee Code
 
@@ -32,4 +28,4 @@ You have _temp.]
 
 ```
 
-Download: <a href="harlowe_looping_twee.txt" target="_blank">Twee Code</a>
+[Twee Download](harlowe_looping_twee.txt)

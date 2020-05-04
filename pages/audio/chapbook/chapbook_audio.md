@@ -1,18 +1,15 @@
 # "Audio": Chapbook (v1.0.0)
 
+!!! Information
+    This examples uses two additional files, [testpattern.ogg](testpattern.ogg) and [testpattern.wav](testpattern.wav). Both files need to be downloaded and placed in the same folder as the HTML file in order to work as designed.
+
 ## Summary
 
 Chapbook supports both [looping sounds](https://klembot.github.io/chapbook/guide/multimedia/audio.html) (which it calls ambient) and one-off sound (which it calls effects). It only allows playing one sound at a time.
 
-<div class="alertbox information"><strong>Note:</strong> This examples uses two additional files, <a href="testpattern.ogg">testpattern.ogg</a> and <a href="testpattern.wav">testpattern.wav</a>. Both files need to be downloaded and placed in the same folder as the HTML file in order to work as designed.</div>
+## Example
 
-## Live Example
-
-<section>
-<iframe src="chapbook_audio_example.html" height=400 width=90%></iframe>
-
-Download: <a href="chapbook_audio_example.html" target="_blank">Live Example</a>
-</section>
+[Download](chapbook_audio_example.html)
 
 ## Twee Code
 
@@ -37,4 +34,4 @@ sound.ambient.test.playing: false
 [[Return->Start]]
 ```
 
-Download: <a href="chapbook_audio_twee.txt" target="_blank">Twee Code</a>
+[Twee Download](chapbook_audio_twee.txt)

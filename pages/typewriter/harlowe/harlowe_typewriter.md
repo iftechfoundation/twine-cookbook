@@ -1,18 +1,15 @@
 # "Typewriter Effect": Harlowe (v2.0)
 
+!!! Information
+    This code can only be used once per passage. Additional Harlowe code will not be re-run.
+
 ## Summary
 
 "Typewriter Effect" demonstrates how to create a delayed character-by-character effect. In Harlowe, this is achieved using the *[(live:)](https://twine2.neocities.org/#macro_live)* macro for delayed showing and the *[(append:)](https://twine2.neocities.org/#macro_append)* macro to append text to a hook.
 
-<div class="alertbox information"><strong>Note:</strong> Additional Harlowe code will not be run within the $typewriterText variable and will all be printed as-is. This code can only be used once per passage.</div>
+## Example
 
-## Live Example
-
-<section>
-<iframe src="harlowe_typewriter_example.html" height=400 width=90%></iframe>
-
-Download: <a href="harlowe_typewriter_example.html" target="_blank">Live Example</a>
-</section>
+[Download](harlowe_typewriter_example.html)
 
 ## Twee Code
 
@@ -51,7 +48,7 @@ Typewriter Effect in Harlowe
 }
 ```
 
-Download: <a href="harlowe_typewriter_twee.txt" target="_blank">Twee Code</a>
+[Twee Download](harlowe_typewriter_twee.txt)
 
 ## See Also
 

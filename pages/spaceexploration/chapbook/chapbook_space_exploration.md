@@ -8,13 +8,9 @@ Heavily inspired by [*FTL: Faster Than Light*](https://en.wikipedia.org/wiki/FTL
 
 This example uses a complex combination of the [Vars Section](https://klembot.github.io/chapbook/guide/state/the-vars-section.html), [`[JavaScript]`](https://klembot.github.io/chapbook/guide/advanced/using-javascript-in-passages.html) modifier, and internal JavaScript functionality in Chapbook, including the use of the function **window.go()**.
 
-## Live Example
+## Example
 
-<section>
-<iframe src="chapbook_space_exploration_example.html" height=400 width=90%></iframe>
-
-Download: <a href="chapbook_space_exploration_example.html" target="_blank">Live Example</a>
-</section>
+[Download](chapbook_space_exploration_example.html)
 
 ## Twee Code
 
@@ -27,9 +23,9 @@ Chapbook: Space Exploration
 // Add a randomRange
 // Used from https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Math/random
 Math.randomRange = (min, max) => {
-		min = Math.ceil(min);
-  	max = Math.floor(max);
-  	return Math.floor(Math.random() * (max - min)) + min;
+    min = Math.ceil(min);
+    max = Math.floor(max);
+    return Math.floor(Math.random() * (max - min)) + min;
 };
 
 :: Start
@@ -54,53 +50,53 @@ Current System:
 :: GenerateSystem
 [JavaScript]
 
-	// There will always be four (4) planets
-	let planets = 4;
-	
-	// Reset global system
-	let system = engine.state.get('system');
-	system = [];
-	
-	// Add 0 (Red) or 1 (Green) planets 
-	for(let i = 0; i < planets; i++) {
-		// Get a random number from 0 to 2
-		// 0 = RED
-		// 1 = GREEN
-		// 2 = EMPTY
-		system.push(Math.randomRange(0,3));
-	}
-	
-	// Update the new 'system'
-	engine.state.set('system', system);
+  // There will always be four (4) planets
+  let planets = 4;
+  
+  // Reset global system
+  let system = engine.state.get('system');
+  system = [];
+  
+  // Add 0 (Red) or 1 (Green) planets
+  for(let i = 0; i < planets; i++) {
+    // Get a random number from 0 to 2
+    // 0 = RED
+    // 1 = GREEN
+    // 2 = EMPTY
+    system.push(Math.randomRange(0,3));
+  }
+  
+  // Update the new 'system'
+  engine.state.set('system', system);
 
 
 
 :: CheckStatus
 [JavaScript]
-	let health = engine.state.get("health");
-	let fuel = engine.state.get("fuel");
-	let numberOfJumpsLeft = engine.state.get("numberOfJumpsLeft");
+  let health = engine.state.get("health");
+  let fuel = engine.state.get("fuel");
+  let numberOfJumpsLeft = engine.state.get("numberOfJumpsLeft");
 
-	if(health <= 0) {
-		// Introduce a micro-delay before transition
-		setTimeout(() => {
-			go("Destroyed");
-		}, 10);
-	}
+  if(health <= 0) {
+    // Introduce a micro-delay before transition
+    setTimeout(() => {
+      go("Destroyed");
+    }, 10);
+  }
 
-	if(fuel <= 0) {
-		// Introduce a micro-delay before transition
-		setTimeout(() => {
-			go("Lost in Space");
-		}, 10);
-	}
+  if(fuel <= 0) {
+    // Introduce a micro-delay before transition
+    setTimeout(() => {
+      go("Lost in Space");
+    }, 10);
+  }
 
-	if(numberOfJumpsLeft <= 0) {
-		// Introduce a micro-delay before transition
-		setTimeout(() => {
-			go("Safe");
-		}, 10);
-	}
+  if(numberOfJumpsLeft <= 0) {
+    // Introduce a micro-delay before transition
+    setTimeout(() => {
+      go("Safe");
+    }, 10);
+  }
 
 
 
@@ -125,111 +121,111 @@ numberOfJumpsLeft: numberOfJumpsLeft - 1
 --
 {embed passage: "CheckStatus"}
 {embed passage: "GenerateSystem"}
-	
+  
 [[Scan System->Explore Space]]
 
 
 :: DisplaySystem
 [if system[0] == 0]
-	{reveal link: 'RED', passage: 'RED'}
+  {reveal link: 'RED', passage: 'RED'}
 [if system[0] == 1]
-	{reveal link: 'GREEN', passage: 'GREEN'}
+  {reveal link: 'GREEN', passage: 'GREEN'}
 [if system[0] == 2]
-	<br>
+  <br>
 [if system[1] == 0]
-	{reveal link: 'RED', passage: 'RED'}
+  {reveal link: 'RED', passage: 'RED'}
 [if system[1] == 1]
-	{reveal link: 'GREEN', passage: 'GREEN'}
+  {reveal link: 'GREEN', passage: 'GREEN'}
 [if system[1] == 2]
-	<br>
+  <br>
 [if system[2] == 0]
-	{reveal link: 'RED', passage: 'RED'}
+  {reveal link: 'RED', passage: 'RED'}
 [if system[2] == 1]
-	{reveal link: 'GREEN', passage: 'GREEN'}
+  {reveal link: 'GREEN', passage: 'GREEN'}
 [if system[2] == 2]
-	<br>
+  <br>
 [if system[3] == 0]
-	{reveal link: 'RED', passage: 'RED'}
+  {reveal link: 'RED', passage: 'RED'}
 [if system[3] == 1]
-	{reveal link: 'GREEN', passage: 'GREEN'}
+  {reveal link: 'GREEN', passage: 'GREEN'}
 [if system[3] == 2]
-	<br>
+  <br>
 
 
 :: RED
 REPORT
 [JavaScript]
 
-	let percentage = Math.randomRange(0, 11);
-	let foundHealth;
-	let foundFuel;
-	let health = engine.state.get('health');
-	let fuel = engine.state.get('fuel');
-	
-	if(percentage >= 6) {
-	
-		foundHealth = Math.randomRange(1, 6);
-		foundFuel = Math.randomRange(1, 3);
-		
-		write(`The hostile environment damaged the ship, but extra fuel was found. (-${foundHealth} to health and +${foundFuel} to fuel.)`);
-		
-		health -= foundHealth;
-		fuel += foundFuel;
-		
-	}
-	
-	if(percentage >= 3 && percentage < 6) {
-	
-		  foundHealth = Math.randomRange(2, 8);
+  let percentage = Math.randomRange(0, 11);
+  let foundHealth;
+  let foundFuel;
+  let health = engine.state.get('health');
+  let fuel = engine.state.get('fuel');
+  
+  if(percentage >= 6) {
+  
+    foundHealth = Math.randomRange(1, 6);
+    foundFuel = Math.randomRange(1, 3);
 
-		  write(`A hostile ship attacked. (-${foundHealth} to health)`);
+    write(`The hostile environment damaged the ship, but extra fuel was found. (-${foundHealth} to health and +${foundFuel} to fuel.)`);
 
-		  health -= foundHealth;
-	
-	}
-	
-	if(percentage < 3) {
-		write("Nothing happened.");
-	}
-	
-	engine.state.set('health', health);
-	engine.state.set('fuel', fuel);
+    health -= foundHealth;
+    fuel += foundFuel;
+
+  }
+  
+  if(percentage >= 3 && percentage < 6) {
+  
+      foundHealth = Math.randomRange(2, 8);
+
+      write(`A hostile ship attacked. (-${foundHealth} to health)`);
+
+      health -= foundHealth;
+  
+  }
+  
+  if(percentage < 3) {
+    write("Nothing happened.");
+  }
+  
+  engine.state.set('health', health);
+  engine.state.set('fuel', fuel);
 [continued]
 {embed passage: "CheckStatus"}
 
 :: GREEN
 REPORT
 [JavaScript]
-	let percentage = Math.randomRange(0, 11);
-	let foundFuel = 0;
-	let foundHealth = 0;
-	let fuel = engine.state.get('fuel');
-	let health = engine.state.get('health');
-	
-	
-	if(percentage < 2) {
-	
-		foundFuel = Math.randomRange(1,3);
-		write(`Fuel was found in some wreckage. (+${foundFuel} to fuel)`);
-		fuel += foundFuel;
-	
-	}
-	
-	if(percentage > 6) {
-	
-		foundHealth = Math.randomRange(1,4);
-		write(`During a brief pause, the ship was able to be repaired. (+${foundHealth} to health)`);
-		health += foundHealth;
-	
-	} 
-	
-	if(percentage > 2 && percentage < 6)
-	{
-		write(`Nothing happened.`);
-	}
+  let percentage = Math.randomRange(0, 11);
+  let foundFuel = 0;
+  let foundHealth = 0;
+  let fuel = engine.state.get('fuel');
+  let health = engine.state.get('health');
+  
+  
+  if(percentage < 2) {
+  
+    foundFuel = Math.randomRange(1,3);
+    write(`Fuel was found in some wreckage. (+${foundFuel} to fuel)`);
+    fuel += foundFuel;
+  
+  }
+  
+  if(percentage > 6) {
+  
+    foundHealth = Math.randomRange(1,4);
+    write(`During a brief pause, the ship was able to be repaired. (+${foundHealth} to health)`);
+    health += foundHealth;
+  
+  }
+  
+  if(percentage > 2 && percentage < 6)
+  {
+    write(`Nothing happened.`);
+  }
 
-	engine.state.set('health', health);
-	engine.state.set('fuel', fuel);
+  engine.state.set('health', health);
+  engine.state.set('fuel', fuel);
 [continued]
 {embed passage: "CheckStatus"}
 
@@ -244,4 +240,4 @@ Number of Jumps Left: {numberOfJumpsLeft}
 
 ```
 
-Download: <a href="chapbook_space_exploration_twee.txt" target="_blank">Twee Code</a>
+[Twee Download](chapbook_space_exploration_twee.txt)

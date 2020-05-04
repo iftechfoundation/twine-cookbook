@@ -1,18 +1,15 @@
 # "CSS and Passage Tags": Harlowe (v2.0)
 
-<div class="alertbox warning"><strong>Note:</strong> The following example is designed for use in Harlowe 2.x and later</div>
+!!! Warning
+    The following example is designed for use in Harlowe 2.x and later
 
 ## Summary
 
 This example shows how to use CSS selectors to selectively style different passages based on how they are tagged. In Harlowe, the "tags" attribute can be used to create different sets of styles and apply them when shown.
 
-## Live Example
+## Example
 
-<section>
-<iframe src="harlowe_passagetags_example.html" height=400 width=90%></iframe>
-
-Download: <a href="harlowe_passagetags_example.html" target="_blank">Live Example</a>
-</section>
+[Download](harlowe_passagetags_example.html)
 
 ## Twee Code
 
@@ -27,7 +24,7 @@ CSS and Passage Tags in Harlowe
 
 [tags="yellow"] {
     background: yellow;
-  	color: black;
+    color: black;
 }
 
 :: Start[grey]
@@ -40,4 +37,4 @@ This passage has a yellow background and black text.
 
 ```
 
-Download: <a href="harlowe_passagetags_twee.txt" target="_blank">Twee Code</a>
+[Twee Download](harlowe_passagetags_twee.txt)

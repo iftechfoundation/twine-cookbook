@@ -4,13 +4,9 @@
 
 In Snowman, the "showpassage" event is triggered once a passage is loaded. By listening for this event, [jQuery effects](https://api.jquery.com/category/effects/) can be applied to the passage element to produce a transition.
 
-## Live Example
+## Example
 
-<section>
-<iframe src="snowman_passagetransitions_example.html" height=400 width=90%></iframe>
-
-Download: <a href="snowman_passagetransitions_example.html" target="_blank">Live Example</a>
-</section>
+[Download](snowman_passagetransitions_example.html)
 
 ## Twee Code
 
@@ -21,7 +17,7 @@ Snowman: Passage Transitions
 :: UserScript[script]
 $(document).on('showpassage', function(event, passage) {
 
-	$("#passage").hide(0).fadeIn(2000);
+  $("#passage").hide(0).fadeIn(2000);
 
 });
 
@@ -36,4 +32,4 @@ Double-click this passage to edit it.
 
 ```
 
-Download: <a href="snowman_passagetransitions_twee.txt" target="_blank">Twee Code</a>
+[Twee Download](snowman_passagetransitions_twee.txt)

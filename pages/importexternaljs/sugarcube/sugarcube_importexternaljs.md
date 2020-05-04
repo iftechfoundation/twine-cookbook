@@ -1,20 +1,17 @@
 # "Importing External JavaScript": SugarCube (v2.18)
 
+!!! Information
+    The successful loading of an external JavaScript file or library commonly produces no visual output. The code within the example passage is not required for the successful loading of an external file or library.
+
 ## Summary
 
 "Importing External JavaScript" demonstrates how to import an externally stored JavaScript library, [jQuery UI](https://jqueryui.com/).
 
 This example uses the SugarCube **[importScripts()](http://www.motoslave.net/sugarcube/2/docs/functions.html#importscripts)** function to load and integrate the script file's contents.
 
-<div class="alertbox information"><strong>Note:</strong> The successful loading of an external JavaScript file or library commonly produces no visual output. The code within the example passage is not required for the successful loading of an external file or library.</div>
+## Example
 
-## Live Example
-
-<section>
-<iframe src="sugarcube_importexternaljs_example.html" height=400 width=90%></iframe>
-
-Download: <a href="sugarcube_importexternaljs_example.html" target="_blank">Live Example</a>
-</section>
+[Download](sugarcube_importexternaljs_example.html)
 
 ## Twee Code
 
@@ -34,15 +31,15 @@ importScripts("https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.m
 
 <<script>>
 $(document).one(':passagerender', function (ev) {
-	$(ev.content)
-		.find("#box")
-		.click(function () {
-			$("#box").toggle("bounce", {times: 3}, "slow");
-		});
+  $(ev.content)
+    .find("#box")
+    .click(function () {
+      $("#box").toggle("bounce", {times: 3}, "slow");
+    });
 });
 <</script>>
 
 
 ```
 
-Download: <a href="sugarcube_importexternaljs_twee.txt" target="_blank">Twee Code</a>
+[Twee Download](sugarcube_importexternaljs_twee.txt)

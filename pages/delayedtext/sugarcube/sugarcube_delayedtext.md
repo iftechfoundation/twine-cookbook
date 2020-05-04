@@ -4,13 +4,9 @@
 
 "Delayed Text" uses the [`<<timed>>`](http://www.motoslave.net/sugarcube/2/docs/macros.html#macros-timed) macro to delay five seconds before showing text.
 
-## Live Example
+## Example
 
-<section>
-<iframe src="sugarcube_delayedtext_example.html" height=400 width=90%></iframe>
-
-Download: <a href="sugarcube_delayedtext_example.html" target="_blank">Live Example</a>
-</section>
+[Download](sugarcube_delayedtext_example.html)
 
 ## Twee Code
 
@@ -24,7 +20,7 @@ It has been 5 seconds. Show the text!
 <</timed>>
 ```
 
-Download: <a href="sugarcube_delayedtext_twee.txt" target="_blank">Twee Code</a>
+[Twee Download](sugarcube_delayedtext_twee.txt)
 
 ## See Also
 

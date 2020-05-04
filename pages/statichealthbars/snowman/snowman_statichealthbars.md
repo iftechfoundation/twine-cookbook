@@ -4,13 +4,9 @@
 
 "Static Healthbars" demonstrates how to write HTML elements using variable values. In this example, [Underscore template](https://underscorejs.org/#template) functionality is used to create `<progress>` and `<meter>` elements.
 
-## Live Example
+## Example
 
-<section>
-<iframe src="snowman_statichealthbars_example.html" height=400 width=90%></iframe>
-
-Download: <a href="snowman_statichealthbars_example.html" target="_blank">Live Example</a>
-</section>
+[Download](snowman_statichealthbars_example.html)
 
 ## Twee Code
 
@@ -19,9 +15,9 @@ Download: <a href="snowman_statichealthbars_example.html" target="_blank">Live E
 Static Healthbars in Snowman
 
 :: Start
-<% 
-	window.setup = {};
-	window.setup.health = 80;
+<%
+  window.setup = {};
+  window.setup.health = 80;
 %>
 
 Show a healthbar using a Progress element:
@@ -32,4 +28,4 @@ Show a healthbar using a Meter element:
 
 ```
 
-Download: <a href="snowman_statichealthbars_twee.txt" target="_blank">Twee Code</a>
+[Twee Download](snowman_statichealthbars_twee.txt)

@@ -6,13 +6,9 @@ Games in the [rogue-like genre](https://en.wikipedia.org/wiki/Roguelike) often h
 
 Heavily inspired by [*FTL: Faster Than Light*](https://en.wikipedia.org/wiki/FTL:_Faster_Than_Light) (2012), this example uses the [`(random:)`](https://twine2.neocities.org/#macro_random) macro to generate a system of planets consisting of either RED, more risk and more reward, or GREEN, less risk and less reward. Upon entering a system of planets, the player can choose to visit these planets for different outcomes based on a series of choices and an additional use of the (random:) macro. While traveling, the player must also balance the health of the ship, the number of jumps left, and the current fuel that are all displayed using the [`(display:)`](https://twine2.neocities.org/#macro_display) macro. Finally, to capture the permanence of many rogue-like games, the [`(go-to:)`](https://twine2.neocities.org/#macro_go-to) macro is used to prevent the use of the normal undo/redo operations in Harlowe.
 
-## Live Example
+## Example
 
-<section>
-<iframe src="harlowe_space_exploration_example.html" height=400 width=90%></iframe>
-
-Download: <a href="harlowe_space_exploration_example.html" target="_blank">Live Example</a>
-</section>
+[Download](harlowe_space_exploration_example.html)
 
 ## Twee Code
 
@@ -39,8 +35,8 @@ Space Exploration in Harlowe
 
   <!-- Create a new system based on the previous random range -->
   (for: each _i, ..._planets )[
-	  <!-- Add to the new system, setting either RED or GREEN planets -->
-	  (set: $system to it + (a: (either: "RED", "GREEN") ) )
+    <!-- Add to the new system, setting either RED or GREEN planets -->
+    (set: $system to it + (a: (either: "RED", "GREEN") ) )
   ]
  }
 
@@ -52,26 +48,26 @@ Number of Jumps Left: $numberOfJumpsLeft
 
 :: Display System
 {
-	(for: each _planet, ...$system)[
-		(if: _planet is "RED")[
-		  (link: _planet)[
-			  (display: "Show Outcome - Red")
-		  ]
-		]
-		(if: _planet is "GREEN")[
-		  (link: _planet)[
-			  (display: "Show Outcome - Green")
-		  ]
-		]
-		<br>
-	]
+  (for: each _planet, ...$system)[
+    (if: _planet is "RED")[
+      (link: _planet)[
+        (display: "Show Outcome - Red")
+      ]
+    ]
+    (if: _planet is "GREEN")[
+      (link: _planet)[
+        (display: "Show Outcome - Green")
+      ]
+    ]
+    <br>
+  ]
 }
 
 :: Explore Space 1
 (link: "Hyperjump")[
-	(set: $fuel to it - 1)
-	(set: $numberOfJumpsLeft to it - 1)
-	(goto: "Explore Space 2")
+  (set: $fuel to it - 1)
+  (set: $numberOfJumpsLeft to it - 1)
+  (goto: "Explore Space 2")
 ]
 [(display: "HUD")]<HUD|
 (display: "Generate System")
@@ -79,64 +75,64 @@ Number of Jumps Left: $numberOfJumpsLeft
 
 :: Show Outcome - Green
 {
-	(set: _percentage to (random: 1, 10) )
+  (set: _percentage to (random: 1, 10) )
 
-	(if: _percentage is 1)[
+  (if: _percentage is 1)[
 
-		(set: _foundFuel to (random: 1, 2) )
+    (set: _foundFuel to (random: 1, 2) )
 
-		Fuel was found in some wreckage. (+_foundFuel to fuel)
-		(set: $fuel to it + _foundFuel)
+    Fuel was found in some wreckage. (+_foundFuel to fuel)
+    (set: $fuel to it + _foundFuel)
 
-	] (else-if: _percentage is >= 6)[
+  ] (else-if: _percentage is >= 6)[
 
-		(set: _foundHealth to (random: 1, 3) )
+    (set: _foundHealth to (random: 1, 3) )
 
-		During a brief pause, the ship was able to be repaired. (+_foundHealth to health)
+    During a brief pause, the ship was able to be repaired. (+_foundHealth to health)
 
-		(set: $health to it + _foundHealth )
+    (set: $health to it + _foundHealth )
 
-	] (else:) [
-		Nothing happened.
-	]
+  ] (else:) [
+    Nothing happened.
+  ]
 
-	(replace: ?HUD)[(display: "HUD")]
+  (replace: ?HUD)[(display: "HUD")]
 }
 
 :: Show Outcome - Red
 {
-	(set: _percentage to (random: 1, 10) )
+  (set: _percentage to (random: 1, 10) )
 
-	(if: _percentage is >= 6)[
+  (if: _percentage is >= 6)[
 
-		(set: _foundHealth to (random: 1, 5) )
-		(set: _foundFuel to (random: 1, 3) )
+    (set: _foundHealth to (random: 1, 5) )
+    (set: _foundFuel to (random: 1, 3) )
 
-		The hostile environment damaged the ship, but extra fuel was found. (-_foundHealth to health and +_foundFuel to fuel)
+    The hostile environment damaged the ship, but extra fuel was found. (-_foundHealth to health and +_foundFuel to fuel)
 
-		(set: $health to it - _foundHealth )
-		(set: $fuel to it + _foundFuel )
+    (set: $health to it - _foundHealth )
+    (set: $fuel to it + _foundFuel )
 
-	] (else-if: _percentage <= 3)[
+  ] (else-if: _percentage <= 3)[
 
-		(set: _foundHealth to (random: 2, 7) )
+    (set: _foundHealth to (random: 2, 7) )
 
-		A hostile ship attacked. (-_foundHealth to health)
+    A hostile ship attacked. (-_foundHealth to health)
 
-		(set: $health to it - _foundHealth )
+    (set: $health to it - _foundHealth )
 
-	] (else:)[
-		Nothing happened.
-	]
+  ] (else:)[
+    Nothing happened.
+  ]
 
-	(replace: ?HUD)[(display: "HUD")]
+  (replace: ?HUD)[(display: "HUD")]
 }
 
 :: Explore Space 2
 (link: "Hyperjump")[
-	(set: $fuel to it - 1)
-	(set: $numberOfJumpsLeft to it - 1)
-	(goto: "Explore Space 1")
+  (set: $fuel to it - 1)
+  (set: $numberOfJumpsLeft to it - 1)
+  (goto: "Explore Space 1")
 ]
 [(display: "HUD")]<HUD|
 (display: "Generate System")
@@ -144,15 +140,15 @@ Number of Jumps Left: $numberOfJumpsLeft
 
 :: Check Status
 {
-	(if: $health <= 0)[
-		(goto: "Destroyed")
-	]
-	(if: $fuel <= 0)[
-		(goto: "Lost in space")
-	]
-	(if: $numberOfJumpsLeft <= 0)[
-		(goto: "Safe")
-	]
+  (if: $health <= 0)[
+    (goto: "Destroyed")
+  ]
+  (if: $fuel <= 0)[
+    (goto: "Lost in space")
+  ]
+  (if: $numberOfJumpsLeft <= 0)[
+    (goto: "Safe")
+  ]
 
 }
 
@@ -173,4 +169,4 @@ After 10 hyperjumps, the ship left the hazardous area and called for help.
 
 ```
 
-Download: <a href="harlowe_space_exploration_twee.txt" target="_blank">Twee Code</a>
+[Twee Download](harlowe_space_exploration_twee.txt)

@@ -4,13 +4,9 @@
 
 In SugarCube, the contents of a passage can be shown in another through the use of the [`<<include>>`](http://www.motoslave.net/sugarcube/2/docs/#macros-macro-include) macro. Through using the name of an existing passage, its contents will be included where the macro is called.
 
-## Live Example
+## Example
 
-<section>
-<iframe src="sugarcube_passagesinpassages_example.html" height=400 width=90%></iframe>
-
-Download: <a href="sugarcube_passagesinpassages_example.html" target="_blank">Live Example</a>
-</section>
+[Download](sugarcube_passagesinpassages_example.html)
 
 ## Twee Code
 
@@ -27,4 +23,4 @@ And this is Another passage!
 
 ```
 
-Download: <a href="sugarcube_passagesinpassages_twee.txt" target="_blank">Twee Code</a>
+[Twee Download](sugarcube_passagesinpassages_twee.txt)

@@ -6,13 +6,9 @@ In Harlowe, the macro [`(count:)`](https://twine2.neocities.org/#macro_count) re
 
 Combined together, the macro `(count:)` with the `(history:)` can return the number of times a certain passage has been visited during the course of the story.
 
-## Live Example
+## Example
 
-<section>
-<iframe src="harlowe_passagevisits_example.html" height=400 width=90%></iframe>
-
-Download: <a href="harlowe_passagevisits_example.html" target="_blank">Live Example</a>
-</section>
+[Download](harlowe_passagevisits_example.html)
 
 ## Twee Code
 
@@ -30,4 +26,4 @@ How many times has the passage "Another Passage" been visited? (count: (history:
 
 ```
 
-Download: <a href="harlowe_passagevisits_twee.txt" target="_blank">Twee Code</a>
+[Twee Download](harlowe_passagevisits_twee.txt)

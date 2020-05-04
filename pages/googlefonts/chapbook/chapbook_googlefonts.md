@@ -6,11 +6,7 @@ Chapbook provides a global variable, *config.style.googleFont*, that can be used
 
 ## Live Example
 
-<section>
-<iframe src="chapbook_googlefonts_example.html" height=400 width=90%></iframe>
-
-Download: <a href="chapbook_googlefonts_example.html" target="_blank">Live Example</a>
-</section>
+[Download](chapbook_googlefonts_example.html)
 
 ## Twee Code
 
@@ -23,8 +19,6 @@ config.style.googleFont: '<link href="https://fonts.googleapis.com/css?family=Ro
 config.style.page.font: 'Roboto'
 --
 This text is styled by a Google Font.
-
-
 ```
 
-Download: <a href="chapbook_googlefonts_twee.txt" target="_blank">Twee Code</a>
+[Twee Download](chapbook_googlefonts_twee.txt)

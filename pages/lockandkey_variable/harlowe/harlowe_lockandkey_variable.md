@@ -1,6 +1,7 @@
 # "Lock and Key: Variable": Harlowe (v2.0)
 
-<div class="alert information"><strong>Note:</strong> This recipe is affected by history changes in the story. Undoing or re-doing back to a passage containing this recipe has the potential to change its saved values.</div>
+!!! Information
+    This example is affected by history changes in the story. Undoing or re-doing back to a passage containing this recipe has the potential to change its saved values.
 
 ## Summary
 
@@ -8,13 +9,9 @@
 
 When the link "Pick up the key" is clicked, *$key* is changed to the value "true" and the door link changes from its initial response of "Locked Door" to a link to the passage Exit.
 
-## Live Example
+## Example
 
-<section>
-<iframe src="harlowe_lockandkey_variable_example.html" height=400 width=90%></iframe>
-
-Download: <a href="harlowe_lockandkey_variable_example.html" target="_blank">Live Example</a>
-</section>
+[Download](harlowe_lockandkey_variable_example.html)
 
 ## Twee Code
 
@@ -31,10 +28,10 @@ Rooms:
 
 :: Front Room
 (if: $key is true)[
-	[[Exit]]
+  [[Exit]]
 ]
 (else:)[
-	*Locked Door*
+  *Locked Door*
 ]
 
 Rooms:
@@ -42,11 +39,11 @@ Rooms:
 
 :: Back Room
 (if: $key is false)[
-	Items:
-	(link: "Pick up key")[(set: $key to true)You have a key.]
+  Items:
+  (link: "Pick up key")[(set: $key to true)You have a key.]
 ]
 (else:)[
-	There is nothing here.
+  There is nothing here.
 ]
 
 Rooms:
@@ -57,7 +54,7 @@ You found the key and went through the door!
 
 ```
 
-Download: <a href="harlowe_lockandkey_variable_twee.txt" target="_blank">Twee Code</a>
+[Download](harlowe_lockandkey_variable_twee.txt)
 
 ## See Also
 
