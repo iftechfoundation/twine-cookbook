@@ -1,8 +1,8 @@
 # Using the Twine Cookbook
 
-The *Twine Cookbook* provides live examples, Twee source code, and links to download either on each example page under the different topic areas.
+The *Twine Cookbook* provides examples, Twee source code, and links to download either on each example page under the different topic areas.
 
-## Downloading and Using the Live Examples
+## Downloading and Using the Examples
 
 1) Download the compiled HTML from an example page.
 

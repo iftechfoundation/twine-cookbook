@@ -8,6 +8,7 @@ use_directory_urls: false
 
 nav:
   - 'Home': 'index.md'
+  - 'Start Here!': 'start.md'
   - Cookbook Introduction:
     - 'Using the Cookbook': 'using_cookbook.md'
     - 'Example Formatting': 'formatting.md'
@@ -38,9 +39,9 @@ nav:
     - 'Passages': 'introduction/passages.md'
     - 'Story Formats': 'introduction/story_formats.md'
   - Getting Started:
-    - 'How to Create Your First Story': 'starting/twine2/firststory.md'
-    - 'How to Choose a Story Format': 'starting/twine2/storyformat.md'
-    - 'How to Review Your Story': 'starting/twine2/review.md'
+    - 'First Story': 'starting/twine2/firststory.md'
+    - 'Choosing Story Formats': 'starting/twine2/storyformat.md'
+    - 'Review Stories': 'starting/twine2/review.md'
   - Examples:
     - Adding Functionality:
       - 'Chapbook': 'addingfunctionality/chapbook/chapbook_adding_functionality.md'

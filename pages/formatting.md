@@ -12,25 +12,17 @@ Each example is divided into sections. They start with a summary of the example 
 
 For terms that may not be familiar to a more general audience, they can be added to the Glossary file and their definitions will be available as a tooltip over the term or phrase in the HTML version of the book.
 
-## Live Example
+## Example
 
-The next section demonstrates the code running.
-
-```html
-<section>
-<iframe src="storyformat_recipe_example.html" height=400 width=90%></iframe>
-
-Download: <a href="storyformat_recipe_example.html" target="_blank">Live Example</a>
-</section>
-```
+Each example has a link to a compiled example that can be imported in Twine 2.
 
 ## Twee Code
 
 Finally, in the last section, all code is shown in its Twee notation for reference and download.
 
 ```twee
-Twee notation
-Download: <a href="storyformat_recipe_twee.txt" target="_blank">Twee Code</a>
+:: Start
+Twee notation example!
 ```
 
 ## See Also

@@ -1,50 +1,126 @@
-# How to Create Your First Story
+# Twine 2: How to Create Your First Story
 
-Before you create your first story using Twine 2, please read Where Your Stories Are Saved!
+!!! Information
+    Before you create your first story using Twine 2, please consult the [Where are my stories saved?](../../questions/stories_saved.md) page.
 
-This page will step you through creating a very simple branching story with Twine. We'll start with the premise that you play an astronaut exploring the far reaches of space. You've found a planet that seems just like Earth, only there are strange creatures living on it instead of humans!
+## Starting with a Story
 
-Let's start at the Twine story list. It looks like this:
+Many Twine 2 projects begin with a story idea. For this example, the story idea will be that the player is an astronaut exploring the galaxy. They will encounter a planet like Earth, but with strange creatures instead of humans!
 
+When starting Twine 2, either the online or desktop version, it opens with the [Story Listing](../../introduction/twine2_story_listing.md). This is where all stories are stored and can be accessed.
 
+To create a new story, click on the "+Story" button on the right-hand sidebar. This will ask for a story title. Name this story `Strange Encounter in Space` and click on the "+Add" button.
 
-Although yours will look different, since you don't have any stories yet created. You'll be taken there after Twine shows you some introductory information. If you're not sure how to open Twine, read the Getting Started instructions.
+The new story is now added to the list and the [Passages View](../../introduction/twine2_passages_view.md) is opened automatically!
 
-Use the green + Story button on the right side of the screen to get started with your new story. It will pop open a balloon asking what to call it. You can name it whatever you like – if you're not feeling creative, you can't go wrong with Strange Encounter in Space.
+## Editing Passages
 
-As soon as you give your story a name, you'll be taken to its story map. The story map is a canvas for your story that will expand in size as much as you like. You can move around it using the scroll bars of the window, or if you're using a touch-based device, just dragging around with your finger. You can also zoom out to see more of it by using these buttons:
+The first passage added in Twine 2 is called "Untitled Passage". It will be positioned in the middle of the screen. Double-clicking (or tapping, on mobile) will open the passage for editing.
 
+Passages have names, optional tags, and content. By default, a passage will have the content of `Double-click this passage to edit it.`
 
+Change the content to the following:
 
-You'll notice that a box pops onto your story map as soon as it opens, called “Untitled Passage.” Your story will be made up of individual passages. Usually, passages are shown one at a time to a reader. Let's enter some text in that starting passage. You can do that by either double-clicking it with a mouse, or by tapping it with your finger on a touch-based device and choosing the pencil from the icons that appear:
-
-
-
-At the top of the editor that appears is a field with your passage's name. You can change that any time. Underneath that is a button to add tags to your passage. For now, you can leave that be. The rest of the editor is for changing the text. Go ahead and enter a description of what encountering those creatures is like. Or… you can just copy and paste the below:
-
+```twee
 As soon as the hatch of your ship, the Coriolis, opens, you see the creatures swarming around you. There are many of them, more than you can easily count, and they are all continuously in motion.
+```
 
-Close the passage editor either with the Escape key, or by clicking or tapping the X in the upper-right corner. There's no need to save your work – Twine will automatically do it for you as you make changes. Now let's see what it looks like in action. Click or tap the Play button on the right side of the toolbar.
+Close the passage editor either with the Escape key, or by clicking or
+tapping the `X` in the upper-right corner. Twine 2 automatically saves the passage when you close it!
 
+## Playing a Story
 
+With the passage closed, it's now time to play it!
 
-A new window or tab will appear that shows your story in playable format. Except… it's not very playable right now, is it? There's nothing for a reader to do but read. Let's add some choices for what to do next. Go back to the story map and edit your passage again, and add this text at the bottom:
+The bottom menu in the Passage View is the Story Menu. It allows for changing details about the story, navigating back to the Story Listing, and, for right now, playing a story.
 
-[[Try talking to the creatures]]
-[[Walk down the ramp of your spaceship]]
+Click on the "Play" button in the bottom, right-hand corner.
 
-As soon as you close the editor, Twine will create two new passages for you with the names of these choices, and draw connecting lines between them to show that they're linked. These passages have a thinner border than the first one. Twine highlights the starting point of your story with a thicker border. You can change the starting point with the rocketship icon on the passage's menu. (Think of it like a ship taking off a voyage.)
+Twine 2 will the open up the story as a HTML file in a web browser.
 
-The text that is shown to the reader can be different from the name of your passage. See How to Create Links for details.
+### Playing with Online Twine 2
 
-You can rearrange the passages in the story map by dragging them with your mouse or finger. Organize things however you like! Go ahead and edit these new passages with what you think would happen next. Are the creatures hostile? Do they understand the protagonist's language? (Probably not – but if they do, that's an interesting story in itself.)
+When using the online version, the story will open in a new tab.
 
-Once you've added text to the Try talking to the creatures and Walk down the ramp of your spaceship passages, try the Play button again. You'll now see clickable links at the end of your story.
+> **Note:** The URL in the online version of Twine 2 will look something like the following: `https://twinery.org/2/#!/stories/2f3e4f18-2bde-4213-b29b-08a1e368804c/play`. **This is not a URL to access the story!** The number part of the URL is a key to the local storage of the browser only.
 
-So, now you know enough to create a simple story! You can either keep adding passages to those new ones, or even go back to the beginning and add another option, like [[Scan the creatures with your equipment]].
+The story can be played and the new tab safely closed when done. (For continuing to edit, leave the tab open and Twine 2 will refresh it when the "Play" button is clicked again.)
 
-Once you're done with your story, click or tap the title of your story in the toolbar. It has a little upward triangle at its end, like ▲, to indicate that it's a menu. This is the story menu. It contains options that you won't use as often as you work on your story. For example, you can Rename Story from this menu, but what we're interested in doing is Publish to File. This will save your story into an HTML file that works on its own – your readers don't have to install Twine themselves. You can email this file to someone or post it for the world to see.
+### Playing with Desktop Twine 2
 
-If you're using Twine on Safari on OS X, then the Publish to File option will open a new tab with what looks like a lot of code. This is unfortunately a limitation of this particular browser. Just choose Save As from the File menu to save it as a file.
+When using the desktop version, Twine 2 will open a HTML stored in the temporary files of the operating system and in whatever the default web browser is for the system is.
 
-That's it! You now know everything you need to make a simple story. Of course, there's a lot more you can accomplish with Twine. The rest of this guide can help you learn.
+Unlike the online version, the desktop version of Twine 2 *will create a new file every time the "Play" button is clicked.*
+
+## Connecting Passages
+
+Returning to the Passages View, no edits can be made to the story.
+
+Double-click (or tap, on mobile) the "Untitled Passage" again.
+
+This time, add the following at the bottom:
+
+```twee
+[[Could this really be Earth!?]]
+```
+
+In the background of editing the passage, Twine 2 will create a new passage called "Could this really be Earth!?".
+
+The above use of double opening and closing square brackets is a [passage link](../../terms/terms_passages.md). In Twine 2, links connect passages.
+
+Close the passage editor either with the Escape key, or by clicking or
+tapping the `X` in the upper-right corner.
+
+There are now two passages! The first is "Untitled Passage" and the second is "Could this really be Earth!?".
+
+Clicking and dragging either passage shows that they are connected. They are "linked!"
+
+## Play it Again
+
+Click on the "Play" button again.
+
+In either a new tab or the existing play tab (depending on version or if closed previously), the story will update.
+
+A new link is added to the text that reads "Could this really be Earth!?".
+
+Passage links are not just connections between them, they are also *hyperlinks* between passages in a story.
+
+Clicking on the story will load a new passage. However, this passage, "Could this really be Earth!?", still has the default text of "Double-click this passage to edit it."
+
+Return to the Passage View and double-click (or tap, on mobile) the "Could this really be Earth!?" passage.
+
+Change its contents to the following:
+
+```twee
+This sure is a strange planet! It can't possibly be Earth. I must have gotten mixed up on my way here.
+```
+
+Close the passage editor either with the Escape key, or by clicking or
+tapping the `X` in the upper-right corner.
+
+## Testing a Passage
+
+This time, instead of clicking on "Play", place the cursor over the passage in the Passage View.
+
+A new menu will appear with icons. Click on the triangle ("Test story starting here") button.
+
+Instead of beginning with the original passage, the story will start in the **Debug mode** and begin the story at the new passage.
+
+This is a very useful way to test individual passages and see their contents instead of having to navigate through a story.
+
+## Testing a Story
+
+Go back to the Passages View.
+
+In the lower, right-hand corner, click on the "Test" button.
+
+Like with testing from a single passage, this will open the story in **Debug mode**. This will open the story from the starting passage.
+
+## Congratulations
+
+Using Twine 2 follows the patterns outlined in this page:
+
+- Starting with a story idea
+- Adding passages and links
+- Playing stories to experience it as a reader
+- Testing both individual passages and the story as a whole
