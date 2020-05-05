@@ -42,7 +42,26 @@ nav:
     - 'First Story': 'starting/twine2/firststory.md'
     - 'Choosing Story Formats': 'starting/twine2/storyformat.md'
     - 'Review Stories': 'starting/twine2/review.md'
-  - Examples:
+  - Working with HTML:
+      - Story Formats:
+        - 'Chapbook': 'twine2html\storyformats\chapbook.md'
+        - 'Harlowe': 'twine2html\storyformats\harlowe.md'
+        - 'SugarCube': 'twine2html\storyformats\sugarcube.md'
+        - 'Snowman': 'twine2html\storyformats\snowman.md'
+  - Working with CSS:
+      - 'Reviewing CSS Selectors': 'twine2css\selectors.md'
+      - Story Formats:
+        - 'Chapbook': 'twine2css\storyformats\chapbook.md'
+        - 'Harlowe': 'twine2css\storyformats\harlowe.md'
+        - 'SugarCube': 'twine2css\storyformats\sugarcube.md'
+        - 'Snowman': 'twine2css\storyformats\snowman.md'
+  - Working with JavaScript:
+      - Story Formats:
+        - 'Chapbook': 'twine2js\storyformats\chapbook.md'
+        - 'Harlowe': 'twine2js\storyformats\harlowe.md'
+        - 'SugarCube': 'twine2js\storyformats\sugarcube.md'
+        - 'Snowman': 'twine2js\storyformats\snowman.md'
+  - Twine 2 Examples:
     - Adding Functionality:
       - 'Chapbook': 'addingfunctionality/chapbook/chapbook_adding_functionality.md'
       - 'SugarCube': 'addingfunctionality/sugarcube/sugarcube_adding_functionality.md'
@@ -262,13 +281,6 @@ nav:
       - 'Snowman': 'storystyling/snowman/snowman_storystyling.md'
     - Using Add-ons:
       - 'SugarCube': 'usingaddons/sugarcube/sugarcube_usingaddons.md'
-  - Working with CSS:
-      - 'Reviewing CSS Selectors': 'twine2css\selectors.md'
-      - Story Formats:
-        - 'Chapbook': 'twine2css\storyformats\chapbook.md'
-        - 'Harlowe': 'twine2css\storyformats\harlowe.md'
-        - 'SugarCube': 'twine2css\storyformats\sugarcube.md'
-        - 'Snowman': 'twine2css\storyformats\snowman.md'
   - Twine 1:
       - Common Terms:
         - 'Passages': 'twine1documentation/passages.md'

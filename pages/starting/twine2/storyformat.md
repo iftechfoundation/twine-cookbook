@@ -1,41 +1,34 @@
-# How to Choose a Story Format
+# Choosing a Story Format
 
-When you publish your story to a file, that file doesn't contain the entire Twine editor. That'd be wasteful, since most people reading your story won't be interested in editing it. Instead, your story is bound to a story format, whose job is to show your story in a playable format.
+A published HTML in Twine 2 does not contain the editor itself. That would be a waste of space! Instead, files are bundled with a [Story Format](../../terms/terms_storyformats.md).
 
-This process is a little like taking a word processing document, which is easy to make changes to, and running it through a printing press and then binding the results as a book – which, apart from scribbling in the margins, you aren't able to change. At the same time, a book is a lot more enjoyable to read than a word processing document.
+## Explaining a Story Format
 
-Built-in Story Formats
-There are three story formats that come with Twine 2.0, and they serve different purposes.
+Think about a car. A *story format* is the *engine*. It drives the story, and works with the existing structure. Without it, the HTML file cannot "run!"
 
-Harlowe is the default story format, and is focused on making it easy to add basic interaction to your stories in a readable, concise way. Its home page is here.
+When a Twine 2 HTML file is created, the story is encoded. When run in a browser, the "engine" reads the story from the HTML and shows it to the user.
 
-Snowman is designed to be used by people who are familiar with writing JavaScript and CSS, two broadly-used Web technologies, and makes it easy to build a heavily-customized reading experience. Its home page is here.
+## Built-in Story Formats
 
-SugarCube comes from the world of Twine 1, so if you are already familiar with the story formats that were used by Twine 1, you'll find it comfortable to use. You can also draw on the vast number of Twine 1-related resources on the web and use them as-is. SugarCube also has the ability for your reader to save their progress into separate slots, similar to a console video game. Its home page is here.
+There are multiple story formats that come with Twine 2, and they serve
+different purposes.
 
-Adding New Story Formats
-There may also be other story formats on the Internet; anyone can create one if they're interested. If you've found one that you'd like to use for your Twine project, you can add it to the story list.
+**Harlowe** is the default story format, and is focused on making it
+easy to add basic interaction to your stories in a readable, concise
+way.
 
-How Do I Decide Which One To Use?
-Each format has a different look and feel out-of-the-box, but all of them allow you to customize their apperance. And all of them are designed to work reasonably well on a mobile browser, too. Instead, the best way to judge is to take a look at the project pages and decide which will be the easiest to accomplish what your project needs.
+**Snowman** is designed to be used by people who are familiar with
+writing JavaScript and CSS, two broadly-used Web technologies, and makes
+it easy to build a heavily-customized reading experience.
 
-It can also be helpful to see how scripting in each format looks. Here's how you would write the script for a door that can only be opened if the reader previously found a key of a particular color:
+**SugarCube** comes from the world of Twine 1. It gives readers the ability to save their progress into separate slots and provides a large collection of functionality for authors.
 
-Harlowe:
+**Chapbook** the first of a "second-generation" story formats, it is designed for newer users with advanced functionality built into its inserts and modifiers.
 
-(if: $hasKey)[It looks like the $keyColor key will [[open the door]].]
-(else:)[No way forward here, unfortunately.]
-Snowman:
+## Adding New Story Formats
 
-<% if (s.hasKey) { %>
-It looks like the <%= s.keyColor %> key will [[open the door]].
-<% } else { %>
-No way forward here, unfortunately.
-<% } %> 
-SugarCube:
+Other developers and communities have created their own story formats.
 
-<<if $hasKey>>
-It looks like the $keyColor key will [[open the door]].
-<<else>>
-No way forward here, unfortunately.
-<</if>>
+New or versions of existing, loaded story formats can be added through the ["Add a New Format"](../../introduction/twine2_story_listing.md#add-a-new-format.md)
+
+Once added, they can be selected from the Story Menu of a story and used during play, testing, and publishing.

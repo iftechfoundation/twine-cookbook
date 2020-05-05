@@ -1,16 +1,19 @@
-# How to Review Your Story
+# Review Stories
 
-Ready to publish your story? Great\! Here's a few ways Twine helps you
-put the finishing touches on your work.
+Twine does more than simply play and publish files. It also provide functionality to produce *proofreading* versions of stories.
 
-**Proofreading your work** can be daunting since you'd normally need to
-look at each passage individually in the editor. Instead, choose *View
-Proofing Copy* from the story menu. This will create a plain text
-document with all of the text of your story split into sections based on
-passages. You can print this document as-is, save to a PDF with your
-browser, or copy and paste it into a word processor.
+## Proofing Copy
 
-**Checking for broken links** can be done in two ways. First, any
-passages that do have broken links will be tinted red in the story map.
-Secondly, choose *Story Statistics* from the story menu. If the number
-of broken links is 0, then you're good.
+When in the Passages View, the Story Menu can be accessed for that story.
+
+Clicking on the [View Proofing Copy](../../introduction/twine2_passages_view.md#view-proofing-copy) option opens the currently selected Proofing Format.
+
+Like with testing or playing a story, this will open in a new tab.
+
+> **Note:** By default, the proofing format used is Paperthin. This shows the text contents of all passages but does not include the Story JavaScript or Story Stylesheet content.
+
+## Using Proofing Copies
+
+Proofing copies are designed, as their name implies, for *proofreading*. For larger, potentially complex stories, often the text content needs to be reviewed or adjusted outside of editing the individual passages within the story.
+
+Proofing formats allow an author to produce something that includes only the text of the story itself. This could then be passed to an editor or other people.
