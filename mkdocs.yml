@@ -41,8 +41,10 @@ nav:
   - Getting Started:
     - 'First Story': 'starting/twine2/firststory.md'
     - 'Choosing Story Formats': 'starting/twine2/storyformat.md'
-    - 'Review Stories': 'starting/twine2/review.md'
+    - 'Creating Links': 'starting/twine2/creatinglinks.md'
+    - 'Reviewing Stories': 'starting/twine2/review.md'
   - Working with HTML:
+      - 'Reviewing': 'twine2html\reviewing.md'
       - Story Formats:
         - 'Chapbook': 'twine2html\storyformats\chapbook.md'
         - 'Harlowe': 'twine2html\storyformats\harlowe.md'
@@ -56,6 +58,7 @@ nav:
         - 'SugarCube': 'twine2css\storyformats\sugarcube.md'
         - 'Snowman': 'twine2css\storyformats\snowman.md'
   - Working with JavaScript:
+      - 'Reviewing': 'twine2js\reviewing.md'
       - Story Formats:
         - 'Chapbook': 'twine2js\storyformats\chapbook.md'
         - 'Harlowe': 'twine2js\storyformats\harlowe.md'
@@ -373,4 +376,4 @@ markdown_extensions:
   - codehilite:
       guess_lang: false
   - toc:
-      permalink: true
+      permalink: "#"

@@ -1,4 +1,4 @@
-# Review Stories
+# Reviewing Stories
 
 Twine does more than simply play and publish files. It also provide functionality to produce *proofreading* versions of stories.
 
