@@ -1,6 +1,10 @@
 # Snowman HTML
 
-## Snowman 1.X HTML
+Snowman uses a variety of HTML elements and attributes to organize its stories.
+
+The following are snapshots of HTML element differences between major versions in Snowman.
+
+## Snowman 1.X
 
 ```html
 <body>
@@ -12,7 +16,7 @@
 </body>
 ```
 
-## Snowman 2.X HTML
+## Snowman 2.X
 
 ```html
 <body>

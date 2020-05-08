@@ -1,5 +1,9 @@
 # Chapbook HTML
 
+Chapbook uses a variety of HTML elements and attributes to organize its stories.
+
+The following is a snapshot of a Chapbook story for reference and archival purposes.
+
 ```html
 <form id="cb-validation" action="javascript:void(0)">
   <button id="cb-validation-tester" hidden=""></button>

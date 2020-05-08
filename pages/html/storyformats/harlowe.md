@@ -1,6 +1,10 @@
 # Harlowe HTML
 
-## Harlowe 1.X HTML
+Harlowe uses a variety of HTML elements and attributes to organize its stories.
+
+The following are snapshots of HTML element differences between major versions in Harlowe.
+
+## Harlowe 1.X
 
 ```html
 <tw-story>
@@ -16,7 +20,7 @@
 </tw-story>
 ```
 
-## Harlowe 2.X HTML
+## Harlowe 2.X
 
 ```html
 <tw-story tags="">
@@ -32,7 +36,7 @@
 </tw-story>
 ```
 
-## Harlowe 3.X HTML
+## Harlowe 3.X
 
 ```html
 <tw-story tags="">

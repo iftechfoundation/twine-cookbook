@@ -44,26 +44,26 @@ nav:
     - 'Creating Links': 'starting/twine2/creatinglinks.md'
     - 'Reviewing Stories': 'starting/twine2/review.md'
   - Working with HTML:
-      - 'Reviewing HTML': 'twine2html\reviewing.md'
+      - 'Reviewing HTML': 'html\reviewing.md'
       - Story Formats:
-        - 'Chapbook': 'twine2html\storyformats\chapbook.md'
-        - 'Harlowe': 'twine2html\storyformats\harlowe.md'
-        - 'SugarCube': 'twine2html\storyformats\sugarcube.md'
-        - 'Snowman': 'twine2html\storyformats\snowman.md'
+        - 'Chapbook': 'html\storyformats\chapbook.md'
+        - 'Harlowe': 'html\storyformats\harlowe.md'
+        - 'SugarCube': 'html\storyformats\sugarcube.md'
+        - 'Snowman': 'html\storyformats\snowman.md'
   - Working with CSS:
-      - 'Reviewing CSS Selectors': 'twine2css\selectors.md'
+      - 'Reviewing CSS Selectors': 'css\selectors.md'
       - Story Formats:
-        - 'Chapbook': 'twine2css\storyformats\chapbook.md'
-        - 'Harlowe': 'twine2css\storyformats\harlowe.md'
-        - 'SugarCube': 'twine2css\storyformats\sugarcube.md'
-        - 'Snowman': 'twine2css\storyformats\snowman.md'
+        - 'Chapbook': 'css\storyformats\chapbook.md'
+        - 'Harlowe': 'css\storyformats\harlowe.md'
+        - 'SugarCube': 'css\storyformats\sugarcube.md'
+        - 'Snowman': 'css\storyformats\snowman.md'
   - Working with JavaScript:
-      - 'Reviewing JavaScript': 'twine2js\reviewing.md'
+      - 'Reviewing JavaScript': 'js\reviewing.md'
       - Story Formats:
-        - 'Chapbook': 'twine2js\storyformats\chapbook.md'
-        - 'Harlowe': 'twine2js\storyformats\harlowe.md'
-        - 'SugarCube': 'twine2js\storyformats\sugarcube.md'
-        - 'Snowman': 'twine2js\storyformats\snowman.md'
+        - 'Chapbook': 'js\storyformats\chapbook.md'
+        - 'Harlowe': 'js\storyformats\harlowe.md'
+        - 'SugarCube': 'js\storyformats\sugarcube.md'
+        - 'Snowman': 'js\storyformats\snowman.md'
   - Twine 2 Examples:
     - Adding Functionality:
       - 'Chapbook': 'addingfunctionality/chapbook/chapbook_adding_functionality.md'

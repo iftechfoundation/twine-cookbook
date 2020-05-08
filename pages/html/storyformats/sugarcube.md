@@ -1,6 +1,10 @@
 # SugarCube HTML
 
-## SugarCube 1.X HTML
+SugarCube uses a variety of HTML elements and attributes to organize its stories.
+
+The following are snapshots of HTML element differences between major versions in SugarCube.
+
+## SugarCube 1.X
 
 ```html
 <body>
@@ -36,7 +40,7 @@
 </body>
 ```
 
-## SugarCube 2.X HTML
+## SugarCube 2.X
 
 ```html
 <body>

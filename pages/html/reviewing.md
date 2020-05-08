@@ -33,7 +33,7 @@ If one or more elements are content inside an element, it is their *parent*.
 
 HTML documents start with `<html>`. This element has two children: `<head>` and `<body>`.
 
-### `<head>`
+### Head
 
 The `<head>` element contains information about the document such as its title, author, and other details about the document.
 
@@ -45,7 +45,7 @@ The `<head>` element contains information about the document such as its title, 
 </html>
 ```
 
-### `<body>`
+### Body
 
 The `<body>` element contains the content of a document. Anything that is part of the document and not a child of the `<head>` will be in the `<body>` element.
 
