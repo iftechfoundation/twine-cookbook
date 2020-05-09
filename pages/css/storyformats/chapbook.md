@@ -25,7 +25,7 @@ Passage content
 
 ## Header and Footer
 
-Passage content in Chapbook is also divided into seven areas arranged in the following arrangement.
+Passage content in Chapbook is also divided into seven areas in the following arrangement.
 
 | `config.header.left` | `config.header.center` | `config.header.right` |
 |----------------------|------------------------|-----------------------|
@@ -58,7 +58,8 @@ These correspond to elements with different classes (left, center, right) for bo
 
 ## Overwriting Chapbook CSS
 
-> **Note:** Overwriting existing CSS rules is an *advanced* technique. It has the potential to significantly change the presentation of content.
+!!! Warning
+    Overwriting existing CSS rules is an *advanced* technique. It has the potential to significantly change the presentation of content.
 
 All Chapbook stories follow the same [HTML structure](../../html/storyformats/chapbook.md#chapbook-html).
 

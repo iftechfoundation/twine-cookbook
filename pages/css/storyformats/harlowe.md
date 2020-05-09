@@ -73,7 +73,9 @@ Red background and green text!
 
 ## Overwriting Harlowe CSS
 
-> **Note:** Overwriting existing CSS rules is an *advanced* technique. It has the potential to significantly change the presentation of content.
+!!! Warning
+    Overwriting existing CSS rules is an *advanced* technique.
+    It has the potential to significantly change the presentation of content.
 
 All Harlowe stories follow the same [HTML structure](../../html/storyformats/harlowe.md#harlowe-html).
 
