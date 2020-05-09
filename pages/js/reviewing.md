@@ -2,6 +2,10 @@
 
 [JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript) is a programming language available in web browsers. It allows developers to write code that runs when a hypertext document is shown to a user.
 
+## Script Element
+
+JavaScript code appears in the `<script>` element in HTML.
+
 ## Document Object Model (DOM)
 
 Web browsers provide any JavaScript code with a global object named **document**. This represents the entire HTML [document](https://developer.mozilla.org/en-US/docs/Web/API/Document) as an **object**. This allows code to read and change the document while it is shown to a user in a web browser.
