@@ -58,7 +58,7 @@ These correspond to elements with different classes (left, center, right) for bo
 
 ## Overwriting Chapbook CSS
 
-> **Note:** Overwriting existing CSS rules is an *advanced* technique and has the potential to significantly change the presentation of content.
+> **Note:** Overwriting existing CSS rules is an *advanced* technique. It has the potential to significantly change the presentation of content.
 
 All Chapbook stories follow the same [HTML structure](../../html/storyformats/chapbook.md#chapbook-html).
 
