@@ -17,3 +17,9 @@ a:hover {
  color: green;
 }
 ```
+
+## Overwriting CSS
+
+```css
+#passage { /* Your CSS Here */ }
+```

@@ -1,7 +1,13 @@
 # Harlowe CSS
 
-The HTML structure of Harlowe differ only slightly between versions. Starting with 2.X, the `tags` attribute was added to the `<tw-passage>` element, allowing for styling passages based on their tags.
+Harlowe strongly encourages authors to style stories through using [macros](https://twine2.neocities.org/#markup_macro).
 
-## Harlowe Links
+## Overwriting Harlowe CSS
 
-## Styling Passages by Tags
+> **Note:** Overwriting existing CSS rules is an *advanced* technique.
+
+All Harlowe stories follow the same [HTML structure](../../html/storyformats/harlowe.md#harlowe-html).
+
+```css
+tw-passage { /* Your CSS Here */ }
+```
