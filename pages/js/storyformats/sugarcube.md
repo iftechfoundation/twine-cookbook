@@ -12,4 +12,4 @@ window.setup = window.setup || {};
 
 ## SugarCube Addons
 
-Working with [SugarCube Addons](https://www.motoslave.net/sugarcube/2/) requires using Story JavaScript. Provided instructions often list copying and pasting code into this area or configuring other options.
+Working with [SugarCube Addons](https://www.motoslave.net/sugarcube/2/) requires using Story JavaScript. The provided instructions with the addon often require copying and pasting code into this area or configuring other options.
