@@ -26,4 +26,4 @@ Click on the "Working with CSS". Start with [Reviewing CSS](css/selectors.md).
 
 ## *I want to see all the archival resources!*
 
-The Twine Cookbook has the release notes for nearly every version of time ever created. Click on "Release Notes Archive" and then the major and version of Twine.
+The Twine Cookbook has the release notes for nearly every version of time ever created. Click on "Release Notes Archive" and then the major and minor version of Twine.
