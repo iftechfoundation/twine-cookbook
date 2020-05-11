@@ -333,7 +333,9 @@ nav:
         - 'Sugarcane': 'twine1documentation/storyformats/sugarcane.md'
   - Release Notes Archive:
       - Twine 2:
+        - '2.3.8': 'releasenotes\twine2\2.3.8.md'
         - '2.3.7': 'releasenotes\twine2\2.3.7.md'
+        - '2.3.6': 'releasenotes\twine2\2.3.6.md'
         - '2.3.5': 'releasenotes\twine2\2.3.5.md'
         - '2.3.4': 'releasenotes\twine2\2.3.4.md'
         - '2.3.3': 'releasenotes\twine2\2.3.3.md'
