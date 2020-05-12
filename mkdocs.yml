@@ -293,6 +293,7 @@ nav:
         - 'Tags': 'twine1documentation/tags.md'
         - 'Story Formats': 'twine1documentation\storyformats.md'
         - 'Special Passages': 'twine1documentation\specialpassages.md'
+        - 'Scripts': 'twine1documentation\scripts.md'
       - Getting Started:
         - 'Installing': 'starting/twine1/installing.md'
       - Twine 1 Macros:
