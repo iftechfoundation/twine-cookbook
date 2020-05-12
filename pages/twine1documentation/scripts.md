@@ -1,5 +1,8 @@
 # Scripts
 
+!!! Warning
+    You are reading documentation for Twine 1. This is maintained for archival purposes only.
+
 Just as a passage with the tag `stylesheet` will have its contents treated as CSS style rules, the `script` tag to include custom Javascript in your story. All passage with this tag are executed when the game first loads, which can do two things:
 
 - Define custom macros made in Javascript by other Twine users.
