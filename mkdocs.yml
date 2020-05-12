@@ -295,7 +295,12 @@ nav:
         - 'Special Passages': 'twine1documentation\specialpassages.md'
         - 'Scripts': 'twine1documentation\scripts.md'
       - Getting Started:
-        - 'Installing': 'starting/twine1/installing.md'
+        - 'Installing': 'twine1documentation\editor\installing.md'
+        - 'Story Files': 'twine1documentation\editor\story_files.md'
+        - 'Story Map': 'twine1documentation\editor\story_map.md'
+        - 'Editing Passages': 'twine1documentation\editor\editing_passages.md'
+        - 'Working with Images': 'twine1documentation\editor\images.md'
+        - 'Proofing Work': 'twine1documentation\editor\proofing.md'
       - Twine 1 Macros:
         - 'back': 'twine1documentation/macros/back.md'
         - 'button': 'twine1documentation/macros/button.md'
