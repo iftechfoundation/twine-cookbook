@@ -301,8 +301,11 @@ nav:
         - 'Editing Passages': 'twine1documentation\editor\editing_passages.md'
         - 'Working with Images': 'twine1documentation\editor\images.md'
         - 'Proofing Work': 'twine1documentation\editor\proofing.md'
+        - 'Finding and Replacing Text': 'twine1documentation\editor\replacing_text.md'
         - 'Why use code?': 'twine1documentation\editor\code.md'
         - 'Expressions': 'twine1documentation\editor\expressions.md'
+        - 'Functions': 'twine1documentation\editor\functions.md'
+        - 'CSS': 'twine1documentation\editor\css.md'
       - Twine 1 Macros:
         - 'back': 'twine1documentation/macros/back.md'
         - 'button': 'twine1documentation/macros/button.md'
