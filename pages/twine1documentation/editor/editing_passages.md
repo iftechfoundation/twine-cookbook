@@ -1,6 +1,9 @@
 # Editing Passages
 
-To edit a passage, you can either double-click it on the story map or select it, then choose **Edit Passage** from the **Story** menu.
+!!! Warning
+    You are reading documentation for Twine 1. This is maintained for archival purposes only.
+
+To edit a passage, double-click it on the story map or select it, then choose **Edit Passage** from the **Story** menu.
 
 The editor window has three main fields: the title of the passage, any tags that it has, and the body text. As changes are made here, the story map will update itself automatically. Close the window to finish.
 

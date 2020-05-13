@@ -1,5 +1,8 @@
 # Expressions
 
+!!! Warning
+    You are reading documentation for Twine 1. This is maintained for archival purposes only.
+
 **Expressions** are the ways data is provided to macros in stories. An expression is a lot like a mathematical formula. When a computer sees an expression, it simplifies it into a single value.
 
 ```twee

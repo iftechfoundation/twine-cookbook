@@ -1,5 +1,8 @@
 # Code
 
+!!! Warning
+    You are reading documentation for Twine 1. This is maintained for archival purposes only.
+
 Using only text, many stories can be created! However, how would the following example be created?
 
 > As you reach the door you hear the crash of a giant stone slab as it falls from the ceiling. Turning around, you see that your exit is now blocked. If you have a Silver Key, you may try to open the door by turning to 158.

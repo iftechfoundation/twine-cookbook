@@ -1,5 +1,8 @@
 # CSS
 
+!!! Warning
+    You are reading documentation for Twine 1. This is maintained for archival purposes only.
+
 Cascading StyleSheets (CSS) is used to change the color, typeface, or other parts of the story's visual appearance.
 
 When a story is first loaded, all passages tagged `stylesheet` are added to the page's CSS.

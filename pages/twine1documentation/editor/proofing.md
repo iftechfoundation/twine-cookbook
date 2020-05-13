@@ -1,5 +1,8 @@
 # Proofing Work
 
+!!! Warning
+    You are reading documentation for Twine 1. This is maintained for archival purposes only.
+
 To create an output file that is readable in a Web browser, choose **Build Story** from the **Story** menu. This prompts to choose where to save the finished story; make sure to give the file a `.html` file extension. After saving, Twine will open it in a Web browser.
 
 Once the story has been built, it cane be quickly rebuilt to reflect changes by choosing **Rebuild Story** from the **Story** menu. For ease of access, this menu item also appears in the **Passage** menu of passage editing windows.

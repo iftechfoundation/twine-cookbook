@@ -1,5 +1,8 @@
 # Functions
 
+!!! Warning
+    You are reading documentation for Twine 1. This is maintained for archival purposes only.
+
 When writing code in your stories, functions are special devices that can be used in expressions in place of variables or values.
 
 Syntactically, they consist of:

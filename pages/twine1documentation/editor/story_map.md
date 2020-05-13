@@ -1,5 +1,8 @@
 # Story Map
 
+!!! Warning
+    You are reading documentation for Twine 1. This is maintained for archival purposes only.
+
 When a story is open in Twine 1, it shows the *story map*. This is a series of boxes that can be arranged in different ways.
 
 Passages are *connected* with a line is shown between them. Using either a passage link or the `<<display>>` macro creates this line.

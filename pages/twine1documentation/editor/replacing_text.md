@@ -1,5 +1,8 @@
 # Finding and Replacing Text
 
+!!! Warning
+    You are reading documentation for Twine 1. This is maintained for archival purposes only.
+
 The Quick Find field in the story map's toolbar caa be used to find passages whose text matches what is entered. These will turn yellow. Use the window icon on the right side of the search field to bring up a fuller-featured dialog box.
 
 ## The Find and Replace Dialog

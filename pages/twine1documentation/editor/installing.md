@@ -1,5 +1,8 @@
 # Installing Twine
 
+!!! Warning
+    You are reading documentation for Twine 1. This is maintained for archival purposes only.
+
 ## Windows
 
 To install Twine on a Windows computer, run the `.exe` file. This installer will copy the necessary files and add an entry to your Start menu for Twine.

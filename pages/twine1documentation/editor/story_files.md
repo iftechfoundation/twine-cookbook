@@ -1,5 +1,8 @@
 # Story Files
 
+!!! Warning
+    You are reading documentation for Twine 1. This is maintained for archival purposes only.
+
 There are two kinds of files that Twine works with:
 
 - **Story:** Editable versions opened with Twine; `.tws` file extension

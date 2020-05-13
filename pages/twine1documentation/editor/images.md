@@ -1,5 +1,8 @@
 # Images
 
+!!! Warning
+    You are reading documentation for Twine 1. This is maintained for archival purposes only.
+
 It is said that the most important tag in early World Wide Web history was `<img>`. With it, web pages could finally stop looking like structured documents and start looking like anything they wanted to look like. This was the Web's defining advantage over its competitors. In that sense, images and hypertext are intimately intwined, and in Twine their relevance is not diminished.
 
 ## Importing images
