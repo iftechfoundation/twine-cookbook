@@ -305,7 +305,10 @@ nav:
         - 'Why use code?': 'twine1documentation\editor\code.md'
         - 'Expressions': 'twine1documentation\editor\expressions.md'
         - 'Functions': 'twine1documentation\editor\functions.md'
+        - 'Writing Macros': 'twine1documentation\editor\writing_macros.md'
         - 'CSS': 'twine1documentation\editor\css.md'
+        - 'Twine and Twee': 'twine1documentation\editor\choosing_between_twine_and_twee.md'
+        - 'Browser Support': 'twine1documentation\editor\browser_support.md'
       - Twine 1 Macros:
         - 'back': 'twine1documentation/macros/back.md'
         - 'button': 'twine1documentation/macros/button.md'
