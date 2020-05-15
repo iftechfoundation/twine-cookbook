@@ -1,0 +1,51 @@
+:: StoryTitle
+Left Sidebar in Snowman
+
+
+:: UserScript [script]
+/*
+	Create the element to display the contents of the Sidebar passage in.
+*/
+$(document.createElement('div'))
+	.attr('id', 'sidebar')
+	.insertBefore('#passage');
+
+/*
+	Monitor for the event that is triggered after the current Passage has been shown.
+*/
+$(window).on('showpassage:after', function () {
+	$('#sidebar').html(window.story.render("Sidebar"));
+});
+
+
+:: UserStylesheet[stylesheet]
+#passage {
+	margin-left: 20%;
+}
+
+#sidebar {
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 18%;
+	height: 100%;
+	margin: 0;
+	padding: 0.5em; 
+	background-color: black;
+    color: white;
+}
+
+
+:: Start
+<% s.name = "Jane Doe"; s.location = "Work" %>
+[[Another passage]]
+
+
+:: Sidebar
+Name: <%= s.name %><br>
+Location: <%= s.location %>
+
+
+:: Another passage
+<% s.name = "John Smith"; s.location = "Shop" %>
+[[Start]]

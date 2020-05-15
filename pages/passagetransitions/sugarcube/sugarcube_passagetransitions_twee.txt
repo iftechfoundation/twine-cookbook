@@ -1,0 +1,18 @@
+:: StoryTitle
+SugarCube: Passage Transitions
+
+:: UserScript[script]
+// Fade in content using jQuery Effects
+// Hide and then fade in the content over 2000ms (2s)
+$(document).on(':passagerender', function (event) {
+	$(".passage").hide(0).fadeIn(2000);
+});
+
+:: Start
+[[Another passage]]
+
+:: A third passage
+No more content!
+
+:: Another passage
+[[A third passage]]

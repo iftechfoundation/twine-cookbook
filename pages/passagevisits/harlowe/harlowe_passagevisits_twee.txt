@@ -1,0 +1,10 @@
+:: StoryTitle
+Harlowe: Passage Visits
+
+:: Start
+How many times has the passage "Another Passage" been visited? (count: (history: ), "Another Passage")
+
+[[Another Passage]]
+
+:: Another Passage
+[[Start]]

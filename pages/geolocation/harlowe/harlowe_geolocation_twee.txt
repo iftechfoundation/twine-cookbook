@@ -1,0 +1,75 @@
+:: StoryTitle
+Geolocation in Harlowe
+
+:: UserScript[script]
+(function () {
+
+	window.geolocation = {
+
+		available: function() {
+			return ("geolocation" in navigator 
+				&& typeof navigator.geolocation.getCurrentPosition === "function");
+		},
+		getLocation: function() {
+
+			// Create initial values
+			var location = { latitude : 0, longitude : 0 };
+			
+			// Create success callback to store values
+			var	positionSuccess = function (position) {
+				
+				location.latitude = position.coords.latitude;
+				location.longitude = position.coords.longitude;
+
+			};
+			
+			// Create error callback
+			var positionError = function (error) {
+				/* Code that handles errors */
+			};
+			
+			// Create initial options
+			var positionOptions = {
+				timeout: 31000, 
+				enableHighAccuracy: true,
+				maximumAge : 120000
+			};
+			
+
+			// Ask for location based on callbacks and options
+			navigator.geolocation.getCurrentPosition(
+				positionSuccess,
+				positionError,
+				positionOptions
+			);
+
+			// Return location found
+			// If not location, will return initial (0,0) values
+			return location;
+
+		},
+		approximateLocation: function (a, b, allowedDiff) { 
+		    // allowedDiff must always be > 0
+			if (a === b) { // handles various "exact" edge cases
+				return true;
+			}
+
+			allowedDiff = allowedDiff || 0.0005;
+			
+			return Math.abs(a - b) < allowedDiff;
+		}
+
+	};
+	
+}());
+
+:: Start
+[[Ask for permission]]
+
+:: Ask for permission
+<script>
+if(window.geolocation.available() ) {
+	var geolocation = window.geolocation.getLocation();
+	alert("Latitude: " + geolocation.latitude + " Longitude:" + geolocation.longitude);
+}
+</script>

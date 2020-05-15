@@ -1,0 +1,14 @@
+:: StoryTitle
+SugarCube: Templates
+
+:: Start
+You see a pirate before you.
+
+Pirate: "?pirate"
+
+:: StoryInit
+<<script>>
+Template.add('pirate', function () {
+  return "Hello, me hardy!";
+});
+<</script>>

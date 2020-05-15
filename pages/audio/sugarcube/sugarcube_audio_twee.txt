@@ -1,0 +1,14 @@
+:: StoryTitle
+Audio in SugarCube
+
+:: Start
+<<link "Start audio!">>
+	<<audio "testpattern" play>>
+<</link>>
+
+<<link "Stop audio!">>
+	<<audio "testpattern" stop>>
+<</link>>
+
+:: StoryInit
+<<cacheaudio "testpattern" "testpattern.ogg" "testpattern.wav">>

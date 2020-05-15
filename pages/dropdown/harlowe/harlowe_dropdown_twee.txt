@@ -1,0 +1,11 @@
+:: StoryTitle
+Harlowe 3: Dropdown
+
+:: Start
+Choose direction:
+(dropdown: bind $direction, "Up", "Down", "Left", "Right")
+
+[[Show result]]
+
+:: Show result
+The direction picked was $direction.

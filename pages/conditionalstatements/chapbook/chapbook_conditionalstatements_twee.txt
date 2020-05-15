@@ -1,0 +1,11 @@
+:: StoryTitle
+Conditional Statements in Chapbook
+
+:: Start
+animal: "horse"
+--
+[if animal === "dog"]
+It's a dog!
+[else]
+It's a horse!
+[continue]

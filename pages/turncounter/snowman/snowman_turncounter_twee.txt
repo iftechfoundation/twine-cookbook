@@ -1,0 +1,62 @@
+:: StoryTitle
+Turn Counter in Snowman
+
+:: Start
+<%=	window.story.render("Turn Counter") %> 
+Rooms:
+
+[[Back Room]]
+
+[[Left Room]]
+
+[[Right Room]]
+
+:: Back Room
+<%=	window.story.render("Turn Counter") %> 
+Rooms:
+
+[[Left Room]]
+
+[[Right Room]]
+
+[[Front Room|Start]]
+
+:: Left Room
+<%=	window.story.render("Turn Counter") %> 
+Rooms:
+
+[[Right Room]]
+
+[[Back Room]]
+
+[[Front Room|Start]]
+
+
+:: Right Room
+<%=	window.story.render("Turn Counter") %> 
+Rooms:
+
+[[Left Room]]
+
+[[Back Room]]
+
+[[Front Room|Start]]
+
+
+:: Turn Counter
+<%
+	var hour = window.story.history.length % 24;
+	
+	if(hour <= 8){%>
+		It is morning.
+	<%}
+	if(hour > 8 && hour <= 12){%>
+		It is mid-morning.
+	<%}
+	if(hour > 12 && hour <= 16){%>
+		It is afternoon.
+	<%}
+	if(hour > 16){%>
+		It is night.
+	<%}
+%>
