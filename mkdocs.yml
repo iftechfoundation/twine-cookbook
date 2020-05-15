@@ -261,6 +261,8 @@ nav:
       - 'SugarCube': 'markup/sugarcube/sugarcube_markup.md'
       - 'Snowman': 'markup/snowman/snowman_markup.md'
       - 'Sugarcane (1.4.2)': 'markup/sugarcane/sugarcane_markup.md'
+    - Templates:
+      - 'SugarCube': 'template_type/sugarcube/sugarcube_templates.md'
     - Timed Passages:
       - 'Chapbook': 'timedpassages/chapbook/chapbook_timedpassages.md'
       - 'Harlowe': 'timedpassages/harlowe/harlowe_timedpassages.md'
