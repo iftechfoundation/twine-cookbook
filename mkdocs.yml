@@ -217,6 +217,7 @@ nav:
     - Passage Visits:
       - 'Chapbook': 'passagevisits/chapbook/chapbook_passagevisits.md'
       - 'Harlowe': 'passagevisits/harlowe/harlowe_passagevisits.md'
+      - 'Harlowe (3.1 or later)': 'passagevisits\harlowe_3.1\harlowe_passagevisits.md'
       - 'SugarCube': 'passagevisits/sugarcube/sugarcube_passagevisits.md'
       - 'Snowman (v2.0.2 and later)': 'passagevisits/snowman/snowman_passagevisits.md'
     - Player Statistics:
