@@ -1,28 +1,23 @@
 # Welcome to the Twine Cookbook
 
-The *Twine Cookbook* is a collection of examples organized around common topic areas. For each, contributors have tried to provide examples covering each major built-in story format (Chapbook, Harlowe, SugarCube, and Snowman) where possible and appropriate. For some topics, examples are also provided in SugarCane for Twine 1.4.2.
+## Reading the Cookbook Online
 
-Each example page includes a short description, a live version, and its Twee code. Both the live version and Twee code can be downloaded directly from each example page.
+Starting with version 2.0, the *Twine Cookbook* is created using [mkdocs](https://www.mkdocs.org/) with the [Material theme and plugin set](https://squidfunk.github.io/mkdocs-material/).
 
-## Reading the Cookbook
+It can be found at `https://twinery.org/cookbook/`.
 
-Created using [GitBook](https://www.gitbook.com/), the *Twine Cookbook* is best viewed [as a compiled webpage](https://twinery.org/cookbook/). In this format, the left sidebar provides access to the different topic areas as well as to a search bar for more quickly looking through the titles and text of the entries. New updates are published in the website format every few months or as necessary.
+## Reading the Cookbook on GitHub
 
-The *Twine CookBook* can also be read without the live versions on GitHub by starting with the [summary page](https://github.com/iftechfoundation/twine-cookbook/blob/master/Summary.md). Note, however, that example pages on GitHub are subject change as new changes are made and revisions submitted before and during editing cycles.
+The *Twine Cookbook* can also be read [on GitHub](https://github.com/iftechfoundation/twine-cookbook).
 
-### Suggesting Examples or Changes
+All of its markdown files can be found in the `pages` folder with the output HTML in the `docs` folder.
 
-Include as much as possible of the following in an [issue](https://github.com/iftechfoundation/twine-cookbook/issues):
+## *Want to suggest a change or new example?*
+
+Start with the [Code of Conduct](CODE_OF_CONDUCT.md). Then, include as much as possible of the following in an [issue](https://github.com/iftechfoundation/twine-cookbook/issues):
 
 * A short summary of the example(s) or suggestions(s)
 * How (or if) you would like to be recognized for your contribution
-
-### Submitting Documentation or Code Updates
-
-* [Clone the repository](https://help.github.com/articles/cloning-a-repository/).
-* Review the [Organization](https://github.com/iftechfoundation/twine-cookbook/wiki/Organization) page on the wiki for how folders and files are named and structured.
-* Read the [recipe formatting](formatting.md) page included in the Cookbook and [on Github](https://github.com/iftechfoundation/twine-cookbook/blob/master/formatting.md) for layout and style guidelines.
-* Add your recipe and submit a [pull request](https://github.com/iftechfoundation/twine-cookbook/pulls) to request it to be added to the cookbook.
 
 ## Contributors
 
@@ -42,4 +37,4 @@ Include as much as possible of the following in an [issue](https://github.com/if
 
 This work is licensed under a [Creative Commons Attribution-ShareAlike 4.0 International License](http://creativecommons.org/licenses/by-sa/4.0/).
 
-## Version 1.6 (May 2020)
+## Version 2.0 (May 2020)
