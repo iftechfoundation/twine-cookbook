@@ -1,0 +1,15 @@
+:: StoryTitle
+Snowman: Headers and Footers
+
+:: Start
+<%= window.story.render("Header") %>
+
+This content is between the header and the footer.
+
+<%= window.story.render("Footer") %>
+
+:: Header
+This is the header!
+
+:: Footer
+This is the footer!

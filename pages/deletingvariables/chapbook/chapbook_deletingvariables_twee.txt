@@ -1,0 +1,10 @@
+:: StoryTitle
+Chapbook: Deleting Variables
+
+:: Start
+color: "red"
+--
+[JavaScript]
+engine.state.set("color", undefined)
+[continued]
+What is color? {color}

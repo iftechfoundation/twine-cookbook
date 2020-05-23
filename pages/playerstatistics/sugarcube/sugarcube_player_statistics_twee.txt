@@ -1,0 +1,75 @@
+:: StoryTitle
+Player Statistics in SugarCube
+
+:: Start
+Empathy: \
+<<link "[+]">>
+	<<if $totalPoints gt 0>>
+	  <<set $empathy++>>
+	  <<set $totalPoints-->>
+	  <<replace "#empathyStat">><<print $empathy>><</replace>>
+	  <<replace "#pointsStat">><<print $totalPoints>><</replace>>
+	<</if>>
+<</link>>\ 
+<<link "[-]">>
+	<<if $empathy gt 0>>
+	  <<set $empathy-->>
+	  <<set $totalPoints++>>
+	  <<replace "#empathyStat">><<print $empathy>><</replace>>
+	  <<replace "#pointsStat">><<print $totalPoints>><</replace>>
+	<</if>>
+<</link>>
+Intelligence: \
+<<link "[+]">>
+	<<if $totalPoints gt 0>>
+	  <<set $intelligence++>>
+	  <<set $totalPoints-->>
+	  <<replace "#intelligenceStat">><<print $intelligence>><</replace>>
+	  <<replace "#pointsStat">><<print $totalPoints>><</replace>>
+	<</if>>
+<</link>>\ 
+<<link "[-]">>
+	<<if $intelligence gt 0>>
+	  <<set $intelligence-->>
+	  <<set $totalPoints++>>
+	  <<replace "#intelligenceStat">><<print $intelligence>><</replace>>
+	  <<replace "#pointsStat">><<print $totalPoints>><</replace>>
+	<</if>>
+<</link>>
+<<link "[Reset Points]">>
+	<<set $empathy to 10>>
+	<<set $intelligence to 10>>
+	<<set $totalPoints to 5>>
+	<<replace "#empathyStat">><<print $empathy>><</replace>>
+	<<replace "#intelligenceStat">><<print $intelligence>><</replace>>
+	<<replace "#pointsStat">><<print $totalPoints>><</replace>>
+<</link>>
+
+Empathy: <span id="empathyStat">10</span>
+Intelligence: <span id="intelligenceStat">10</span>
+Remaining Points: <span id="pointsStat">5</span>
+
+[[Test Stats]]
+
+:: StoryInit
+<<set $empathy to 10>>
+<<set $intelligence to 10>>
+<<set $totalPoints to 5>>
+
+:: Test Stats
+<<linkreplace "Make an intelligence check?">>
+	<<set _result to random(1, 6) + $intelligence >>
+	<<if _result gte 15>>
+	Intelligence Success! (_result >= 15)
+	<<else>>
+	Intelligence Failure! (_result < 15)
+	<</if>>
+<</linkreplace>>
+<<linkreplace "Make an empathy check?">>
+	<<set _result to random(1, 6) + $empathy >>
+	<<if _result gte 15>>
+	Emaphy Success! (_result >= 15)
+	<<else>>
+	Empathy Failure! (_result < 15)
+	<</if>>
+<</linkreplace>>

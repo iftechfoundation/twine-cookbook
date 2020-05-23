@@ -1,0 +1,23 @@
+:: StoryTitle
+Variable Story Styling in SugarCube
+
+:: UserStylesheet[stylesheet]
+.green {
+	background: white;
+  	color: green;
+}
+.white {
+	background: black;
+  	color: white;
+}
+
+:: Start
+<<set $classToShow to "green">>
+This text is green on a white background.
+<<toggleclass "body" $classToShow>>
+[[Next Passage]]
+
+:: Next Passage
+<<set $classToShow to "white">>
+This text is white on a black background.
+<<toggleclass "body" $classToShow>>

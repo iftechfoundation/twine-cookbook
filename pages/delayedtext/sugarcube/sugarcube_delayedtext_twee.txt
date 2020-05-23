@@ -1,0 +1,7 @@
+:: StoryTitle
+Delayed Text in SugarCube
+
+:: Start
+<<timed 5s>>
+It has been 5 seconds. Show the text!
+<</timed>>

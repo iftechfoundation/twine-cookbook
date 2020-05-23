@@ -1,0 +1,15 @@
+:: StoryTitle
+Story and Passage API in SugarCube
+
+:: Start
+The title of this story is "<<print Story.title >>."
+
+<<set $passage to Story.get("Storage")>>
+
+The title of the passage is "<<print $passage.title>>."
+
+The text of the passage is "<<print $passage.text >>"
+
+
+:: Storage
+This is content in the storage passage!

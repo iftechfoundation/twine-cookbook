@@ -1,0 +1,12 @@
+:: StoryTitle
+Static Healthbars for SugarCube
+
+:: Start
+<<set $health to 80>>
+
+Show a healthbar using a Progress element:
+<progress @value="$health" max="100"></progress>
+
+Show a healthbar using a Meter element:
+<meter @value="$health" min="0" max="100"></meter>
+

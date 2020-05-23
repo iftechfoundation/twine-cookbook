@@ -1,0 +1,20 @@
+:: StoryTitle
+Chapbook: Timed Passages
+
+:: Start
+timeLeft: 11
+--
+[[Start->Timer]]
+
+:: World End
+The world ended.
+
+:: Timer
+timeLeft: timeLeft - 1
+--
+[if timeLeft > 0]
+  There are {timeLeft} seconds left.
+[else]
+  {embed passage: 'World End'}
+[JavaScript]
+  window.setTimeout(() => go('Timer'), 1000);

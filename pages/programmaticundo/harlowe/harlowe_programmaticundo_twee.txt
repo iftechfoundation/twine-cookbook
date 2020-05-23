@@ -1,0 +1,8 @@
+:: StoryTitle
+Programmatic Undo in Harlowe
+
+:: Start
+[[Enter the darkness]]
+
+:: Enter the darkness
+(link: "You are not ready. Go back!")[(undo:)]

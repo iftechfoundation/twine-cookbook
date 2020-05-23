@@ -1,0 +1,11 @@
+:: StoryTitle
+Conditional Statements in SugarCube
+
+:: Start
+<<set $animal to "horse">>
+
+<<if $animal is "dog">>
+It's a dog!
+<<else>>
+It's a horse!
+<</if>>

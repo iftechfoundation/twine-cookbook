@@ -1,0 +1,13 @@
+:: StoryTitle
+Delayed Text in Snowman
+
+:: Start
+<div id="results"></div>
+<%
+	_.delay(
+		function()
+		{
+			$("#results").text("It has been 5 seconds. Show the text!");
+		}, 
+		5000) 
+%>

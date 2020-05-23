@@ -1,0 +1,13 @@
+:: StoryTitle
+Setting and Showing Variables in Harlowe
+
+:: Start
+(set: $numberVariable to 5)
+(set: $textVariable to "five")
+(set: _textVariable to "The values")
+
+_textVariable are $numberVariable and $textVariable.
+
+(set: $numberVariable to it + 1)
+
+_textVariable are $numberVariable and $textVariable.

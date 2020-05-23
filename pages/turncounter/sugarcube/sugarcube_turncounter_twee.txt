@@ -1,0 +1,38 @@
+:: StoryTitle
+SugarCube: Turn Counter
+
+:: Start
+
+Rooms:
+[[Back Room]]
+[[Left Room]]
+[[Right Room]]
+
+:: Back Room
+
+Rooms:
+[[Left Room]]
+[[Right Room]]
+[[Front Room|Start]]
+
+:: Left Room
+
+Rooms:
+[[Right Room]]
+[[Back Room]]
+[[Front Room|Start]]
+
+:: Right Room
+
+Rooms:
+[[Left Room]]
+[[Back Room]]
+[[Front Room|Start]]
+
+:: PassageHeader
+<<set $hour to State.turns % 24>>
+<<if $hour <= 8>>It is morning.<</if>>
+<<if $hour > 8 and $hour <= 12>>It is mid-morning.<</if>>
+<<if $hour > 12 and $hour <= 16>>It is afternoon.<</if>>
+<<if $hour > 16>>It is night.<</if>>
+

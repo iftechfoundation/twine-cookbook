@@ -1,0 +1,10 @@
+:: StoryTitle
+Chapbook: Cycling Links
+
+:: Start
+This cycling link example remembers the choice made:
+{cycling link for: 'hair', choices: ["Black", "Brown", "Blonde", "Red", "White"]}
+
+This cycling-link example will disappear (show empty string) on its last choice:
+{cycling link for: 'breakfast', choices: ["Two eggs", "One egg", ""]}
+

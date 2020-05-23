@@ -1,0 +1,25 @@
+:: StoryTitle
+Typewriter Effect in Sugarcube
+
+:: Start
+<<typewriter "Hello, world">>
+
+:: Typewriter[widget]
+\<<widget typewriter>>
+\	<!-- Create a SPAN with an ID -->
+\  <span id="typewriter"></span>
+\	<!-- In SugarCube, arrays start at 0 -->
+\  <<set _textArrayLength to 0>>
+\	<!-- Repeat every second -->
+\  <<repeat 1s>>
+\	  <!-- Test if textArrayLength is greater than length of $args[0] -->
+\	  <<if _textArrayLength gte $args[0].length>>
+\		<<stop>>
+\	  <<else>>
+\	  <!-- Append the current position to the existing characters -->
+\	  <<append "#typewriter">>$args[0][_textArrayLength]<</append>>
+\	  <!-- Update the length -->
+\	  <<set _textArrayLength++>>
+\	  <</if>>
+\   <</repeat>>
+\<</widget>>
