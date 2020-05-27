@@ -14,7 +14,7 @@ All of its markdown files can be found in the `pages` folder with the output HTM
 
 ## *Want to suggest a change or new example?*
 
-Start with the [Code of Conduct](CODE_OF_CONDUCT.md). Then, include as much as possible of the following in an [issue](https://github.com/iftechfoundation/twine-cookbook/issues):
+Start with the [Code of Conduct](https://github.com/iftechfoundation/twine-cookbook/blob/master/CODE_OF_CONDUCT.md). Then, include as much as possible of the following in an [issue](https://github.com/iftechfoundation/twine-cookbook/issues):
 
 * A short summary of the example(s) or suggestions(s)
 * How (or if) you would like to be recognized for your contribution

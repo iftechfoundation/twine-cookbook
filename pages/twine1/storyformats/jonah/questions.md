@@ -1,5 +1,8 @@
 # Questions
 
+!!! Warning
+    You are reading documentation for Twine 1. This is maintained for archival purposes only.
+
 ## How do I remove all Jonah passage titles?*
 
 This CSS sample makes the passage titles invisible:

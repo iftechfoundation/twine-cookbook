@@ -1,5 +1,8 @@
 # Questions
 
+!!! Warning
+    You are reading documentation for Twine 1. This is maintained for archival purposes only.
+
 ## *How do I change the horizontal alignment of the text in all my passages in Sugarcane?*
 
 This CSS example will change the text's horizontal alignment to the center:
