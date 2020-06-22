@@ -1,6 +1,6 @@
 # Welcome to the Twine Cookbook
 
-This Cookbook contains tips for using the non-linear text game creation tool [Twine](https://twinery.org/2/#!/welcome).
+This *Cookbook* contains documentation, tips, and examples for using the non-linear story creation tool [Twine](https://twinery.org/).
 
 ## Reading the Cookbook Online
 
@@ -32,6 +32,7 @@ Start with the [Code of Conduct](https://github.com/iftechfoundation/twine-cookb
 * [@Akjosch](https://github.com/Akjosch) (Akjosch)
 * [@ChapelR](https://github.com/ChapelR) (Chapel)
 * [G.C. "Grim" Baccaris](https://grimoirtua.itch.io)
+* [@evelynmitchell](https://github.com/evelynmitchell) (Evelyn Mitchell)
 
 ## License
 
