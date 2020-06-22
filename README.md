@@ -1,5 +1,7 @@
 # Welcome to the Twine Cookbook
 
+This Cookbook contains tips for using the non-linear text game creation tool [Twine](https://twinery.org/2/#!/welcome).
+
 ## Reading the Cookbook Online
 
 Starting with version 2.0, the *Twine Cookbook* is created using [mkdocs](https://www.mkdocs.org/) with the [Material theme and plugin set](https://squidfunk.github.io/mkdocs-material/).
