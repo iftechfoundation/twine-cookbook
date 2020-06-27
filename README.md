@@ -23,7 +23,7 @@ Start with the [Code of Conduct](https://github.com/iftechfoundation/twine-cookb
 
 ## Contributors
 
-* [@videlais](https://github.com/videlais) (Dan Cox) [Editor]
+* [@videlais](https://github.com/videlais) (Dan Cox)
 * [@klembot](https://github.com/klembot) (Chris Klimas)
 * [@tmedwards](https://github.com/tmedwards) (Thomas Michael Edwards)
 * [@greyelf](https://github.com/greyelf) (David Tarrant)
