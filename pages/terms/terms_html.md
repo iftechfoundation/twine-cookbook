@@ -4,7 +4,7 @@ The HyperText Markup Language ([HTML](https://en.wikipedia.org/wiki/HTML)) is th
 
 ## Story Format Layout
 
-Each [story format](terms_storyformats.md) handles its own layout and HTML structure. While [CSS](terms_css.md) can be used to style its elements, it is often recommended to use any exisitng macros for this purpose in a story format, if available.
+Each [story format](terms_storyformats.md) handles its own layout and HTML structure. While [CSS](terms_css.md) can be used to style its elements, it is often recommended to use any existing macros for this purpose in a story format, if available.
 
 * [Harlowe: Named Hooks](https://twine2.neocities.org/#markup_named-hook)
 * [SugarCube: CSS Selectors](https://www.motoslave.net/sugarcube/2/docs/#css-example-selectors)
