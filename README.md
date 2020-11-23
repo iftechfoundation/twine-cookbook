@@ -1,5 +1,7 @@
 # Welcome to the Twine Cookbook
 
+This *Cookbook* contains documentation, tips, and examples for using the non-linear story creation tool [Twine](https://twinery.org/).
+
 ## Reading the Cookbook Online
 
 Starting with version 2.0, the *Twine Cookbook* is created using [mkdocs](https://www.mkdocs.org/) with the [Material theme and plugin set](https://squidfunk.github.io/mkdocs-material/).
@@ -14,14 +16,14 @@ All of its markdown files can be found in the `pages` folder with the output HTM
 
 ## *Want to suggest a change or new example?*
 
-Start with the [Code of Conduct](CODE_OF_CONDUCT.md). Then, include as much as possible of the following in an [issue](https://github.com/iftechfoundation/twine-cookbook/issues):
+Start with the [Code of Conduct](https://github.com/iftechfoundation/twine-cookbook/blob/master/CODE_OF_CONDUCT.md). Then, include as much as possible of the following in an [issue](https://github.com/iftechfoundation/twine-cookbook/issues):
 
 * A short summary of the example(s) or suggestions(s)
 * How (or if) you would like to be recognized for your contribution
 
 ## Contributors
 
-* [@videlais](https://github.com/videlais) (Dan Cox) [Editor]
+* [@videlais](https://github.com/videlais) (Dan Cox)
 * [@klembot](https://github.com/klembot) (Chris Klimas)
 * [@tmedwards](https://github.com/tmedwards) (Thomas Michael Edwards)
 * [@greyelf](https://github.com/greyelf) (David Tarrant)
@@ -30,6 +32,7 @@ Start with the [Code of Conduct](CODE_OF_CONDUCT.md). Then, include as much as p
 * [@Akjosch](https://github.com/Akjosch) (Akjosch)
 * [@ChapelR](https://github.com/ChapelR) (Chapel)
 * [G.C. "Grim" Baccaris](https://grimoirtua.itch.io)
+* [@evelynmitchell](https://github.com/evelynmitchell) (Evelyn Mitchell)
 
 ## License
 
