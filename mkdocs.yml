@@ -42,6 +42,7 @@ nav:
     - 'Choosing Story Formats': 'starting/twine2/storyformat.md'
     - 'Creating Links': 'starting/twine2/creatinglinks.md'
     - 'Reviewing Stories': 'starting/twine2/review.md'
+    - 'Publishing on Itch.io': 'starting/twine2/publishing_on_itchio.md'
     - 'Adding to IFDB': 'starting/twine2/adding_to_IFDB.md'
   - Working with HTML:
       - 'Reviewing HTML': 'html\reviewing.md'
