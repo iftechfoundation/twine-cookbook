@@ -1,9 +1,0 @@
-:: StoryTitle
-Date and Time in Chapbook
-
-:: Start
-The current month number is {now.month}.
-
-The current day number is {now.day}.
-
-The current full-year number is {now.year}.

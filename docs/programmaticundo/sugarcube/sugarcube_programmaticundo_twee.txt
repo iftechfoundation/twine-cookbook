@@ -1,8 +1,0 @@
-:: StoryTitle
-Programmatic Undo in SugarCube
-
-:: Start
-[[Enter the Darkness]]
-
-:: Enter the Darkness
-<<back "You are not ready! Go back!">>
