@@ -1,9 +1,0 @@
-:: StoryTitle
-Snowman: Passages in Passages
-
-:: Start
-This is the Start passage!
-<%= window.story.render("Another") %>
-
-:: Another
-And this is Another passage!

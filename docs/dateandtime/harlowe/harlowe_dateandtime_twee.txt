@@ -1,8 +1,0 @@
-:: StoryTitle
-Date and Time in Harlowe
-
-:: Start
-The current date is (current-date:).
-The current time is (current-time: ).
-The current day (of the month) is (monthday: ).
-The current day is (weekday: ).

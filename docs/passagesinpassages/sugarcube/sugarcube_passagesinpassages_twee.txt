@@ -1,9 +1,0 @@
-:: StoryTitle
-SugarCube: Passages in Passages
-
-:: Start
-This is the Start passage!
-<<include "Another">>
-
-:: Another
-And this is Another passage!
