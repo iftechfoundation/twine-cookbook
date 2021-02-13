@@ -22,5 +22,5 @@ jobs:
               run: mkdocs build
             - name: Upload to twinery.org
               run: |
-                  echo ${{ RSYNC_PUBLIC_KEY }} > ~/.ssh/id_rsa
+                  echo ${{ secrets.RSYNC_PUBLIC_KEY }} > ~/.ssh/id_rsa
                   rsync --delete --omit-dir-times --recursive --verbose docs/* githubactions@twinery.org:/var/www/html/cookbook
