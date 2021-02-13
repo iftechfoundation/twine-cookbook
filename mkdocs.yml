@@ -2,8 +2,6 @@ site_name: Twine Cookbook
 
 docs_dir: 'pages'
 
-site_dir: 'docs'
-
 use_directory_urls: false
 
 nav:
