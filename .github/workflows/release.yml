@@ -26,6 +26,6 @@ jobs:
                   echo "$RSYNC_PRIVATE_KEY" > ~/.ssh/id_rsa
                   chmod 600 ~/.ssh/id_rsa
                   ssh-keyscan -H twinery.org > ~/.ssh/known_hosts
-                  rsync --delete --omit-dir-times --recursive --verbose docs/* githubactions@twinery.org:/var/www/html/cookbook
+                  rsync --chmod=775 --delete --omit-dir-times --recursive --verbose docs/* githubactions@twinery.org:/var/www/html/cookbook
               env:
                   RSYNC_PRIVATE_KEY: ${{ secrets.RSYNC_PRIVATE_KEY }}
