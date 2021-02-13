@@ -23,7 +23,7 @@ jobs:
             - name: Upload to twinery.org
               run: |
                   mkdir ~/.ssh
-                  echo "$RSYNC_PRIVATE_KEY" > ~/.ssh/id_rsa
+                  echo "$RSYNC_PUBLIC_KEY" > ~/.ssh/authorized_keys
                   rsync --delete --omit-dir-times --recursive --verbose docs/* githubactions@twinery.org:/var/www/html/cookbook
               env:
-                  RSYNC_PRIVATE_KEY: ${{ secrets.RSYNC_PRIVATE_KEY }}
+                  RSYNC_PUBLIC_KEY: ${{ secrets.RSYNC_PUBLIC_KEY }}
