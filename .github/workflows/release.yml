@@ -1,6 +1,10 @@
 name: Release to twinery.org
 
 on:
+    push:
+        branches:
+            - 'main'
+            - 'master'
 
 jobs:
     release:
