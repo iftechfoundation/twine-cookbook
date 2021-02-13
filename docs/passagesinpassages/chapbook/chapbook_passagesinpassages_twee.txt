@@ -1,9 +1,0 @@
-:: StoryTitle
-Chapbook: Passages in Passages
-
-:: Start
-This is the Start passage!
-{embed passage: 'Another'}
-
-:: Another
-And this is another passage!
