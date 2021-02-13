@@ -24,6 +24,7 @@ jobs:
               run: |
                   mkdir ~/.ssh
                   echo "$RSYNC_PUBLIC_KEY" > ~/.ssh/authorized_keys
+                  ssh-keyscan -H twinery.org > ~/.ssh/known_hosts
                   rsync --delete --omit-dir-times --recursive --verbose docs/* githubactions@twinery.org:/var/www/html/cookbook
               env:
                   RSYNC_PUBLIC_KEY: ${{ secrets.RSYNC_PUBLIC_KEY }}
