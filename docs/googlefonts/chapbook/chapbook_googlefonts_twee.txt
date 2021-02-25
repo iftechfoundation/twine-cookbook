@@ -1,8 +1,0 @@
-:: StoryTitle
-Chapbook: Google Fonts
-
-:: Start
-config.style.googleFont: '<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">'
-config.style.page.font: 'Roboto'
---
-This text is styled by a Google Font.

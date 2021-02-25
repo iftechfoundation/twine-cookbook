@@ -1,8 +1,0 @@
-:: StoryTitle
-Chapbook: Header and Footer
-
-:: Start
-config.header.center: "This is the header!"
-config.footer.center: "This is the footer!"
---
-This is content.

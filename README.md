@@ -8,11 +8,11 @@ Starting with version 2.0, the *Twine Cookbook* is created using [mkdocs](https:
 
 It can be found at `https://twinery.org/cookbook/`.
 
-## Reading the Cookbook on GitHub
+## Building the Cookbook using MkDocs
 
-The *Twine Cookbook* can also be read [on GitHub](https://github.com/iftechfoundation/twine-cookbook).
+The *Cookbook* can be built using Python. Run `pip install -r requirements.txt` to install the requirements and then using `mkdocs build` to build or `mkdocs serve` to create a build and host a local server version.
 
-All of its markdown files can be found in the `pages` folder with the output HTML in the `docs` folder.
+**Note:** Depending on how Python is installed in Windows, users may need to use `pip install --user -r requirements.txt` to install and then use `python -m` before any MkDocs commands to build or serve.
 
 ## *Want to suggest a change or new example?*
 

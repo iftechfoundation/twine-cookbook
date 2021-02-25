@@ -1,0 +1,31 @@
+name: Release to twinery.org
+
+on:
+    push:
+        branches:
+            - 'main'
+            - 'master'
+
+jobs:
+    release:
+        runs-on: ubuntu-latest
+        steps:
+            - uses: actions/checkout@v2
+            - uses: actions/setup-python@v2
+              with:
+                  python-version: '3.x'
+            - name: Install dependencies
+              run: |
+                  python -m pip install --upgrade pip
+                  pip install -r requirements.txt
+            - name: Build HTML
+              run: mkdocs build
+            - name: Upload to twinery.org
+              run: |
+                  mkdir ~/.ssh
+                  echo "$RSYNC_PRIVATE_KEY" > ~/.ssh/id_rsa
+                  chmod 600 ~/.ssh/id_rsa
+                  ssh-keyscan -H twinery.org > ~/.ssh/known_hosts
+                  rsync --chmod=775 --delete --omit-dir-times --recursive --verbose docs/* githubactions@twinery.org:/var/www/html/cookbook
+              env:
+                  RSYNC_PRIVATE_KEY: ${{ secrets.RSYNC_PRIVATE_KEY }}
