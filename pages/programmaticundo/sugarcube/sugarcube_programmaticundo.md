@@ -6,7 +6,7 @@ While SugarCube supports allowing the user to undo and redo moves, the "undo" op
 
 ## Example
 
-[Download](sugarcube_programmaticundo_example.html)
+[Download](sugarcube_programmaticundo_example.html){ target="_top" download="sugarcube_programmaticundo_example.html"}
 
 ## Twee Code
 
@@ -21,4 +21,4 @@ Programmatic Undo in SugarCube
 <<back "You are not ready! Go back!">>
 ```
 
-[Twee Download](sugarcube_programmaticundo_twee.txt)
+[Twee Download](sugarcube_programmaticundo_twee.txt){ target="_top" download="sugarcube_programmaticundo_twee.txt"}

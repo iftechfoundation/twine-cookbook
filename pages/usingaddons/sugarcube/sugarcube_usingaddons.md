@@ -8,7 +8,7 @@ This example uses the [`<<cyclinglink>>`](https://www.motoslave.net/sugarcube/2/
 
 ## Example
 
-[Download](sugarcube_usingaddons_example.html)
+[Download](sugarcube_usingaddons_example.html){ target="_top" download="sugarcube_usingaddons_example.html"}
 
 ## Twee Code
 
@@ -25,4 +25,4 @@ Using Add-ons in SugarCube
 
 ```
 
-[Twee Download](sugarcube_usingaddons_twee.txt)
+[Twee Download](sugarcube_usingaddons_twee.txt){ target="_top" download="sugarcube_usingaddons_twee.txt"}

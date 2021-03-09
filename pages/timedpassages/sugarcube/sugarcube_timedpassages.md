@@ -6,7 +6,7 @@ Made famous in [*Queers in Love at the End of the World*](https://w.itch.io/end-
 
 ## Example
 
-[Download](sugarcube_timedpassages_example.html)
+[Download](sugarcube_timedpassages_example.html){ target="_top" download="sugarcube_timedpassages_example.html"}
 
 ## Twee Code
 
@@ -53,7 +53,7 @@ The world has ended.
 
 ```
 
-[Twee Download](sugarcube_timedpassages_twee.txt)
+[Twee Download](sugarcube_timedpassages_twee.txt){ target="_top" download="sugarcube_timedpassages_twee.txt"}
 
 ## See Also
 

@@ -8,7 +8,7 @@ The example below adds an insert that displays a 😀 emoji.
 
 ## Example
 
-[Download Example](chapbook_adding_functionality_example.html)
+[Download Example](chapbook_adding_functionality_example.html){ target="_top" download="chapbook_adding_functionality_example.html"}
 
 ## Twee Code
 
@@ -29,4 +29,4 @@ Hello there {smiley face}
 
 ```
 
-[Download Twee Code](chapbook_adding_functionality_twee.txt)
+[Download Twee Code](chapbook_adding_functionality_twee.txt){ target="_top" download="chapbook_adding_functionality_twee.txt"}

@@ -13,7 +13,7 @@ Due to browser differences in licensing, some audio formats are not universally 
 
 ## Example
 
-[Download](harlowe_audio_example.html)
+[Download](harlowe_audio_example.html){ target="_top" download="harlowe_audio_example.html"}
 
 ## Twee Code
 
@@ -30,4 +30,4 @@ Your browser does not support the audio element.
 
 ```
 
-[Twee Download](harlowe_audio_twee.txt)
+[Twee Download](harlowe_audio_twee.txt){ target="_top" download="harlowe_audio_twee.txt"}

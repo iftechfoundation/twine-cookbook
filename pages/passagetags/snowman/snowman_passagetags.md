@@ -6,7 +6,7 @@ This example shows how to use CSS selectors to style different passages. Snowman
 
 ## Example
 
-[Download](snowman_passagetags_example.html)
+[Download](snowman_passagetags_example.html){ target="_top" download="snowman_passagetags_example.html"}
 
 ## Twee Code
 
@@ -37,4 +37,4 @@ This passage has a yellow background and black text.
 
 ```
 
-[Twee Download](snowman_passagetags_twee.txt)
+[Twee Download](snowman_passagetags_twee.txt){ target="_top" download="snowman_passagetags_twee.txt"}

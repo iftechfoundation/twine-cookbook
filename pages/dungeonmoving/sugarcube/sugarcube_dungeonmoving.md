@@ -6,7 +6,7 @@
 
 ## Example
 
-[Download](sugarcube_dungeonmoving_example.html)
+[Download](sugarcube_dungeonmoving_example.html){ target="_top" download="sugarcube_dungeonmoving_example.html"}
 
 ## Twee Code
 
@@ -102,7 +102,7 @@ Double-click this passage to edit it.
 
 ```
 
-[Twee Download](sugarcube_dungeonmoving_twee.txt)
+[Twee Download](sugarcube_dungeonmoving_twee.txt){ target="_top" download="sugarcube_dungeonmoving_twee.txt"}
 
 ## See Also
 

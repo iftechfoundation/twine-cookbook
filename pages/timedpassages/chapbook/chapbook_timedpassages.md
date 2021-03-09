@@ -6,7 +6,7 @@ Made famous in [*Queers in Love at the End of the World*](https://w.itch.io/end-
 
 ## Example
 
-[Download](chapbook_timedpassages_example.html)
+[Download](chapbook_timedpassages_example.html){ target="_top" download="chapbook_timedpassages_example.html"}
 
 ## Twee Code
 
@@ -34,4 +34,4 @@ timeLeft: timeLeft - 1
 
 ```
 
-[Twee Download](chapbook_timedpassages_twee.txt)
+[Twee Download](chapbook_timedpassages_twee.txt){ target="_top" download="chapbook_timedpassages_twee.txt"}

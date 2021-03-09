@@ -8,7 +8,7 @@ Using CSS and JavaScript, a rule is created for transparent color and applied or
 
 ## Example
 
-[Download](snowman_hiddenlink_example.html)
+[Download](snowman_hiddenlink_example.html){ target="_top" download="snowman_hiddenlink_example.html"}
 
 ## Twee Code
 
@@ -73,4 +73,4 @@ You found it!
 
 ```
 
-[Twee Download](snowman_hiddenlink_twee.txt)
+[Twee Download](snowman_hiddenlink_twee.txt){ target="_top" download="snowman_hiddenlink_twee.txt"}

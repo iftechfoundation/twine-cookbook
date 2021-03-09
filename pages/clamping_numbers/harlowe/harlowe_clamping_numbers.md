@@ -11,7 +11,7 @@ The example adds a **clamp()** function to the existing built-in **[Math](https:
 
 ## Example
 
-[Download](harlowe_clamping_numbers_example.html)
+[Download](harlowe_clamping_numbers_example.html){ target="_top" download="harlowe_clamping_numbers_example.html"}
 
 ## Twee Code
 
@@ -114,4 +114,4 @@ eg. Minus 100 from the current value.\
 
 ```
 
-[Twee Download](harlowe_clamping_numbers_twee.txt)
+[Twee Download](harlowe_clamping_numbers_twee.txt){ target="_top" download="harlowe_clamping_numbers_twee.txt"}

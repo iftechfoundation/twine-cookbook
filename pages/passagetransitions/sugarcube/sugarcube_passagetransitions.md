@@ -8,7 +8,7 @@ Through using [jQuery event listeners](https://api.jquery.com/category/events/),
 
 ## Example
 
-[Download](sugarcube_passagetransitions_example.html)
+[Download](sugarcube_passagetransitions_example.html){ target="_top" download="sugarcube_passagetransitions_example.html"}
 
 ## Twee Code
 
@@ -34,4 +34,4 @@ No more content!
 
 ```
 
-[Twee Download](sugarcube_passagetransitions_twee.txt)
+[Twee Download](sugarcube_passagetransitions_twee.txt){ target="_top" download="sugarcube_passagetransitions_twee.txt"}

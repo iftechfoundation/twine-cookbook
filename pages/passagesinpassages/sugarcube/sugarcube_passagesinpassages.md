@@ -6,7 +6,7 @@ In SugarCube, the contents of a passage can be shown in another through the use 
 
 ## Example
 
-[Download](sugarcube_passagesinpassages_example.html)
+[Download](sugarcube_passagesinpassages_example.html){ target="_top" download="sugarcube_passagesinpassages_example.html"}
 
 ## Twee Code
 
@@ -23,4 +23,4 @@ And this is Another passage!
 
 ```
 
-[Twee Download](sugarcube_passagesinpassages_twee.txt)
+[Twee Download](sugarcube_passagesinpassages_twee.txt){ target="_top" download="sugarcube_passagesinpassages_twee.txt"}

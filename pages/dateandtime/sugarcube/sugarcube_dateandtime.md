@@ -6,7 +6,7 @@
 
 ## Example
 
-[Download](sugarcube_dateandtime_example.html)
+[Download](sugarcube_dateandtime_example.html){ target="_top" download="sugarcube_dateandtime_example.html"}
 
 ## Twee Code
 
@@ -30,4 +30,4 @@ It has been $timeDifference milliseconds since October 20, 2018.
 
 ```
 
-[Twee Download](sugarcube_dateandtime_twee.txt)
+[Twee Download](sugarcube_dateandtime_twee.txt){ target="_top" download="sugarcube_dateandtime_twee.txt"}

@@ -10,7 +10,7 @@ Harlowe does not have an easy way to bridge the gap between its macros and JavaS
 
 ## Example
 
-[Download](harlowe_geolocation_example.html)
+[Download](harlowe_geolocation_example.html){ target="_top" download="harlowe_geolocation_example.html"}
 
 ## Twee Code
 
@@ -93,4 +93,4 @@ if(window.geolocation.available() ) {
 
 ```
 
-[Twee Download](harlowe_geolocation_twee.txt)
+[Twee Download](harlowe_geolocation_twee.txt){ target="_top" download="harlowe_geolocation_twee.txt"}

@@ -9,7 +9,7 @@
 
 ## Example
 
-[Download](sugarcane_dungeonmoving_example.html)
+[Download](sugarcane_dungeonmoving_example.html){ target="_top" download="sugarcane_dungeonmoving_example.html"}
 
 ## Twee Code
 
@@ -186,4 +186,4 @@ function()
 
 ```
 
-[Twee Download](sugarcane_dungeonmoving_twee.txt)
+[Twee Download](sugarcane_dungeonmoving_twee.txt){ target="_top" download="sugarcane_dungeonmoving_twee.txt"}

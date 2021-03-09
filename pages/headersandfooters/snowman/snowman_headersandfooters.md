@@ -6,7 +6,7 @@
 
 ## Example
 
-[Download](snowman_headersandfooters_example.html)
+[Download](snowman_headersandfooters_example.html){ target="_top" download="snowman_headersandfooters_example.html"}
 
 ## Twee Code
 
@@ -28,7 +28,7 @@ This is the header!
 This is the footer!
 ```
 
-[Twee Download](snowman_headersandfooters_twee.txt)
+[Twee Download](snowman_headersandfooters_twee.txt){ target="_top" download="snowman_headersandfooters_twee.txt"}
 
 ## See Also
 

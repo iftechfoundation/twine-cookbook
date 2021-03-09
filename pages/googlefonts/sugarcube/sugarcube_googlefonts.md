@@ -8,7 +8,7 @@ Other Google Fonts could be imported and applied using the same method, creating
 
 ## Example
 
-[Download](sugarcube_googlefonts_example.html)
+[Download](sugarcube_googlefonts_example.html){ target="_top" download="sugarcube_googlefonts_example.html"}
 
 ## Twee Code
 
@@ -28,4 +28,4 @@ SugarCube: Google Fonts
 
 ```
 
-[Twee Download](sugarcube_googlefonts_twee.txt)
+[Twee Download](sugarcube_googlefonts_twee.txt){ target="_top" download="sugarcube_googlefonts_twee.txt"}

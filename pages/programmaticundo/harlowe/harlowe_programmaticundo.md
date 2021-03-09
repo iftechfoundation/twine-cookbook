@@ -6,7 +6,7 @@ While Harlowe supports allowing the user to undo and redo moves, the "undo" oper
 
 ## Example
 
-[Download](harlowe_programmaticundo_example.html)
+[Download](harlowe_programmaticundo_example.html){ target="_top" download="harlowe_programmaticundo_example.html"}
 
 ## Twee Code
 
@@ -21,4 +21,4 @@ Programmatic Undo in Harlowe
 (link: "You are not ready. Go back!")[(undo:)]
 ```
 
-[Twee Download](harlowe_programmaticundo_twee.txt)
+[Twee Download](harlowe_programmaticundo_twee.txt){ target="_top" download="harlowe_programmaticundo_twee.txt"}

@@ -8,7 +8,7 @@ While Chapbook cannot show an array or its value by position, a new variable can
 
 ## Example
 
-[Download](chapbook_arrays_example.html)
+[Download](chapbook_arrays_example.html){ target="_top" download="chapbook_arrays_example.html"}
 
 ## Twee Code
 
@@ -26,4 +26,4 @@ Here is an {exampleValue}.
 
 ```
 
-[Twee Download](chapbook_arrays_twee.txt)
+[Twee Download](chapbook_arrays_twee.txt){ target="_top" download="chapbook_arrays_twee.txt"}

@@ -10,7 +10,7 @@ Snowman triggers a "showpassage:after" event after each passage is shown. The **
 
 ## Example
 
-[Download](snowman_sidebar_left_example.html)
+[Download](snowman_sidebar_left_example.html){ target="_top" download="snowman_sidebar_left_example.html"}
 
 ## Twee Code
 
@@ -68,4 +68,4 @@ Location: <%= s.location %>
 [[Start]]
 ```
 
-[Twee Download](snowman_sidebar_left_twee.txt)
+[Twee Download](snowman_sidebar_left_twee.txt){ target="_top" download="snowman_sidebar_left_twee.txt"}

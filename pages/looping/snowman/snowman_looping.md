@@ -8,7 +8,7 @@ In this example, the *s* global shortcut to the *[window.story.state](https://vi
 
 ## Live Example
 
-[Download](snowman_looping_example.html)
+[Download](snowman_looping_example.html){ target="_top" download="snowman_looping_example.html"}
 
 ## Twee Code
 
@@ -46,4 +46,4 @@ jQuery.each(s.arrayInventory, function( index, value ) {
 
 ```
 
-[Twee Download](snowman_looping_twee.txt)
+[Twee Download](snowman_looping_twee.txt){ target="_top" download="snowman_looping_twee.txt"}

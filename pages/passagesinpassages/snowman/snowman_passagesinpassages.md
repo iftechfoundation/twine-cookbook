@@ -6,7 +6,7 @@ In Snowman, the contents of one passage can be included in another through using
 
 ## Example
 
-[Download](snowman_passagesinpassages_example.html)
+[Download](snowman_passagesinpassages_example.html){ target="_top" download="snowman_passagesinpassages_example.html"}
 
 ## Twee Code
 
@@ -23,4 +23,4 @@ And this is Another passage!
 
 ```
 
-[Twee Download](snowman_passagesinpassages_twee.txt)
+[Twee Download](snowman_passagesinpassages_twee.txt){ target="_top" download="snowman_passagesinpassages_twee.txt"}

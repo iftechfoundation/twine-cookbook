@@ -8,7 +8,7 @@ In this example, the "passagestart" and "passagerender" events are shown. In the
 
 ## Example
 
-[Download](sugarcube_passage_events_example.html)
+[Download](sugarcube_passage_events_example.html){ target="_top" download="sugarcube_passage_events_example.html"}
 
 ## Twee Code
 
@@ -61,7 +61,7 @@ This is added after the PassageFooter!
 
 ```
 
-[Twee Download](sugarcube_passage_events_twee.txt)
+[Twee Download](sugarcube_passage_events_twee.txt){ target="_top" download="sugarcube_passage_events_twee.txt"}
 
 ## See Also
 

@@ -6,7 +6,7 @@ Using [lookups](https://klembot.github.io/chapbook/guide/state/objects-and-looku
 
 ## Example
 
-[Download](chapbook_dateandtime_example.html)
+[Download](chapbook_dateandtime_example.html){ target="_top" download="chapbook_dateandtime_example.html"}
 
 ## Twee Code
 
@@ -22,4 +22,4 @@ The current day number is {now.day}.
 The current full-year number is {now.year}.
 ```
 
-[Twee Download](chapbook_dateandtime_twee.txt)
+[Twee Download](chapbook_dateandtime_twee.txt){ target="_top" download="chapbook_dateandtime_twee.txt"}

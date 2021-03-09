@@ -8,7 +8,7 @@ Using these and the **write()** function, dynamic values can be created, accesse
 
 ## Example
 
-[Download](chapbook_statichealthbars_example.html)
+[Download](chapbook_statichealthbars_example.html){ target="_top" download="chapbook_statichealthbars_example.html"}
 
 ## Twee Code
 
@@ -38,4 +38,4 @@ Chapbook: Static Healthbars
 
 ```
 
-[Twee Download](chapbook_statichealthbars_twee.txt)
+[Twee Download](chapbook_statichealthbars_twee.txt){ target="_top" download="chapbook_statichealthbars_twee.txt"}

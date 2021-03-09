@@ -10,7 +10,7 @@ This example uses [Underscore template functionality](http://underscorejs.org/#t
 
 ## Example
 
-[Download](snowman_geolocation_example.html)
+[Download](snowman_geolocation_example.html){ target="_top" download="snowman_geolocation_example.html"}
 
 ## Twee Code
 
@@ -113,4 +113,4 @@ Longitude: <%= window.geolocation.approximateLocation(s.location.longitude, -1.8
 
 ```
 
-[Twee Download](snowman_geolocation_twee.txt)
+[Twee Download](snowman_geolocation_twee.txt){ target="_top" download="snowman_geolocation_twee.txt"}

@@ -10,7 +10,7 @@ This example uses a complex combination of the [Vars Section](https://klembot.gi
 
 ## Example
 
-[Download](chapbook_space_exploration_example.html)
+[Download](chapbook_space_exploration_example.html){ target="_top" download="chapbook_space_exploration_example.html"}
 
 ## Twee Code
 
@@ -240,4 +240,4 @@ Number of Jumps Left: {numberOfJumpsLeft}
 
 ```
 
-[Twee Download](chapbook_space_exploration_twee.txt)
+[Twee Download](chapbook_space_exploration_twee.txt){ target="_top" download="chapbook_space_exploration_twee.txt"}

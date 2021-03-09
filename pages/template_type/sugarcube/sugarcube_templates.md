@@ -10,7 +10,7 @@ This example also uses the [`StoryInit` special passage name](https://www.motosl
 
 ## Example
 
-[Download](sugarcube_templates_example.html)
+[Download](sugarcube_templates_example.html){ target="_top" download="sugarcube_templates_example.html"}
 
 ## Twee Code
 
@@ -32,4 +32,4 @@ Template.add('pirate', function () {
 
 ```
 
-[Twee Download](sugarcube_templates_twee.txt)
+[Twee Download](sugarcube_templates_twee.txt){ target="_top" download="sugarcube_templates_twee.txt"}

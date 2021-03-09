@@ -6,7 +6,7 @@ Through using the [Underscore template library](https://underscorejs.org/#templa
 
 ## Example
 
-[Download](snowman_deletingvariables_example.html)
+[Download](snowman_deletingvariables_example.html){ target="_top" download="snowman_deletingvariables_example.html"}
 
 ## Twee Code
 
@@ -39,4 +39,4 @@ Does "example" still exist as part of the object window.story? <%= window.story.
 
 ```
 
-[Twee Download](snowman_deletingvariables_twee.txt)
+[Twee Download](snowman_deletingvariables_twee.txt){ target="_top" download="snowman_deletingvariables_twee.txt"}

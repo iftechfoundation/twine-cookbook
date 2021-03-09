@@ -8,7 +8,7 @@ The[`<<widget>>`](http://www.motoslave.net/sugarcube/2/docs/macros.html#macros-w
 
 ## Example
 
-[Download](sugarcube_modularity_example.html)
+[Download](sugarcube_modularity_example.html){ target="_top" download="sugarcube_modularity_example.html"}
 
 ## Twee Code
 
@@ -44,4 +44,4 @@ $lineOne
 $lineTwo
 ```
 
-[Twee Download](sugarcube_modularity_twee.txt)
+[Twee Download](sugarcube_modularity_twee.txt){ target="_top" download="sugarcube_modularity_twee.txt"}

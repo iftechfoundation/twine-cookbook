@@ -6,7 +6,7 @@ In programming terminology, modularity refers to dividing software into differen
 
 ## Example
 
-[Download](harlowe_modularity_example.html)
+[Download](harlowe_modularity_example.html){ target="_top" download="harlowe_modularity_example.html"}
 
 ## Twee Code
 
@@ -28,4 +28,4 @@ $lineOne
 $lineTwo
 ```
 
-[Twee Download](harlowe_modularity_twee.txt)
+[Twee Download](harlowe_modularity_twee.txt){ target="_top" download="harlowe_modularity_twee.txt"}

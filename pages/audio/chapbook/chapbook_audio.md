@@ -9,7 +9,7 @@ Chapbook supports both [looping sounds](https://klembot.github.io/chapbook/guide
 
 ## Example
 
-[Download](chapbook_audio_example.html)
+[Download](chapbook_audio_example.html){ target="_top" download="chapbook_audio_example.html"}
 
 ## Twee Code
 
@@ -34,4 +34,4 @@ sound.ambient.test.playing: false
 [[Return->Start]]
 ```
 
-[Twee Download](chapbook_audio_twee.txt)
+[Twee Download](chapbook_audio_twee.txt){ target="_top" download="chapbook_audio_twee.txt"}

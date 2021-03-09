@@ -17,7 +17,7 @@ The sidebar can be manually stowed (hidden) and unstowed (revealed) by selecting
 
 ## Example
 
-[Download](sugarcube_sidebar_left_example.html)
+[Download](sugarcube_sidebar_left_example.html){ target="_top" download="sugarcube_sidebar_left_example.html"}
 
 ## Twee Code
 
@@ -68,4 +68,4 @@ Location: $location
 [[Start]]
 ```
 
-[Twee Download](sugarcube_sidebar_left_twee.txt)
+[Twee Download](sugarcube_sidebar_left_twee.txt){ target="_top" download="sugarcube_sidebar_left_twee.txt"}

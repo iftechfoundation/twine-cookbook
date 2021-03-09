@@ -18,7 +18,7 @@ This example shows how to use [CSS](../../terms/terms_css.md) selectors to style
 
 ## Example
 
-[Download](harlowe_cssselectors_example.html)
+[Download](harlowe_cssselectors_example.html){ target="_top" download="harlowe_cssselectors_example.html"}
 
 ## Twee Code
 
@@ -48,7 +48,7 @@ This passage also has a red border.
 
 ```
 
-[Twee Download](harlowe_cssselectors_twee.txt)
+[Twee Download](harlowe_cssselectors_twee.txt){ target="_top" download="harlowe_cssselectors_twee.txt"}
 
 ## See Also
 

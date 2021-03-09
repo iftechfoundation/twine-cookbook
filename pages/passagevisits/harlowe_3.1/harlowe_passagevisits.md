@@ -8,7 +8,7 @@ In this example, the macro [`(str:)`](https://twine2.neocities.org/#macro_str) i
 
 ## Example
 
-[Download](harlowe_passagevisits_example.html)
+[Download](harlowe_passagevisits_example.html){ target="_top" download="harlowe_passagevisits_example.html"}
 
 ## Twee Code
 
@@ -26,4 +26,4 @@ How many times has the passage "Another Passage" been visited? (str: visits)
 
 ```
 
-[Twee Download](harlowe_passagevisits_twee.txt)
+[Twee Download](harlowe_passagevisits_twee.txt){ target="_top" download="harlowe_passagevisits_twee.txt"}

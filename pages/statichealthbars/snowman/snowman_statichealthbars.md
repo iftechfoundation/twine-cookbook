@@ -6,7 +6,7 @@
 
 ## Example
 
-[Download](snowman_statichealthbars_example.html)
+[Download](snowman_statichealthbars_example.html){ target="_top" download="snowman_statichealthbars_example.html"}
 
 ## Twee Code
 
@@ -28,4 +28,4 @@ Show a healthbar using a Meter element:
 
 ```
 
-[Twee Download](snowman_statichealthbars_twee.txt)
+[Twee Download](snowman_statichealthbars_twee.txt){ target="_top" download="snowman_statichealthbars_twee.txt"}

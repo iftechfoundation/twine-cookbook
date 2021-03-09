@@ -8,7 +8,7 @@ When the timer runs out, the *payload* of the macro is run and the length of the
 
 ## Example
 
-[Download](sugarcube_timed_progress_bars_example.html)
+[Download](sugarcube_timed_progress_bars_example.html){ target="_top" download="sugarcube_timed_progress_bars_example.html"}
 
 ## Twee Code
 
@@ -166,7 +166,7 @@ Macro.add("timedprogressbar", {
 
 ```
 
-[Twee Download](sugarcube_timed_progress_bars_twee.txt)
+[Twee Download](sugarcube_timed_progress_bars_twee.txt){ target="_top" download="sugarcube_timed_progress_bars_twee.txt"}
 
 ## See Also
 

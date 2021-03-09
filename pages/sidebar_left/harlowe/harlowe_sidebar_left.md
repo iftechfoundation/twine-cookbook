@@ -6,7 +6,7 @@ Harlowe has a built-in left sidebar. Before v2.1.0, however, there was no functi
 
 ## Example
 
-[Download](harlowe_sidebar_left_example.html)
+[Download](harlowe_sidebar_left_example.html){ target="_top" download="harlowe_sidebar_left_example.html"}
 
 ## Twee Code
 
@@ -49,7 +49,7 @@ Location: $location
 
 ```
 
-[Twee Download](harlowe_sidebar_left_twee.txt)
+[Twee Download](harlowe_sidebar_left_twee.txt){ target="_top" download="harlowe_sidebar_left_twee.txt"}
 
 ## See Also
 

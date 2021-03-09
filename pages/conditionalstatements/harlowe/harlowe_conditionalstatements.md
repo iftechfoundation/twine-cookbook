@@ -8,7 +8,7 @@ The [`(unless:)`](https://twine2.neocities.org/#macro_unless) macro can also be 
 
 ## Example
 
-[Download](harlowe_conditionalstatements_example.html)
+[Download](harlowe_conditionalstatements_example.html){ target="_top" download="harlowe_conditionalstatements_example.html"}
 
 ## Twee Code
 
@@ -29,7 +29,7 @@ Conditional Statements in Harlowe
 $isDog[It's a dog!]
 ```
 
-[Twee Download](harlowe_conditionalstatements_twee.txt)
+[Twee Download](harlowe_conditionalstatements_twee.txt){ target="_top" download="harlowe_conditionalstatements_twee.txt"}
 
 ## See Also
 

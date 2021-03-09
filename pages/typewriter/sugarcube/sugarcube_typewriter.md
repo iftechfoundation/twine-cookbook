@@ -6,7 +6,7 @@
 
 ## Example
 
-[Download](sugarcube_typewriter_example.html)
+[Download](sugarcube_typewriter_example.html){ target="_top" download="sugarcube_typewriter_example.html"}
 
 ## Twee Code
 
@@ -39,7 +39,7 @@ Typewriter Effect in Sugarcube
 
 ```
 
-[Twee Download](sugarcube_typewriter_twee.txt)
+[Twee Download](sugarcube_typewriter_twee.txt){ target="_top" download="sugarcube_typewriter_twee.txt"}
 
 ## See Also
 

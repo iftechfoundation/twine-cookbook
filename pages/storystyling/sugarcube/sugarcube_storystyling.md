@@ -6,7 +6,7 @@
 
 ## Example
 
-[Download](sugarcube_storystyling_example.html)
+[Download](sugarcube_storystyling_example.html){ target="_top" download="sugarcube_storystyling_example.html"}
 
 ## Twee Code
 
@@ -37,4 +37,4 @@ This text is white on a black background.
 
 ```
 
-[Twee Download](sugarcube_storystyling_twee.txt)
+[Twee Download](sugarcube_storystyling_twee.txt){ target="_top" download="sugarcube_storystyling_twee.txt"}

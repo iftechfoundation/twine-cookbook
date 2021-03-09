@@ -8,7 +8,7 @@ A map of the array is created by iterating through temporary variables and placi
 
 ## Example
 
-[Download](harlowe_dungeonmoving_example.html)
+[Download](harlowe_dungeonmoving_example.html){ target="_top" download="harlowe_dungeonmoving_example.html"}
 
 ## Twee Code
 
@@ -139,7 +139,7 @@ $map
 You have exited the map.
 ```
 
-[Twee Download](harlowe_dungeonmoving_twee.txt)
+[Twee Download](harlowe_dungeonmoving_twee.txt){ target="_top" download="harlowe_dungeonmoving_twee.txt"}
 
 ## See Also
 

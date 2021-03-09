@@ -6,7 +6,7 @@ In Snowman, the "showpassage" event is triggered once a passage is loaded. By li
 
 ## Example
 
-[Download](snowman_passagetransitions_example.html)
+[Download](snowman_passagetransitions_example.html){ target="_top" download="snowman_passagetransitions_example.html"}
 
 ## Twee Code
 
@@ -32,4 +32,4 @@ Double-click this passage to edit it.
 
 ```
 
-[Twee Download](snowman_passagetransitions_twee.txt)
+[Twee Download](snowman_passagetransitions_twee.txt){ target="_top" download="snowman_passagetransitions_twee.txt"}

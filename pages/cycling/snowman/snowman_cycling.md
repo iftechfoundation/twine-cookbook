@@ -12,7 +12,7 @@ Finally, the global variables are updated according to the element's *id* for la
 
 ## Example
 
-[Download](snowman_cycling_example.html)
+[Download](snowman_cycling_example.html){ target="_top" download="snowman_cycling_example.html"}
 
 ## Twee Code
 
@@ -88,7 +88,7 @@ $(function() {
 
 ```
 
-[Twee Download](snowman_cycling_twee.txt)
+[Twee Download](snowman_cycling_twee.txt){ target="_top" download="snowman_cycling_twee.txt"}
 
 ## See Also
 

@@ -11,7 +11,7 @@ The example uses jQuery's **[on()](http://api.jquery.com/on/)**  function to mon
 
 ## Example
 
-[Download](snowman_keyboard_example.html)
+[Download](snowman_keyboard_example.html){ target="_top" download="snowman_keyboard_example.html"}
 
 ## Twee Code
 
@@ -44,4 +44,4 @@ Press and release the ''a'' key to show an Alert dialog.
 
 ```
 
-[Twee Download](snowman_keyboard_twee.txt)
+[Twee Download](snowman_keyboard_twee.txt){ target="_top" download="snowman_keyboard_twee.txt"}

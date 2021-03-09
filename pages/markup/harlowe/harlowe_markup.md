@@ -6,7 +6,7 @@
 
 ## Example
 
-[Download](harlowe_markup_example.html)
+[Download](harlowe_markup_example.html){ target="_top" download="harlowe_markup_example.html"}
 
 ## Twee Code
 
@@ -57,4 +57,4 @@ This text is not in columns, but takes up the entire width, as usual.
 
 ```
 
-[Twee Download](harlowe_markup_twee.txt)
+[Twee Download](harlowe_markup_twee.txt){ target="_top" download="harlowe_markup_twee.txt"}

@@ -10,7 +10,7 @@ By visiting other passages, the turn count is increased and the hour reaches 23 
 
 ## Example
 
-[Download](harlowe_turncounter_example.html)
+[Download](harlowe_turncounter_example.html){ target="_top" download="harlowe_turncounter_example.html"}
 
 ## Twee Code
 
@@ -55,4 +55,4 @@ Rooms:
 
 ```
 
-[Twee Download](harlowe_turncounter_twee.txt)
+[Twee Download](harlowe_turncounter_twee.txt){ target="_top" download="harlowe_turncounter_twee.txt"}

@@ -6,7 +6,7 @@
 
 ## Example
 
-[Download](snowman_storystyling_example.html)
+[Download](snowman_storystyling_example.html){ target="_top" download="snowman_storystyling_example.html"}
 
 ## Twee Code
 
@@ -41,4 +41,4 @@ This text is white on a black background.
 
 ```
 
-[Twee Download](snowman_storystyling_twee.txt)
+[Twee Download](snowman_storystyling_twee.txt){ target="_top" download="snowman_storystyling_twee.txt"}

@@ -6,7 +6,7 @@ Often, it can be useful to access information about the story or other passages 
 
 ## Example
 
-[Download](snowman_storyandpassage_example.html)
+[Download](snowman_storyandpassage_example.html){ target="_top" download="snowman_storyandpassage_example.html"}
 
 ## Twee Code
 
@@ -31,4 +31,4 @@ This is content in the storage passage!
 
 ```
 
-[Twee Download](snowman_storyandpassage_twee.txt)
+[Twee Download](snowman_storyandpassage_twee.txt){ target="_top" download="snowman_storyandpassage_twee.txt"}

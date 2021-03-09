@@ -8,7 +8,7 @@ Heavily inspired by [*FTL: Faster Than Light*](https://en.wikipedia.org/wiki/FTL
 
 ## Example
 
-[Download](harlowe_space_exploration_example.html)
+[Download](harlowe_space_exploration_example.html){ target="_top" download="harlowe_space_exploration_example.html"}
 
 ## Twee Code
 
@@ -169,4 +169,4 @@ After 10 hyperjumps, the ship left the hazardous area and called for help.
 
 ```
 
-[Twee Download](harlowe_space_exploration_twee.txt)
+[Twee Download](harlowe_space_exploration_twee.txt){ target="_top" download="harlowe_space_exploration_twee.txt"}

@@ -6,7 +6,7 @@ Made famous in [*Queers in Love at the End of the World*](https://w.itch.io/end-
 
 ## Example
 
-[Download](snowman_timedpassages_example.html)
+[Download](snowman_timedpassages_example.html){ target="_top" download="snowman_timedpassages_example.html"}
 
 ## Twee Code
 
@@ -39,7 +39,7 @@ $(function() {
 The world ended.
 ```
 
-[Twee Download](snowman_timedpassages_twee.txt)
+[Twee Download](snowman_timedpassages_twee.txt){ target="_top" download="snowman_timedpassages_twee.txt"}
 
 ## See Also
 

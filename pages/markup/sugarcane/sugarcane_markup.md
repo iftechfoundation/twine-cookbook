@@ -9,7 +9,7 @@
 
 ## Example
 
-[Download](sugarcane_markup_example.html)
+[Download](sugarcane_markup_example.html){ target="_top" download="sugarcane_markup_example.html"}
 
 ## Twee Code
 
@@ -56,4 +56,4 @@ Videlais
 
 ```
 
-[Twee Download](sugarcane_markup_twee.txt)
+[Twee Download](sugarcane_markup_twee.txt){ target="_top" download="sugarcane_markup_twee.txt"}

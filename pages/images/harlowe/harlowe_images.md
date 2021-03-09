@@ -10,7 +10,7 @@ Because images are external resources, they need to be included with the webpage
 
 ## Example
 
-[Download](harlowe_images_example.html)
+[Download](harlowe_images_example.html){ target="_top" download="harlowe_images_example.html"}
 
 ## Twee Code
 
@@ -37,4 +37,4 @@ This is a base-64-encoded CSS image background:
 <div class="base64image"></div>
 ```
 
-[Twee Download](harlowe_images_twee.txt)
+[Twee Download](harlowe_images_twee.txt){ target="_top" download="harlowe_images_twee.txt"}
