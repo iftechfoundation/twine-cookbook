@@ -6,7 +6,7 @@ Starting with Snowman 2.0, the global function **[visited()](https://videlais.gi
 
 ## Example
 
-[Download](snowman_passagevisits_example.html){ target="_top" download="snowman_passagevisits_example.html"}
+[Download](snowman_passagevisits_example.html){: target="_top" download="snowman_passagevisits_example.html"}
 
 ## Twee Code
 

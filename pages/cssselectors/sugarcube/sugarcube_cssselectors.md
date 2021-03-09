@@ -17,7 +17,7 @@ This example shows how to use [CSS](../../terms/terms_css.md) selectors to style
 
 ## Example
 
-[Download](sugarcube_cssselectors_example.html){ target="_top" download="sugarcube_cssselectors_example.html"}
+[Download](sugarcube_cssselectors_example.html){: target="_top" download="sugarcube_cssselectors_example.html"}
 
 ## Twee Code
 

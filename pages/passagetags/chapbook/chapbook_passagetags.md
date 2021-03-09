@@ -6,7 +6,7 @@ Using the built-in global variable *config*, [text colors and other CSS properti
 
 ## Example
 
-[Download](chapbook_passagetags_example.html){ target="_top" download="chapbook_passagetags_example.html"}
+[Download](chapbook_passagetags_example.html){: target="_top" download="chapbook_passagetags_example.html"}
 
 ## Twee Code
 

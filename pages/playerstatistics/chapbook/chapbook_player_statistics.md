@@ -8,7 +8,7 @@ In Chapbook, the values of variables can only be changed as part of the [Vars Se
 
 ## Example
 
-[Download](chapbook_player_statistics_example.html){ target="_top" download="chapbook_player_statistics_example.html"}
+[Download](chapbook_player_statistics_example.html){: target="_top" download="chapbook_player_statistics_example.html"}
 
 ## Twee Code
 

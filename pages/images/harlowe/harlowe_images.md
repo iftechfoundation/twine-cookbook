@@ -10,7 +10,7 @@ Because images are external resources, they need to be included with the webpage
 
 ## Example
 
-[Download](harlowe_images_example.html){ target="_top" download="harlowe_images_example.html"}
+[Download](harlowe_images_example.html){: target="_top" download="harlowe_images_example.html"}
 
 ## Twee Code
 

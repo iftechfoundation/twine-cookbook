@@ -6,7 +6,7 @@ In Snowman 2.X, the `sm.passage.showing` event is triggered [once a passage is l
 
 ## Example
 
-[Download](snowman_2_passagetransitions_example.html){ target="_top" download="snowman_2_passagetransitions_example.html"}
+[Download](snowman_2_passagetransitions_example.html){: target="_top" download="snowman_2_passagetransitions_example.html"}
 
 ## Twee Code
 

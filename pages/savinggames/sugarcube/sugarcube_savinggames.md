@@ -8,7 +8,7 @@ This example also demonstrates the use of the *[State.variables](http://www.moto
 
 ## Example
 
-[Download](sugarcube_savinggames_example.html){ target="_top" download="sugarcube_savinggames_example.html"}
+[Download](sugarcube_savinggames_example.html){: target="_top" download="sugarcube_savinggames_example.html"}
 
 ## Twee Code
 

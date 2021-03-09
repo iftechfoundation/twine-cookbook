@@ -8,7 +8,7 @@ The [`(unless:)`](https://twine2.neocities.org/#macro_unless) macro can also be 
 
 ## Example
 
-[Download](harlowe_conditionalstatements_example.html){ target="_top" download="harlowe_conditionalstatements_example.html"}
+[Download](harlowe_conditionalstatements_example.html){: target="_top" download="harlowe_conditionalstatements_example.html"}
 
 ## Twee Code
 

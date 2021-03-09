@@ -10,7 +10,7 @@ By visiting other passages, the turn count is increased and the hour reaches 23 
 
 ## Example
 
-[Download](snowman_turncounter_example.html){ target="_top" download="snowman_turncounter_example.html"}
+[Download](snowman_turncounter_example.html){: target="_top" download="snowman_turncounter_example.html"}
 
 ## Twee Code
 

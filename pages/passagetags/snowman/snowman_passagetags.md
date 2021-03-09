@@ -6,7 +6,7 @@ This example shows how to use CSS selectors to style different passages. Snowman
 
 ## Example
 
-[Download](snowman_passagetags_example.html){ target="_top" download="snowman_passagetags_example.html"}
+[Download](snowman_passagetags_example.html){: target="_top" download="snowman_passagetags_example.html"}
 
 ## Twee Code
 

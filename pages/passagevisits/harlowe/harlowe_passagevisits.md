@@ -8,7 +8,7 @@ Combined together, the macro `(count:)` with the `(history:)` can return the num
 
 ## Example
 
-[Download](harlowe_passagevisits_example.html){ target="_top" download="harlowe_passagevisits_example.html"}
+[Download](harlowe_passagevisits_example.html){: target="_top" download="harlowe_passagevisits_example.html"}
 
 ## Twee Code
 

@@ -11,7 +11,7 @@ This example uses the built-in jQuery **[$.getScript()](https://api.jquery.com/j
 
 ## Example
 
-[Download](harlowe_importexternaljs_example.html){ target="_top" download="harlowe_importexternaljs_example.html"}
+[Download](harlowe_importexternaljs_example.html){: target="_top" download="harlowe_importexternaljs_example.html"}
 
 ## Twee Code
 

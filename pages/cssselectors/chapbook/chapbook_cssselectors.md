@@ -26,7 +26,7 @@ This example shows how to use [CSS](../../terms/terms_css.md) selectors to style
 
 ## Example
 
-[Download](chapbook_cssselectors_example.html){ target="_top" download="chapbook_cssselectors_example.html"}
+[Download](chapbook_cssselectors_example.html){: target="_top" download="chapbook_cssselectors_example.html"}
 
 ## Twee Code
 

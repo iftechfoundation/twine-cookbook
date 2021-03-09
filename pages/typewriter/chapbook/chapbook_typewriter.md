@@ -8,7 +8,7 @@ The `[typewriter]` modifier creates a series of `<span>` elements for each chara
 
 ## Example
 
-[Download](chapbook_typewriter_example.html){ target="_top" download="chapbook_typewriter_example.html"}
+[Download](chapbook_typewriter_example.html){: target="_top" download="chapbook_typewriter_example.html"}
 
 ## Twee Code
 

@@ -10,7 +10,7 @@ This example uses [Underscore template functionality](http://underscorejs.org/#t
 
 ## Example
 
-[Download](snowman_geolocation_example.html){ target="_top" download="snowman_geolocation_example.html"}
+[Download](snowman_geolocation_example.html){: target="_top" download="snowman_geolocation_example.html"}
 
 ## Twee Code
 

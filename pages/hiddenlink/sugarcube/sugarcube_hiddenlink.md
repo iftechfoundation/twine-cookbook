@@ -10,7 +10,7 @@ The use of the **[postdisplay](https://www.motoslave.net/sugarcube/2/docs/#speci
 
 ## Example
 
-[Download](sugarcube_hiddenlink_example.html){ target="_top" download="sugarcube_hiddenlink_example.html"}
+[Download](sugarcube_hiddenlink_example.html){: target="_top" download="sugarcube_hiddenlink_example.html"}
 
 ## Twee Code
 

@@ -8,7 +8,7 @@ The event ["sm.passage.shown"](https://videlais.github.io/snowman/2/events/passa
 
 ## Example
 
-[Download](snowman_passagetoelement_example.html){ target="_top" download="snowman_passagetoelement_example.html"}
+[Download](snowman_passagetoelement_example.html){: target="_top" download="snowman_passagetoelement_example.html"}
 
 ## Twee Code
 

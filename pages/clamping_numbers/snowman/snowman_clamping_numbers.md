@@ -8,7 +8,7 @@ The example adds a **clamp()** function to the existing built-in [**Math**](http
 
 ## Example
 
-[Download](snowman_clamping_numbers_example.html){ target="_top" download="snowman_clamping_numbers_example.html"}
+[Download](snowman_clamping_numbers_example.html){: target="_top" download="snowman_clamping_numbers_example.html"}
 
 ## Twee Code
 

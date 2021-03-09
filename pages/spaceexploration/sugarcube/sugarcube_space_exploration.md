@@ -10,7 +10,7 @@ To cleanly present the text, this example also uses both the [`<<silently>>`](ht
 
 ## Example
 
-[Download](sugarcube_space_exploration_example.html){ target="_top" download="sugarcube_space_exploration_example.html"}
+[Download](sugarcube_space_exploration_example.html){: target="_top" download="sugarcube_space_exploration_example.html"}
 
 ## Twee Code
 

@@ -6,7 +6,7 @@ In SugarCube, [`<<unset>>`](http://www.motoslave.net/sugarcube/2/docs/#macros-ma
 
 ## Example
 
-[Download](sugarcube_deletingvariables_example.html){ target="_top" download="sugarcube_deletingvariables_example.html"}
+[Download](sugarcube_deletingvariables_example.html){: target="_top" download="sugarcube_deletingvariables_example.html"}
 
 ## Twee Code
 

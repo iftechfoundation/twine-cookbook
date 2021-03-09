@@ -6,7 +6,7 @@
 
 ## Example
 
-[Download](harlowe_dicerolling_example.html){ target="_top" download="harlowe_dicerolling_example.html"}
+[Download](harlowe_dicerolling_example.html){: target="_top" download="harlowe_dicerolling_example.html"}
 
 ## Twee Code
 

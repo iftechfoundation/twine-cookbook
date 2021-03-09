@@ -6,7 +6,7 @@
 
 ## Example
 
-[Download](sugarcube_dateandtime_example.html){ target="_top" download="sugarcube_dateandtime_example.html"}
+[Download](sugarcube_dateandtime_example.html){: target="_top" download="sugarcube_dateandtime_example.html"}
 
 ## Twee Code
 

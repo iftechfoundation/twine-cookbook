@@ -6,7 +6,7 @@
 
 ## Example
 
-[Download](harlowe_markup_example.html){ target="_top" download="harlowe_markup_example.html"}
+[Download](harlowe_markup_example.html){: target="_top" download="harlowe_markup_example.html"}
 
 ## Twee Code
 

@@ -6,7 +6,7 @@ Chapbook provides a global variable, *config.style.googleFont*, that can be used
 
 ## Live Example
 
-[Download](chapbook_googlefonts_example.html){ target="_top" download="chapbook_googlefonts_example.html"}
+[Download](chapbook_googlefonts_example.html){: target="_top" download="chapbook_googlefonts_example.html"}
 
 ## Twee Code
 

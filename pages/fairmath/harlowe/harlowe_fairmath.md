@@ -8,7 +8,7 @@ This example uses the [`(display:)`](https://twine2.neocities.org/#macro_display
 
 ## Example
 
-[Download](harlowe_fairmath_example.html){ target="_top" download="harlowe_fairmath_example.html"}
+[Download](harlowe_fairmath_example.html){: target="_top" download="harlowe_fairmath_example.html"}
 
 ## Twee Code
 

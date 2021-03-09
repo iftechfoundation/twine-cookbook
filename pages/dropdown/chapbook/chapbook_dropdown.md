@@ -6,7 +6,7 @@ The insert [`{dropdown}`](https://klembot.github.io/chapbook/guide/player-input/
 
 ## Example
 
-[Download](chapbook_dropdown_example.html){ target="_top" download="chapbook_dropdown_example.html"}
+[Download](chapbook_dropdown_example.html){: target="_top" download="chapbook_dropdown_example.html"}
 
 ## Twee Code
 

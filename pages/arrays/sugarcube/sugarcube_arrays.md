@@ -8,7 +8,7 @@ Arrays are a collection of values. Each value in an array is assigned an *index*
 
 ## Example
 
-[Download](sugarcube_arrays_example.html){ target="_top" download="sugarcube_arrays_example.html"}
+[Download](sugarcube_arrays_example.html){: target="_top" download="sugarcube_arrays_example.html"}
 
 ## Twee Code
 

@@ -9,7 +9,7 @@ Snowman comes with no user-facing functionality for undoing and re-doing actions
 
 ## Live Example
 
-[Download](snowman_programmaticundo_example.html){ target="_top" download="snowman_programmaticundo_example.html"}
+[Download](snowman_programmaticundo_example.html){: target="_top" download="snowman_programmaticundo_example.html"}
 
 ## Twee Code
 

@@ -6,7 +6,7 @@ Chapbook provides the [`{cycling link}`](https://klembot.github.io/chapbook/guid
 
 ## Example
 
-[Download](chapbook_cycling_example.html){ target="_top" download="chapbook_cycling_example.html"}
+[Download](chapbook_cycling_example.html){: target="_top" download="chapbook_cycling_example.html"}
 
 ## Twee Code
 

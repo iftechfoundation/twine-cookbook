@@ -6,7 +6,7 @@ In programming terminology, modularity refers to dividing software into differen
 
 ## Example
 
-[Download](snowman_modularity_example.html){ target="_top" download="snowman_modularity_example.html"}
+[Download](snowman_modularity_example.html){: target="_top" download="snowman_modularity_example.html"}
 
 ## Twee Code
 

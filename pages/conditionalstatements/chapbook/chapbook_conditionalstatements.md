@@ -6,7 +6,7 @@ The `[if condition]` and `[else]` modifiers found in the [Conditional Display](h
 
 ## Example
 
-[Download](chapbook_conditionalstatements_example.html){ target="_top" download="chapbook_conditionalstatements_example.html"}
+[Download](chapbook_conditionalstatements_example.html){: target="_top" download="chapbook_conditionalstatements_example.html"}
 
 ## Twee Code
 

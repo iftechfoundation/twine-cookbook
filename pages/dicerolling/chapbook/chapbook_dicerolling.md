@@ -8,7 +8,7 @@ This example demonstrates how to create the same effects of rolling various phys
 
 ## Example
 
-[Download](chapbook_dicerolling_example.html){ target="_top" download="chapbook_dicerolling_example.html"}
+[Download](chapbook_dicerolling_example.html){: target="_top" download="chapbook_dicerolling_example.html"}
 
 ## Twee Code
 

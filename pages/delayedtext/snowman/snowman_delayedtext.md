@@ -6,7 +6,7 @@
 
 ## Example
 
-[Download](snowman_delayedtext_example.html){ target="_top" download="snowman_delayedtext_example.html"}
+[Download](snowman_delayedtext_example.html){: target="_top" download="snowman_delayedtext_example.html"}
 
 ## Twee Code
 

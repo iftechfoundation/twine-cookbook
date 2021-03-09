@@ -6,7 +6,7 @@
 
 ## Example
 
-[Download](snowman_dungeonmoving_example.html){ target="_top" download="snowman_dungeonmoving_example.html"}
+[Download](snowman_dungeonmoving_example.html){: target="_top" download="snowman_dungeonmoving_example.html"}
 
 ## Twee Code
 

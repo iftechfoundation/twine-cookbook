@@ -9,7 +9,7 @@ This example shows how to use CSS selectors to selectively style different passa
 
 ## Example
 
-[Download](sugarcane_passagetags_example.html){ target="_top" download="sugarcane_passagetags_example.html"}
+[Download](sugarcane_passagetags_example.html){: target="_top" download="sugarcane_passagetags_example.html"}
 
 ## Twee Code
 

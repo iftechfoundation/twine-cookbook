@@ -12,7 +12,7 @@ Many macros also support [using images](http://www.motoslave.net/sugarcube/2/doc
 
 ## Example
 
-[Download](sugarcube_images_example.html){ target="_top" download="sugarcube_images_example.html"}
+[Download](sugarcube_images_example.html){: target="_top" download="sugarcube_images_example.html"}
 
 ## Twee Code
 

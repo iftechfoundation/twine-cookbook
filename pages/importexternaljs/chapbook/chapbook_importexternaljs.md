@@ -11,7 +11,7 @@ Once loaded, a callback function is used to create a simple Three.js example and
 
 ## Example
 
-[Download](chapbook_importexternaljs_example.html){ target="_top" download="chapbook_importexternaljs_example.html"}
+[Download](chapbook_importexternaljs_example.html){: target="_top" download="chapbook_importexternaljs_example.html"}
 
 ## Twee Code
 

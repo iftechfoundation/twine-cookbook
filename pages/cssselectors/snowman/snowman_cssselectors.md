@@ -12,7 +12,7 @@ This example shows how to use [CSS](../../terms/terms_css.md) selectors to style
 
 ## Example
 
-[Download](snowman_cssselectors_example.html){ target="_top" download="snowman_cssselectors_example.html"}
+[Download](snowman_cssselectors_example.html){: target="_top" download="snowman_cssselectors_example.html"}
 
 ## Twee Code
 

@@ -6,7 +6,7 @@ Through using the [Underscore template library](https://underscorejs.org/#templa
 
 ## Example
 
-[Download](snowman_deletingvariables_example.html){ target="_top" download="snowman_deletingvariables_example.html"}
+[Download](snowman_deletingvariables_example.html){: target="_top" download="snowman_deletingvariables_example.html"}
 
 ## Twee Code
 

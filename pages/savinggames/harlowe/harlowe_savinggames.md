@@ -8,7 +8,7 @@ Game saves are stored as cookies in the user's browser. If cookies cannot be sto
 
 ## Example
 
-[Download](harlowe_savinggames_example.html){ target="_top" download="harlowe_savinggames_example.html"}
+[Download](harlowe_savinggames_example.html){: target="_top" download="harlowe_savinggames_example.html"}
 
 ## Twee Code
 

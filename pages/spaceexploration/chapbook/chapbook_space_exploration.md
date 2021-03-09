@@ -10,7 +10,7 @@ This example uses a complex combination of the [Vars Section](https://klembot.gi
 
 ## Example
 
-[Download](chapbook_space_exploration_example.html){ target="_top" download="chapbook_space_exploration_example.html"}
+[Download](chapbook_space_exploration_example.html){: target="_top" download="chapbook_space_exploration_example.html"}
 
 ## Twee Code
 

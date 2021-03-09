@@ -8,7 +8,7 @@ In this example, the [`(link-repeat:)`](https://twine2.neocities.org/#macro_link
 
 ## Example
 
-[Download](harlowe_player_statistics_example.html){ target="_top" download="harlowe_player_statistics_example.html"}
+[Download](harlowe_player_statistics_example.html){: target="_top" download="harlowe_player_statistics_example.html"}
 
 ## Twee Code
 

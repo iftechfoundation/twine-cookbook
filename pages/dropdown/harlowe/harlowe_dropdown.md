@@ -6,7 +6,7 @@ The macro [`(dropdown:)`](https://twine2.neocities.org/#macro_dropdown) was intr
 
 ## Example
 
-[Download](harlowe_dropdown_example.html){ target="_top" download="harlowe_dropdown_example.html"}
+[Download](harlowe_dropdown_example.html){: target="_top" download="harlowe_dropdown_example.html"}
 
 ## Twee Code
 

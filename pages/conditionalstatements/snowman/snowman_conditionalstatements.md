@@ -6,7 +6,7 @@ Through using the *s* global variable and the built-in [Underscore template func
 
 ## Example
 
-[Download](snowman_conditionalstatements_example.html){ target="_top" download="snowman_conditionalstatements_example.html"}
+[Download](snowman_conditionalstatements_example.html){: target="_top" download="snowman_conditionalstatements_example.html"}
 
 ## Twee Code
 

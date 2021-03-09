@@ -6,7 +6,7 @@ While variables created using the `[JavaScript]` modifier can be deleted within 
 
 ## Example
 
-[Download](chapbook_deletingvariables_example.html){ target="_top" download="chapbook_deletingvariables_example.html"}
+[Download](chapbook_deletingvariables_example.html){: target="_top" download="chapbook_deletingvariables_example.html"}
 
 ## Twee Code
 

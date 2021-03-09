@@ -6,7 +6,7 @@
 
 ## Example
 
-[Download](sugarcube_headersandfooters_example.html){ target="_top" download="sugarcube_headersandfooters_example.html"}
+[Download](sugarcube_headersandfooters_example.html){: target="_top" download="sugarcube_headersandfooters_example.html"}
 
 ## Twee Code
 

@@ -11,7 +11,7 @@ The example uses **[addEventListener()](https://developer.mozilla.org/en-US/docs
 
 ## Example
 
-[Download](chapbook_keyboard_example.html){ target="_top" download="chapbook_keyboard_example.html"}
+[Download](chapbook_keyboard_example.html){: target="_top" download="chapbook_keyboard_example.html"}
 
 ## Twee Code
 

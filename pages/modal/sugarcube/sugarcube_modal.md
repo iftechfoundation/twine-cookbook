@@ -6,7 +6,7 @@ This example uses the built-in *[Dialog](http://www.motoslave.net/sugarcube/2/do
 
 ## Example
 
-[Download](sugarcube_modal_example.html){ target="_top" download="sugarcube_modal_example.html"}
+[Download](sugarcube_modal_example.html){: target="_top" download="sugarcube_modal_example.html"}
 
 ## Twee Code
 

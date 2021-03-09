@@ -8,7 +8,7 @@ Specific elements in an array can be accessed by following its variable name wit
 
 ## Example
 
-[Download](harlowe_arrays_example.html){ target="_top" download="harlowe_arrays_example.html"}
+[Download](harlowe_arrays_example.html){: target="_top" download="harlowe_arrays_example.html"}
 
 ## Twee Code
 

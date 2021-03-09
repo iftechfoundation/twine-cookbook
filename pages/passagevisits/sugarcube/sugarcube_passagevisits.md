@@ -6,7 +6,7 @@ In SugarCube, the global function **[visited()](http://www.motoslave.net/sugarcu
 
 ## Example
 
-[Download](sugarcube_passagevisits_example.html){ target="_top" download="sugarcube_passagevisits_example.html"}
+[Download](sugarcube_passagevisits_example.html){: target="_top" download="sugarcube_passagevisits_example.html"}
 
 ## Twee Code
 

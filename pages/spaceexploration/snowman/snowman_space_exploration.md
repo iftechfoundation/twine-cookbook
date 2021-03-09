@@ -8,7 +8,7 @@ Heavily inspired by [*FTL: Faster Than Light*](https://en.wikipedia.org/wiki/FTL
 
 ## Example
 
-[Download](snowman_space_exploration_example.html){ target="_top" download="snowman_space_exploration_example.html"}
+[Download](snowman_space_exploration_example.html){: target="_top" download="snowman_space_exploration_example.html"}
 
 ## Twee Code
 

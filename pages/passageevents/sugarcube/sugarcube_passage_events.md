@@ -8,7 +8,7 @@ In this example, the "passagestart" and "passagerender" events are shown. In the
 
 ## Example
 
-[Download](sugarcube_passage_events_example.html){ target="_top" download="sugarcube_passage_events_example.html"}
+[Download](sugarcube_passage_events_example.html){: target="_top" download="sugarcube_passage_events_example.html"}
 
 ## Twee Code
 

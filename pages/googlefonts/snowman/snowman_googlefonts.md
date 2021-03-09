@@ -8,7 +8,7 @@ Other Google Fonts could be imported and applied using the same method, creating
 
 ## Example
 
-[Download](snowman_googlefonts_example.html){ target="_top" download="snowman_googlefonts_example.html"}
+[Download](snowman_googlefonts_example.html){: target="_top" download="snowman_googlefonts_example.html"}
 
 ## Twee Code
 

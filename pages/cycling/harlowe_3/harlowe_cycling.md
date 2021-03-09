@@ -6,7 +6,7 @@ Starting in Harlowe 3.0.1, the [`(cycling-link)`](https://twine2.neocities.org/#
 
 ## Example
 
-[Download](harlowe_cycling_example.html){ target="_top" download="harlowe_cycling_example.html"}
+[Download](harlowe_cycling_example.html){: target="_top" download="harlowe_cycling_example.html"}
 
 ## Twee Code
 

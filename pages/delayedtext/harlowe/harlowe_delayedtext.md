@@ -6,7 +6,7 @@
 
 ## Example
 
-[Download](harlowe_delayedtext_example.html){ target="_top" download="harlowe_delayedtext_example.html"}
+[Download](harlowe_delayedtext_example.html){: target="_top" download="harlowe_delayedtext_example.html"}
 
 ## Twee Code
 

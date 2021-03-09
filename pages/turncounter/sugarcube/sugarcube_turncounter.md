@@ -10,7 +10,7 @@ This example also uses the special name "[PassageHeader](http://www.motoslave.ne
 
 ## Example
 
-[Download](sugarcube_turncounter_example.html){ target="_top" download="sugarcube_turncounter_example.html"}
+[Download](sugarcube_turncounter_example.html){: target="_top" download="sugarcube_turncounter_example.html"}
 
 ## Twee Code
 

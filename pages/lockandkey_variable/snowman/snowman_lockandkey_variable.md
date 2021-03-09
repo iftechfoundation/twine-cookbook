@@ -8,7 +8,7 @@ When the link "Pick up the key" is clicked, *s.key* is changed to the value "tru
 
 ## Example
 
-[Download](snowman_lockandkey_variable_example.html){ target="_top" download="snowman_lockandkey_variable_example.html"}
+[Download](snowman_lockandkey_variable_example.html){: target="_top" download="snowman_lockandkey_variable_example.html"}
 
 ## Twee Code
 

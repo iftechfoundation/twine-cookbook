@@ -8,7 +8,7 @@ This example uses the [`<<widget>>`](http://www.motoslave.net/sugarcube/2/docs/m
 
 ## Example
 
-[Download](sugarcube_fairmath_example.html){ target="_top" download="sugarcube_fairmath_example.html"}
+[Download](sugarcube_fairmath_example.html){: target="_top" download="sugarcube_fairmath_example.html"}
 
 ## Twee Code
 

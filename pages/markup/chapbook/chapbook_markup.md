@@ -9,7 +9,7 @@ Chapbook uses a customized sub-set of [Markdown](https://guides.github.com/featu
 
 ## Example
 
-[Download](chapbook_markup_example.html){ target="_top" download="chapbook_markup_example.html"}
+[Download](chapbook_markup_example.html){: target="_top" download="chapbook_markup_example.html"}
 
 ## Twee Code
 

@@ -6,7 +6,7 @@ In Chapbook, the [lookup](https://klembot.github.io/chapbook/guide/state/objects
 
 ## Example
 
-[Download](chapbook_passagevisits_example.html){ target="_top" download="chapbook_passagevisits_example.html"}
+[Download](chapbook_passagevisits_example.html){: target="_top" download="chapbook_passagevisits_example.html"}
 
 ## Twee Code
 

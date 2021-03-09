@@ -10,7 +10,7 @@ In this example, the [`[JavaScript]`](https://klembot.github.io/chapbook/guide/a
 
 ## Example
 
-[Download](chapbook_geolocation_example.html){ target="_top" download="chapbook_geolocation_example.html"}
+[Download](chapbook_geolocation_example.html){: target="_top" download="chapbook_geolocation_example.html"}
 
 ## Twee Code
 

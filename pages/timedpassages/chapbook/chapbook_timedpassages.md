@@ -6,7 +6,7 @@ Made famous in [*Queers in Love at the End of the World*](https://w.itch.io/end-
 
 ## Example
 
-[Download](chapbook_timedpassages_example.html){ target="_top" download="chapbook_timedpassages_example.html"}
+[Download](chapbook_timedpassages_example.html){: target="_top" download="chapbook_timedpassages_example.html"}
 
 ## Twee Code
 

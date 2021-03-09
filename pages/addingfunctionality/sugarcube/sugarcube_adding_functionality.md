@@ -8,7 +8,7 @@ In this example, the *[Date()](https://developer.mozilla.org/en-US/docs/Web/Java
 
 ## Example
 
-[Download](sugarcube_adding_functionality_example.html){ target="_top" download="sugarcube_adding_functionality_example.html"}
+[Download](sugarcube_adding_functionality_example.html){: target="_top" download="sugarcube_adding_functionality_example.html"}
 
 ## Twee Code
 

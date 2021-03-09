@@ -10,7 +10,7 @@ This added function is then used within the [Vars Section](https://klembot.githu
 
 ## Example
 
-[Download](chapbook_clamping_numbers_example.html){ target="_top" download="chapbook_clamping_numbers_example.html"}
+[Download](chapbook_clamping_numbers_example.html){: target="_top" download="chapbook_clamping_numbers_example.html"}
 
 ## Twee Code
 

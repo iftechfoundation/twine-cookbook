@@ -6,7 +6,7 @@
 
 ## Example
 
-[Download](snowman_statichealthbars_example.html){ target="_top" download="snowman_statichealthbars_example.html"}
+[Download](snowman_statichealthbars_example.html){: target="_top" download="snowman_statichealthbars_example.html"}
 
 ## Twee Code
 

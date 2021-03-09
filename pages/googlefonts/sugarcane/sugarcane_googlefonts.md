@@ -11,7 +11,7 @@ Other Google Fonts could be imported and applied using the same method, creating
 
 ## Example
 
-[Download](sugarcane_googlefonts_example.html){ target="_top" download="sugarcane_googlefonts_example.html"}
+[Download](sugarcane_googlefonts_example.html){: target="_top" download="sugarcane_googlefonts_example.html"}
 
 ## Twee Code
 

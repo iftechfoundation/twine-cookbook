@@ -11,7 +11,7 @@ The example uses jQuery's **[on()](http://api.jquery.com/on/)** function to moni
 
 ## Example
 
-[Download](sugarcube_keyboard_example.html){ target="_top" download="sugarcube_keyboard_example.html"}
+[Download](sugarcube_keyboard_example.html){: target="_top" download="sugarcube_keyboard_example.html"}
 
 ## Twee Code
 

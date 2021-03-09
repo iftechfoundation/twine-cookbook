@@ -6,7 +6,7 @@
 
 ## Example
 
-[Download](sugarcube_delayedtext_example.html){ target="_top" download="sugarcube_delayedtext_example.html"}
+[Download](sugarcube_delayedtext_example.html){: target="_top" download="sugarcube_delayedtext_example.html"}
 
 ## Twee Code
 

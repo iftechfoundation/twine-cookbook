@@ -6,7 +6,7 @@ In Chapbook, the [`[after]`](https://klembot.github.io/chapbook/guide/modifiers-
 
 ## Example
 
-[Download](chapbook_delayedtext_example.html){ target="_top" download="chapbook_delayedtext_example.html"}
+[Download](chapbook_delayedtext_example.html){: target="_top" download="chapbook_delayedtext_example.html"}
 
 ## Twee Code
 

@@ -6,7 +6,7 @@ Often, it can be useful to access information about the story or other passages 
 
 ## Example
 
-[Download](sugarcube_storyandpassage_example.html){ target="_top" download="sugarcube_storyandpassage_example.html"}
+[Download](sugarcube_storyandpassage_example.html){: target="_top" download="sugarcube_storyandpassage_example.html"}
 
 ## Twee Code
 

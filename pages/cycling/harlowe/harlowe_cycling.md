@@ -15,7 +15,7 @@ At the end of every cycle, the currently selected value is always the 1st elemen
 
 ## Example
 
-[Download](harlowe_cycling_example.html){ target="_top" download="harlowe_cycling_example.html"}
+[Download](harlowe_cycling_example.html){: target="_top" download="harlowe_cycling_example.html"}
 
 ## Twee Code
 

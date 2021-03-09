@@ -11,7 +11,7 @@ When the link "Pick up the key" is clicked, *$key* is changed to the value "true
 
 ## Example
 
-[Download](harlowe_lockandkey_variable_example.html){ target="_top" download="harlowe_lockandkey_variable_example.html"}
+[Download](harlowe_lockandkey_variable_example.html){: target="_top" download="harlowe_lockandkey_variable_example.html"}
 
 ## Twee Code
 

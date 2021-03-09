@@ -6,7 +6,7 @@
 
 ## Example
 
-[Download](snowman_headersandfooters_example.html){ target="_top" download="snowman_headersandfooters_example.html"}
+[Download](snowman_headersandfooters_example.html){: target="_top" download="snowman_headersandfooters_example.html"}
 
 ## Twee Code
 

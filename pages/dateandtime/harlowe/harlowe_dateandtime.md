@@ -6,7 +6,7 @@
 
 ## Example
 
-[Download](harlowe_dateandtime_example.html){ target="_top" download="harlowe_dateandtime_example.html"}
+[Download](harlowe_dateandtime_example.html){: target="_top" download="harlowe_dateandtime_example.html"}
 
 ## Twee Code
 

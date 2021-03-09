@@ -8,7 +8,7 @@ In this example, the array *arrayInventory* is set to the series of strings "Bre
 
 ## Example
 
-[Download](sugarcube_looping_example.html){ target="_top" download="sugarcube_looping_example.html"}
+[Download](sugarcube_looping_example.html){: target="_top" download="sugarcube_looping_example.html"}
 
 ## Twee Code
 

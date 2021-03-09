@@ -6,7 +6,7 @@
 
 ## Example
 
-[Download](snowman_typewriter_example.html){ target="_top" download="snowman_typewriter_example.html"}
+[Download](snowman_typewriter_example.html){: target="_top" download="snowman_typewriter_example.html"}
 
 ## Twee Code
 

@@ -6,7 +6,7 @@ This example demonstrates how to limit a numeric variable to a value between a s
 
 ## Example
 
-[Download](sugarcube_clamping_numbers_example.html){ target="_top" download="sugarcube_clamping_numbers_example.html"}
+[Download](sugarcube_clamping_numbers_example.html){: target="_top" download="sugarcube_clamping_numbers_example.html"}
 
 ## Twee Code
 

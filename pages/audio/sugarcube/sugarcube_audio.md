@@ -13,7 +13,7 @@ Due to browser differences in licensing, some audio formats are not universally 
 
 ## Example
 
-[Download](sugarcube_audio_example.html){ target="_top" download="sugarcube_audio_example.html"}
+[Download](sugarcube_audio_example.html){: target="_top" download="sugarcube_audio_example.html"}
 
 ## Twee Code
 

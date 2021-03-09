@@ -8,7 +8,7 @@ This example uses functions **increase()** and **decrease()** as part of a creat
 
 ## Example
 
-[Download](snowman_fairmath_example.html){ target="_top" download="snowman_fairmath_example.html"}
+[Download](snowman_fairmath_example.html){: target="_top" download="snowman_fairmath_example.html"}
 
 ## Twee Code
 

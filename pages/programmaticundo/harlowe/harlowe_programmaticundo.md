@@ -6,7 +6,7 @@ While Harlowe supports allowing the user to undo and redo moves, the "undo" oper
 
 ## Example
 
-[Download](harlowe_programmaticundo_example.html){ target="_top" download="harlowe_programmaticundo_example.html"}
+[Download](harlowe_programmaticundo_example.html){: target="_top" download="harlowe_programmaticundo_example.html"}
 
 ## Twee Code
 

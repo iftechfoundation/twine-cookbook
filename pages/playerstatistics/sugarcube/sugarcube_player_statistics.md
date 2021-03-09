@@ -8,7 +8,7 @@ In this example, the [`<<link>>`](http://www.motoslave.net/sugarcube/2/docs/macr
 
 ## Example
 
-[Download](sugarcube_player_statistics_example.html){ target="_top" download="sugarcube_player_statistics_example.html"}
+[Download](sugarcube_player_statistics_example.html){: target="_top" download="sugarcube_player_statistics_example.html"}
 
 ## Twee Code
 

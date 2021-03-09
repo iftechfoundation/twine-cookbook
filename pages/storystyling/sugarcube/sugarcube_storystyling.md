@@ -6,7 +6,7 @@
 
 ## Example
 
-[Download](sugarcube_storystyling_example.html){ target="_top" download="sugarcube_storystyling_example.html"}
+[Download](sugarcube_storystyling_example.html){: target="_top" download="sugarcube_storystyling_example.html"}
 
 ## Twee Code
 

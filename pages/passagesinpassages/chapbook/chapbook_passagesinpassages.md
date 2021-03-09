@@ -6,7 +6,7 @@ Using the insert [`{embed passage: }`](https://klembot.github.io/chapbook/guide/
 
 ## Example
 
-[Download](chapbook_passagesinpassages_example.html){ target="_top" download="chapbook_passagesinpassages_example.html"}
+[Download](chapbook_passagesinpassages_example.html){: target="_top" download="chapbook_passagesinpassages_example.html"}
 
 ## Twee Code
 

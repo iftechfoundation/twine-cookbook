@@ -11,7 +11,7 @@ The example uses jQuery's **[on()](http://api.jquery.com/on/)**  function to mon
 
 ## Example
 
-[Download](harlowe_keyboard_example.html){ target="_top" download="harlowe_keyboard_example.html"}
+[Download](harlowe_keyboard_example.html){: target="_top" download="harlowe_keyboard_example.html"}
 
 ## Twee Code
 

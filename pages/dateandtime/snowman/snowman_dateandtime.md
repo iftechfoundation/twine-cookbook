@@ -6,7 +6,7 @@
 
 ## Example
 
-[Download](snowman_dateandtime_example.html){ target="_top" download="snowman_dateandtime_example.html"}
+[Download](snowman_dateandtime_example.html){: target="_top" download="snowman_dateandtime_example.html"}
 
 ## Twee Code
 

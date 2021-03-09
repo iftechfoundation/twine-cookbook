@@ -10,7 +10,7 @@ In Harlowe, the keyword **it** can also be used as a shortcut for changing and s
 
 ## Example
 
-[Download](harlowe_settingandshowing_example.html){ target="_top" download="harlowe_settingandshowing_example.html"}
+[Download](harlowe_settingandshowing_example.html){: target="_top" download="harlowe_settingandshowing_example.html"}
 
 ## Twee Code
 

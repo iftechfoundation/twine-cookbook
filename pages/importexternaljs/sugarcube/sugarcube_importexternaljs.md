@@ -11,7 +11,7 @@ This example uses the SugarCube **[importScripts()](http://www.motoslave.net/sug
 
 ## Example
 
-[Download](sugarcube_importexternaljs_example.html){ target="_top" download="sugarcube_importexternaljs_example.html"}
+[Download](sugarcube_importexternaljs_example.html){: target="_top" download="sugarcube_importexternaljs_example.html"}
 
 ## Twee Code
 

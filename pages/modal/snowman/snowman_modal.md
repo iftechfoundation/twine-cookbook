@@ -6,7 +6,7 @@ This example uses the jQuery **[click()](https://api.jquery.com/click/)** and **
 
 ## Example
 
-[Download](snowman_modal_example.html){ target="_top" download="snowman_modal_example.html"}
+[Download](snowman_modal_example.html){: target="_top" download="snowman_modal_example.html"}
 
 ## Twee Code
 

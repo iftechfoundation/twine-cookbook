@@ -8,7 +8,7 @@ The Vars Section is separated from the passage's normal text by two dashes (`--`
 
 ## Example
 
-[Download](chapbook_settingandshowing_example.html){ target="_top" download="chapbook_settingandshowing_example.html"}
+[Download](chapbook_settingandshowing_example.html){: target="_top" download="chapbook_settingandshowing_example.html"}
 
 ## Twee Code
 

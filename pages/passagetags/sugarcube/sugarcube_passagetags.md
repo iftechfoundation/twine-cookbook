@@ -8,7 +8,7 @@ SugarCube 2.x and later also applies a "data-tags" attribute to the `<html>`, `<
 
 ## Example
 
-[Download](sugarcube_passagetags_example.html){ target="_top" download="sugarcube_passagetags_example.html"}
+[Download](sugarcube_passagetags_example.html){: target="_top" download="sugarcube_passagetags_example.html"}
 
 ## Twee Code
 

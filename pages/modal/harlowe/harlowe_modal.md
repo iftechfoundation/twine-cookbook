@@ -6,7 +6,7 @@ This example creates a re-usable [modal window](https://en.wikipedia.org/wiki/Mo
 
 ## Example
 
-[Download](harlowe_modal_example.html){ target="_top" download="harlowe_modal_example.html"}
+[Download](harlowe_modal_example.html){: target="_top" download="harlowe_modal_example.html"}
 
 ## Twee Code
 

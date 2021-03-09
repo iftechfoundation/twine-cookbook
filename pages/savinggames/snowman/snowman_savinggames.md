@@ -6,7 +6,7 @@ Snowman provides the **[window.story.saveHash()](https://videlais.github.io/snow
 
 ## Example
 
-[Download](snowman_savinggames_example.html){ target="_top" download="snowman_savinggames_example.html"}
+[Download](snowman_savinggames_example.html){: target="_top" download="snowman_savinggames_example.html"}
 
 ## Twee Code
 
