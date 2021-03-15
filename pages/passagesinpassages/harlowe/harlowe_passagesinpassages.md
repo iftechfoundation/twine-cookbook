@@ -6,7 +6,7 @@ The Harlowe story format allows for content in one passage to be displayed in an
 
 ## Example
 
-[Download](harlowe_passagesinpassages_example.html)
+[Download](harlowe_passagesinpassages_example.html){: target="_top" download="harlowe_passagesinpassages_example.html"}
 
 ## Twee Code
 
@@ -23,4 +23,4 @@ And this is another passage!
 
 ```
 
-[Twee Download](harlowe_passagesinpassages_twee.txt)
+[Twee Download](harlowe_passagesinpassages_twee.txt){ target="_top" download="harlowe_passagesinpassages_twee.txt"}

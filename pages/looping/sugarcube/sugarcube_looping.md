@@ -8,7 +8,7 @@ In this example, the array *arrayInventory* is set to the series of strings "Bre
 
 ## Example
 
-[Download](sugarcube_looping_example.html)
+[Download](sugarcube_looping_example.html){: target="_top" download="sugarcube_looping_example.html"}
 
 ## Twee Code
 
@@ -27,4 +27,4 @@ You have $arrayInventory[_i]
 
 ```
 
-[Twee Download](sugarcube_looping_twee.txt)
+[Twee Download](sugarcube_looping_twee.txt){ target="_top" download="sugarcube_looping_twee.txt"}

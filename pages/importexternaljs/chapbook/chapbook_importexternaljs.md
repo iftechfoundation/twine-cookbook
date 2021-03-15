@@ -11,7 +11,7 @@ Once loaded, a callback function is used to create a simple Three.js example and
 
 ## Example
 
-[Download](chapbook_importexternaljs_example.html)
+[Download](chapbook_importexternaljs_example.html){: target="_top" download="chapbook_importexternaljs_example.html"}
 
 ## Twee Code
 
@@ -79,4 +79,4 @@ setup.loadScript("https://ajax.googleapis.com/ajax/libs/threejs/r84/three.min.js
 
 ```
 
-[Twee Download](chapbook_importexternaljs_twee.txt)
+[Twee Download](chapbook_importexternaljs_twee.txt){ target="_top" download="chapbook_importexternaljs_twee.txt"}

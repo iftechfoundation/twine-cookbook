@@ -12,7 +12,7 @@ Harlowe supports a number of different techniques for creating links and the res
 
 ## Example
 
-[Download](harlowe_hiddenlink_example.html)
+[Download](harlowe_hiddenlink_example.html){: target="_top" download="harlowe_hiddenlink_example.html"}
 
 ## Twee Code
 
@@ -92,4 +92,4 @@ You found it!
 
 ```
 
-[Twee Download](harlowe_hiddenlink_twee.txt)
+[Twee Download](harlowe_hiddenlink_twee.txt){ target="_top" download="harlowe_hiddenlink_twee.txt"}

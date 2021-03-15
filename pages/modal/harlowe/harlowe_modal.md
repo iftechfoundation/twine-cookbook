@@ -6,7 +6,7 @@ This example creates a re-usable [modal window](https://en.wikipedia.org/wiki/Mo
 
 ## Example
 
-[Download](harlowe_modal_example.html)
+[Download](harlowe_modal_example.html){: target="_top" download="harlowe_modal_example.html"}
 
 ## Twee Code
 
@@ -46,4 +46,4 @@ Harlowe: Modal
 (link-repeat:"Open Modal!")[(display:"Modal code")(append:?modal)[Some text in the modal...]]
 ```
 
-[Twee Download](harlowe_modal_twee.txt)
+[Twee Download](harlowe_modal_twee.txt){ target="_top" download="harlowe_modal_twee.txt"}

@@ -6,7 +6,7 @@ In SugarCube, the [`<<if>>`](http://www.motoslave.net/sugarcube/2/docs/macros.ht
 
 ## Example
 
-[Download](sugarcube_conditionalstatements_example.html)
+[Download](sugarcube_conditionalstatements_example.html){: target="_top" download="sugarcube_conditionalstatements_example.html"}
 
 ## Twee Code
 
@@ -24,7 +24,7 @@ It's a horse!
 <</if>>
 ```
 
-[Twee Download](sugarcube_conditionalstatements_twee.txt)
+[Twee Download](sugarcube_conditionalstatements_twee.txt){ target="_top" download="sugarcube_conditionalstatements_twee.txt"}
 
 ## See Also
 

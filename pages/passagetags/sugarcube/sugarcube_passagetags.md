@@ -8,7 +8,7 @@ SugarCube 2.x and later also applies a "data-tags" attribute to the `<html>`, `<
 
 ## Example
 
-[Download](sugarcube_passagetags_example.html)
+[Download](sugarcube_passagetags_example.html){: target="_top" download="sugarcube_passagetags_example.html"}
 
 ## Twee Code
 
@@ -42,4 +42,4 @@ This passage has a yellow background and black text.
 
 ```
 
-[Twee Download](sugarcube_passagetags_twee.txt)
+[Twee Download](sugarcube_passagetags_twee.txt){ target="_top" download="sugarcube_passagetags_twee.txt"}

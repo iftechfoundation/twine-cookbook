@@ -9,7 +9,7 @@
 
 ## Example
 
-[Download](harlowe_typewriter_example.html)
+[Download](harlowe_typewriter_example.html){: target="_top" download="harlowe_typewriter_example.html"}
 
 ## Twee Code
 
@@ -48,7 +48,7 @@ Typewriter Effect in Harlowe
 }
 ```
 
-[Twee Download](harlowe_typewriter_twee.txt)
+[Twee Download](harlowe_typewriter_twee.txt){ target="_top" download="harlowe_typewriter_twee.txt"}
 
 ## See Also
 

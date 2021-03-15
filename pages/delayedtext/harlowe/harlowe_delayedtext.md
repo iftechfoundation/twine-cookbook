@@ -6,7 +6,7 @@
 
 ## Example
 
-[Download](harlowe_delayedtext_example.html)
+[Download](harlowe_delayedtext_example.html){: target="_top" download="harlowe_delayedtext_example.html"}
 
 ## Twee Code
 
@@ -23,7 +23,7 @@ Delayed Text in Harlowe
 }
 ```
 
-[Twee Download](harlowe_delayedtext_twee.txt)
+[Twee Download](harlowe_delayedtext_twee.txt){ target="_top" download="harlowe_delayedtext_twee.txt"}
 
 ## See Also
 

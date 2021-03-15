@@ -8,7 +8,7 @@ When the timer runs out, the function argument is run and the length of the inne
 
 ## Example
 
-[Download](snowman_timed_progress_bars_example.html)
+[Download](snowman_timed_progress_bars_example.html){: target="_top" download="snowman_timed_progress_bars_example.html"}
 
 ## Twee Code
 
@@ -163,7 +163,7 @@ setup.timedprogressbars = function(duration, width, functionToRun) {
 
 ```
 
-[Twee Download](snowman_timed_progress_bars_twee.txt)
+[Twee Download](snowman_timed_progress_bars_twee.txt){ target="_top" download="snowman_timed_progress_bars_twee.txt"}
 
 ## See Also
 

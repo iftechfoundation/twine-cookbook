@@ -8,7 +8,7 @@ This example uses the [`<<widget>>`](http://www.motoslave.net/sugarcube/2/docs/m
 
 ## Example
 
-[Download](sugarcube_fairmath_example.html)
+[Download](sugarcube_fairmath_example.html){: target="_top" download="sugarcube_fairmath_example.html"}
 
 ## Twee Code
 
@@ -43,4 +43,4 @@ The adjusted value is $resultValue.
 
 ```
 
-[Twee Download](sugarcube_fairmath_twee.txt)
+[Twee Download](sugarcube_fairmath_twee.txt){ target="_top" download="sugarcube_fairmath_twee.txt"}

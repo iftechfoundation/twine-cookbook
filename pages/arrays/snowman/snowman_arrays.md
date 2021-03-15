@@ -8,7 +8,7 @@
 
 ## Example
 
-[Download](snowman_arrays_example.html)
+[Download](snowman_arrays_example.html){: target="_top" download="snowman_arrays_example.html"}
 
 ## Twee Code
 
@@ -74,4 +74,4 @@ With no way to defend yourself, you die.
 <% } %>
 ```
 
-[Twee Download](snowman_arrays_twee.txt)
+[Twee Download](snowman_arrays_twee.txt){ target="_top" download="snowman_arrays_twee.txt"}

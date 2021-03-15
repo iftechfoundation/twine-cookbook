@@ -6,7 +6,7 @@ SugarCube (versions ≥ 2.32.0) includes a [`<<type>>` macro](http://www.motosla
 
 ## Example
 
-[Download](sugarcube_typewriter_example.html)
+[Download](sugarcube_typewriter_example.html){: target="_top" download="sugarcube_typewriter_example.html"}
 
 ## Twee Code
 
@@ -22,7 +22,7 @@ Hello world!
 \<</type>>
 ```
 
-[Twee Download](sugarcube_typewriter_twee.txt)
+[Twee Download](sugarcube_typewriter_twee.txt){ target="_top" download="sugarcube_typewriter_twee.txt"}
 
 ## See Also
 

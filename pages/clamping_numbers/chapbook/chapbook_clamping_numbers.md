@@ -10,7 +10,7 @@ This added function is then used within the [Vars Section](https://klembot.githu
 
 ## Example
 
-[Download](chapbook_clamping_numbers_example.html)
+[Download](chapbook_clamping_numbers_example.html){: target="_top" download="chapbook_clamping_numbers_example.html"}
 
 ## Twee Code
 
@@ -79,4 +79,4 @@ Despite *exampleNumber* being {exampleNumber}, it will be "clamped" to the highe
 
 ```
 
-[Twee Download](chapbook_clamping_numbers_twee.txt)
+[Twee Download](chapbook_clamping_numbers_twee.txt){ target="_top" download="chapbook_clamping_numbers_twee.txt"}

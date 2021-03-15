@@ -8,7 +8,7 @@ When the link "Pick up key" is clicked in the "Back Room" passage, *key* is chan
 
 ## Example
 
-[Download](chapbook_lockandkey_variable_example.html)
+[Download](chapbook_lockandkey_variable_example.html){: target="_top" download="chapbook_lockandkey_variable_example.html"}
 
 ## Twee Code
 
@@ -61,4 +61,4 @@ You picked up the key!
 
 ```
 
-[Twee Download](chapbook_lockandkey_variable_twee.txt)
+[Twee Download](chapbook_lockandkey_variable_twee.txt){ target="_top" download="chapbook_lockandkey_variable_twee.txt"}

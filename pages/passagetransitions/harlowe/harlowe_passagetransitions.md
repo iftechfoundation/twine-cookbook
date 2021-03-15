@@ -17,7 +17,7 @@ Possible transition effects include:
 
 ## Example
 
-[Download](harlowe_passagetransitions_example.html)
+[Download](harlowe_passagetransitions_example.html){: target="_top" download="harlowe_passagetransitions_example.html"}
 
 ## Twee Code
 
@@ -36,4 +36,4 @@ Double-click this passage to edit it.
 
 ```
 
-[Twee Download](harlowe_passagetransitions_twee.txt)
+[Twee Download](harlowe_passagetransitions_twee.txt){ target="_top" download="harlowe_passagetransitions_twee.txt"}

@@ -6,7 +6,7 @@ Using the [`[CSS]`](https://klembot.github.io/chapbook/guide/advanced/using-css-
 
 ## Example
 
-[Download](chapbook_storystyling_example.html)
+[Download](chapbook_storystyling_example.html){: target="_top" download="chapbook_storystyling_example.html"}
 
 ## Twee Code
 
@@ -43,4 +43,4 @@ This text will be in red.
 
 ```
 
-[Twee Download](chapbook_storystyling_twee.txt)
+[Twee Download](chapbook_storystyling_twee.txt){ target="_top" download="chapbook_storystyling_twee.txt"}

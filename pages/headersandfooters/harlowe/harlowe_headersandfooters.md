@@ -6,7 +6,7 @@
 
 ## Example
 
-[Download](harlowe_headersandfooters_example.html)
+[Download](harlowe_headersandfooters_example.html){: target="_top" download="harlowe_headersandfooters_example.html"}
 
 ## Twee Code
 
@@ -26,4 +26,4 @@ This is the header!
 This is the footer!
 ```
 
-[Twee Download](harlowe_headersandfooters_twee.txt)
+[Twee Download](harlowe_headersandfooters_twee.txt){ target="_top" download="harlowe_headersandfooters_twee.txt"}

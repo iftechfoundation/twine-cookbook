@@ -6,7 +6,7 @@ Using the insert [`{embed passage: }`](https://klembot.github.io/chapbook/guide/
 
 ## Example
 
-[Download](chapbook_passagesinpassages_example.html)
+[Download](chapbook_passagesinpassages_example.html){: target="_top" download="chapbook_passagesinpassages_example.html"}
 
 ## Twee Code
 
@@ -23,4 +23,4 @@ And this is another passage!
 
 ```
 
-[Twee Download](chapbook_passagesinpassages_twee.txt)
+[Twee Download](chapbook_passagesinpassages_twee.txt){ target="_top" download="chapbook_passagesinpassages_twee.txt"}

@@ -14,7 +14,7 @@ This example shows how to use [CSS](../../terms/terms_css.md) selectors to style
 
 ## Example
 
-[Download](snowman_cssselectors_example.html)
+[Download](snowman_cssselectors_example.html){: target="_top" download="snowman_cssselectors_example.html"}
 
 ## Twee Code
 
@@ -41,7 +41,7 @@ This passage also has a red border.
 
 ```
 
-[Twee Download](snowman_cssselectors_twee.txt)
+[Twee Download](snowman_cssselectors_twee.txt){ target="_top" download="snowman_cssselectors_twee.txt"}
 
 ## See Also
 

@@ -6,7 +6,7 @@
 
 ## Example
 
-[Download](snowman_delayedtext_example.html)
+[Download](snowman_delayedtext_example.html){: target="_top" download="snowman_delayedtext_example.html"}
 
 ## Twee Code
 
@@ -25,7 +25,7 @@ Delayed Text in Snowman
 %>
 ```
 
-[Twee Download](snowman_delayedtext_twee.txt)
+[Twee Download](snowman_delayedtext_twee.txt){ target="_top" download="snowman_delayedtext_twee.txt"}
 
 ## See Also
 

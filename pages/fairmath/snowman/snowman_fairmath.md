@@ -8,7 +8,7 @@ This example uses functions **increase()** and **decrease()** as part of a creat
 
 ## Example
 
-[Download](snowman_fairmath_example.html)
+[Download](snowman_fairmath_example.html){: target="_top" download="snowman_fairmath_example.html"}
 
 ## Twee Code
 
@@ -42,4 +42,4 @@ Increase 50 by 50% using Fairmath:
 
 ```
 
-[Twee Download](snowman_fairmath_twee.txt)
+[Twee Download](snowman_fairmath_twee.txt){ target="_top" download="snowman_fairmath_twee.txt"}

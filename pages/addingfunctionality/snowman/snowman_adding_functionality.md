@@ -8,7 +8,7 @@ In this example, a global function, *showCurrentTime()*, is added to the *window
 
 ## Example
 
-[Download](snowman_adding_functionality_example.html)
+[Download](snowman_adding_functionality_example.html){: target="_top" download="snowman_adding_functionality_example.html"}
 
 ## Twee Code
 
@@ -30,4 +30,4 @@ The current time is <%= setup.showCurrentTime() %>
 
 ```
 
-[Twee Download](snowman_adding_functionality_twee.txt)
+[Twee Download](snowman_adding_functionality_twee.txt){ target="_top" download="snowman_adding_functionality_twee.txt"}

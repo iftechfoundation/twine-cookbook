@@ -6,7 +6,7 @@
 
 ## Example
 
-[Download](snowman_dateandtime_example.html)
+[Download](snowman_dateandtime_example.html){: target="_top" download="snowman_dateandtime_example.html"}
 
 ## Twee Code
 
@@ -35,4 +35,4 @@ The current fullyear is <%= setup.newDate.getFullYear() %>.
 It has been <%=  Date.now() - setup.originalDate%> milliseconds since October 20, 2018.
 ```
 
-[Twee Download](snowman_dateandtime_twee.txt)
+[Twee Download](snowman_dateandtime_twee.txt){ target="_top" download="snowman_dateandtime_twee.txt"}

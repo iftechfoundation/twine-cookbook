@@ -6,7 +6,7 @@
 
 ## Example
 
-[Download](harlowe_dateandtime_example.html)
+[Download](harlowe_dateandtime_example.html){: target="_top" download="harlowe_dateandtime_example.html"}
 
 ## Twee Code
 
@@ -21,4 +21,4 @@ The current day (of the month) is (monthday: ).
 The current day is (weekday: ).
 ```
 
-[Twee Download](harlowe_dateandtime_twee.txt)
+[Twee Download](harlowe_dateandtime_twee.txt){ target="_top" download="harlowe_dateandtime_twee.txt"}

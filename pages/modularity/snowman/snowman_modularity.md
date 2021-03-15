@@ -6,7 +6,7 @@ In programming terminology, modularity refers to dividing software into differen
 
 ## Example
 
-[Download](snowman_modularity_example.html)
+[Download](snowman_modularity_example.html){: target="_top" download="snowman_modularity_example.html"}
 
 ## Twee Code
 
@@ -31,4 +31,4 @@ Modularity in Snowman
 <%= s.lineTwo %>
 ```
 
-[Twee Download](snowman_modularity_twee.txt)
+[Twee Download](snowman_modularity_twee.txt){ target="_top" download="snowman_modularity_twee.txt"}

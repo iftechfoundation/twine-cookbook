@@ -13,7 +13,7 @@ Due to browser differences in licensing, some audio formats are not universally 
 
 ## Example
 
-[Download](sugarcube_audio_example.html)
+[Download](sugarcube_audio_example.html){: target="_top" download="sugarcube_audio_example.html"}
 
 ## Twee Code
 
@@ -34,4 +34,4 @@ Audio in SugarCube
 <<cacheaudio "testpattern" "testpattern.ogg" "testpattern.wav">>
 ```
 
-[Twee Download](sugarcube_audio_twee.txt)
+[Twee Download](sugarcube_audio_twee.txt){ target="_top" download="sugarcube_audio_twee.txt"}

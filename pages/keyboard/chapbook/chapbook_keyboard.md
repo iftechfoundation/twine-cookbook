@@ -11,7 +11,7 @@ The example uses **[addEventListener()](https://developer.mozilla.org/en-US/docs
 
 ## Example
 
-[Download](chapbook_keyboard_example.html)
+[Download](chapbook_keyboard_example.html){: target="_top" download="chapbook_keyboard_example.html"}
 
 ## Twee Code
 
@@ -42,4 +42,4 @@ Press and release the ''a'' key to show an Alert dialog.
 
 ```
 
-[Twee Download](chapbook_keyboard_twee.txt)
+[Twee Download](chapbook_keyboard_twee.txt){ target="_top" download="chapbook_keyboard_twee.txt"}

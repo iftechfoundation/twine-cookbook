@@ -11,7 +11,7 @@ When the link (created using a [`<<linkreplace>>`](https://www.motoslave.net/sug
 
 ## Example
 
-[Download](sugarcube_lockandkey_variable_example.html)
+[Download](sugarcube_lockandkey_variable_example.html){: target="_top" download="sugarcube_lockandkey_variable_example.html"}
 
 ## Twee Code
 
@@ -52,7 +52,7 @@ You found the key and went through the door!
 
 ```
 
-[Twee Download](sugarcube_lockandkey_variable_twee.txt)
+[Twee Download](sugarcube_lockandkey_variable_twee.txt){ target="_top" download="sugarcube_lockandkey_variable_twee.txt"}
 
 ## See Also
 

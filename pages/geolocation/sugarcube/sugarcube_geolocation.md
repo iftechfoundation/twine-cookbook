@@ -10,7 +10,7 @@ This example uses [`<<linkreplace>>`](http://www.motoslave.net/sugarcube/2/docs/
 
 ## Example
 
-[Download](sugarcube_geolocation_example.html)
+[Download](sugarcube_geolocation_example.html){: target="_top" download="sugarcube_geolocation_example.html"}
 
 ## Twee Code
 
@@ -123,4 +123,4 @@ Longitude: $approxLong
 
 ```
 
-[Twee Download](sugarcube_geolocation_twee.txt)
+[Twee Download](sugarcube_geolocation_twee.txt){ target="_top" download="sugarcube_geolocation_twee.txt"}

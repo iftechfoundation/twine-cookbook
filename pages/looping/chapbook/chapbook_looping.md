@@ -8,7 +8,7 @@ In Chapbook, the modifier `[JavaScript]` allows for using JavaScript inside a pa
 
 ## Example
 
-[Download](chapbook_looping_example.html)
+[Download](chapbook_looping_example.html){: target="_top" download="chapbook_looping_example.html"}
 
 ## Twee Code
 
@@ -31,4 +31,4 @@ exampleArray.forEach(function(value, index){
 
 ```
 
-[Twee Download](chapbook_looping_twee.txt)
+[Twee Download](chapbook_looping_twee.txt){ target="_top" download="chapbook_looping_twee.txt"}

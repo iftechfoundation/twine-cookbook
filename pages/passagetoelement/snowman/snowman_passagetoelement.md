@@ -8,7 +8,7 @@ The event ["sm.passage.shown"](https://videlais.github.io/snowman/2/events/passa
 
 ## Example
 
-[Download](snowman_passagetoelement_example.html)
+[Download](snowman_passagetoelement_example.html){: target="_top" download="snowman_passagetoelement_example.html"}
 
 ## Twee Code
 
@@ -30,4 +30,4 @@ $(document).one('sm.passage.shown', function (ev) {
 
 ```
 
-[Twee Download](snowman_passagetoelement_twee.txt)
+[Twee Download](snowman_passagetoelement_twee.txt){ target="_top" download="snowman_passagetoelement_twee.txt"}
