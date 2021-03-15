@@ -14,7 +14,7 @@ At the end of every cycle, the currently selected value is stored in the variabl
 
 ## Example
 
-[Download](sugarcube_cycling_example.html)
+[Download](sugarcube_cycling_example.html){: target="_top" download="sugarcube_cycling_example.html"}
 
 ## Twee Code
 
@@ -48,7 +48,7 @@ $cyclingResult
 
 ```
 
-[Twee Download](sugarcube_cycling_twee.txt)
+[Twee Download](sugarcube_cycling_twee.txt){ target="_top" download="sugarcube_cycling_twee.txt"}
 
 ## See Also
 

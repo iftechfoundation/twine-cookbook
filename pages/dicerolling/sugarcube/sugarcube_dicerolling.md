@@ -6,7 +6,7 @@
 
 ## Example
 
-[Download](sugarcube_dicerolling_example.html)
+[Download](sugarcube_dicerolling_example.html){: target="_top" download="sugarcube_dicerolling_example.html"}
 
 ## Twee Code
 
@@ -27,4 +27,4 @@ Rolling a 1d6 - 2: <<print random(1, 6) - 2 >>
 Rolling a 2d6 + 10: <<print random(1, 6) + random(1, 6) + 10 >>
 ```
 
-[Twee Download](sugarcube_dicerolling_twee.txt)
+[Twee Download](sugarcube_dicerolling_twee.txt){ target="_top" download="sugarcube_dicerolling_twee.txt"}

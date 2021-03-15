@@ -8,7 +8,7 @@ In this example, the variable *arrayInventory* is set to the value of an array c
 
 ## Example
 
-[Download](harlowe_looping_example.html)
+[Download](harlowe_looping_example.html){: target="_top" download="harlowe_looping_example.html"}
 
 ## Twee Code
 
@@ -28,4 +28,4 @@ You have _temp.]
 
 ```
 
-[Twee Download](harlowe_looping_twee.txt)
+[Twee Download](harlowe_looping_twee.txt){ target="_top" download="harlowe_looping_twee.txt"}

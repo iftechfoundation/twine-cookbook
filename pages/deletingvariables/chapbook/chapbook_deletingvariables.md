@@ -6,7 +6,7 @@ While variables created using the `[JavaScript]` modifier can be deleted within 
 
 ## Example
 
-[Download](chapbook_deletingvariables_example.html)
+[Download](chapbook_deletingvariables_example.html){: target="_top" download="chapbook_deletingvariables_example.html"}
 
 ## Twee Code
 
@@ -24,4 +24,4 @@ What is color? {color}
 
 ```
 
-[Twee Download](chapbook_deletingvariables_twee.txt)
+[Twee Download](chapbook_deletingvariables_twee.txt){ target="_top" download="chapbook_deletingvariables_twee.txt"}

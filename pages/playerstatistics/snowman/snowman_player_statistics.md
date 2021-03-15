@@ -11,7 +11,7 @@ In this example, the jQuery event handler **[click()](https://api.jquery.com/cli
 
 ## Example
 
-[Download](snowman_player_statistics_example.html)
+[Download](snowman_player_statistics_example.html){: target="_top" download="snowman_player_statistics_example.html"}
 
 ## Twee Code
 
@@ -136,7 +136,7 @@ Remaining Points: <span id="pointsStat">5</span>
 
 ```
 
-[Twee Download](snowman_player_statistics_twee.txt)
+[Twee Download](snowman_player_statistics_twee.txt){ target="_top" download="snowman_player_statistics_twee.txt"}
 
 ## See Also
 

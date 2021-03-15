@@ -6,7 +6,7 @@ In Chapbook, the [`[after]`](https://klembot.github.io/chapbook/guide/modifiers-
 
 ## Example
 
-[Download](chapbook_delayedtext_example.html)
+[Download](chapbook_delayedtext_example.html){: target="_top" download="chapbook_delayedtext_example.html"}
 
 ## Twee Code
 
@@ -20,4 +20,4 @@ It has been 5 seconds. Show the text!
 
 ```
 
-[Twee Download](chapbook_delayedtext_twee.txt)
+[Twee Download](chapbook_delayedtext_twee.txt){ target="_top" download="chapbook_delayedtext_twee.txt"}

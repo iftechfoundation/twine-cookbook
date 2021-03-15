@@ -17,7 +17,7 @@ This example shows how to use [CSS](../../terms/terms_css.md) selectors to style
 
 ## Example
 
-[Download](sugarcube_cssselectors_example.html)
+[Download](sugarcube_cssselectors_example.html){: target="_top" download="sugarcube_cssselectors_example.html"}
 
 ## Twee Code
 
@@ -46,7 +46,7 @@ The page has a green background; it contains this passage (red border) and the s
 This passage also has a red border.
 ```
 
-[Twee Download](sugarcube_cssselectors_twee.txt)
+[Twee Download](sugarcube_cssselectors_twee.txt){ target="_top" download="sugarcube_cssselectors_twee.txt"}
 
 ## See Also
 

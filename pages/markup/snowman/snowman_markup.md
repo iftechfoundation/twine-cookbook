@@ -6,7 +6,7 @@ Snowman uses a sub-set of [markdown](https://marked.js.org/#/README.md) for in-l
 
 ## Example
 
-[Download](snowman_markup_example.html)
+[Download](snowman_markup_example.html){: target="_top" download="snowman_markup_example.html"}
 
 ## Twee Code
 
@@ -46,4 +46,4 @@ Another line of code.
 
 ```
 
-[Twee Download](snowman_markup_twee.txt)
+[Twee Download](snowman_markup_twee.txt){ target="_top" download="snowman_markup_twee.txt"}

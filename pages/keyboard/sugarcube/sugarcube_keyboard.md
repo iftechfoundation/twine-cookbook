@@ -11,7 +11,7 @@ The example uses jQuery's **[on()](http://api.jquery.com/on/)** function to moni
 
 ## Example
 
-[Download](sugarcube_keyboard_example.html)
+[Download](sugarcube_keyboard_example.html){: target="_top" download="sugarcube_keyboard_example.html"}
 
 ## Twee Code
 
@@ -43,4 +43,4 @@ Press and release the ''a'' key to show an Alert dialog.
 
 ```
 
-[Twee Download](sugarcube_keyboard_twee.txt)
+[Twee Download](sugarcube_keyboard_twee.txt){ target="_top" download="sugarcube_keyboard_twee.txt"}

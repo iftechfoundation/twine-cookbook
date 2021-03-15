@@ -6,7 +6,7 @@ Starting in Harlowe 3.0.1, the [`(cycling-link)`](https://twine2.neocities.org/#
 
 ## Example
 
-[Download](harlowe_cycling_example.html)
+[Download](harlowe_cycling_example.html){: target="_top" download="harlowe_cycling_example.html"}
 
 ## Twee Code
 
@@ -32,7 +32,7 @@ The choice of hair was $hair.
 
 ```
 
-[Twee Download](harlowe_cycling_twee.txt)
+[Twee Download](harlowe_cycling_twee.txt){ target="_top" download="harlowe_cycling_twee.txt"}
 
 ## See Also
 

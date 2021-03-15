@@ -6,7 +6,7 @@
 
 ## Example
 
-[Download](snowman_typewriter_example.html)
+[Download](snowman_typewriter_example.html){: target="_top" download="snowman_typewriter_example.html"}
 
 ## Twee Code
 
@@ -63,7 +63,7 @@ setup.typewriter.write = function(){
 
 ```
 
-[Twee Download](snowman_typewriter_twee.txt)
+[Twee Download](snowman_typewriter_twee.txt){ target="_top" download="snowman_typewriter_twee.txt"}
 
 ## See Also
 

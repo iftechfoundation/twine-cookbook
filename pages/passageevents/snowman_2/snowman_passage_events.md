@@ -8,7 +8,7 @@ In this example, a header and footer is created by listening for the 'sm.passage
 
 ## Example
 
-[Download](snowman_passage_events_example.html)
+[Download](snowman_passage_events_example.html){: target="_top" download="snowman_passage_events_example.html"}
 
 ## Twee Code
 
@@ -43,7 +43,7 @@ This is the footer!
 
 ```
 
-[Twee Download](snowman_passage_events_twee.txt)
+[Twee Download](snowman_passage_events_twee.txt){ target="_top" download="snowman_passage_events_twee.txt"}
 
 ## See Also
 

@@ -33,6 +33,7 @@ Start with the [Code of Conduct](https://github.com/iftechfoundation/twine-cookb
 * [@ChapelR](https://github.com/ChapelR) (Chapel)
 * [G.C. "Grim" Baccaris](https://grimoirtua.itch.io)
 * [@evelynmitchell](https://github.com/evelynmitchell) (Evelyn Mitchell)
+* [@JamesSkemp](https://github.com/JamesSkemp) (James Skemp)
 
 ## License
 

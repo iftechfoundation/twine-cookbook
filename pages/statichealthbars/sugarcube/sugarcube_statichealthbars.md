@@ -6,7 +6,7 @@
 
 ## Example
 
-[Download](sugarcube_statichealthbars_example.html)
+[Download](sugarcube_statichealthbars_example.html){: target="_top" download="sugarcube_statichealthbars_example.html"}
 
 ## Twee Code
 
@@ -25,4 +25,4 @@ Show a healthbar using a Meter element:
 
 ```
 
-[Twee Download](sugarcube_statichealthbars_twee.txt)
+[Twee Download](sugarcube_statichealthbars_twee.txt){ target="_top" download="sugarcube_statichealthbars_twee.txt"}

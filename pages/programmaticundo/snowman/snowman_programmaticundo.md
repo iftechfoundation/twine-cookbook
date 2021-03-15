@@ -9,7 +9,7 @@ Snowman comes with no user-facing functionality for undoing and re-doing actions
 
 ## Live Example
 
-[Download](snowman_programmaticundo_example.html)
+[Download](snowman_programmaticundo_example.html){: target="_top" download="snowman_programmaticundo_example.html"}
 
 ## Twee Code
 
@@ -30,4 +30,4 @@ $(window).on('showpassage:after', function (e, data)
 <a href="javascript: window.history.back();">You are not ready! Go back!</a>
 ```
 
-[Twee Download](snowman_programmaticundo_twee.txt)
+[Twee Download](snowman_programmaticundo_twee.txt){ target="_top" download="snowman_programmaticundo_twee.txt"}

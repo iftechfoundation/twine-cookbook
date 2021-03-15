@@ -6,7 +6,7 @@ Chapbook provides two global variables, [*config.header* and *config.footer*](ht
 
 ## Example
 
-[Download](chapbook_headersandfooters_example.html)
+[Download](chapbook_headersandfooters_example.html){: target="_top" download="chapbook_headersandfooters_example.html"}
 
 ## Twee Code
 
@@ -21,4 +21,4 @@ config.footer.center: "This is the footer!"
 This is content.
 ```
 
-[Twee Download](chapbook_headersandfooters_twee.txt)
+[Twee Download](chapbook_headersandfooters_twee.txt){ target="_top" download="chapbook_headersandfooters_twee.txt"}

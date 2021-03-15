@@ -6,7 +6,7 @@
 
 ## Example
 
-[Download](sugarcube_delayedtext_example.html)
+[Download](sugarcube_delayedtext_example.html){: target="_top" download="sugarcube_delayedtext_example.html"}
 
 ## Twee Code
 
@@ -20,7 +20,7 @@ It has been 5 seconds. Show the text!
 <</timed>>
 ```
 
-[Twee Download](sugarcube_delayedtext_twee.txt)
+[Twee Download](sugarcube_delayedtext_twee.txt){ target="_top" download="sugarcube_delayedtext_twee.txt"}
 
 ## See Also
 

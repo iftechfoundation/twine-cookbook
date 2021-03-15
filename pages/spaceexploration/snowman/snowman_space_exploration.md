@@ -8,7 +8,7 @@ Heavily inspired by [*FTL: Faster Than Light*](https://en.wikipedia.org/wiki/FTL
 
 ## Example
 
-[Download](snowman_space_exploration_example.html)
+[Download](snowman_space_exploration_example.html){: target="_top" download="snowman_space_exploration_example.html"}
 
 ## Twee Code
 
@@ -232,4 +232,4 @@ After 10 hyperjumps, the ship left the hazardous area and called for help.
 
 ```
 
-[Twee Download](snowman_space_exploration_twee.txt)
+[Twee Download](snowman_space_exploration_twee.txt){ target="_top" download="snowman_space_exploration_twee.txt"}

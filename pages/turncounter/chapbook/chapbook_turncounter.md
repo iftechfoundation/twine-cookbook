@@ -10,7 +10,7 @@ By visiting other passages, the turn count is increased and the hour reaches 23 
 
 ## Example
 
-[Download](chapbook_turncounter_example.html)
+[Download](chapbook_turncounter_example.html){: target="_top" download="chapbook_turncounter_example.html"}
 
 ## Twee Code
 
@@ -81,4 +81,4 @@ hour: trail.length % 24
 
 ```
 
-[Twee Download](chapbook_turncounter_twee.txt)
+[Twee Download](chapbook_turncounter_twee.txt){ target="_top" download="chapbook_turncounter_twee.txt"}

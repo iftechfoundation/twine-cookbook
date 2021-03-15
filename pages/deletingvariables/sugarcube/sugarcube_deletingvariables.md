@@ -6,7 +6,7 @@ In SugarCube, [`<<unset>>`](http://www.motoslave.net/sugarcube/2/docs/#macros-ma
 
 ## Example
 
-[Download](sugarcube_deletingvariables_example.html)
+[Download](sugarcube_deletingvariables_example.html){: target="_top" download="sugarcube_deletingvariables_example.html"}
 
 ## Twee Code
 
@@ -29,7 +29,7 @@ You present the $proof to the sheriff, not realizing the rain has washed away th
 
 ```
 
-[Twee Download](sugarcube_deletingvariables_twee.txt)
+[Twee Download](sugarcube_deletingvariables_twee.txt){ target="_top" download="sugarcube_deletingvariables_twee.txt"}
 
 ## See Also
 

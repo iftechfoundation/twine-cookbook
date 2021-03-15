@@ -6,7 +6,7 @@
 
 ## Example
 
-[Download](sugarcube_markup_example.html)
+[Download](sugarcube_markup_example.html){: target="_top" download="sugarcube_markup_example.html"}
 
 ## Twee Code
 
@@ -36,4 +36,4 @@ Sub~~script~~
 !!!!!!Level 6 Heading
 ```
 
-[Twee Download](sugarcube_markup_twee.txt)
+[Twee Download](sugarcube_markup_twee.txt){ target="_top" download="sugarcube_markup_twee.txt"}

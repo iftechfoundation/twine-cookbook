@@ -8,7 +8,7 @@ The event ":passagedisplay" is used in this example to guarantee that the passag
 
 ## Example
 
-[Download](sugarcube_passagetoelement_example.html)
+[Download](sugarcube_passagetoelement_example.html){: target="_top" download="sugarcube_passagetoelement_example.html"}
 
 ## Twee Code
 
@@ -31,4 +31,4 @@ SugarCube: Render Passage to Element
 
 ```
 
-[Twee Download](sugarcube_passagetoelement_twee.txt)
+[Twee Download](sugarcube_passagetoelement_twee.txt){ target="_top" download="sugarcube_passagetoelement_twee.txt"}

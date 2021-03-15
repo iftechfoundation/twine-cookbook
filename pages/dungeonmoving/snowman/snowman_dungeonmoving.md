@@ -6,7 +6,7 @@
 
 ## Example
 
-[Download](snowman_dungeonmoving_example.html)
+[Download](snowman_dungeonmoving_example.html){: target="_top" download="snowman_dungeonmoving_example.html"}
 
 ## Twee Code
 
@@ -118,7 +118,7 @@ $(function() {
 You've escaped this fiendish maze!
 ```
 
-[Twee Download](snowman_dungeonmoving_twee.txt)
+[Twee Download](snowman_dungeonmoving_twee.txt){ target="_top" download="snowman_dungeonmoving_twee.txt"}
 
 [Setting and Showing Variables](../../settingandshowing/snowman/snowman_settingandshowing.md),
 [Conditional Statements](../../conditionalstatements/snowman/snowman_conditionalstatements.md)

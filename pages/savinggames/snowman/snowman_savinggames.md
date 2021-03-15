@@ -6,7 +6,7 @@ Snowman provides the **[window.story.saveHash()](https://videlais.github.io/snow
 
 ## Example
 
-[Download](snowman_savinggames_example.html)
+[Download](snowman_savinggames_example.html){: target="_top" download="snowman_savinggames_example.html"}
 
 ## Twee Code
 
@@ -90,4 +90,4 @@ The hash is <%= window.story.saveHash() %>. It has been saved!
 [[Go back?|Start]]
 ```
 
-[Twee Download](snowman_savinggames_twee.txt)
+[Twee Download](snowman_savinggames_twee.txt){ target="_top" download="snowman_savinggames_twee.txt"}

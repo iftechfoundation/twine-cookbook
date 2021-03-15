@@ -8,7 +8,7 @@ Other Google Fonts could be imported and applied using the same method, creating
 
 ## Example
 
-[Download](harlowe_googlefonts_example.html)
+[Download](harlowe_googlefonts_example.html){: target="_top" download="harlowe_googlefonts_example.html"}
 
 ## Twee Code
 
@@ -24,4 +24,4 @@ Harlowe: Google Fonts
 
 ```
 
-[Twee Download](harlowe_googlefonts_twee.txt)
+[Twee Download](harlowe_googlefonts_twee.txt){ target="_top" download="harlowe_googlefonts_twee.txt"}

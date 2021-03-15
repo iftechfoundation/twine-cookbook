@@ -6,7 +6,7 @@
 
 ## Example
 
-[Download](harlowe_dicerolling_example.html)
+[Download](harlowe_dicerolling_example.html){: target="_top" download="harlowe_dicerolling_example.html"}
 
 ## Twee Code
 
@@ -27,4 +27,4 @@ Rolling a 1d6 - 2: (text: (random: 1, 6) - 2)
 Rolling a 2d6 + 10: (text: (random: 1, 6) + (random: 1, 6) + 10)
 ```
 
-[Twee Download](harlowe_dicerolling_twee.txt)
+[Twee Download](harlowe_dicerolling_twee.txt){ target="_top" download="harlowe_dicerolling_twee.txt"}

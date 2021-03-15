@@ -6,7 +6,7 @@ In Snowman, the *s* global variable can be used to store and retrieve values. Pr
 
 ## Example
 
-[Download](snowman_settingandshowing_example.html)
+[Download](snowman_settingandshowing_example.html){: target="_top" download="snowman_settingandshowing_example.html"}
 
 ## Twee Code
 
@@ -31,4 +31,4 @@ Setting and Showing Variables in Snowman
 
 ```
 
-[Twee Download](snowman_settingandshowing_twee.txt)
+[Twee Download](snowman_settingandshowing_twee.txt){ target="_top" download="snowman_settingandshowing_twee.txt"}

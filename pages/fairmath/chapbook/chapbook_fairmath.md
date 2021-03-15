@@ -8,7 +8,7 @@ This example defines functions in the Story JavaScript, which are then used in t
 
 ## Example
 
-[Download](chapbook_fairmath_example.html)
+[Download](chapbook_fairmath_example.html){: target="_top" download="chapbook_fairmath_example.html"}
 
 ## Twee Code
 
@@ -47,4 +47,4 @@ Increase Example: {increaseExample}
 
 ```
 
-[Twee Download](chapbook_fairmath_twee.txt)
+[Twee Download](chapbook_fairmath_twee.txt){ target="_top" download="chapbook_fairmath_twee.txt"}

@@ -8,7 +8,7 @@ Variables, symbols starting with `$` (for normal) or `_` (for temporary), can be
 
 ## Example
 
-[Download](sugarcube_settingandshowing_example.html)
+[Download](sugarcube_settingandshowing_example.html){: target="_top" download="sugarcube_settingandshowing_example.html"}
 
 ## Twee Code
 
@@ -29,4 +29,4 @@ $phraseVariable is $numberVariable and $wordVariable.
 
 ```
 
-[Twee Download](sugarcube_settingandshowing_twee.txt)
+[Twee Download](sugarcube_settingandshowing_twee.txt){ target="_top" download="sugarcube_settingandshowing_twee.txt"}

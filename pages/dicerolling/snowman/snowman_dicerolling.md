@@ -6,7 +6,7 @@
 
 ## Example
 
-[Download](snowman_dicerolling_example.html)
+[Download](snowman_dicerolling_example.html){: target="_top" download="snowman_dicerolling_example.html"}
 
 ## Twee Code
 
@@ -37,4 +37,4 @@ Rolling a 2d6 + 10: <%= _.random(1, 6) + _.random(1, 6) + 10 %>
 
 ```
 
-[Twee Download](snowman_dicerolling_twee.txt)
+[Twee Download](snowman_dicerolling_twee.txt){ target="_top" download="snowman_dicerolling_twee.txt"}

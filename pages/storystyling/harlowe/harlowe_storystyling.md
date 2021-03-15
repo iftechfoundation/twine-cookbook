@@ -6,7 +6,7 @@
 
 ## Example
 
-[Download](harlowe_storystyling_example.html)
+[Download](harlowe_storystyling_example.html){: target="_top" download="harlowe_storystyling_example.html"}
 
 ## Twee Code
 
@@ -27,4 +27,4 @@ This text is white on a black background.
 
 ```
 
-[Twee Download](harlowe_storystyling_twee.txt)
+[Twee Download](harlowe_storystyling_twee.txt){ target="_top" download="harlowe_storystyling_twee.txt"}

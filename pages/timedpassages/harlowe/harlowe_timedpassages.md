@@ -6,7 +6,7 @@ Made famous in [*Queers in Love at the End of the World*](https://w.itch.io/end-
 
 ## Example
 
-[Download](harlowe_timedpassages_example.html)
+[Download](harlowe_timedpassages_example.html){: target="_top" download="harlowe_timedpassages_example.html"}
 
 ## Twee Code
 
@@ -58,7 +58,7 @@ The world ended.
 
 ```
 
-[Twee Download](harlowe_timedpassages_twee.txt)
+[Twee Download](harlowe_timedpassages_twee.txt){ target="_top" download="harlowe_timedpassages_twee.txt"}
 
 ## See Also
 

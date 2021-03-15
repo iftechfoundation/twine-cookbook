@@ -1,12 +1,12 @@
-# "Typewriter Effect": SugarCube (v2.18)
+# "Typewriter Effect": SugarCube (v2.32)
 
 ## Summary
 
-"Typewriter Effect" demonstrates how to create a delayed character-by-character effect. In SugarCube, a [`<<widget>>`](http://www.motoslave.net/sugarcube/2/docs/macros.html#macros-widget) macro named "typewriter" is created that uses the [`<<repeat>>`](http://www.motoslave.net/sugarcube/2/docs/macros.html#macros-repeat) and `<<stop>>` macros internally to show one character every one second.
+SugarCube (versions ≥ 2.32.0) includes a [`<<type>>` macro](http://www.motoslave.net/sugarcube/2/docs/#macros-macro-type) for creating a typing effect for displayed text. Almost any type of content can be typed using this macro, including links, styling markup, and other macros that display text. 
 
 ## Example
 
-[Download](sugarcube_typewriter_example.html)
+[Download](sugarcube_typewriter_example.html){: target="_top" download="sugarcube_typewriter_example.html"}
 
 ## Twee Code
 
@@ -15,31 +15,14 @@
 Typewriter Effect in Sugarcube
 
 :: Start
-<<typewriter "Hello, world">>
+<<type 60ms>>\
+Hello world!
 
-:: Typewriter[widget]
-\<<widget typewriter>>
-\  <!-- Create a SPAN with an ID -->
-\  <span id="typewriter"></span>
-\  <!-- In SugarCube, arrays start at 0 -->
-\  <<set _textArrayLength to 0>>
-\  <!-- Repeat every second -->
-\  <<repeat 1s>>
-\    <!-- Test if textArrayLength is greater than length of $args[0] -->
-\    <<if _textArrayLength gte $args[0].length>>
-\    <<stop>>
-\    <<else>>
-\    <!-- Append the current position to the existing characters -->
-\    <<append "#typewriter">>$args[0][_textArrayLength]<</append>>
-\    <!-- Update the length -->
-\    <<set _textArrayLength++>>
-\    <</if>>
-\   <</repeat>>
-\<</widget>>
-
+<<link "Click here!">><</link>>
+\<</type>>
 ```
 
-[Twee Download](sugarcube_typewriter_twee.txt)
+[Twee Download](sugarcube_typewriter_twee.txt){ target="_top" download="sugarcube_typewriter_twee.txt"}
 
 ## See Also
 

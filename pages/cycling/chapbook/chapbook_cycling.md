@@ -6,7 +6,7 @@ Chapbook provides the [`{cycling link}`](https://klembot.github.io/chapbook/guid
 
 ## Example
 
-[Download](chapbook_cycling_example.html)
+[Download](chapbook_cycling_example.html){: target="_top" download="chapbook_cycling_example.html"}
 
 ## Twee Code
 
@@ -23,4 +23,4 @@ This cycling-link example will disappear (show empty string) on its last choice:
 
 ```
 
-[Twee Download](chapbook_cycling_twee.txt)
+[Twee Download](chapbook_cycling_twee.txt){ target="_top" download="chapbook_cycling_twee.txt"}
