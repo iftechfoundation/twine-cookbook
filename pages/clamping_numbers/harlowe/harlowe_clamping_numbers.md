@@ -47,6 +47,12 @@ eg. Minus 100 from the current value.\
 
 (set: $valueToClamp to (max: $valueToClamp - 100, 1))
 ''New value'': $valueToClamp
+
+If you don't know whether the number will be added to or subtracted from, you can use both macros at once.
+eg. Either add or subtract 10 from the current value from the current value.\
+
+(set: $valueToClamp to (min: (max: $valueToClamp + (either: 10, -10), 1), 10))
+''New value'': $valueToClamp
 ```
 
 [Twee Download](harlowe_clamping_numbers_twee.txt){: target="_top" download="harlowe_clamping_numbers_twee.txt"}
