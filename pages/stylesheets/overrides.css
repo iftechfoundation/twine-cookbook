@@ -1,0 +1,16 @@
+.md-header {
+    color: hsl(0, 0%, 60%);
+    background-color: hsl(0, 0%, 98%);
+}
+
+main.md-main {
+    background-color: hsl(212, 90%, 90%);
+}
+
+.md-main__inner, .md-nav__list, .md-nav__item--nested {
+    background-color: hsl(0, 0%, 98%);
+}
+
+.md-sidebar {
+    padding: 1.2rem 0.4rem 0.4rem 0.4rem;
+}

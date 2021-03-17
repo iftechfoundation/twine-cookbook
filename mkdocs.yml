@@ -394,6 +394,8 @@ theme:
   palette:
     primary: blue
     accent: lightblue
+  logo: stylesheets/logo.svg
+  favicon: stylesheets/logo.svg
 
 markdown_extensions:
   - admonition
@@ -402,3 +404,6 @@ markdown_extensions:
       guess_lang: false
   - toc:
       permalink: "#"
+
+extra_css:
+  - stylesheets/overrides.css
