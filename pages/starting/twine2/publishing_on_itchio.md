@@ -4,64 +4,64 @@
 
 ## Step 1: Create an Account
 
-Create an account on Itch.io. You can also log in using an existing GitHub account, if you prefer. Once you have an account, you'll want to go to your profile settings and set up your account for uploading games:
+Create an account on Itch.io, if one does not exist already. (GitHub accounts can also be used to login to Itch.io.)
 
 ![Creating an Itch.io account](./images/starting-itchio-account.jpg "Creating an Itch.io account")
 
-In `Settings > Profile`, check the `Developing and uploading games` box. 
+In `Settings > Profile`, click the `Developing and uploading games` box.
 
 ## Step 2: Create a New Project
 
-Open the menu next to your user name and click `Upload new project`.
+Open the menu next to the username and click `Upload new project`.
 
 ![Creating anew project](./images/starting-itchio-create.jpg "Creating a new project")
 
-You'll now have a large form to fill out for your game. Most of the information should be self-explanatory, but there are a few things you'll want to be aware of for Twine games. First, set the `Kind of project` to `HTML`:
+Use the form to fill out details on the project.
+
+Because Twine uses HTML, be sure to set the `Kind of project` to `HTML`.
 
 ![Changing project type](./images/starting-itchio-project-type.jpg "Changing project type")
 
-The next option you will probably want to change is the `Embed options`. Setting it to `Click to launch in fullscreen` is recommended for most Twine games.
+Change the `Embed options` to `Click to launch in fullscreen`.
 
 ![Embed options](./images/starting-itchio-embed.jpg "Embed options")
 
-This option is misnamed; the game will not open in fullscreen, but will instead open in the full browser window or tab instead of a small iframe. This is probably the best option for most Twine games.
+**Note:** The embed option can be confusing. The project will not open in fullscreen. Instead, it will open in the full browser window or tab instead of being embedded in the page. For best display results, this is recommend for most Twine projects.
 
-Right next to this option are the `Frame options`. You'll want to check the `Enable scrollbars` box here; by default it is **not** checked:
+For `Frame options`, check `Enable scrollbars` box; by default it is **not** checked:
 
 ![Frame options](./images/starting-itchio-frame.jpg "Frame options")
 
-Whether your game is mobile-friendly or not will be based on the format you are using, its version, and whether you've altered the default UI. If left unchecked, users on mobile phones or tablets will be warned that the game wasn't designed for their device, but will still be able to try to play the game.
+**Note:** Whether the game is mobile-friendly is based on the story format used, its version, and the game's code itself. If left unchecked, users on mobile phones or tablets will be warned that the game was not designed for their device, but they will still be able to try to play the project.
 
-The final thing you will probably want to set up is in the `Metadata` tab, in the `Engine & Tools` section:
+Under the `Metadata` tab in the `Engine & Tools` section:
 
 ![Engine metadata](./images/starting-itchio-engine.jpg "Engine metadata")
 
-Twine is selectable as an engine, and adding it here will help people in the Twine community find your game!
+Twine is selectable as an engine.
 
 ## Step 3: Uploading Project Files
 
-The next step is to upload project files. If all you have is a single HTML file, you can just upload that file. If you have external files, like images or audio or other resources your game needs, you will need to create an archive (a zip folder) to upload instead.
+If using a single HTML file, it can be uploaded by itself. If the project contains multiple files such as images, audio files, or other assets, these should be packaged into a single ZIP file before uploading.
 
-If you create an archive, the HTML file for the Twine game should be in the root of the folder, and it needs to be called `index.html`. No other file name will work. For example, your folder may look like this:
+**Note:** If using multiple assets, make sure the HTML file is named `index.html`.
 
 ![Example folder structure](./images/starting-itchio-zip.jpg "Example folder structure")
 
-You would then select the `index.html` file and its sibling files and folders and, on Windows, `Right click > Send to > Compressed (zipped) folder`. Note that you want to zip the files in the folder themselves, not the parent folder.
-
-Whether you have a single HTML file or a zip archive, upload the file to your itch.io project page:
+Upload either an HTML or a ZIP file.
 
 ![Uploading files](./images/starting-itchio-upload.jpg "Uploading files")
 
-Once you've uploaded the file, check the box `This file will be played in the browser`:
+To allow the file to be played right in the browser, check the box `This file will be played in the browser`:
 
 ![Enabling play in browser](./images/starting-itchio-browser.jpg "Enabling play in browser")
 
-Your game should now be playable on Itch.io!
-
 ## Bonus Step: Major Updates
 
-If you bring a major update to the game, you can create a devlog entry with the `major update or launch` post type:
+To update a previous upload or existing project, create a devlog entry with the `major update or launch` post type:
 
 ![Major update devlog](./images/starting-itchio-devlog.jpg "Major update devlog")
 
-These devlogs are reviewed by the curators at Itch.io, and if your update is considered significant enough, the game's visibility will be significantly boosted for a while, similar to if it were brand new, helping you reach more people. People following you or your game will also be notified of the update.
+These devlogs are reviewed by the curators at Itch.io. If the update is considered significant enough, the game's visibility could be significantly boosted for a while, similar to if it were new.
+
+Anyone following the creator or project will also be notified of the update.
