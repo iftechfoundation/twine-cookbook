@@ -20,26 +20,12 @@ You stare at the prompt on the screen.
 
 [[Matches]]
 
-:: Joy Ewers {"position":"432,204","size":"100,100"}
-(storylet: when $type is "Hookup")
-
-''Name:'' Joy Ewers
-
-''Pronouns:'' They/Them
-
-[[Send message?]]
-
-[[Change search?->Start]]
-
-
 :: Matches {"position":"198,299","size":"100,100"}
 
 (link-storylet: 1)
 
-
 :: Send message? {"position":"407,402","size":"100,100"}
 You send a message and close the app for now.
-
 
 :: Rhys Johns {"position":"705,229","size":"100,100"}
 (storylet: when $type is "Casual Dating")
@@ -47,6 +33,17 @@ You send a message and close the app for now.
 ''Name:'' Rhys Johns
 
 ''Pronouns:'' He/Him
+
+[[Send message?]]
+
+[[Change search?->Start]]
+
+:: Joy Ewers {"position":"432,204","size":"100,100"}
+(storylet: when $type is "Hookup")
+
+''Name:'' Joy Ewers
+
+''Pronouns:'' They/Them
 
 [[Send message?]]
 
