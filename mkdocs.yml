@@ -42,6 +42,7 @@ nav:
     - 'Choosing Story Formats': 'starting/twine2/storyformat.md'
     - 'Creating Links': 'starting/twine2/creatinglinks.md'
     - 'Reviewing Stories': 'starting/twine2/review.md'
+    - 'Publishing on Itch.io': 'starting/twine2/publishing_on_itchio.md'
     - 'Adding to IFDB': 'starting/twine2/adding_to_IFDB.md'
   - Working with HTML:
       - 'Reviewing HTML': 'html/reviewing.md'
@@ -355,6 +356,11 @@ nav:
           - 'Common Questions': 'twine1/storyformats/sugarcane/questions.md'
   - Release Notes Archive:
       - Twine 2:
+        - '2.3.13': 'releasenotes/twine2/2.3.13.md'
+        - '2.3.12': 'releasenotes/twine2/2.3.12.md'
+        - '2.3.11': 'releasenotes/twine2/2.3.11.md'
+        - '2.3.10': 'releasenotes/twine2/2.3.10.md'
+        - '2.3.9': 'releasenotes/twine2/2.3.9.md'
         - '2.3.8': 'releasenotes/twine2/2.3.8.md'
         - '2.3.7': 'releasenotes/twine2/2.3.7.md'
         - '2.3.6': 'releasenotes/twine2/2.3.6.md'
@@ -394,6 +400,8 @@ theme:
   palette:
     primary: blue
     accent: lightblue
+  logo: stylesheets/logo.svg
+  favicon: stylesheets/logo.svg
 
 markdown_extensions:
   - admonition
@@ -402,3 +410,6 @@ markdown_extensions:
       guess_lang: false
   - toc:
       permalink: "#"
+
+extra_css:
+  - stylesheets/overrides.css
