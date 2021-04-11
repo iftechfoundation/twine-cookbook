@@ -255,6 +255,8 @@ nav:
       - 'Chapbook': 'storyandpassage/chapbook/chapbook_storyandpassage.md'
       - 'SugarCube': 'storyandpassage/sugarcube/sugarcube_storyandpassage.md'
       - 'Snowman': 'storyandpassage/snowman/snowman_storyandpassage.md'
+    - Storylets:
+      - 'Harlowe (3.2 or later)': 'storylets/harlowe/harlowe_storylets.md'
     - Style Markup:
       - 'Chapbook': 'markup/chapbook/chapbook_markup.md'
       - 'Harlowe': 'markup/harlowe/harlowe_markup.md'

@@ -1,0 +1,50 @@
+:: StoryTitle
+Harlowe: Storylets
+
+:: StoryData
+ {
+  "ifid": "D709A2F4-0E88-4010-B157-8ADEDDB2DC74",
+  "format": "Harlowe",
+  "formatVersion": "3.2.1",
+  "zoom": "1",
+  "start": "1"
+}
+
+:: Start {"position":"199,99","size":"100,100"}
+You open the app and wait for it to load. You have never liked dating apps, but agreed to try this new one to get your friend to stop bugging you about it
+
+You stare at the prompt on the screen.
+
+//What are you looking for? (Click to change)//
+(cycling-link: bind $type, "Hookup", "Casual Dating")
+
+[[Matches]]
+
+:: Matches {"position":"198,299","size":"100,100"}
+
+(link-storylet: 1)
+
+:: Send message? {"position":"407,402","size":"100,100"}
+You send a message and close the app for now.
+
+:: Rhys Johns {"position":"705,229","size":"100,100"}
+(storylet: when $type is "Casual Dating")
+
+''Name:'' Rhys Johns
+
+''Pronouns:'' He/Him
+
+[[Send message?]]
+
+[[Change search?->Start]]
+
+:: Joy Ewers {"position":"432,204","size":"100,100"}
+(storylet: when $type is "Hookup")
+
+''Name:'' Joy Ewers
+
+''Pronouns:'' They/Them
+
+[[Send message?]]
+
+[[Change search?->Start]]
