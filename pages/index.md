@@ -10,16 +10,16 @@ It can be found at `https://twinery.org/cookbook/`.
 
 ## Building the Cookbook using MkDocs
 
-The *Cookbook* can be built using Python. Run `pip install -r requirements.txt` to install the requirements and then using `mkdocs build` to build or `mkdocs serve` to create a build and host a local server version.
+The *Cookbook* can be built using Python. Run `pip install -r requirements.txt` to install the requirements.
 
-**Note:** Depending on how Python is installed in Windows, users may need to use `pip install --user -r requirements.txt` to install and then use `python -m` before any MkDocs commands to build or serve.
+* `mkdocs build` creates HTML and CSS files based on the markdown files.
+* `mkdocs serve` builds and hosts a local server version.
+
+**Note:** Depending on how Python is installed in Windows, users may need to use `pip install --user -r requirements.txt` to install and then use `python -m` before any MkDocs commands.
 
 ## *Want to suggest a change or new example?*
 
-Start with the [Code of Conduct](https://github.com/iftechfoundation/twine-cookbook/blob/master/CODE_OF_CONDUCT.md). Then, include as much as possible of the following in an [issue](https://github.com/iftechfoundation/twine-cookbook/issues):
-
-* A short summary of the example(s) or suggestions(s)
-* How (or if) you would like to be recognized for your contribution
+Start with the [Code of Conduct](./CODE_OF_CONDUCT.md) and then review the steps in the [Contributing guide](./CONTRIBUTING.md).
 
 ## Contributors
 
@@ -41,4 +41,4 @@ Start with the [Code of Conduct](https://github.com/iftechfoundation/twine-cookb
 
 This work is licensed under a [Creative Commons Attribution-ShareAlike 4.0 International License](http://creativecommons.org/licenses/by-sa/4.0/).
 
-## Version 2.0 (May 2020)
+## Version 2.1 (April 2021)
