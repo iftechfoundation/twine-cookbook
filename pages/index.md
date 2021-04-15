@@ -19,7 +19,7 @@ The *Cookbook* can be built using Python. Run `pip install -r requirements.txt` 
 
 ## *Want to suggest a change or new example?*
 
-Start with the [Code of Conduct](https://github.com/iftechfoundation/twine-cookbook/blob/master/CODE_OF_CONDUCT.md) and then review the steps in the [Contributing guide](https://github.com/videlais/twine-cookbook/blob/master/CONTRIBUTING.md).
+Start with the [Code of Conduct](./CODE_OF_CONDUCT.md) and then review the steps in the [Contributing guide](./CONTRIBUTING.md).
 
 ## Contributors
 
