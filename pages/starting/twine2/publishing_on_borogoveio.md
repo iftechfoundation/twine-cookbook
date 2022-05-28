@@ -20,11 +20,11 @@ Once you have logged in successfully, you will see the message "Logged in as *yo
 
 ## Step 3: Upload Your Game
 
-Borogove accepts single HTML files.  If you need to host a more complicated game, try [publishing at Itch.io](./publishing_on_itchio.md) or, if the only extra files are images, hosting them at an image hosting site like [imgur.com](https://imgur.com).
+Borogove accepts single HTML files.  If you need to host a more complicated game, try [publishing at Itch.io](./publishing_on_itchio.md) or, if the only extra files are images, hosting them at an image hosting site.
 
 Click on the "Upload" menu item and drag or select your Twine game (the HTML file produced by the Publish to File option of the Story Menu) to upload it.  Leave the File Format set to [autodetect]; Borogove should autodetect the file format as Twine.
 
-Choose your preference of a Public (listed in the directory) or Unlisted (accessible by link only) by clicking the corresponding radio button.
+Choose your preference of Public (listed in the directory) or Unlisted (accessible by link only) by clicking the corresponding radio button.
 
 Borogove does not automatically detect your story's title, so you will need to fill this in at some point.
 
