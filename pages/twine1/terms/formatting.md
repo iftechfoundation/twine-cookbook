@@ -7,16 +7,16 @@ Special characters can be applied to text to change its formatting.
 
 | Formatting     | Source Code               | Appears As                          | Resulting HTML                                 |
 | -------------- | ------------------------- | ----------------------------------- | ---------------------------------------------- |
-| Italics        | //text//                  | *text*                              | \<em\>text\</em\>                              |
-| Boldface       | ''text''                  | **text**                            | \<strong\>text\</strong\>                      |
-| Underline      | \_\_text\_\_              | \<span class="underline">text</span> | \<u\>text\</u\>                                |
-| Strikethrough  | \==text==                 | ~~text~~                            | \<strike\>text\</strike\>                      |
-| Subscript      | H\~\~2\~\~O               | H\<sub>2</sub>O                      | %%H\<sub>2</sub>O %%                            |
-| Superscript    | meters/second^^2^^        | meters/second\<sup>2</sup>           | meters/second\<sup\>2\</sup\>                  |
-| Monospace      | {{{a //word//}}}          | `a //word//`                        | \<code\>a //word//\</code\>                    |
-| Comment        | /%a comment%/             |                                     |                                                |
-| Error          | @@error@@                 | **error**                           | \<span class=marked\>error\</span\>            |
-| Inline styling | @@font-weight:bold;text@@ | **text**                            | \<span style="font-weight:bold"\>text\</span\> |
+| Italics        | `//text//`                  | *text*                              | `<em>text</em\> `                             |
+| Boldface       | `''text''`                  | **text**                            | `<strong>text</strong\>`                      |
+| Underline      | `__text__`              | <span class="underline">text</span> | `<u>text</u\>`                                |
+| Strikethrough  | `==text==`                 | ~~text~~                            | `<strike>text</strike\>   `                   |
+| Subscript      | `H~~2~~O`               | H<sub>2</sub>O                      | `H<sub>2</sub>O`                           |
+| Superscript    | `meters/second^^2^^`        | meters/second<sup>2</sup>           | `meters/second<sup\>2</sup\>`                  |
+| Monospace      | `{{{a //word//}}}`          | `a //word//`                        | `<code>a //word//</code\>`                    |
+| Comment        | `/%a comment%/`             |                                     |                                                |
+| Error          | `@@error@@`                 | **error**                           | `<span class="marked">error</span\>  `          |
+| Inline styling | `@@font-weight:bold;text@@` | **text**                            | `<span style="font-weight:bold">text</span\>` |
 
 ## Additional Syntax
 
