@@ -359,6 +359,16 @@ nav:
           - 'Common Questions': 'twine1/storyformats/sugarcane/questions.md'
   - Release Notes Archive:
       - Twine 2:
+        - '2.6.2': 'releasenotes/twine2/2.6.2.md'
+        - '2.6.1': 'releasenotes/twine2/2.6.1.md'
+        - '2.6.0': 'releasenotes/twine2/2.6.0.md'
+        - '2.5.1': 'releasenotes/twine2/2.5.1.md'
+        - '2.5.0': 'releasenotes/twine2/2.5.0.md'
+        - '2.4.1': 'releasenotes/twine2/2.4.1.md'
+        - '2.4.0': 'releasenotes/twine2/2.4.0.md'
+        - '2.3.16': 'releasenotes/twine2/2.3.16.md'
+        - '2.3.15': 'releasenotes/twine2/2.3.15.md'
+        - '2.3.14': 'releasenotes/twine2/2.3.14.md'
         - '2.3.13': 'releasenotes/twine2/2.3.13.md'
         - '2.3.12': 'releasenotes/twine2/2.3.12.md'
         - '2.3.11': 'releasenotes/twine2/2.3.11.md'
