@@ -10,7 +10,4 @@ Twine 2 can also be downloaded and run on Windows, MacOS X, and Linux systems. T
 
 ## Twine 1
 
-Twine 1 is only a desktop application. While it can still be used, it is not currently maintained or under active development. The current version is 1.4.2.
-
-* [Windows](https://twinery.org/downloads/twine_1.4.2_win.exe)
-* [MacOS X](https://twinery.org/downloads/twine_1.4.2_osx.zip)
+Twine 1 is only a desktop application. While it can still be used, it is not currently maintained or under active development. The current version is 1.4.2. The [IF Archive retains builds for Windows and macOS](https://ifarchive.org/indexes/if-archive/programming/twine/).
