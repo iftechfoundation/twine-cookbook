@@ -2,7 +2,7 @@
 
 ## Summary
 
-In Snowman 2.X, the `sm.passage.showing` event is triggered [once a passage is loaded](https://videlais.github.io/snowman/2/events/passage_events.html). By listening for this event, [jQuery effects](https://api.jquery.com/category/effects/) can be applied to the passage element to produce a transition. (In Snowman 2.X, the passage is the `tw-passage` [element](https://videlais.github.io/snowman/2/htmlandcss/elements.html).)
+In Snowman 2.X, the `sm.passage.showing` event is triggered [once a passage is loaded](https://videlais.github.io/snowman/#/2/events/passage_events). By listening for this event, [jQuery effects](https://api.jquery.com/category/effects/) can be applied to the passage element to produce a transition. (In Snowman 2.X, the passage is the `tw-passage` [element](https://videlais.github.io/snowman/#/2/htmlandcss/elements).)
 
 ## Example
 

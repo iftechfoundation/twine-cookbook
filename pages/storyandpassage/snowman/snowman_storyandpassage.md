@@ -2,7 +2,7 @@
 
 ## Summary
 
-Often, it can be useful to access information about the story or other passages while it is running. The [**window.story.passage()**](https://videlais.github.io/snowman/1/window_story/functions/passage.html) function and *[window.passage.name](https://videlais.github.io/snowman/1/window_passage/properties/name.html)* property in Snowman allow for getting this type of information.
+Often, it can be useful to access information about the story or other passages while it is running. The [**window.story.passage()**](https://videlais.github.io/snowman/#/1/window_story/functions/passage) function and *[window.passage.name](https://videlais.github.io/snowman/#/1/window_story/properties/name)* property in Snowman allow for getting this type of information.
 
 ## Example
 

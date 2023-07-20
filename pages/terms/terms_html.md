@@ -8,7 +8,7 @@ Each [story format](terms_storyformats.md) handles its own layout and HTML struc
 
 * [Harlowe: Named Hooks](https://twine2.neocities.org/#markup_named-hook)
 * [SugarCube: CSS Selectors](https://www.motoslave.net/sugarcube/2/docs/#css-example-selectors)
-* [Snowman: HTML Elements](https://videlais.github.io/snowman/2/htmlandcss/elements.html)
+* [Snowman: HTML Elements](https://videlais.github.io/snowman/#/2/htmlandcss/elements)
 * [Chapbook: Customization](https://klembot.github.io/chapbook/guide/customization/)
 
 ## Twine 2 HTML
