@@ -43,7 +43,7 @@ No way forward!
 
 ## Chapbook
 
-[Chapbook](https://klembot.github.io/chapbook/guide/) is a "second-generation" Twine 2 story format that seperates its functionality into ["inserts"](https://klembot.github.io/chapbook/guide/references/inserts.html), which cause text to appear, and ["modifiers"](https://klembot.github.io/chapbook/guide/references/modifiers.html), functionality that affect text in some way.
+[Chapbook](https://klembot.github.io/chapbook/guide/) is a "second-generation" Twine 2 story format that separates its functionality into ["inserts"](https://klembot.github.io/chapbook/guide/references/inserts.html), which cause text to appear, and ["modifiers"](https://klembot.github.io/chapbook/guide/references/modifiers.html), functionality that affect text in some way.
 
 **Chapbook Example:**
 

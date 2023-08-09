@@ -2,7 +2,7 @@
 
 ## Summary
 
-Snowman provides the **[window.story.saveHash()](https://videlais.github.io/snowman/1/window_story/functions/saveHash.html)** and **[window.story.restore()](https://videlais.github.io/snowman/1/window_story/functions/restore.html)** functions to produce a hash of the current story state and then recover it. However, it does not provide a mechanism for saving the hash between sessions. Through using the *[window.localStorage](https://developer.mozilla.org/en-US/docs/Web/API/Window/localStorage)* global variable, this can be accomplished.
+Snowman provides the **[window.story.saveHash()](https://videlais.github.io/snowman/#/1/window_story/functions/saveHash)** and **[window.story.restore()](https://videlais.github.io/snowman/#/1/window_story/functions/restore)** functions to produce a hash of the current story state and then recover it. However, it does not provide a mechanism for saving the hash between sessions. Through using the *[window.localStorage](https://developer.mozilla.org/en-US/docs/Web/API/Window/localStorage)* global variable, this can be accomplished.
 
 ## Example
 

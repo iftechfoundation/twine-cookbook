@@ -2,7 +2,7 @@
 
 ## Summary
 
-In programming terminology, modularity refers to dividing software into different sections related to their purpose or to better organize the whole. In Snowman, this technique can be used through the **[window.story.render()](https://videlais.github.io/snowman/1/window_story/functions/render.html)** function to print the contents of one passage in another. Parts of a story can often be re-used in this way.
+In programming terminology, modularity refers to dividing software into different sections related to their purpose or to better organize the whole. In Snowman, this technique can be used through the **[window.story.render()](https://videlais.github.io/snowman/#/1/window_story/functions/render)** function to print the contents of one passage in another. Parts of a story can often be re-used in this way.
 
 ## Example
 

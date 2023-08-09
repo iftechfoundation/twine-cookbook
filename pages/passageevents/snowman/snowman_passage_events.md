@@ -2,7 +2,7 @@
 
 ## Summary
 
-Snowman triggers different events [as they happen to passages](https://videlais.github.io/snowman/1/events/passage_events.html).
+Snowman triggers different events [as they happen to passages](https://videlais.github.io/snowman/#/1/events/passage_events).
 
 In this example, a header and footer is created by listening for the 'shown.sm.passage' event with a [jQuery event handle](http://api.jquery.com/category/events/event-handler-attachment/) and then prepending the content of the passage "Header" and appending the content of the passage "Footer" to the current passage after it has been initially rendered.
 
