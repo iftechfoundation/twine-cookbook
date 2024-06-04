@@ -1,4 +1,4 @@
-# "Left Sidebar": Snowman (v1.3.0)
+# "Left Sidebar": Snowman (v2.0.2)
 
 ## Summary
 
@@ -25,18 +25,18 @@ Left Sidebar in Snowman
 */
 $(document.createElement('div'))
   .attr('id', 'sidebar')
-  .insertBefore('#passage');
+  .insertBefore('tw-passage');
 
 /*
   Monitor for the event that is triggered after the current Passage has been shown.
 */
-$(window).on('showpassage:after', function () {
+$(window).on('sm.passage.shown', function () {
   $('#sidebar').html(window.story.render("Sidebar"));
 });
 
 
 :: UserStylesheet[stylesheet]
-#passage {
+tw-passage {
   margin-left: 20%;
 }
 
