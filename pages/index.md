@@ -8,6 +8,12 @@ Starting with version 2.0, the *Twine Cookbook* is created using [mkdocs](https:
 
 It can be found at `https://twinery.org/cookbook/`.
 
+## ePub and Print Versions
+
+The Cookbook is also available in an [ePub version](twine-cookbook-print.epub) that can be read offline on a variety of devices.
+
+A print version will also be available soon.
+
 ## Building the Cookbook using MkDocs
 
 The *Cookbook* can be built using Python. Run `pip install -r requirements.txt` to install the requirements.
