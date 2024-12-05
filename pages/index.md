@@ -8,11 +8,13 @@ Starting with version 2.0, the *Twine Cookbook* is created using [mkdocs](https:
 
 It can be found at `https://twinery.org/cookbook/`.
 
-## ePub and Print Versions
+## Print and EPUB Versions
 
-The Cookbook is also available in an [ePub version](twine-cookbook-print.epub) that can be read offline on a variety of devices.
+A print edition of the Cookbook is available! It's available in many major booksellers like Amazon and Barnes & Noble, but you can [purchase it via IngramSpark](https://twinery.org/cookbookprint) at a discount. The print version contains the same content as the web version, but is of course useful in classrooms, or when internet access is difficult or inconvenient.
 
-A print version will also be available soon.
+An [EPUB version](twine-cookbook-print.epub) of the print edition is also available at no cost, which can be read on many devices.
+
+**During December 2024, [the print edition is available at a 25% discount through IngramSpark](https://twinery.org/cookbookprintdec24)**.
 
 ## Building the Cookbook using MkDocs
 
