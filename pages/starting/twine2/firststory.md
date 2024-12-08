@@ -48,11 +48,7 @@ tapping the `X` in the upper-right corner. Twine 2 automatically saves the passa
 
 With the passage closed, it's now time to play it!
 
-The bottom menu in the Passage View is the Story Menu. It allows for changing details about the story, navigating back to the Story Listing, and, for right now, playing a story.
-
-Click on the "Play" button in the bottom, right-hand corner.
-
-Twine 2 will the open up the story as a HTML file in a web browser.
+On the top menu bar, click Build. Then from the Build menu, click Play. Twine 2 will the open up the story as a HTML file in a web browser.
 
 ![Play Example](./images/starting-play-example.png "Play Example")
 
@@ -137,11 +133,7 @@ tapping the `X` in the upper-right corner.
 
 ## Testing a Passage
 
-This time, instead of clicking on "Play", place the cursor over the passage in the Passage View.
-
-![Testing Passages](./images/starting-testing-passages.png "Testing Passages")
-
-A new menu will appear with icons. Click on the triangle ("Test story starting here") button.
+This time, instead of clicking on "Play", double-click the "Could thies really be Earth!?" passage. From the menu on the top of the passage editor, click Test From Here.
 
 Instead of beginning with the original passage, the story will start in the **Debug mode** and begin the story at the new passage.
 
@@ -155,9 +147,7 @@ This is a very useful way to test individual passages and see their contents ins
 
 Go back to the Passages View.
 
-In the lower, right-hand corner, click on the "Test" button.
-
-![Testing](./images/starting-testing.png "Testing")
+On the top menu bar, click Build. Then from the Build menu, click Test.
 
 Like with testing from a single passage, this will open the story in **Debug mode**. This will open the story from the starting passage.
 
