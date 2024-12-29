@@ -5,7 +5,7 @@ SugarCube: Render Passage to Element
 <div id="hudID"></div>
 <<script>>
 	// Wait for the passage to be displayed
-	$(document).one(':passagedisplay', function (ev) {
+	$(document).on(':passagedisplay', function (ev) {
 		// Render the passage named HUD into the element with id of "hudID"
 		setPageElement("hudID", "HUD");
 	});

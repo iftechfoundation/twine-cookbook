@@ -103,7 +103,7 @@ var saveAs=saveAs||navigator.msSaveBlob&&navigator.msSaveBlob.bind(navigator)||f
 	<tw-storydata name="SugarCube: Render Passage to Element" startnode="1" creator="Twine" creator-version="2.3.4" ifid="B4FC7213-FAF7-4DC5-A026-00ACA122A86A" zoom="1" format="SugarCube" format-version="2.29.0" options="" hidden><style role="stylesheet" id="twine-user-stylesheet" type="text/twine-css"></style><script role="script" id="twine-user-script" type="text/twine-javascript"></script><tw-passagedata pid="1" name="Start" tags="" position="102,97" size="100,100">&lt;div id=&quot;hudID&quot;&gt;&lt;/div&gt;
 &lt;&lt;script&gt;&gt;
 	// Wait for the passage to be displayed
-	$(document).one(&#39;:passagedisplay&#39;, function (ev) {
+	$(document).on(&#39;:passagedisplay&#39;, function (ev) {
 		// Render the passage named HUD into the element with id of &quot;hudID&quot;
 		setPageElement(&quot;hudID&quot;, &quot;HUD&quot;);
 	});
