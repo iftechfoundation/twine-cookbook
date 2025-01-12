@@ -14,8 +14,6 @@ A print edition of the Cookbook is available! It's available in many major books
 
 An [EPUB version](twine-cookbook-print.epub) of the print edition is also available at no cost, which can be read on many devices.
 
-**During December 2024, [the print edition is available at a 25% discount through IngramSpark](https://twinery.org/cookbookprintdec24)**.
-
 ## Building the Cookbook using MkDocs
 
 The *Cookbook* can be built using Python. Run `pip install -r requirements.txt` to install the requirements.
