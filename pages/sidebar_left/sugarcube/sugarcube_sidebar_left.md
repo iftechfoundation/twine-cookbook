@@ -39,7 +39,7 @@ Left Sidebar in SugarCube
 
 
 :: StoryBanner
-<img src="https://twinery.org/homepage/img/logo.svg" width="64" height="64">
+<img src="https://twinery.org/cookbook/stylesheets/logo.svg" width="64" height="64">
 
 
 :: StorySubtitle

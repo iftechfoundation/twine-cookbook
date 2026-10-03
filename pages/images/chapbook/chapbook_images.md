@@ -30,7 +30,7 @@ Images in Chapbook
 :: Start
 This is an image element:
 
-<img src="https://twinery.org/homepage/img/logo.svg" width="256" height="256">
+<img src="https://twinery.org/cookbook/stylesheets/logo.svg" width="256" height="256">
 
 This is a base-64-encoded CSS image background:
 
