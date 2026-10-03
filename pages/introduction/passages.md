@@ -26,7 +26,7 @@ In Twine 2, tags can also have colors. When used in this way, the color will be 
 
 ![Color Spacing](./images/introduction-color-spacing.png "Color Spacing")
 
-(In Harlowe, [certain tags have special meaning](https://twine2.neocities.org/#passagetag_header). SugarCube [reserves certain tag names](https://www.motoslave.net/sugarcube/2/docs/#special-**tags**).)
+(In Harlowe, [certain tags have special meaning](https://twine2.neocities.org/#passagetag_header). SugarCube [reserves certain tag names](https://www.motoslave.net/sugarcube/2/docs/#special-tags).)
 
 ### Content
 
